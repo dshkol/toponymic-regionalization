@@ -34,9 +34,9 @@ def build_city(city, resolution=RESOLUTION):
     divisions = lexicon.division_names(data / f'overture-division_area-{RELEASE}.parquet', gdf['name'])
     rows, cell_units = lexicon.build(places, cells, streets, divisions)
     OUT.mkdir(parents=True, exist_ok=True)
-    stem = OUT / f'{city}-{RELEASE}'
-    lexicon.write(rows, stem.with_suffix('.jsonl'))
-    with open(stem.with_suffix('.cells.jsonl'), 'w') as f:
+    stem = str(OUT / f'{city}-{RELEASE}')  # RELEASE ends in '.0'; with_suffix would eat it
+    lexicon.write(rows, Path(stem + '.jsonl'))
+    with open(stem + '.cells.jsonl', 'w') as f:
         for r in rows:
             if r['class'] in FEATURE_CLASSES:
                 f.write(json.dumps({'phrase': r['phrase'], 'class': r['class'],
@@ -54,7 +54,7 @@ def build_city(city, resolution=RESOLUTION):
         'top': {cls: [r['phrase'] for r in rows if r['class'] == cls][:40] for cls in counts},
         'seconds': round(time.time() - t0, 1),
     }
-    stem.with_suffix('.summary.json').write_text(json.dumps(summary, indent=2, ensure_ascii=False))
+    Path(stem + '.summary.json').write_text(json.dumps(summary, indent=2, ensure_ascii=False))
     print(json.dumps({k: summary[k] for k in ('city', 'places', 'cells', 'phrases', 'classes', 'seconds')}))
     return summary
 

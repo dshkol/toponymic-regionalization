@@ -1,0 +1,974 @@
+{
+ "summary": {
+  "city": "sf",
+  "polygons": 41,
+  "all": {
+   "top1": 0.34146341463414637,
+   "top3": 0.6341463414634146
+  },
+  "area": {
+   "top1": 0.5365853658536586,
+   "top3": 0.6341463414634146
+  }
+ },
+ "polygons": [
+  {
+   "name": "Western Addition",
+   "places": 1136,
+   "all": {
+    "top3": [
+     "fillmore",
+     "opera plaza",
+     "golden gate apartments"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "opera plaza",
+     "golden gate apartments",
+     "gate apartments"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "West of Twin Peaks",
+   "places": 1326,
+   "all": {
+    "top3": [
+     "portal",
+     "west portal",
+     "lakeside"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "lakeside",
+     "forest hill",
+     "junipero"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Visitacion Valley",
+   "places": 144,
+   "all": {
+    "top3": [
+     "visitacion",
+     "visitacion valley",
+     "sunnydale"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "visitacion valley"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Twin Peaks",
+   "places": 77,
+   "all": {
+    "top3": [
+     "sutro tower",
+     "twin peaks",
+     "peaks"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "twin peaks",
+     "peaks",
+     "twin"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "South of Market",
+   "places": 4119,
+   "all": {
+    "top3": [
+     "soma",
+     "ninth",
+     "folsom"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "soma",
+     "ninth",
+     "trinity place"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Treasure Island",
+   "places": 161,
+   "all": {
+    "top3": [
+     "treasure island",
+     "coast guard",
+     "yerba buena"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "treasure island",
+     "coast guard",
+     "yerba"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Presidio Heights",
+   "places": 993,
+   "all": {
+    "top3": [
+     "laurel",
+     "presidio heights",
+     "jccsf"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "presidio heights",
+     "presidio",
+     "laurel hill"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Presidio",
+   "places": 457,
+   "all": {
+    "top3": [
+     "presidio",
+     "crissy",
+     "crissy field"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "presidio",
+     "goldsworthy",
+     "parade"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Potrero Hill",
+   "places": 1520,
+   "all": {
+    "top3": [
+     "dogpatch",
+     "potrero",
+     "pnp msn"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "dogpatch",
+     "pnp msn",
+     "pnp"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Portola",
+   "places": 296,
+   "all": {
+    "top3": [
+     "bruno",
+     "portola",
+     "palega"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "portola"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Pacific Heights",
+   "places": 2040,
+   "all": {
+    "top3": [
+     "pacific heights",
+     "pacific campus",
+     "heights"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "pacific heights",
+     "pacific campus",
+     "heights"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Outer Richmond",
+   "places": 1149,
+   "all": {
+    "top3": [
+     "richmond",
+     "cliff house",
+     "clement"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "richmond",
+     "russian",
+     "better"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Outer Mission",
+   "places": 502,
+   "all": {
+    "top3": [
+     "excelsior",
+     "mission",
+     "iglesia"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "excelsior",
+     "mission",
+     "lounge"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Sunset/Parkside",
+   "places": 1777,
+   "all": {
+    "top3": [
+     "sunset",
+     "taraval",
+     "noriega"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "sunset",
+     "lakeshore",
+     "west sunset"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Oceanview/Merced/Ingleside",
+   "places": 322,
+   "all": {
+    "top3": [
+     "ingleside"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "ingleside"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "North Beach",
+   "places": 1579,
+   "all": {
+    "top3": [
+     "wharf",
+     "fisherman",
+     "fishermans wharf"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "wharf",
+     "fisherman",
+     "fishermans wharf"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Noe Valley",
+   "places": 840,
+   "all": {
+    "top3": [
+     "noe valley",
+     "noe",
+     "valley"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "noe valley",
+     "upper",
+     "wine spirits"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Lone Mountain/USF",
+   "places": 681,
+   "all": {
+    "top3": [
+     "usf",
+     "lone",
+     "gleeson"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "usf",
+     "lone",
+     "kaiser"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Lincoln Park",
+   "places": 54,
+   "all": {
+    "top3": [
+     "lands end",
+     "lands"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "lands end",
+     "lands"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Seacliff",
+   "places": 18,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Nob Hill",
+   "places": 1976,
+   "all": {
+    "top3": [
+     "nob",
+     "nob hill",
+     "pine apartments"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "nob",
+     "nob hill",
+     "pine apartments"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Mission Bay",
+   "places": 1566,
+   "all": {
+    "top3": [
+     "mission bay",
+     "cca",
+     "ucsf mission bay"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "mission bay",
+     "ucsf mission",
+     "mission creek"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Mission",
+   "places": 4921,
+   "all": {
+    "top3": [
+     "valencia",
+     "mission",
+     "guerrero"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "mission",
+     "mission district",
+     "raza"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Russian Hill",
+   "places": 1093,
+   "all": {
+    "top3": [
+     "ghirardelli square",
+     "polk",
+     "russian hill"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "russian hill",
+     "leavenworth apartments",
+     "russian"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Marina",
+   "places": 2164,
+   "all": {
+    "top3": [
+     "marina",
+     "marina green",
+     "cow hollow"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "marina",
+     "marina green",
+     "cow hollow"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Lakeshore",
+   "places": 723,
+   "all": {
+    "top3": [
+     "sfsu",
+     "lake merced",
+     "merced"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "sfsu",
+     "merced",
+     "parkmerced"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Tenderloin",
+   "places": 2634,
+   "all": {
+    "top3": [
+     "tenderloin",
+     "hotel",
+     "civic"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "tenderloin",
+     "hotel",
+     "civic"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "McLaren Park",
+   "places": 31,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Japantown",
+   "places": 747,
+   "all": {
+    "top3": [
+     "japantown",
+     "mount zion",
+     "zion"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "japantown",
+     "mount zion",
+     "zion"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Inner Sunset",
+   "places": 1336,
+   "all": {
+    "top3": [
+     "parnassus",
+     "ucsf",
+     "inner sunset"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "ucsf",
+     "inner sunset",
+     "sunset"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Hayes Valley",
+   "places": 1458,
+   "all": {
+    "top3": [
+     "hayes",
+     "hayes valley",
+     "fell"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "hayes valley",
+     "opera",
+     "laguna apartments"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Haight Ashbury",
+   "places": 754,
+   "all": {
+    "top3": [
+     "haight",
+     "ashbury",
+     "haight ashbury"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "haight ashbury",
+     "cole valley",
+     "hippie"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Golden Gate Park",
+   "places": 254,
+   "all": {
+    "top3": [
+     "kezar",
+     "panhandle",
+     "botanical"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "panhandle",
+     "japanese",
+     "conservatory"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Inner Richmond",
+   "places": 969,
+   "all": {
+    "top3": [
+     "clement",
+     "richmond",
+     "french campus"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "richmond",
+     "french campus",
+     "office depot"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Glen Park",
+   "places": 244,
+   "all": {
+    "top3": [
+     "glen",
+     "sota",
+     "diamond heights"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "glen",
+     "sota",
+     "heights"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Financial District/South Beach",
+   "places": 10729,
+   "all": {
+    "top3": [
+     "morgan stanley",
+     "ubs financial",
+     "ubs"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "morgan stanley",
+     "ubs financial",
+     "ubs"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Excelsior",
+   "places": 542,
+   "all": {
+    "top3": [
+     "crocker amazon",
+     "excelsior",
+     "iglesia"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "crocker amazon",
+     "excelsior",
+     "casa"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Chinatown",
+   "places": 2247,
+   "all": {
+    "top3": [
+     "chinatown",
+     "benevolent",
+     "jackson square"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "chinatown",
+     "benevolent",
+     "jackson square"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Castro/Upper Market",
+   "places": 1658,
+   "all": {
+    "top3": [
+     "castro",
+     "mission dolores",
+     "corona heights"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "castro",
+     "corona heights",
+     "davies"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Bernal Heights",
+   "places": 912,
+   "all": {
+    "top3": [
+     "bernal",
+     "bernal heights",
+     "precita"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "bernal",
+     "bernal heights",
+     "mission bernal campus"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Bayview Hunters Point",
+   "places": 2086,
+   "all": {
+    "top3": [
+     "bayview",
+     "hunters point",
+     "candlestick"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "bayview",
+     "candlestick",
+     "hunters"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "class": "area"
+   }
+  }
+ ]
+}
