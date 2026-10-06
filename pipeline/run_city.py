@@ -152,7 +152,14 @@ def main():
     md += ['', f'## Lifted tokens per region, names ring {best_ring}, k=20', '']
     md += [f'- region {r}: ' + ', '.join(ts) for r, ts in top_tokens.items()]
     md += ['', f'Maps: `figures/{stem}-maps.png`, `figures/{stem}-density.png`.']
-    Path(f'{out}-r{args.res}.md').write_text('\n'.join(md) + '\n')
+    note = Path(f'{out}-r{args.res}.md')
+    text = '\n'.join(md) + '\n'
+    if note.exists() and '## Reading' in note.read_text():
+        # keep the hand-written reading of a previous run; everything else is regenerated
+        prev = note.read_text()
+        reading = prev[prev.index('## Reading'):prev.index('## Agreement')]
+        text = text.replace('## Agreement', reading + '## Agreement', 1)
+    note.write_text(text)
     table.to_csv(f'{out}-r{args.res}.csv', index=False)
     print(table.to_string(index=False, float_format=lambda v: f'{v:.3f}'))
 
