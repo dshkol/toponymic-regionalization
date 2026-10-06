@@ -5,3 +5,4 @@ work/
 __pycache__/
 *.parquet
 .DS_Store
+data/lexicon/*-r[0-9]*.jsonl

@@ -34,7 +34,9 @@ def build_city(city, resolution=RESOLUTION):
     divisions = lexicon.division_names(data / f'overture-division_area-{RELEASE}.parquet', gdf['name'])
     rows, cell_units = lexicon.build(places, cells, streets, divisions)
     OUT.mkdir(parents=True, exist_ok=True)
-    stem = str(OUT / f'{city}-{RELEASE}')  # RELEASE ends in '.0'; with_suffix would eat it
+    # RELEASE ends in '.0'; with_suffix would eat it. Res 9 is the default and
+    # keeps the plain name; other resolutions are a sensitivity check and get a tag.
+    stem = str(OUT / f'{city}-{RELEASE}') + ('' if resolution == RESOLUTION else f'-r{resolution}')
     lexicon.write(rows, Path(stem + '.jsonl'))
     with open(stem + '.cells.jsonl', 'w') as f:
         for r in rows:

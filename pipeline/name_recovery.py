@@ -54,8 +54,9 @@ def rank_inside(places_in, places_all_sites, vocabulary, citywide):
     return out
 
 
-def run(city):
-    lex = [json.loads(l) for l in open(ROOT / 'data' / 'lexicon' / f'{city}-{RELEASE}.jsonl')]
+def run(city, tag=''):
+    # tag='-r8' reads the resolution-8 lexicon from build_lexicon.py --resolution 8
+    lex = [json.loads(l) for l in open(ROOT / 'data' / 'lexicon' / f'{city}-{RELEASE}{tag}.jsonl')]
     cls = {r['phrase']: r['class'] for r in lex}
     citywide = {r['phrase']: r['support'] for r in lex}
     gdf, _ = boundaries.load(city)
@@ -88,7 +89,7 @@ def run(city):
                'all': {k: rate('all', k) for k in ('hit1', 'partial1', 'hit3')},
                'area': {k: rate('area', k) for k in ('hit1', 'partial1', 'hit3')},
                'no_top_term': sum(not r['area']['top3'] for r in results)}
-    out = ROOT / 'notes' / 'name-recovery' / f'{city}-{RELEASE}.json'
+    out = ROOT / 'notes' / 'name-recovery' / f'{city}-{RELEASE}{tag}.json'
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({'summary': summary, 'polygons': results}, indent=1, ensure_ascii=False))
     print(json.dumps(summary))
@@ -99,6 +100,7 @@ if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--city', choices=CITIES)
     p.add_argument('--all', action='store_true')
+    p.add_argument('--lexicon-tag', default='', help="e.g. -r8 for the resolution-8 lexicon")
     a = p.parse_args()
     for city in (CITIES if a.all else [a.city]):
-        run(city)
+        run(city, a.lexicon_tag)

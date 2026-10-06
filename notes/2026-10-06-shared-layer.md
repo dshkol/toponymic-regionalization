@@ -210,6 +210,58 @@ Village, Streeterville, Roscoe Village. Institutions (UCSF, SFSU, UTSC, DePaul,
 IIT) and financial-district business words (private banking, wealth, PhD) are
 in the same lists and need the human pass.
 
+## Resolution sensitivity: res 8 against res 9
+
+HANDOFF.md asks for a res-8 check. `build_lexicon.py --resolution 8` writes
+tagged files (`<city>-<release>-r8.*`); `name_recovery.py --lexicon-tag=-r8`
+scores them. Same places, same cap; only the cells and the 1-ring disk that
+the locality ratio is computed on change (about 0.1 km² × 7 at res 9, about
+0.7 km² × 7 at res 8).
+
+| city | area hit1 / hit3, res 9 | res 8 | polygons with no top term, res 9 | res 8 |
+|---|---|---|---|---|
+| sf | 0.54 / 0.63 | 0.51 / 0.63 | 2 | 2 |
+| vancouver | 0.46 / 0.77 | 0.50 / 0.77 | 0 | 0 |
+| toronto | 0.29 / 0.31 | 0.29 / 0.32 | 39 | 46 |
+| chicago | 0.19 / 0.23 | 0.25 / 0.30 | 17 | 12 |
+
+The wider disk moves phrases from `generic` into `area` (SF 948 → 1705,
+Chicago 324 → 548 area terms) because a 5 km² disk holds enough units for
+the ratio where seven res-9 cells did not. That admits names the res-9 run
+had called generic (Chicago Bucktown, Logan Square, Little Village, Roscoe
+Village, Wrigleyville; Toronto Roncy, Jane Finch, Humbertown) and improves
+Chicago, whose community areas are large. It also admits more business words
+(Vancouver "mining", "resources"), and SF slips a little. Res 9 stays the
+default; the res-8 summaries are committed, the full res-8 lexicons are not
+(they are a rebuild of 60 s). The HANDOFF question is answered as "the scale
+of the locality disk matters more than the cell size": a per-term disk
+radius, chosen by support, is the better fix than a global resolution.
+
+## Naming a polygon the Cadmus way
+
+`pipeline/name_polygon.py --city sf polygon.geojson` returns ranked typed
+candidates for one polygon: lexicon phrases found inside under the support
+cap, with the inside-vs-rest log ratio, their class, units and examples.
+It is the lexical-candidate alternative cadmus's ranking trial asked for
+(its evidence packet lists repeated words only as diagnostics because raw
+repetition ranks "San Francisco" first). Run on the four polygons in
+`cadmus/demo/outputs/model-experiment/`:
+
+| polygon | km² | places | naming channel (area, division, mixed) | with streets and landmarks |
+|---|---|---|---|---|
+| dolores-area | 0.13 | 77 | mission | dolores, guerrero, mission |
+| corridor (Valencia) | 0.34 | 599 | mission, then business words | valencia, mission, bartlett, parklet |
+| mission | 4.9 | 4,921 | mission, raza, tarot, latino, vida | valencia, mission, guerrero, shotwell |
+| mixed (Mission + Bernal) | 7.7 | 5,833 | bernal, mission, raza, latino | valencia, bernal, mission, guerrero, precita |
+
+The area channel gets the neighbourhood right on all four and splits the
+mixed polygon into its two parts; the street channel names the corridor and
+the small block, which is what cadmus's expression types (corridor, block)
+want. Below the first one or two terms the area channel is cultural
+vocabulary (raza, latino, floreria), useful as evidence and wrong as a name;
+a caller should take the top term by class, not the list. Output has no
+extent and no boundary overlap: that is what cadmus's engine adds.
+
 ## Changes this suggests to HANDOFF.md
 
 1. Cells: "10-20k" → about 1.2k for SF at res 9; check the other cities in
