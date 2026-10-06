@@ -130,6 +130,9 @@ def division_names(division_path, reference_names=()):
         t = pq.read_table(division_path, columns=['subtype', 'names'])
         for n in _names(t, lambda r: r['subtype'] in AREA_SUBTYPES):
             out |= name_parts(n)
+    # Schools and clinics write the area name as one word (Pleasantview Junior
+    # High for Pleasant View), so the joined form counts as the division too.
+    out |= {p.replace(' ', '') for p in out if ' ' in p}
     out.discard('')
     return out
 

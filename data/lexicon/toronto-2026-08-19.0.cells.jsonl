@@ -172,7 +172,7 @@
 {"phrase": "jane wilson", "class": "area", "cells": {"892b9bc0e5bffff": 2, "892b9bc032bffff": 1, "892b9bc032fffff": 1, "892b9bc1d97ffff": 1}}
 {"phrase": "uhn", "class": "institution", "cells": {"892b9bc5593ffff": 2, "892b9bce493ffff": 1, "892b9bc46dbffff": 5, "892b9bc73a7ffff": 4, "892b9bc46d3ffff": 2, "892b9bc46d7ffff": 1}}
 {"phrase": "yorku", "class": "institution", "cells": {"892b9bc044bffff": 1, "892b9bc06b7ffff": 4, "892b9bc0447ffff": 3}}
-{"phrase": "pleasantview", "class": "institution", "cells": {"892b9bd5543ffff": 2, "892b9bd5557ffff": 1, "892b9bd551bffff": 1}}
+{"phrase": "pleasantview", "class": "division", "cells": {"892b9bd5543ffff": 2, "892b9bd5557ffff": 1, "892b9bd551bffff": 1}}
 {"phrase": "concorde", "class": "area", "cells": {"892b9bd5847ffff": 1, "892b9bd5817ffff": 2, "892b9bd5813ffff": 1, "892b9bd588fffff": 2, "892b9bd5c3bffff": 1}}
 {"phrase": "ashbridge", "class": "landmark", "cells": {"892b9bc6383ffff": 1, "892b9bc606fffff": 1, "892b9bc606bffff": 3, "892b9bc602bffff": 1}}
 {"phrase": "kennedy commons", "class": "area", "cells": {"892b9bd401bffff": 1, "892b9bd4057ffff": 1, "892b9bd40cfffff": 3}}

@@ -91,16 +91,16 @@
     ]
   },
   "street_names": 6600,
-  "division_names": 200,
+  "division_names": 278,
   "given_names": 793,
   "phrases": 15069,
   "classes": {
     "institution": 91,
     "generic": 14152,
     "person": 6,
-    "street": 62,
+    "street": 61,
     "area": 260,
-    "mixed": 13,
+    "mixed": 14,
     "division": 14,
     "brand": 361,
     "point": 70,
@@ -215,7 +215,6 @@
       "southport",
       "fulton",
       "wicker",
-      "lakeview",
       "stony island",
       "clarendon",
       "longwood",
@@ -247,7 +246,8 @@
       "kimbark",
       "ingleside",
       "north wacker",
-      "lathrop"
+      "lathrop",
+      "north dearborn"
     ],
     "area": [
       "edgebrook",
@@ -296,6 +296,7 @@
       "edgewater",
       "hyde",
       "avondale",
+      "lakeview",
       "forest glen",
       "garfield ridge",
       "north lawndale",
@@ -449,5 +450,5 @@
       "serra"
     ]
   },
-  "seconds": 26.8
+  "seconds": 25.7
 }

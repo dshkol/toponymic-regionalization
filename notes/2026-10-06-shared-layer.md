@@ -102,11 +102,14 @@ UIC, IIT, Northwestern Memorial; UofT, YorkU, CAMH, Mount Sinai; UBC, Emily
 Carr, VCC. It is McKenzie's university false positive as its own class, and it
 also absorbs the medical trade words (surgery, oncology, naturopathic) that
 had sat in `area`. Humber stays `area` because the river, park and college
-share the name below the majority. It costs Toronto four polygons whose only
-local evidence is a school or clinic carrying the neighbourhood's name
-(Pleasant View, Centenary, Alton Towers, Bayview Glen): when the name of the
-place is the name of the area, the class cannot tell, and the division list
-should. For clustering features the class stays in (a campus is a region);
+share the name below the majority. Toronto's "unnamed" count rises 39 → 43,
+but the four polygons that lost their only term had been named by a clinic
+chain or a language school (Comfort Keepers, ILAC, UHN), so nothing real is
+lost, and Pleasant View now ranks `pleasant view` first where a junior high
+school's `pleasantview` had been. The per-polygon diff is in the commit that
+added the class: Potrero Hill, Mission Bay, Inner Sunset and Lincoln Park
+all read better without UCSF, PNP and DePaul in the top three.
+For clustering features the class stays in (a campus is a region);
 for naming it is out.
 
 `person` is the newest class: every token a common given name in Great

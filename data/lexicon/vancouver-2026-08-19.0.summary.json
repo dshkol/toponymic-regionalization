@@ -40,7 +40,7 @@
     ]
   },
   "street_names": 1268,
-  "division_names": 71,
+  "division_names": 106,
   "given_names": 793,
   "phrases": 5773,
   "classes": {
@@ -379,5 +379,5 @@
       "psychotherapy"
     ]
   },
-  "seconds": 6.7
+  "seconds": 5.9
 }

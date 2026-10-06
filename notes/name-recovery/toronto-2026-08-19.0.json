@@ -3,8 +3,8 @@
   "city": "toronto",
   "polygons": 174,
   "all": {
-   "hit1": 0.236,
-   "partial1": 0.328,
+   "hit1": 0.241,
+   "partial1": 0.333,
    "hit3": 0.305
   },
   "area": {
@@ -726,19 +726,20 @@
      "pleasantview",
      "pleasant view"
     ],
-    "hit1": false,
+    "hit1": true,
     "hit3": true,
-    "partial1": false,
-    "class": "institution"
+    "partial1": true,
+    "class": "division"
    },
    "area": {
     "top3": [
+     "pleasantview",
      "pleasant view"
     ],
     "hit1": true,
     "hit3": true,
     "partial1": true,
-    "class": "mixed"
+    "class": "division"
    }
   },
   {

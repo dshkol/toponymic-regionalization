@@ -3,8 +3,8 @@
   "city": "chicago",
   "polygons": 73,
   "all": {
-   "hit1": 0.164,
-   "partial1": 0.205,
+   "hit1": 0.178,
+   "partial1": 0.219,
    "hit3": 0.219
   },
   "area": {
@@ -682,16 +682,16 @@
      "southport",
      "lake view"
     ],
-    "hit1": false,
+    "hit1": true,
     "hit3": true,
-    "partial1": false,
-    "class": "street"
+    "partial1": true,
+    "class": "mixed"
    },
    "area": {
     "top3": [
+     "lakeview",
      "lake view",
-     "ppm apartments",
-     "ppm"
+     "ppm apartments"
     ],
     "hit1": true,
     "hit3": true,
@@ -716,7 +716,8 @@
    "area": {
     "top3": [
      "andersonville",
-     "margate"
+     "margate",
+     "lakeview"
     ],
     "hit1": false,
     "hit3": false,

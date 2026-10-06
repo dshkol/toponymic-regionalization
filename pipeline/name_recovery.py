@@ -67,6 +67,8 @@ def run(city, tag=''):
     for _, row in gdf.iterrows():
         inside = [places[i] for i in tree.query(row.geometry, predicate='contains')]
         targets = name_parts(row['name'])
+        # The joined form counts as exact ('pleasantview' for Pleasant View), as in division_names.
+        targets |= {t.replace(' ', '') for t in targets if ' ' in t}
         rec = {'name': row['name'], 'places': len(inside)}
         for label, classes in (('all', NOT_GENERIC), ('area', AREA)):
             vocab = {p for p, c in cls.items() if c in classes}

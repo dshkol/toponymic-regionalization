@@ -1,7 +1,7 @@
 import math
 import unittest
 
-from lexicon import classify, name_parts, strip_generic
+from lexicon import division_names, classify, name_parts, strip_generic
 
 
 def row(**kw):
@@ -22,6 +22,12 @@ class Names(unittest.TestCase):
         self.assertEqual(name_parts('Castro/Upper Market'), {'castro upper', 'castro', 'upper'})
         self.assertIn('ingleside', name_parts('Oceanview/Merced/Ingleside'))
         self.assertIn('bayview hunters point', name_parts('Bayview Hunters Point'))
+
+    def test_division_names_add_joined_form(self):
+        names = division_names(None, ['Pleasant View', 'Annex'])
+        self.assertIn('pleasant view', names)
+        self.assertIn('pleasantview', names)
+        self.assertIn('annex', names)
 
 
 class Classify(unittest.TestCase):

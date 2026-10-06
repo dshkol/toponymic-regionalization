@@ -192,16 +192,16 @@
     ]
   },
   "street_names": 12652,
-  "division_names": 353,
+  "division_names": 549,
   "given_names": 793,
   "phrases": 15115,
   "classes": {
     "generic": 14175,
-    "institution": 33,
+    "institution": 32,
     "area": 182,
     "mixed": 39,
     "street": 171,
-    "division": 30,
+    "division": 31,
     "landmark": 33,
     "point": 58,
     "brand": 392,
@@ -268,7 +268,6 @@
       "bay bloor",
       "uhn",
       "yorku",
-      "pleasantview",
       "morningside crossing",
       "rotman",
       "graduate",
@@ -439,6 +438,7 @@
       "markland wood",
       "casa loma",
       "scarborough north",
+      "pleasantview",
       "trinity bellwoods",
       "henry farm",
       "church wellesley",
@@ -574,5 +574,5 @@
       "jimmie"
     ]
   },
-  "seconds": 24.5
+  "seconds": 23.7
 }

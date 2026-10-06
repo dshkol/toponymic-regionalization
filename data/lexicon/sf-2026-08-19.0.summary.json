@@ -11,7 +11,7 @@
     "count": 41
   },
   "street_names": 2244,
-  "division_names": 79,
+  "division_names": 125,
   "given_names": 793,
   "phrases": 8095,
   "classes": {
@@ -397,5 +397,5 @@
       "wealth management financial"
     ]
   },
-  "seconds": 9.7
+  "seconds": 9.6
 }
