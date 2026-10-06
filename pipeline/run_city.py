@@ -108,7 +108,12 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     figdir = out.parent / 'figures'; figdir.mkdir(exist_ok=True)
     stem = f'{out.name}-r{args.res}'
-    best_ring = max(rings, key=lambda r: table[(table.ring == r) & (table.method == 'SCHC Ward: names') & (table.k == 20)].ari.iloc[0])
+    # map the ring whose names run beats its own permutation null by the most at k=20
+    def gap(r):
+        t = table[(table.ring == r) & (table.k == 20)]
+        return (t[t.method == 'SCHC Ward: names'].ari.iloc[0]
+                - t[t.method.str.startswith('null')].ari.iloc[0])
+    best_ring = max(rings, key=gap)
 
     fig, axes = plt.subplots(2, 3, figsize=(15, 11)); axes = axes.ravel()
     gt.plot(ax=axes[0], column=name_col, cmap='tab20', edgecolor='white', linewidth=0.3)
