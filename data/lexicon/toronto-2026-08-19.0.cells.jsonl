@@ -306,7 +306,6 @@
 {"phrase": "ted reeve", "class": "street", "cells": {"892b9bc6477ffff": 4}}
 {"phrase": "aberfoyle", "class": "area", "cells": {"892b9bce34bffff": 1, "892b9bce027ffff": 1, "892b9bce037ffff": 3}}
 {"phrase": "mega convenience", "class": "area", "cells": {"892b9bd7513ffff": 1, "892b9bd75c7ffff": 2}}
-{"phrase": "jane frances", "class": "landmark", "cells": {"892b9bc03d3ffff": 2, "892b9bc03c3ffff": 1}}
 {"phrase": "roadsport", "class": "area", "cells": {"892b9bd4c1bffff": 1, "892b9bd4ccfffff": 2, "892b9bd4073ffff": 1, "892b9bd4033ffff": 1, "892b9bd454fffff": 1}}
 {"phrase": "welke", "class": "area", "cells": {"892b9bcf4a7ffff": 1, "892b9bc1b6bffff": 2}}
 {"phrase": "sorrows", "class": "landmark", "cells": {"892b9bce1d3ffff": 1, "892b9bce1dbffff": 3}}
@@ -461,7 +460,6 @@
 {"phrase": "rekai", "class": "area", "cells": {"892b9bc710fffff": 1, "892b9bc715bffff": 1, "892b9bc710bffff": 2}}
 {"phrase": "minerals", "class": "area", "cells": {"892b9bc4613ffff": 1, "892b9bc468bffff": 2, "892b9bc468fffff": 1, "892b9bc4617ffff": 1}}
 {"phrase": "scollard", "class": "street", "cells": {"892b9bc7397ffff": 2, "892b9bc7393ffff": 2}}
-{"phrase": "jimmie", "class": "point", "cells": {"892b9bc6267ffff": 3}}
 {"phrase": "jimmie simpson", "class": "point", "cells": {"892b9bc6267ffff": 3}}
 {"phrase": "front street west", "class": "area", "cells": {"892b9bc55b7ffff": 1, "892b9bc467bffff": 1, "892b9bc4673ffff": 2, "892b9bc460fffff": 1, "892b9bc4607ffff": 1, "892b9bc4617ffff": 1}}
 {"phrase": "holy name", "class": "landmark", "cells": {"892b9bc62dbffff": 2, "892b9bc62cbffff": 1}}

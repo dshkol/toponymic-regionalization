@@ -89,12 +89,21 @@ Toronto hyphenates almost every neighbourhood.
 
 Per city (seconds are the whole build on one core):
 
-| city | places | cells (res 9) | phrases ≥3 units | area | division | mixed | street | landmark | point | brand | generic | s |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| SF | 60,536 | 1,242 | 8,095 | 948 | 27 | 13 | 201 | 43 | 34 | 100 | 6,729 | 10 |
-| Vancouver | 43,096 | 1,392 | 5,773 | 591 | 15 | 10 | 103 | 20 | 31 | 116 | 4,887 | 7 |
-| Toronto | 162,551 | 6,106 | 15,115 | 203 | 30 | 39 | 171 | 42 | 63 | 392 | 14,175 | 24 |
-| Chicago | 197,853 | 5,790 | 15,069 | 324 | 14 | 13 | 62 | 64 | 79 | 361 | 14,152 | 27 |
+| city | places | cells (res 9) | phrases ≥3 units | area | division | mixed | street | landmark | point | person | brand | generic | s |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| SF | 60,536 | 1,242 | 8,095 | 886 | 27 | 13 | 201 | 43 | 34 | 62 | 100 | 6,729 | 10 |
+| Vancouver | 43,096 | 1,392 | 5,773 | 567 | 15 | 10 | 103 | 19 | 31 | 25 | 116 | 4,887 | 7 |
+| Toronto | 162,551 | 6,106 | 15,115 | 203 | 30 | 39 | 171 | 41 | 62 | 2 | 392 | 14,175 | 24 |
+| Chicago | 197,853 | 5,790 | 15,069 | 321 | 14 | 13 | 62 | 63 | 77 | 6 | 361 | 14,152 | 27 |
+
+`person` is the newest class: every token a common given name in Great
+Britain, Ireland or the U.S.A. (frequency ≥4 of 13 in the dictionary inside
+the `gender-guesser` package, read at build time, not vendored). It takes
+Jennifer, Robert, Morgan Stanley, Raymond James out of `area` (SF 62,
+Vancouver 25) and leaves Marina (3), Noe (1) and every division and street
+alone, since those rules run first. Name recovery does not move, which is
+the point: these were never top terms, they were noise in the feature
+vocabulary.
 
 Toronto and Chicago have far more generics in proportion. Part of that is real
 (bigger cities, more chains), part is the 3 km standard-distance rule biting

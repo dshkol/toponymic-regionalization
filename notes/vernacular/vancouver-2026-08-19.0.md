@@ -35,10 +35,8 @@ Candidates for a vernacular gazetteer, by locality x log1p(support). `peak` is t
 | vgh | 8 | 3 | 6.6 | 0.2 | 49.2599, -123.1235 | VGH Emergency; VGH 12th Avenue Parkade |
 | china | 22 | 18 | 4.5 | 2.6 | 49.2627, -123.0801 | China Lan Lanzhou Beef Noodles; China Acupuncture Clinic |
 | marine gateway | 9 | 6 | 6.2 | 1.2 | 49.2089, -123.1152 | Cambie Marine Gateway Dental; Marine Gateway Medical Clinic |
-| oliver | 9 | 6 | 6.1 | 2.5 | 49.2334, -123.0935 | Oliver Jarrold Realtor; Dr. Oliver Sanchez |
 | champlain square | 5 | 2 | 7.9 | 0.1 | 49.2203, -123.0407 | Champlain Square Vancouver Public Library; Champlain Square |
 | creek | 54 | 39 | 3.5 | 2.2 | 49.2698, -123.1085 | False Creek Residence Society; False Creek Elementary School |
-| john oliver | 5 | 2 | 7.7 | 0.1 | 49.2334, -123.0935 | John Oliver Secondary; John Oliver Secondary School |
 | mining | 42 | 13 | 3.6 | 0.5 | 49.2857, -123.1178 | Benga Mining Ltd; Trivalence Mining Corp |
 | easypark | 9 | 8 | 5.9 | 1.9 | 49.2761, -123.1448 | Easypark Lot 15; Queen Elizabeth Park (Easypark Lot 67) |
 | way | 18 | 15 | 4.6 | 2.5 | 49.2675, -123.0884 | Jeff Evans / A Better Way - Mortgage Architects / Mortgage Broker; Great Northern Way Campus |
@@ -64,3 +62,5 @@ Candidates for a vernacular gazetteer, by locality x log1p(support). `peak` is t
 | antiques | 17 | 14 | 4.2 | 2.7 | 49.2466, -123.1025 | Pierre's Antiques; Hampshire Antiques Ltd |
 | sailing club | 3 | 2 | 8.7 | 0.2 | 49.2763, -123.2004 | Discovery Sailing Club; UBC Sailing Club |
 | concord | 8 | 6 | 5.5 | 1.5 | 49.2771, -123.1051 | Concord Medical Centre; Concord Business Plans |
+| byng | 3 | 3 | 8.5 | 0.2 | 49.2577, -123.1909 | Lord Byng Secondary School; Lord Byng Symphony Orchestra |
+| lord byng | 3 | 3 | 8.5 | 0.2 | 49.2577, -123.1909 | Lord Byng Secondary School; Lord Byng Symphony Orchestra |

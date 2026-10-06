@@ -12,15 +12,17 @@
   },
   "street_names": 2244,
   "division_names": 79,
+  "given_names": 793,
   "phrases": 8095,
   "classes": {
     "division": 27,
-    "area": 948,
+    "area": 886,
     "mixed": 13,
     "generic": 6729,
     "street": 201,
     "brand": 100,
     "landmark": 43,
+    "person": 62,
     "point": 34
   },
   "parameters": {
@@ -77,7 +79,6 @@
       "shipyard",
       "fisherman",
       "nob",
-      "morgan stanley",
       "twin",
       "heights",
       "peaks",
@@ -101,7 +102,8 @@
       "showroom",
       "mount",
       "corona heights",
-      "hotel"
+      "hotel",
+      "fishermans"
     ],
     "mixed": [
       "presidio",
@@ -286,6 +288,48 @@
       "jones street apartments",
       "bus stop sacramento"
     ],
+    "person": [
+      "morgan stanley",
+      "brendan",
+      "morgan",
+      "jennifer",
+      "nicholas",
+      "robert",
+      "jonathan",
+      "matthew",
+      "emily",
+      "luke",
+      "catherine",
+      "stanley",
+      "michelle",
+      "david",
+      "richard",
+      "helen",
+      "alan",
+      "alison",
+      "douglas",
+      "william",
+      "kathleen",
+      "mark",
+      "victor",
+      "barry",
+      "jeffrey",
+      "lisa",
+      "erin",
+      "jane",
+      "amy",
+      "anna",
+      "harvey",
+      "billy",
+      "gary",
+      "sally",
+      "stephanie",
+      "brigid",
+      "daniel",
+      "patricia",
+      "bob",
+      "alfred"
+    ],
     "point": [
       "ghirardelli square",
       "washington square",
@@ -323,5 +367,5 @@
       "wealth management financial"
     ]
   },
-  "seconds": 9.2
+  "seconds": 9.5
 }

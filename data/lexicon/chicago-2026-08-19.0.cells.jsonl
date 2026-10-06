@@ -1,6 +1,5 @@
 {"phrase": "neiu", "class": "landmark", "cells": {"892664ca08fffff": 1, "892664d8a4bffff": 20, "892664d9997ffff": 9, "892664cad83ffff": 1}}
 {"phrase": "uic", "class": "area", "cells": {"892664c8113ffff": 1, "892664c88cbffff": 1, "892664cc25bffff": 1, "892664caa23ffff": 1, "892664cac2fffff": 1, "892664c1a4bffff": 10, "892664ca987ffff": 6, "892664ca997ffff": 1, "892664ca98fffff": 4, "892664ca9bbffff": 1, "892664ca9b3ffff": 17, "892664ca9b7ffff": 8, "892664ca9a3ffff": 1, "892664cf4dbffff": 5, "892664ca9abffff": 1, "892664ca973ffff": 3, "892664ca90fffff": 2, "892664ca90bffff": 11, "892664ca91bffff": 1, "892664ca957ffff": 9, "892664ca947ffff": 23, "892664ca943ffff": 5, "892664ca95bffff": 1, "892664cab97ffff": 2, "892664ca97bffff": 2, "892664ca94fffff": 1, "892664cf693ffff": 1, "892664cc1b3ffff": 1, "892664ccc9bffff": 1, "892664cf4c3ffff": 3, "892664cf4d3ffff": 10, "892664c1a6bffff": 1, "892664ca9a7ffff": 2, "892664c1a4fffff": 25, "892664c1a43ffff": 1, "892664c1a73ffff": 1, "892664c1a03ffff": 1, "892664cf5d7ffff": 1, "892664c1a8fffff": 2}}
-{"phrase": "morgan stanley", "class": "area", "cells": {"892664c1a1bffff": 1, "892664c1ac7ffff": 45, "892664c1a8bffff": 1, "892664c1a13ffff": 1}}
 {"phrase": "sauganash", "class": "street", "cells": {"892664d9807ffff": 3, "892664d9817ffff": 3, "892664d98abffff": 5, "892664d98a3ffff": 2, "892664d98a7ffff": 2, "892664d98b7ffff": 2, "892664d988bffff": 1, "892664d9d63ffff": 1, "892664d9d6bffff": 3, "892664d99dbffff": 1, "892664d99cbffff": 1, "892664d8a07ffff": 1, "892664c1ad3ffff": 1}}
 {"phrase": "depaul", "class": "area", "cells": {"892664cf2c3ffff": 1, "892664ca8abffff": 1, "892664c134fffff": 1, "892664ca5cbffff": 1, "892664ca50bffff": 1, "892664c104bffff": 1, "892664c12a7ffff": 27, "892664c12b7ffff": 2, "892664c12a3ffff": 3, "892664c12afffff": 8, "892664c12abffff": 1, "892664c120bffff": 1, "892664c13dbffff": 10, "892664c13cfffff": 1, "892664d89c3ffff": 1, "892664c1abbffff": 7, "892664c1aa3ffff": 1, "892664c1a8fffff": 5, "892664c1a87ffff": 6, "892664c106fffff": 1, "892664c106bffff": 5}}
 {"phrase": "edgebrook", "class": "area", "cells": {"89275934dd7ffff": 1, "892664d9e5bffff": 1, "892664d9a6fffff": 1, "892664d984bffff": 1, "892664d9e53ffff": 2, "892664d9ecfffff": 1, "892664d9e57ffff": 1, "892664d9e3bffff": 1, "892664d98dbffff": 1, "892664d98c3ffff": 1, "892664d98cfffff": 1, "892664d98cbffff": 10, "892664d9853ffff": 3, "892664d9e27ffff": 13, "892664d9ab7ffff": 1, "892664d98a7ffff": 1}}
@@ -89,7 +88,6 @@
 {"phrase": "cragin", "class": "area", "cells": {"892664c8433ffff": 1, "892664cb3b7ffff": 1, "892664ca67bffff": 1, "892664cb573ffff": 1, "892664cb197ffff": 1, "892664ca2cfffff": 1, "892664ca26bffff": 1, "892664ca27bffff": 1, "892664cb1bbffff": 1, "892664cb103ffff": 1, "892664cb12bffff": 1, "892664c84c3ffff": 1, "892664c84d7ffff": 1, "892664c8413ffff": 2, "892664c8417ffff": 1, "892664ca213ffff": 1}}
 {"phrase": "fashion outlets", "class": "area", "cells": {"89275934c1bffff": 1, "89275934c17ffff": 6}}
 {"phrase": "waveland", "class": "street", "cells": {"892664cad83ffff": 1, "892664ca58bffff": 2, "892664c1617ffff": 2, "892664c16bbffff": 1, "892664d890bffff": 1, "892664c1ac3ffff": 1, "892664c16b3ffff": 4, "892664c144fffff": 2, "892664c16b7ffff": 1, "892664c1447ffff": 1, "892664c1443ffff": 2}}
-{"phrase": "raymond james", "class": "area", "cells": {"892664c1acbffff": 3, "892664c1ac7ffff": 1, "892664c1acfffff": 3, "892664c1ac3ffff": 2, "892664c1adbffff": 5, "892664c1e3bffff": 1, "892664c1a9bffff": 1, "892664c1a8fffff": 1}}
 {"phrase": "jameson sotheby", "class": "area", "cells": {"892664c1e03ffff": 3, "892664c13abffff": 9, "892664c1e8bffff": 1}}
 {"phrase": "puerto rican", "class": "area", "cells": {"892664cae17ffff": 2, "892664caeb3ffff": 1, "892664caebbffff": 2, "892664caea3ffff": 1, "892664ca347ffff": 1, "892664ca03bffff": 1, "892664c1a9bffff": 1}}
 {"phrase": "rican", "class": "area", "cells": {"892664cae17ffff": 2, "892664caeb3ffff": 1, "892664caebbffff": 2, "892664caea3ffff": 1, "892664ca347ffff": 1, "892664ca03bffff": 1, "892664c1a9bffff": 1}}
@@ -248,9 +246,7 @@
 {"phrase": "archer halsted", "class": "point", "cells": {"892664cf467ffff": 3}}
 {"phrase": "archer halsted currency", "class": "point", "cells": {"892664cf467ffff": 3}}
 {"phrase": "ingleside", "class": "street", "cells": {"892664cc4abffff": 2, "892664cc433ffff": 1, "892664cc437ffff": 1, "892664cc167ffff": 1}}
-{"phrase": "madison austin", "class": "point", "cells": {"892664c83d7ffff": 3}}
 {"phrase": "merchandise mart", "class": "area", "cells": {"892664c1e6bffff": 4, "892664c1e63ffff": 2}}
-{"phrase": "beth anne", "class": "point", "cells": {"892664c855bffff": 3}}
 {"phrase": "anthony hospital", "class": "landmark", "cells": {"892664c8d0fffff": 1, "892664c8d83ffff": 1, "892664c8d9bffff": 2}}
 {"phrase": "therapy lakeview", "class": "area", "cells": {"892664c1637ffff": 1, "892664c1667ffff": 3, "892664c162bffff": 1}}
 {"phrase": "only sport", "class": "point", "cells": {"892664cab4bffff": 3}}
@@ -323,7 +319,6 @@
 {"phrase": "riverwest", "class": "area", "cells": {"892664cadd7ffff": 1, "892664cada3ffff": 1, "892664cadbbffff": 1, "892664cadb7ffff": 1}}
 {"phrase": "old town square", "class": "point", "cells": {"892664c1337ffff": 3}}
 {"phrase": "physical therapy lakeview", "class": "area", "cells": {"892664c1637ffff": 1, "892664c1667ffff": 2, "892664c162bffff": 1}}
-{"phrase": "ita", "class": "landmark", "cells": {"892664d88a3ffff": 3}}
 {"phrase": "first community mortgage", "class": "point", "cells": {"892664d8b0fffff": 3}}
 {"phrase": "clark diversey", "class": "area", "cells": {"892664c100bffff": 1, "892664c1057ffff": 3}}
 {"phrase": "bais yaakov", "class": "landmark", "cells": {"892664d9d27ffff": 1, "892664d9d37ffff": 1, "892664d8e4fffff": 1, "892664d8adbffff": 1}}
@@ -385,7 +380,6 @@
 {"phrase": "ashland division currency", "class": "point", "cells": {"892664cacafffff": 3}}
 {"phrase": "division currency", "class": "point", "cells": {"892664cacafffff": 3}}
 {"phrase": "greek town", "class": "area", "cells": {"892664c1a5bffff": 2, "892664c1a53ffff": 1}}
-{"phrase": "colleen", "class": "area", "cells": {"892664caea7ffff": 1, "892664cad83ffff": 1, "892664ca957ffff": 1, "892664c1627ffff": 2, "892664c1e17ffff": 2, "892664c1e6fffff": 1, "892664c1a8bffff": 1, "892664c1eabffff": 1}}
 {"phrase": "providencia", "class": "point", "cells": {"892664cf68fffff": 3}}
 {"phrase": "fullerton parkway", "class": "street", "cells": {"892664c103bffff": 1, "892664c102bffff": 1, "892664c1077ffff": 1}}
 {"phrase": "northwestern medical faculty", "class": "area", "cells": {"892664c1a83ffff": 1, "892664c1eabffff": 1, "892664c1ea3ffff": 1, "892664c1e17ffff": 2, "892664c1e07ffff": 1}}

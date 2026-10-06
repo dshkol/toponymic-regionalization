@@ -22,6 +22,7 @@ brand_share    share of records carrying a declared Overture brand
 landmark_share share of records in landmark taxonomy groups or categories
 is_street      phrase equals a transportation segment name with generic words removed
 is_division    same, against division-area names
+is_person      every token is a common given name (see given_names.py)
 class          brand, generic, division, street, mixed, landmark, point, area (rule in classify)
 
 The class rule is a first cut to review against the top-200 list, not a result.
@@ -36,6 +37,7 @@ import numpy as np
 import pyarrow.parquet as pq
 from libpysal.weights import W
 
+from given_names import is_person
 from names import MIN_SUPPORT, STOP, Support, log_ratio, normalize, phrases
 
 # Overture taxonomy groups and categories that name a thing people refer to by
@@ -150,7 +152,7 @@ def _sd_km(latlngs):
 
 
 def build(places, cells, street_names=frozenset(), division_names=frozenset(),
-          min_support=MIN_SUPPORT):
+          person_names=frozenset(), min_support=MIN_SUPPORT):
     """Return (rows, cell_units): the lexicon, and phrase -> {cell: units}."""
     cell_set = set(cells)
     places = [p for p in places if p.cell in cell_set]
@@ -219,6 +221,7 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
                'brand_share': branded[ph] / sup.records,
                'landmark_share': landmark[ph] / sup.records,
                'is_street': ph in street_names, 'is_division': ph in division_names,
+               'is_person': is_person(ph, person_names),
                'examples': sup.examples[:3]}
         row['class'] = classify(row)
         rows.append(row)
@@ -239,6 +242,7 @@ def classify(r):
     mixed     both a division and a street carry the name (Mission, Valencia-type cases)
     division  matches a division-area name
     street    matches a transportation segment name
+    person    every token is a common given name: a practice or shop named after its owner
     landmark  most records are landmark-category places
     point     clustered but in one cell only: a single site or block, not an area
     area      clustered, local, none of the above: a candidate vernacular area term
@@ -253,6 +257,8 @@ def classify(r):
         return 'division'
     if r['is_street']:
         return 'street'
+    if r.get('is_person'):
+        return 'person'
     if r['landmark_share'] >= MAJORITY:
         return 'landmark'
     if r['cells'] < 2:

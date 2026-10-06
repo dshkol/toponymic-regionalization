@@ -92,16 +92,18 @@
   },
   "street_names": 6600,
   "division_names": 200,
+  "given_names": 793,
   "phrases": 15069,
   "classes": {
-    "landmark": 64,
+    "landmark": 63,
     "generic": 14152,
-    "area": 324,
+    "area": 321,
+    "person": 6,
     "street": 62,
     "mixed": 13,
     "division": 14,
     "brand": 361,
-    "point": 79
+    "point": 77
   },
   "parameters": {
     "min_support": 3,
@@ -198,7 +200,6 @@
     ],
     "area": [
       "uic",
-      "morgan stanley",
       "depaul",
       "edgebrook",
       "iit",
@@ -236,7 +237,16 @@
       "delaware",
       "mdw",
       "harlem irving plaza",
-      "advocate trinity"
+      "advocate trinity",
+      "river west"
+    ],
+    "person": [
+      "morgan stanley",
+      "raymond james",
+      "madison austin",
+      "beth anne",
+      "ita",
+      "colleen"
     ],
     "street": [
       "sauganash",
@@ -372,8 +382,6 @@
       "balanoff",
       "archer halsted",
       "archer halsted currency",
-      "madison austin",
-      "beth anne",
       "only sport",
       "columbanus",
       "hatchery",
@@ -393,8 +401,10 @@
       "habloft",
       "fairfield currency",
       "new fairfield",
-      "new fairfield currency"
+      "new fairfield currency",
+      "howard red",
+      "howard red line"
     ]
   },
-  "seconds": 26.0
+  "seconds": 26.6
 }

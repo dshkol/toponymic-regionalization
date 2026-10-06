@@ -193,16 +193,18 @@
   },
   "street_names": 12652,
   "division_names": 353,
+  "given_names": 793,
   "phrases": 15115,
   "classes": {
     "generic": 14175,
-    "landmark": 42,
+    "landmark": 41,
     "area": 203,
     "mixed": 39,
     "street": 171,
     "division": 30,
-    "point": 63,
-    "brand": 392
+    "point": 62,
+    "brand": 392,
+    "person": 2
   },
   "parameters": {
     "min_support": 3,
@@ -279,7 +281,6 @@
       "harbour front",
       "mimico creek",
       "wilmar heights",
-      "jane frances",
       "sorrows",
       "wharf",
       "crescent place",
@@ -295,7 +296,8 @@
       "holy name",
       "city place",
       "christie pits",
-      "pits"
+      "pits",
+      "navy wharf"
     ],
     "area": [
       "utsc",
@@ -537,7 +539,11 @@
       "first choice",
       "mobil",
       "scotiamcleod scotia"
+    ],
+    "person": [
+      "jane frances",
+      "jimmie"
     ]
   },
-  "seconds": 22.8
+  "seconds": 23.8
 }

@@ -914,20 +914,20 @@
    "places": 16584,
    "all": {
     "top3": [
-     "morgan stanley",
      "wacker",
-     "saic"
+     "saic",
+     "ubs"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "street"
    },
    "area": {
     "top3": [
-     "morgan stanley",
      "saic",
-     "art institute"
+     "art institute",
+     "advisor ameriprise financial"
     ],
     "hit1": false,
     "hit3": false,
@@ -1625,7 +1625,7 @@
     "top3": [
      "galewood",
      "grane",
-     "beth anne"
+     "grand cicero"
     ],
     "hit1": false,
     "hit3": false,

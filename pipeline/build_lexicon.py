@@ -15,6 +15,7 @@ from collections import Counter
 from pathlib import Path
 
 import boundaries
+import given_names
 import lexicon
 from cells import RESOLUTION, boundary_area, load_places, study_cells
 from fetch_overture import CITIES, RELEASE
@@ -32,7 +33,8 @@ def build_city(city, resolution=RESOLUTION):
     cells = study_cells(boundary_area(gdf), resolution)
     streets = lexicon.street_names(data / f'overture-segment-{RELEASE}.parquet')
     divisions = lexicon.division_names(data / f'overture-division_area-{RELEASE}.parquet', gdf['name'])
-    rows, cell_units = lexicon.build(places, cells, streets, divisions)
+    persons = given_names.load()
+    rows, cell_units = lexicon.build(places, cells, streets, divisions, persons)
     OUT.mkdir(parents=True, exist_ok=True)
     # RELEASE ends in '.0'; with_suffix would eat it. Res 9 is the default and
     # keeps the plain name; other resolutions are a sensitivity check and get a tag.
@@ -49,6 +51,7 @@ def build_city(city, resolution=RESOLUTION):
         'places': len(places), 'cells': len(cells),
         'cells_with_places': len({p.cell for p in places} & set(cells)),
         'ground_truth': provenance, 'street_names': len(streets), 'division_names': len(divisions),
+        'given_names': len(persons),
         'phrases': len(rows), 'classes': dict(counts),
         'parameters': {'min_support': lexicon.MIN_SUPPORT, 'generic_locality': lexicon.GENERIC_LOCALITY,
                        'generic_sd_km': lexicon.GENERIC_SD_KM, 'brand_share': lexicon.BRAND_SHARE,

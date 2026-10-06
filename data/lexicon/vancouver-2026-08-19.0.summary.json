@@ -41,6 +41,7 @@
   },
   "street_names": 1268,
   "division_names": 71,
+  "given_names": 793,
   "phrases": 5773,
   "classes": {
     "street": 103,
@@ -48,8 +49,9 @@
     "generic": 4887,
     "point": 31,
     "mixed": 10,
-    "area": 591,
-    "landmark": 20,
+    "area": 567,
+    "landmark": 19,
+    "person": 25,
     "brand": 116
   },
   "parameters": {
@@ -241,13 +243,13 @@
       "vgh",
       "china",
       "marine gateway",
-      "oliver",
       "champlain square",
       "creek",
-      "john oliver",
       "mining",
       "easypark",
-      "mount"
+      "mount",
+      "cedar",
+      "way"
     ],
     "landmark": [
       "brighton",
@@ -267,9 +269,35 @@
       "city gate",
       "david lam",
       "harbour green",
-      "wesley",
       "residences",
       "cathedral"
+    ],
+    "person": [
+      "oliver",
+      "john oliver",
+      "michael",
+      "wayne",
+      "martin",
+      "jennifer",
+      "chris",
+      "raymond james",
+      "scott",
+      "wesley",
+      "sharon",
+      "mike",
+      "louise",
+      "christopher",
+      "raymond",
+      "laura",
+      "alan",
+      "darren",
+      "bill",
+      "lauren",
+      "derek",
+      "duncan",
+      "sean",
+      "ryan",
+      "ray"
     ],
     "brand": [
       "foods",
@@ -314,5 +342,5 @@
       "republic"
     ]
   },
-  "seconds": 6.4
+  "seconds": 5.9
 }
