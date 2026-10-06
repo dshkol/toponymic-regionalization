@@ -195,6 +195,21 @@ terms. The other 41% have no area-name evidence at res 9. Max-p's
 places-per-region floor (`HANDOFF.md`) is the right tool for that; a fixed k
 would split evidence-free territory arbitrarily.
 
+## Vernacular candidates
+
+`pipeline/vernacular.py` lists, per city, the `area` phrases whose tokens occur
+in no official or Overture polygon name, ranked by the lexicon score, with the
+peak cell for review: `notes/vernacular/<city>-2026-08-19.0.md`. The top of
+each list is what cadmus's design notes called the "unavoidable hand-curated
+vernacular gazetteer", found rather than typed: SF Stonestown, Dogpatch,
+Fishermans Wharf, Crocker Amazon, Shipyard, Candlestick, Lands End; Toronto
+Leslieville, Corktown, Bloorcourt, Golden Mile, Roncy, Queens Quay, Stockyards;
+Vancouver Yaletown, Gastown, English Bay, Olympic Village, Coal Harbour, Kits,
+River District; Chicago Pilsen, Bronzeville, Bucktown, Edgebrook, Little
+Village, Streeterville, Roscoe Village. Institutions (UCSF, SFSU, UTSC, DePaul,
+IIT) and financial-district business words (private banking, wealth, PhD) are
+in the same lists and need the human pass.
+
 ## Changes this suggests to HANDOFF.md
 
 1. Cells: "10-20k" → about 1.2k for SF at res 9; check the other cities in
