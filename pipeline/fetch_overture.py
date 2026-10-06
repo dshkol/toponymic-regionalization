@@ -11,9 +11,6 @@ overwrite an existing extract.
 import argparse
 import hashlib
 import json
-import shutil
-import subprocess
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -52,6 +49,28 @@ def manifest(path, bbox, release, type_):
     return result
 
 
+THEME = {'place': 'places', 'segment': 'transportation', 'division_area': 'divisions'}
+
+
+def read_bbox(type_, bbox, release=RELEASE):
+    """The official client's query, done directly: the public bucket, anonymous,
+    filtered on the per-row bbox columns. Used because the client insists on its
+    STAC catalog host, which this network does not allow; S3 itself is reachable.
+    Goes through HTTPS_PROXY when set."""
+    import os
+    import pyarrow.compute as pc
+    import pyarrow.dataset as ds
+    import pyarrow.fs as fs
+    s3 = fs.S3FileSystem(anonymous=True, region='us-west-2',
+                         proxy_options=os.environ.get('HTTPS_PROXY') or None)
+    path = f'overturemaps-us-west-2/release/{release}/theme={THEME[type_]}/type={type_}/'
+    dataset = ds.dataset(path, filesystem=s3, format='parquet')
+    w, s, e, n = bbox
+    expr = ((pc.field('bbox', 'xmin') < e) & (pc.field('bbox', 'xmax') > w)
+            & (pc.field('bbox', 'ymin') < n) & (pc.field('bbox', 'ymax') > s))
+    return dataset.to_table(filter=expr)
+
+
 def fetch(city, type_, release=RELEASE):
     bbox = CITIES[city]
     out = path_for(city, type_, release)
@@ -59,10 +78,8 @@ def fetch(city, type_, release=RELEASE):
         raise SystemExit(f'{out} exists; use a new path to preserve snapshots')
     out.parent.mkdir(parents=True, exist_ok=True)
     tmp = out.with_suffix('.partial')
-    client = shutil.which('overturemaps') or str(Path(sys.executable).with_name('overturemaps'))
-    subprocess.run([client, 'download',
-                    '--bbox=' + ','.join(str(x) for x in bbox), '--release=' + release,
-                    '--type=' + type_, '-f', 'geoparquet', '-o', str(tmp)], check=True)
+    table = read_bbox(type_, bbox, release)
+    pq.write_table(table, tmp, compression='zstd')
     tmp.rename(out)
     m = manifest(out, bbox, release, type_)
     print(json.dumps({'city': city, 'type': type_, 'rows': m['rows'], 'path': str(out)}))

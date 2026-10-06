@@ -1,0 +1,15 @@
+{
+  "source": "Overture place",
+  "release": "2026-08-19.0",
+  "bbox": [
+    -79.64,
+    43.58,
+    -79.11,
+    43.86
+  ],
+  "recorded_at": "2026-10-06T06:54:55.626142+00:00",
+  "sha256": "63343c77a88c57ad799aaf97e76229c7637dd3b50bac4facc96c6c35aa858766",
+  "rows": 162551,
+  "documentation": "https://docs.overturemaps.org/guides/places/",
+  "filters": "BBox only; all statuses and confidence values retained"
+}

@@ -1,0 +1,15 @@
+{
+  "source": "Overture division_area",
+  "release": "2026-08-19.0",
+  "bbox": [
+    -79.64,
+    43.58,
+    -79.11,
+    43.86
+  ],
+  "recorded_at": "2026-10-06T06:55:14.741782+00:00",
+  "sha256": "c961a808922c37c5be43191e6b87d52ac762975e09fa9808f4e71167cf642009",
+  "rows": 253,
+  "documentation": "https://docs.overturemaps.org/guides/divisions/",
+  "filters": "BBox only; all statuses and confidence values retained"
+}
