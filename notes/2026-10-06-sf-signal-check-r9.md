@@ -36,9 +36,9 @@ Features: 4159 tokens with cell-df in [5, 20% of cells] on unsmoothed counts; co
 
 What to do next, in order: (a) max-p with a places-per-region floor on unsmoothed H3-9
 counts, which is the formulation the brief argues for; (b) H3-8 cells, same nulls;
-(c) a ground truth that is not tract aggregation (SF Planning neighbourhood groups, or
-the Cadmus engine's `supported` rate on the output polygons, which is the comparison that
-matters for Cadmus). Toronto, Vancouver and Chicago wait until one of those beats the
+(c) a ground truth that is not tract aggregation (SF Planning neighbourhood groups;
+note the Cadmus engine's `supported` rate is not independent, since `/api/name-region`
+is built on the same 41 DataSF areas). Toronto, Vancouver and Chicago wait until one of those beats the
 coordinates-only baseline.
 
 ## Agreement with the 41 neighbourhoods
