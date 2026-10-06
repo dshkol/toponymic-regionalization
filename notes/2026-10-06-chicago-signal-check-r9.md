@@ -5,6 +5,29 @@ Ground truth: Overture macrohoods inside the Chicago locality (73 of the 77 comm
 Cells: 5318 H3-9 cells (centroid inside the union of the 73 polygons), 2 graph component(s) before bridging; 4449 cells with at least one token; tokens per cell p10/p25/p50/p75/p90 = 0/4/16/56/140.
 Features: 7340 tokens with cell-df in [5, 20% of cells] on unsmoothed counts; counts summed over the k-ring (`ring`); sqrt(tf)·idf, L2 per cell, truncated SVD to 30. One token per distinct name per cell.
 
+## Reading
+
+1. Chicago is where names come closest to standing on their own. Unsmoothed, Ward on
+   names reaches ARI 0.19 at k = 73 (null 0.00) with the largest region at 22% of cells,
+   not the 70% collapse of SF and Vancouver: 5,318 cells give Ward enough dense
+   neighbours to grow regions. With 1-ring smoothing names reach 0.36 at k = 73 against a
+   null of 0.10, a gap of +0.26, the largest of the four cities; coordinates-only is 0.39
+   and the random floor 0.38, so on ARI geography still ties it.
+2. The ring-1, k = 20 regions are the airports (O'Hare and Midway as their own regions,
+   on airline and cargo tokens), the Lower West Side as pilsen / villita / tortilleria,
+   bridgeport / chinatown / wicker / bucktown lumped by the Ward cut, Hyde Park and
+   Kenwood as hyde / uchicago / quadrangle, Englewood, Beverly, Roseland / Pullman,
+   Hegewisch / Calumet, the North Lawndale institutions (homan, kipp), Edgebrook /
+   Sauganash / the kosher cluster (zabiha, bais) on the far north side. The Loop comes
+   out as a region of law and finance tokens (divorce, valuation). These are the names
+   businesses use; the 1920s community-area names are recovered where they are also the
+   living name (Englewood, Beverly, Roseland, Hegewisch) and not where they are not
+   (Near North Side, Near West Side, West Town, Lower West Side), which is what the
+   Cadmus-links naming test found.
+3. Ground truth is provisional: 73 of the 77 community areas (Logan Square, Humboldt
+   Park, New City and Gage Park are missing from the Overture release), so those four
+   areas' cells are outside the cell set; two graph components (O'Hare) bridged.
+
 ## Agreement with the 73 areas
 
 ARI/NMI over all cells (ground truth = polygon containing the cell centroid). `largest` is the share of cells in the biggest region.
@@ -67,27 +90,27 @@ ARI/NMI over all cells (ground truth = polygon containing the cell centroid). `l
 | 2      |  73 | null: names dealt to random cells (mean of 5) |  0.375 | 0.751 |   nan     |
 | 2      |  73 | k-means on names, no contiguity               |  0.357 | 0.735 |   nan     |
 
-## Lifted tokens per region, names ring 2, k=20
+## Lifted tokens per region, names ring 1, k=20
 
-- region 0: qatar, sas, ord, swissport, ohare, hare
-- region 1: cragin, mont, galewood, kelvyn, portage, dunning
-- region 2: hegewisch, eastside, tapatio, lanes, norfolk, florian
-- region 3: indio, comales, villita, brighton, fruteria, milagro
-- region 4: zabiha, bais, lincolnwood, lubavitch, sauganash, morse
-- region 5: stony, chatham, josephine, avalon, townsend, jeffery
-- region 6: calumet, skyway, pullman, amigos, salem, norfolk
-- region 7: bronzeville, hyde, kenwood, quadrangle, obama, drexel
-- region 8: saic, ontario, divorce, iparkit, greektown, clothiers
-- region 9: beverly, hills, greenwood, tommie, xavier, wholistic
-- region 10: edgebrook, norwood, gladstone, cumberland, bankers, edison
-- region 11: altgeld, carver, lively, convenience, trades, concordia
-- region 12: englewood, auburn, xperience, gresham, fernwood, tish
-- region 13: habilitative, tilton, homan, douglass, kipp, westside
-- region 14: cargo, fcu, newsstand, swissport, berghoff, airline
-- region 15: mdw, clearing, aeropuerto, midway, caray, hale
-- region 16: sheffield, clarendon, exlsly, southport, clybourn, wicker
-- region 17: bridgeport, chinatown, hotpot, dim, pilsen, liu
-- region 18: roseland, pullman, marshfield, pipe, humble, jurisdiction
-- region 19: marsh, processing, port, railroad, liquid, materials
+- region 0: hegewisch, calumet, tapatio, norfolk, eastside, task
+- region 1: jarvis, clarendon, lac, sather, sheffield, edgewater
+- region 2: ashburn, pisgah, stony, gulf, auburn, sox
+- region 3: entry, enrollment, cargo, aviation, airline, flights
+- region 4: milagro, lineage, villita, brighton, teloloapan, tortilleria
+- region 5: edgebrook, zabiha, bais, ewa, sauganash, norwood
+- region 6: chinatown, wicker, humboldt, bucktown, bridgeport, hotpot
+- region 7: mdw, midway, clearing, aeropuerto, fonseca, caray
+- region 8: beverly, hills, greenwood, tommie, xavier, celtic
+- region 9: englewood, antioch, canaan, tish, benedict, seashell
+- region 10: hyde, quadrangle, cornell, uchicago, kenwood, drexel
+- region 11: cragin, galewood, avondale, kelvyn, mont, hermosa
+- region 12: sas, qatar, ord, swissport, uso, airways
+- region 13: tilton, lawndale, homan, kipp, habilitative, kostner
+- region 14: altgeld, carver, trades, tca, lively, cics
+- region 15: divorce, iparkit, gynecologic, valuation, manhattan, centric
+- region 16: ohare, delta, hare, airport, terminal, airlines
+- region 17: marsh, processing, nature, trail, steel, indian
+- region 18: roseland, pullman, chesterfield, fernwood, langley, dominique
+- region 19: cargo, fcu, newsstand, swissport, berghoff, ord
 
 Maps: `figures/2026-10-06-chicago-signal-check-r9-maps.png`, `figures/2026-10-06-chicago-signal-check-r9-density.png`.
