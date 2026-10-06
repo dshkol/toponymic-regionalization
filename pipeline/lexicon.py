@@ -33,7 +33,6 @@ from collections import defaultdict
 import h3
 import numpy as np
 import pyarrow.parquet as pq
-from esda.moran import Moran
 from libpysal.weights import W
 
 from names import MIN_SUPPORT, STOP, Support, log_ratio, normalize, phrases
@@ -60,6 +59,17 @@ def h3_weights(cells):
     return W(neighbors, silence_warnings=True)
 
 
+def morans_i(x, Wr, s0):
+    """Moran's I with a row-standardized sparse W, the same number esda.Moran gives
+    (checked on SF to 1e-12), without esda's per-call overhead; the per-phrase loop
+    over tens of thousands of phrases needs it to be cheap."""
+    z = x - x.mean()
+    zz = float(z @ z)
+    if zz == 0:
+        return float('nan')
+    return float(len(z) / s0 * (z @ (Wr @ z)) / zz)
+
+
 def strip_generic(name):
     """'Valencia Street' -> 'valencia'; used to match phrases to street and division names."""
     return ' '.join(t for t in normalize(name).split() if t not in STOP and not t.isdigit())
@@ -81,13 +91,24 @@ def _names(table, keep):
     return out
 
 
+DIRECTIONS = {'north', 'south', 'east', 'west', 'n', 's', 'e', 'w', 'nw', 'ne', 'sw', 'se'}
+
+
 def street_names(segment_path):
     """Stripped names of drivable roads: 'Valencia Street' -> 'valencia'. Footways,
-    steps, paths and service ways are left out; their names repeat the road's."""
+    steps, paths and service ways are left out; their names repeat the road's.
+    A leading direction is also dropped ('North Western Avenue' -> 'western'),
+    since Chicago and Toronto prefix most roads that way and business names do not."""
     if segment_path is None or not segment_path.exists():
         return set()
     t = pq.read_table(segment_path, columns=['subtype', 'class', 'names'])
-    return _names(t, lambda r: r['subtype'] == 'road' and r['class'] in ROAD_CLASSES)
+    base = _names(t, lambda r: r['subtype'] == 'road' and r['class'] in ROAD_CLASSES)
+    out = set(base)
+    for n in base:
+        toks = n.split()
+        if len(toks) > 1 and toks[0] in DIRECTIONS:
+            out.add(' '.join(toks[1:]))
+    return out
 
 
 def division_names(division_path, reference_names=()):
@@ -106,10 +127,11 @@ def division_names(division_path, reference_names=()):
 
 
 def name_parts(name):
-    """'Castro/Upper Market' -> {'castro upper market', 'castro', 'upper market'}.
-    Official polygon names often join two places; each part is a term."""
+    """'Castro/Upper Market' -> {'castro upper', 'castro', 'upper'} (market is a stopword).
+    Official polygon names often join two places ('Kensington-Cedar Cottage',
+    'Oceanview/Merced/Ingleside'); each part is a term, and so is the whole."""
     parts = {strip_generic(name)}
-    for piece in re.split(r'\s*[/,]\s*|\s+-\s+|—|–', name):
+    for piece in re.split(r'\s*[/,]\s*|\s*-\s*|—|–', name):
         parts.add(strip_generic(piece))
     parts.discard('')
     return parts
@@ -140,13 +162,20 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
         sites_by_cell[p.cell].add(key)
         all_sites.add(key)
         is_landmark = p.group in LANDMARK_GROUPS or p.category in LANDMARK_CATEGORIES
+        # A phrase is brand evidence when it is part of the declared brand's own
+        # name, not merely when it appears in a branded record ('Tim Hortons
+        # Davie St' must not make 'davie' a brand).
+        brand_phrases = phrases(r.brand) if r.brand else ()
         for ph in phrases(r.name):
             by_phrase_cell[ph][p.cell].add(r)
             citywide[ph].add(r)
-            branded[ph] += bool(r.brand)
+            branded[ph] += ph in brand_phrases
             landmark[ph] += is_landmark
     n_sites = len(all_sites)
     w = h3_weights(cells)
+    w.transform = 'r'
+    Wr = w.sparse.tocsr()
+    s0 = Wr.sum()
     cell_index = {c: i for i, c in enumerate(cells)}
     cell_xy = {c: h3.cell_to_latlng(c) for c in cells}
     disks = {c: [n for n in h3.grid_disk(c, 1) if n in cell_set] for c in cells}
@@ -160,7 +189,7 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
         vec = np.zeros(len(cells))
         for c, u in units.items():
             vec[cell_index[c]] = u
-        mi = Moran(vec, w, permutations=0).I if vec.std() > 0 else float('nan')
+        mi = morans_i(vec, Wr, s0)
         # Best 1-ring disk with enough units: cadmus's inside-vs-rest ratio at one fixed scale.
         best = -math.inf
         for c in units:

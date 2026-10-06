@@ -1,0 +1,1737 @@
+{
+ "summary": {
+  "city": "chicago",
+  "polygons": 73,
+  "all": {
+   "hit1": 0.164,
+   "partial1": 0.205,
+   "hit3": 0.219
+  },
+  "area": {
+   "hit1": 0.192,
+   "partial1": 0.219,
+   "hit3": 0.233
+  },
+  "no_top_term": 17
+ },
+ "polygons": [
+  {
+   "name": "Ashburn",
+   "places": 902,
+   "all": {
+    "top3": [
+     "venerable",
+     "bede the venerable",
+     "bede"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Mount Greenwood",
+   "places": 495,
+   "all": {
+    "top3": [
+     "mount greenwood",
+     "sxu",
+     "saint xavier"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "mount greenwood",
+     "saint xavier"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "West Pullman",
+   "places": 434,
+   "all": {
+    "top3": [
+     "roseland"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "roseland"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Morgan Park",
+   "places": 706,
+   "all": {
+    "top3": [
+     "longwood",
+     "shoop",
+     "roseland"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "shoop",
+     "roseland",
+     "beverly hills"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Hegewisch",
+   "places": 195,
+   "all": {
+    "top3": [
+     "hegewisch"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "hegewisch"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "East Side",
+   "places": 394,
+   "all": {
+    "top3": [
+     "balanoff"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Roseland",
+   "places": 860,
+   "all": {
+    "top3": [
+     "roseland",
+     "rosemoor",
+     "csu"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "roseland",
+     "rosemoor"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Pullman",
+   "places": 281,
+   "all": {
+    "top3": [
+     "historic pullman",
+     "gately"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "South Deering",
+   "places": 407,
+   "all": {
+    "top3": [
+     "stony island",
+     "stony"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "stony"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Beverly",
+   "places": 1002,
+   "all": {
+    "top3": [
+     "beverly hills"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "beverly hills"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Washington Heights",
+   "places": 523,
+   "all": {
+    "top3": [
+     "brainerd",
+     "longwood"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Calumet Heights",
+   "places": 546,
+   "all": {
+    "top3": [
+     "stony",
+     "stony island",
+     "advocate trinity"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "stony",
+     "advocate trinity",
+     "ailbe"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Burnside",
+   "places": 87,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Auburn Gresham",
+   "places": 945,
+   "all": {
+    "top3": [
+     "stor",
+     "englewood"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "stor",
+     "englewood"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Avalon Park",
+   "places": 329,
+   "all": {
+    "top3": [
+     "stony",
+     "stony island"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "stony"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Chatham",
+   "places": 942,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "South Chicago",
+   "places": 624,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Riverdale",
+   "places": 105,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Forest Glen",
+   "places": 908,
+   "all": {
+    "top3": [
+     "edgebrook",
+     "sauganash",
+     "edens"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "edgebrook",
+     "edens",
+     "forest glen"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Edison Park",
+   "places": 521,
+   "all": {
+    "top3": [
+     "avondale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "avondale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "O'Hare",
+   "places": 1325,
+   "all": {
+    "top3": [
+     "ord terminal",
+     "life agent",
+     "bankers life agent"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "ord terminal"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Norwood Park",
+   "places": 1435,
+   "all": {
+    "top3": [
+     "thecla",
+     "presence resurrection",
+     "harlem foster"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "presence resurrection",
+     "harlem foster"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Jefferson Park",
+   "places": 940,
+   "all": {
+    "top3": [
+     "forest glen",
+     "habloft"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "forest glen"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "North Park",
+   "places": 992,
+   "all": {
+    "top3": [
+     "neiu",
+     "neiu student",
+     "lincoln village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "lincoln village",
+     "north park village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Albany Park",
+   "places": 1422,
+   "all": {
+    "top3": [
+     "ravenswood manor",
+     "north kilpatrick",
+     "albany bank"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "ravenswood manor",
+     "albany bank"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Portage Park",
+   "places": 1993,
+   "all": {
+    "top3": [
+     "six corners",
+     "robert bellarmine",
+     "cragin"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "six corners",
+     "cragin"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Dunning",
+   "places": 1117,
+   "all": {
+    "top3": [
+     "francis borgia",
+     "borgia",
+     "latvian"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Irving Park",
+   "places": 1928,
+   "all": {
+    "top3": [
+     "old irving",
+     "viator",
+     "schurz"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "old irving",
+     "viator",
+     "avondale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "North Center",
+   "places": 2317,
+   "all": {
+    "top3": [
+     "roscoe village",
+     "northcenter",
+     "guaranteed rate nmls"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "roscoe village",
+     "northcenter",
+     "guaranteed rate nmls"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Lake View",
+   "places": 8566,
+   "all": {
+    "top3": [
+     "lakeview",
+     "southport",
+     "lake view"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "lake view",
+     "advocate illinois masonic",
+     "ppm apartments"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Uptown",
+   "places": 2796,
+   "all": {
+    "top3": [
+     "clarendon",
+     "weiss memorial hospital",
+     "weiss memorial"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "weiss memorial hospital",
+     "weiss memorial",
+     "mccutcheon"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Lincoln Square",
+   "places": 2135,
+   "all": {
+    "top3": [
+     "lincoln square",
+     "ravenswood",
+     "swedish hospital"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "lincoln square",
+     "swedish hospital",
+     "old town"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Edgewater",
+   "places": 2001,
+   "all": {
+    "top3": [
+     "edgewater",
+     "andersonville",
+     "winthrop"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "edgewater",
+     "andersonville"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "West Ridge",
+   "places": 2085,
+   "all": {
+    "top3": [
+     "zabiha",
+     "west ridge",
+     "zabiha halal"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "zabiha",
+     "west ridge",
+     "zabiha halal"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Rogers Park",
+   "places": 1485,
+   "all": {
+    "top3": [
+     "pratt",
+     "glenwood",
+     "jarvis square"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "jarvis square"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Lincoln Park",
+   "places": 7372,
+   "all": {
+    "top3": [
+     "depaul",
+     "clybourn",
+     "volkers"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "depaul",
+     "riverpoint",
+     "kale realty"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "West Town",
+   "places": 8438,
+   "all": {
+    "top3": [
+     "wicker",
+     "bucktown",
+     "west town"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "bucktown",
+     "west town",
+     "river west"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Near North Side",
+   "places": 13758,
+   "all": {
+    "top3": [
+     "river north",
+     "streeterville",
+     "sotheby"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "river north",
+     "streeterville",
+     "sotheby"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Loop",
+   "places": 16584,
+   "all": {
+    "top3": [
+     "morgan stanley",
+     "wacker",
+     "saic"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "morgan stanley",
+     "saic",
+     "art institute"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Near West Side",
+   "places": 10310,
+   "all": {
+    "top3": [
+     "uic",
+     "west loop",
+     "fulton"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "uic",
+     "west loop",
+     "loop"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Near South Side",
+   "places": 1631,
+   "all": {
+    "top3": [
+     "south loop",
+     "soldier field",
+     "soldier"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "south loop",
+     "soldier field",
+     "soldier"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "South Shore",
+   "places": 1001,
+   "all": {
+    "top3": [
+     "living south shore",
+     "living south",
+     "stony"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "living south shore",
+     "living south",
+     "stony"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Woodlawn",
+   "places": 635,
+   "all": {
+    "top3": [
+     "obama presidential",
+     "hyde"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "obama presidential",
+     "hyde"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Greater Grand Crossing",
+   "places": 939,
+   "all": {
+    "top3": [
+     "grand crossing",
+     "columbanus"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Chicago Lawn",
+   "places": 922,
+   "all": {
+    "top3": [
+     "holy cross hospital",
+     "cross hospital"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "West Englewood",
+   "places": 625,
+   "all": {
+    "top3": [
+     "lindblom",
+     "englewood"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "englewood"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Englewood",
+   "places": 652,
+   "all": {
+    "top3": [
+     "englewood",
+     "greater englewood",
+     "kennedy king"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "englewood",
+     "greater englewood"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Washington Park",
+   "places": 273,
+   "all": {
+    "top3": [
+     "hyde"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "hyde"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Hyde Park",
+   "places": 3845,
+   "all": {
+    "top3": [
+     "hyde",
+     "kimbark",
+     "cornell avenue apartments"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "hyde",
+     "cornell avenue apartments",
+     "kenwood"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Fuller Park",
+   "places": 147,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Oakland",
+   "places": 113,
+   "all": {
+    "top3": [
+     "oakwood shores",
+     "mandrake"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "mandrake"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Grand Boulevard",
+   "places": 781,
+   "all": {
+    "top3": [
+     "bronzeville",
+     "legends south",
+     "holy angels"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "bronzeville",
+     "legends south",
+     "bright star"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Kenwood",
+   "places": 1576,
+   "all": {
+    "top3": [
+     "kenwood",
+     "hyde",
+     "bronzeville"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "kenwood",
+     "hyde",
+     "bronzeville"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Douglas",
+   "places": 746,
+   "all": {
+    "top3": [
+     "iit",
+     "bronzeville",
+     "yachts"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "iit",
+     "bronzeville",
+     "yachts"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Bridgeport",
+   "places": 1111,
+   "all": {
+    "top3": [
+     "bridgeport",
+     "archer halsted currency",
+     "archer halsted"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "bridgeport",
+     "zhou",
+     "loop"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "McKinley Park",
+   "places": 495,
+   "all": {
+    "top3": [
+     "sacrament",
+     "blessed sacrament",
+     "bridgeport"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "sacrament",
+     "blessed sacrament",
+     "bridgeport"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Armour Square",
+   "places": 669,
+   "all": {
+    "top3": [
+     "chinatown",
+     "rate field",
+     "guaranteed rate field"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "chinatown",
+     "rate field",
+     "guaranteed rate field"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Lower West Side",
+   "places": 4500,
+   "all": {
+    "top3": [
+     "pilsen",
+     "providencia",
+     "procopius"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "pilsen",
+     "nuevo leon",
+     "little village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "South Lawndale",
+   "places": 1602,
+   "all": {
+    "top3": [
+     "little village",
+     "villita",
+     "lawndale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "little village",
+     "villita",
+     "amazonico"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Brighton Park",
+   "places": 975,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Archer Heights",
+   "places": 574,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "West Elsdon",
+   "places": 361,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Garfield Ridge",
+   "places": 1085,
+   "all": {
+    "top3": [
+     "garfield ridge",
+     "mdw",
+     "midway international airport"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "garfield ridge",
+     "mdw"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "West Lawn",
+   "places": 816,
+   "all": {
+    "top3": [
+     "west lawn"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "west lawn"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Clearing",
+   "places": 512,
+   "all": {
+    "top3": [
+     "gate realty",
+     "cloud gate realty",
+     "clear ridge"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "clear ridge"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "North Lawndale",
+   "places": 894,
+   "all": {
+    "top3": [
+     "lawndale",
+     "north lawndale",
+     "homan square"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "north lawndale",
+     "homan square",
+     "raybon"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "West Garfield Park",
+   "places": 520,
+   "all": {
+    "top3": [
+     "sumner"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "sumner"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "East Garfield Park",
+   "places": 595,
+   "all": {
+    "top3": [
+     "hatchery",
+     "fulton"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Austin",
+   "places": 2543,
+   "all": {
+    "top3": [
+     "galewood",
+     "grane",
+     "beth anne"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "grane"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Montclare",
+   "places": 384,
+   "all": {
+    "top3": [
+     "mont clare",
+     "mont"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Belmont Cragin",
+   "places": 2078,
+   "all": {
+    "top3": [
+     "cragin",
+     "bricktown",
+     "belmont central"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "cragin",
+     "bricktown",
+     "belmont central"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Hermosa",
+   "places": 553,
+   "all": {
+    "top3": [
+     "kelvyn"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "kelvyn"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Avondale",
+   "places": 1453,
+   "all": {
+    "top3": [
+     "avondale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "avondale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  }
+ ]
+}

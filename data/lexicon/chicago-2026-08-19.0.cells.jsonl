@@ -1,0 +1,556 @@
+{"phrase": "neiu", "class": "landmark", "cells": {"892664ca08fffff": 1, "892664d8a4bffff": 20, "892664d9997ffff": 9, "892664cad83ffff": 1}}
+{"phrase": "uic", "class": "area", "cells": {"892664c8113ffff": 1, "892664c88cbffff": 1, "892664cc25bffff": 1, "892664caa23ffff": 1, "892664cac2fffff": 1, "892664c1a4bffff": 10, "892664ca987ffff": 6, "892664ca997ffff": 1, "892664ca98fffff": 4, "892664ca9bbffff": 1, "892664ca9b3ffff": 17, "892664ca9b7ffff": 8, "892664ca9a3ffff": 1, "892664cf4dbffff": 5, "892664ca9abffff": 1, "892664ca973ffff": 3, "892664ca90fffff": 2, "892664ca90bffff": 11, "892664ca91bffff": 1, "892664ca957ffff": 9, "892664ca947ffff": 23, "892664ca943ffff": 5, "892664ca95bffff": 1, "892664cab97ffff": 2, "892664ca97bffff": 2, "892664ca94fffff": 1, "892664cf693ffff": 1, "892664cc1b3ffff": 1, "892664ccc9bffff": 1, "892664cf4c3ffff": 3, "892664cf4d3ffff": 10, "892664c1a6bffff": 1, "892664ca9a7ffff": 2, "892664c1a4fffff": 25, "892664c1a43ffff": 1, "892664c1a73ffff": 1, "892664c1a03ffff": 1, "892664cf5d7ffff": 1, "892664c1a8fffff": 2}}
+{"phrase": "morgan stanley", "class": "area", "cells": {"892664c1a1bffff": 1, "892664c1ac7ffff": 45, "892664c1a8bffff": 1, "892664c1a13ffff": 1}}
+{"phrase": "sauganash", "class": "street", "cells": {"892664d9807ffff": 3, "892664d9817ffff": 3, "892664d98abffff": 5, "892664d98a3ffff": 2, "892664d98a7ffff": 2, "892664d98b7ffff": 2, "892664d988bffff": 1, "892664d9d63ffff": 1, "892664d9d6bffff": 3, "892664d99dbffff": 1, "892664d99cbffff": 1, "892664d8a07ffff": 1, "892664c1ad3ffff": 1}}
+{"phrase": "depaul", "class": "area", "cells": {"892664cf2c3ffff": 1, "892664ca8abffff": 1, "892664c134fffff": 1, "892664ca5cbffff": 1, "892664ca50bffff": 1, "892664c104bffff": 1, "892664c12a7ffff": 27, "892664c12b7ffff": 2, "892664c12a3ffff": 3, "892664c12afffff": 8, "892664c12abffff": 1, "892664c120bffff": 1, "892664c13dbffff": 10, "892664c13cfffff": 1, "892664d89c3ffff": 1, "892664c1abbffff": 7, "892664c1aa3ffff": 1, "892664c1a8fffff": 5, "892664c1a87ffff": 6, "892664c106fffff": 1, "892664c106bffff": 5}}
+{"phrase": "edgebrook", "class": "area", "cells": {"89275934dd7ffff": 1, "892664d9e5bffff": 1, "892664d9a6fffff": 1, "892664d984bffff": 1, "892664d9e53ffff": 2, "892664d9ecfffff": 1, "892664d9e57ffff": 1, "892664d9e3bffff": 1, "892664d98dbffff": 1, "892664d98c3ffff": 1, "892664d98cfffff": 1, "892664d98cbffff": 10, "892664d9853ffff": 3, "892664d9e27ffff": 13, "892664d9ab7ffff": 1, "892664d98a7ffff": 1}}
+{"phrase": "englewood", "class": "mixed", "cells": {"892664cd067ffff": 1, "892664cde37ffff": 1, "892664cd133ffff": 1, "892664cd10bffff": 1, "892664cd543ffff": 1, "892664cd563ffff": 1, "892664cd197ffff": 3, "892664cd187ffff": 1, "892664cd523ffff": 1, "892664cd1b3ffff": 2, "892664cc25bffff": 1, "892664cd1b7ffff": 1, "892664cd52fffff": 1, "892664cd507ffff": 1, "892664cf073ffff": 1, "892664cc247ffff": 1, "892664cc21bffff": 4, "892664cc2c3ffff": 3, "892664cc267ffff": 2, "892664cdc9bffff": 1, "892664cdc13ffff": 1, "892664cdc8fffff": 1, "892664cdc23ffff": 1, "892664cd8abffff": 1, "892664cd1afffff": 1, "892664cd813ffff": 1, "892664cdd43ffff": 1, "892664cc3c7ffff": 2, "892664cc3dbffff": 1, "892664cdc87ffff": 1, "892664cdc83ffff": 1, "892664cc22fffff": 2, "892664cc223ffff": 1, "892664cc22bffff": 1, "892664cc23bffff": 1, "892664cc203ffff": 3, "892664cc217ffff": 2, "892664cc207ffff": 2, "892664cc233ffff": 2, "892664cc2b3ffff": 1, "892664cc2bbffff": 6, "892664cc04bffff": 2, "892664cc28bffff": 1, "892664cc213ffff": 12, "892664cc667ffff": 1, "892664cc293ffff": 1}}
+{"phrase": "humboldt", "class": "street", "cells": {"892664ca377ffff": 1, "892664cae0fffff": 2, "892664cae07ffff": 1, "892664caed7ffff": 5, "892664ca167ffff": 2, "892664cae13ffff": 2, "892664cae8fffff": 7, "892664caebbffff": 2, "892664cae87ffff": 1, "892664cae9bffff": 1, "892664cae83ffff": 1, "892664cae93ffff": 3, "892664cae97ffff": 1, "892664cac5bffff": 1, "892664cac4bffff": 1, "892664caea3ffff": 4, "892664caeb3ffff": 1, "892664caeabffff": 2, "892664cae23ffff": 3, "892664caaa7ffff": 1, "892664cac27ffff": 1, "892664cac7bffff": 1, "892664caeb7ffff": 1, "892664c8493ffff": 1, "892664ca12bffff": 1}}
+{"phrase": "iit", "class": "area", "cells": {"892664cf193ffff": 1, "892664cf50bffff": 6, "892664cf50fffff": 2, "892664cf577ffff": 5, "892664cf567ffff": 3, "892664cf563ffff": 2, "892664cf573ffff": 5, "892664cf51bffff": 1, "892664c1acfffff": 2, "892664c1e63ffff": 1}}
+{"phrase": "lincoln square", "class": "division", "cells": {"892664ca493ffff": 2, "892664ca497ffff": 1, "892664d8a2fffff": 2, "892664d8b5bffff": 4, "892664d8b57ffff": 15, "892664d8b53ffff": 6, "892664d8bcfffff": 18, "892664d8bcbffff": 1, "892664d8b43ffff": 3, "892664d8a37ffff": 2, "892664d8aa7ffff": 2, "892664d8bdbffff": 1, "892664d8abbffff": 1, "892664d8a23ffff": 1, "892664d8a07ffff": 2, "892664d8bc7ffff": 2, "892664d8b0bffff": 2, "892664d8b0fffff": 2, "892664d8b2bffff": 2, "892664d8b87ffff": 1, "892664d8babffff": 1, "892664c1e0bffff": 1, "892664c1a87ffff": 1}}
+{"phrase": "andersonville", "class": "division", "cells": {"892664d8817ffff": 6, "892664d888bffff": 1, "892664d8807ffff": 6, "892664d883bffff": 9, "892664d8833ffff": 2, "892664d8823ffff": 19, "892664d882fffff": 7, "892664d882bffff": 2, "892664d880fffff": 1, "892664d8877ffff": 1, "892664d8b97ffff": 1, "892664d88a3ffff": 1, "892664d88afffff": 2, "892664d89cbffff": 2, "892664d89dbffff": 1, "892664c1e07ffff": 1}}
+{"phrase": "chinatown", "class": "area", "cells": {"892664caa7bffff": 1, "892664cf0afffff": 1, "892664cf087ffff": 1, "892664cf433ffff": 1, "892664cf4afffff": 3, "892664cf4a3ffff": 20, "892664cf4abffff": 2, "892664cf4bbffff": 1, "892664cf417ffff": 1, "892664c1bcbffff": 1, "892664cf4b3ffff": 1, "892664cf5dbffff": 2}}
+{"phrase": "bronzeville", "class": "area", "cells": {"892664c1203ffff": 1, "892664cc83bffff": 1, "892664cc447ffff": 6, "892664cf127ffff": 1, "892664cc45bffff": 1, "892664cc443ffff": 2, "892664cc4cfffff": 1, "892664cc4c3ffff": 10, "892664cc4dbffff": 1, "892664cc4cbffff": 2, "892664cf133ffff": 1, "892664cf1abffff": 1, "892664cc4d3ffff": 2, "892664cf1a3ffff": 2, "892664cf1b3ffff": 2, "892664cf1b7ffff": 1, "892664cf1bbffff": 1, "892664cf117ffff": 2, "892664cf193ffff": 1, "892664cf187ffff": 1, "892664cf183ffff": 1, "892664ce24bffff": 1, "892664cf197ffff": 1, "892664cf52bffff": 1, "892664cf53bffff": 2, "892664cf523ffff": 2, "892664cf503ffff": 1, "892664cf577ffff": 1, "892664cf567ffff": 1, "892664cf5d7ffff": 1, "892664cf5cbffff": 1, "892664cf51bffff": 2, "892664cf58fffff": 1, "892664cf537ffff": 1, "892664ce2dbffff": 1, "892664ce20fffff": 1, "892664ce23bffff": 1, "892664ce277ffff": 1, "892664ce26fffff": 1, "892664ce267ffff": 2, "892664cc49bffff": 3, "892664cc4d7ffff": 1, "892664cc48bffff": 5, "892664cc413ffff": 1, "892664cc417ffff": 1, "892664cc483ffff": 2, "892664ce223ffff": 1}}
+{"phrase": "old town", "class": "area", "cells": {"892664c843bffff": 1, "892664cac33ffff": 1, "892664ca6a3ffff": 1, "892664ca477ffff": 1, "892664c13c3ffff": 1, "892664d8b0bffff": 3, "892664c16cbffff": 1, "892664c1abbffff": 1, "892664c1adbffff": 1, "892664c1e47ffff": 1, "892664c130fffff": 1, "892664c106fffff": 1, "892664c132fffff": 1, "892664c13abffff": 4, "892664c13bbffff": 1, "892664c1323ffff": 1, "892664c1337ffff": 3, "892664c13afffff": 3, "892664c1ecbffff": 5, "892664c13a3ffff": 18, "892664c13b3ffff": 8, "892664c1387ffff": 1, "892664c1e53ffff": 1, "892664c1edbffff": 7, "892664c13a7ffff": 8, "892664c13b7ffff": 1}}
+{"phrase": "six corners", "class": "area", "cells": {"892664ca64fffff": 2, "892664ca647ffff": 8, "892664ca60bffff": 1, "892664ca673ffff": 1, "892664ca657ffff": 2}}
+{"phrase": "edgewater", "class": "mixed", "cells": {"892664d8d5bffff": 4, "892664d8c27ffff": 1, "892664d8c23ffff": 1, "892664d8c2fffff": 2, "892664d8897ffff": 6, "892664d8c2bffff": 3, "892664d8c3bffff": 1, "892664d8c67ffff": 1, "892664d81abffff": 1, "892664d888bffff": 2, "892664d8817ffff": 1, "892664d8807ffff": 2, "892664d883bffff": 1, "892664d88bbffff": 3, "892664d8887ffff": 3, "892664d8d4bffff": 5, "892664d88a3ffff": 4, "892664d89dbffff": 2, "892664d8837ffff": 1, "892664d89cbffff": 1, "892664d89d3ffff": 5, "892664d88b7ffff": 10, "892664d88a7ffff": 1, "892664d8d4fffff": 1, "892664d8d6bffff": 2, "892664d8d7bffff": 1, "892664c102bffff": 1, "892664c1e13ffff": 1}}
+{"phrase": "bridgeport", "class": "division", "cells": {"892664cf04fffff": 1, "892664cf053ffff": 2, "892664cf063ffff": 1, "892664cf0cbffff": 2, "892664cf0c3ffff": 2, "892664cf073ffff": 3, "892664cf077ffff": 1, "892664cf00fffff": 2, "892664cf01bffff": 1, "892664cf0c7ffff": 1, "892664cf013ffff": 3, "892664cf003ffff": 2, "892664cf03bffff": 4, "892664cf0dbffff": 1, "892664cc4c3ffff": 1, "892664cf543ffff": 1, "892664cf54bffff": 3, "892664cf087ffff": 3, "892664cf0a7ffff": 1, "892664cf1cfffff": 1, "892664cf033ffff": 8, "892664cf037ffff": 1, "892664cf1dbffff": 1, "892664cf007ffff": 1, "892664cf0abffff": 6, "892664cf0afffff": 1, "892664cf0b3ffff": 3, "892664cf097ffff": 1, "892664cf08fffff": 7, "892664cf017ffff": 1, "892664cf093ffff": 1, "892664cf467ffff": 1, "892664cf42fffff": 1}}
+{"phrase": "hyde", "class": "mixed", "cells": {"89266452d17ffff": 1, "89266456393ffff": 1, "892664cc443ffff": 1, "892664cc457ffff": 1, "892664cc6a7ffff": 1, "892664cc0d3ffff": 1, "892664cc013ffff": 1, "892664cc0b7ffff": 1, "892664cc57bffff": 1, "892664cc54fffff": 1, "892664cc54bffff": 1, "892664cc40bffff": 1, "892664cc433ffff": 1, "892664cc407ffff": 1, "892664cc4abffff": 1, "892664cc4bbffff": 2, "892664cc42fffff": 1, "892664cc5c3ffff": 2, "892664cc5cfffff": 3, "892664cc5d7ffff": 2, "892664cc5cbffff": 2, "892664cc5dbffff": 4, "892664cc4afffff": 1, "892664cc4a3ffff": 2, "892664cc4b7ffff": 4, "892664cc4a7ffff": 4, "892664ce37bffff": 10, "892664ce36bffff": 14, "892664cc5d3ffff": 2, "892664cc59bffff": 11, "892664ce36fffff": 2, "892664ce363ffff": 28, "892664ce373ffff": 8, "892664ce367ffff": 10, "892664ce377ffff": 7, "892664cc593ffff": 7, "892664cc583ffff": 2, "892664cc58bffff": 1, "892664cc5c7ffff": 1, "892664cc53bffff": 2, "892664cc50fffff": 1, "892664cc503ffff": 1, "892664cc52bffff": 1, "892664cc1b3ffff": 1, "892664cc587ffff": 1, "892664cc4c3ffff": 1, "892664c1aabffff": 1, "892664ce257ffff": 1, "892664ce267ffff": 1, "892664cc49bffff": 2, "892664cc417ffff": 1, "892664cc48fffff": 2, "892664cc497ffff": 1, "892664ce343ffff": 1, "892664ce353ffff": 3, "892664ce35bffff": 6, "892664ce30bffff": 2, "892664c1e6bffff": 1, "892664c1e63ffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "roseland", "class": "division", "cells": {"892664cd163ffff": 1, "8926645662bffff": 1, "892664562d3ffff": 1, "89266456147ffff": 1, "8926645606fffff": 1, "89266456047ffff": 1, "892664560d7ffff": 2, "89266456053ffff": 1, "892664566afffff": 1, "892664566b3ffff": 1, "89266456463ffff": 1, "89266456417ffff": 2, "8926645648fffff": 1, "89266456423ffff": 1, "8926645642fffff": 2, "8926645654bffff": 1, "89266456087ffff": 1, "892664560b3ffff": 4, "89266456097ffff": 2, "89266456093ffff": 2, "89266456083ffff": 1, "8926645609bffff": 2, "8926645608fffff": 1, "892664560afffff": 1, "8926645654fffff": 1, "8926645658bffff": 1, "892664cc867ffff": 1, "892664cc86bffff": 1}}
+{"phrase": "ravenswood", "class": "street", "cells": {"892664cac13ffff": 1, "892664cacbbffff": 1, "892664cf447ffff": 1, "892664d9b87ffff": 1, "892664d8b67ffff": 1, "892664ca41bffff": 1, "892664ca493ffff": 1, "892664ca4b3ffff": 3, "892664ca4bbffff": 1, "892664ca487ffff": 1, "892664ca497ffff": 1, "892664d8b5bffff": 1, "892664d8b6bffff": 1, "892664d8b6fffff": 1, "892664d8b7bffff": 1, "892664d8b53ffff": 1, "892664d8a8fffff": 1, "892664d81abffff": 1, "892664d8c6bffff": 1, "892664d8b93ffff": 2, "892664d882bffff": 1, "892664d8867ffff": 4, "892664d8873ffff": 1, "892664d8b17ffff": 6, "892664d8b13ffff": 3, "892664d8b03ffff": 4, "892664d8b8bffff": 4, "892664d8bd7ffff": 1, "892664d8bc7ffff": 1, "892664d8b0bffff": 1, "892664d8b0fffff": 1, "892664d8b2bffff": 2, "892664d8b07ffff": 9, "892664d8b23ffff": 1, "892664d8b27ffff": 3, "892664d8b33ffff": 5, "892664d8bafffff": 3, "892664d8babffff": 2, "892664d8b8fffff": 4, "892664d8bbbffff": 4, "892664d8b87ffff": 2, "892664d8b97ffff": 1, "892664d8bb7ffff": 1, "892664c1abbffff": 1}}
+{"phrase": "old irving", "class": "area", "cells": {"892664ca8a3ffff": 1, "892664ca607ffff": 4, "892664ca6afffff": 1, "892664ca6b3ffff": 1, "892664ca677ffff": 2, "892664ca60fffff": 7, "892664ca603ffff": 1, "892664ca68bffff": 1, "892664cb533ffff": 1}}
+{"phrase": "lawndale", "class": "street", "cells": {"892664c8383ffff": 1, "892664c8c53ffff": 1, "892664c8c4fffff": 1, "892664c8877ffff": 1, "892664cd373ffff": 1, "892664cd67bffff": 1, "892664c8833ffff": 1, "892664c89cfffff": 1, "892664c8d4fffff": 1, "892664c88b7ffff": 1, "892664c8883ffff": 1, "892664c8893ffff": 2, "892664c8c2bffff": 1, "892664c88d7ffff": 1, "892664c8c77ffff": 1, "892664c8c23ffff": 3, "892664c8c2fffff": 4, "892664c8c07ffff": 1, "892664c8c33ffff": 1, "892664c8c37ffff": 1, "892664c8d4bffff": 1, "892664c8d5bffff": 1, "892664c8d57ffff": 1, "892664c8dc3ffff": 1, "892664c8d03ffff": 1, "892664c8dbbffff": 1, "892664c8da3ffff": 1, "892664c8d9bffff": 1, "892664cab6bffff": 1, "892664c8ddbffff": 1, "892664c8ca7ffff": 2, "892664cab4bffff": 3, "892664c8c97ffff": 3, "892664cab5bffff": 1, "892664cab43ffff": 2, "892664cab47ffff": 1, "892664cab3bffff": 2, "892664cab1bffff": 1, "892664caa67ffff": 1, "892664c8cd7ffff": 1, "892664c8cbbffff": 2, "892664c8c1bffff": 1, "892664c8cc7ffff": 1, "892664caa07ffff": 1, "892664ca333ffff": 1, "892664cabbbffff": 1}}
+{"phrase": "beverly hills", "class": "area", "cells": {"892664cdb63ffff": 1, "892664cdb7bffff": 1, "8926645759bffff": 1, "892664cdbc7ffff": 6, "892664cd86fffff": 1, "892664cdb97ffff": 1, "892664cd867ffff": 2, "892664cdb8bffff": 1, "892664cdb8fffff": 2, "892664566c3ffff": 1, "892664575b3ffff": 1, "89266457517ffff": 1, "89266457507ffff": 1}}
+{"phrase": "southport", "class": "street", "cells": {"892664cad4fffff": 1, "892664ca5a7ffff": 1, "892664c166bffff": 1, "892664c160bffff": 4, "892664c1673ffff": 13, "892664c161bffff": 4, "892664c16cfffff": 3, "892664c1613ffff": 1, "892664c1677ffff": 1, "892664c1667ffff": 2, "892664c1283ffff": 3, "892664c1207ffff": 1, "892664c1217ffff": 1, "892664c128bffff": 1, "892664c128fffff": 1, "892664c1223ffff": 1, "892664c16c3ffff": 1, "892664c16b3ffff": 1}}
+{"phrase": "lakeshore east", "class": "area", "cells": {"892664c1e27ffff": 8, "892664c18cbffff": 2, "892664c1e37ffff": 2}}
+{"phrase": "streeterville", "class": "area", "cells": {"892664d88a3ffff": 1, "892664c1e7bffff": 1, "892664c1e3bffff": 1, "892664c1e33ffff": 6, "892664c1eafffff": 4, "892664c1e07ffff": 8, "892664c1eabffff": 8, "892664c1ebbffff": 2, "892664c1ea3ffff": 1, "892664c1e17ffff": 3, "892664c1e13ffff": 1, "892664c1e8fffff": 1}}
+{"phrase": "fulton", "class": "street", "cells": {"892664c8b33ffff": 1, "892664ca84bffff": 2, "892664ca843ffff": 1, "892664ca803ffff": 1, "892664ca8b3ffff": 1, "892664ca817ffff": 1, "892664ca813ffff": 1, "892664cac43ffff": 1, "892664cac17ffff": 7, "892664cad07ffff": 2, "892664cad73ffff": 5, "892664cad63ffff": 1, "892664cad7bffff": 1, "892664cad6bffff": 1, "892664ca993ffff": 1, "892664cad77ffff": 2, "892664cad0fffff": 1, "892664cad3bffff": 6, "892664cad33ffff": 17, "892664cad23ffff": 6, "892664c1233ffff": 1, "892664d8b2bffff": 1, "892664d89d3ffff": 1, "892664cf40fffff": 1, "892664c1adbffff": 2, "892664cadafffff": 12, "892664cad37ffff": 1, "892664cadabffff": 2, "892664cada3ffff": 1, "892664c1e43ffff": 1, "892664cada7ffff": 1, "892664c1e77ffff": 1, "892664c1053ffff": 2}}
+{"phrase": "west loop", "class": "area", "cells": {"892664cf3dbffff": 1, "892664caa3bffff": 1, "892664caac7ffff": 1, "892664ca803ffff": 1, "892664ca8abffff": 1, "892664cac2fffff": 1, "892664cadcfffff": 1, "892664cadabffff": 2, "892664cad07ffff": 1, "892664cad0bffff": 1, "892664cad63ffff": 1, "892664ca9d3ffff": 2, "892664ca9c3ffff": 2, "892664cad6fffff": 1, "892664cad67ffff": 9, "892664ca99bffff": 2, "892664ca993ffff": 1, "892664cad2bffff": 11, "892664cad77ffff": 4, "892664cad3bffff": 11, "892664cad23ffff": 11, "892664cad27ffff": 15, "892664cad2fffff": 8, "892664c1a5bffff": 8, "892664c1a4bffff": 1, "892664ca997ffff": 9, "892664ca983ffff": 3, "892664ca9a3ffff": 1, "892664ca9bbffff": 1, "892664ca9b3ffff": 1, "892664ca9cfffff": 1, "892664ca9d7ffff": 1, "892664ca5cfffff": 1, "892664c1277ffff": 1, "892664ca5d3ffff": 1, "892664cf033ffff": 1, "892664c1a6fffff": 1, "892664c1a57ffff": 4, "892664c1a53ffff": 6, "892664c1ac3ffff": 5, "892664c1adbffff": 7, "892664c1ad7ffff": 2, "892664cadafffff": 2, "892664cad37ffff": 6, "892664cad33ffff": 3, "892664c1ac7ffff": 2, "892664c1eafffff": 1}}
+{"phrase": "river north", "class": "division", "cells": {"892664ca8b7ffff": 1, "892664c134fffff": 1, "892664d8b8fffff": 1, "892664cadb3ffff": 1, "892664c1e4fffff": 13, "892664c1e4bffff": 4, "892664c1e43ffff": 8, "892664c1e47ffff": 15, "892664c1e7bffff": 13, "892664c1e6bffff": 4, "892664cadb7ffff": 1, "892664cada7ffff": 1, "892664c1e63ffff": 8, "892664c1e67ffff": 3, "892664c1e77ffff": 6, "892664c1e73ffff": 10, "892664c1e0bffff": 14, "892664c1e0fffff": 15, "892664c1e03ffff": 6, "892664c1e07ffff": 3, "892664c1e3bffff": 2, "892664c1ac7ffff": 1, "892664c1a8fffff": 1, "892664cad97ffff": 3, "892664c132fffff": 1, "892664c1e53ffff": 2, "892664c1e57ffff": 8, "892664c1ec7ffff": 1, "892664c1e1bffff": 2, "892664c1e17ffff": 1}}
+{"phrase": "hegewisch", "class": "division", "cells": {"89266419ec7ffff": 1, "89266419ec3ffff": 1, "89266419ed7ffff": 3, "892664193b7ffff": 1, "892664193a7ffff": 5, "892664193b3ffff": 1, "8926641916fffff": 1, "8926641916bffff": 1, "8926641930fffff": 1, "8926641955bffff": 1}}
+{"phrase": "saic", "class": "area", "cells": {"892664c1a93ffff": 1, "892664c1a87ffff": 9, "892664c1a97ffff": 6, "892664c1a83ffff": 3, "892664c184bffff": 3}}
+{"phrase": "south loop", "class": "area", "cells": {"892664cf00fffff": 1, "892664cc2dbffff": 1, "892664cad8fffff": 1, "892664c105bffff": 1, "892664cf033ffff": 1, "892664cf407ffff": 1, "892664c1a6fffff": 4, "892664c1a63ffff": 6, "892664c1a77ffff": 5, "892664c1a13ffff": 1, "892664c1a03ffff": 1, "892664c1a07ffff": 9, "892664c1a3bffff": 5, "892664c1a23ffff": 4, "892664c1a2bffff": 1, "892664c1a67ffff": 5, "892664c1b4bffff": 2, "892664c1b43ffff": 4, "892664c1b53ffff": 4, "892664c1b5bffff": 1, "892664c1a27ffff": 5, "892664c1bcbffff": 10, "892664c1a37ffff": 12, "892664c1a33ffff": 5, "892664c1aabffff": 7, "892664c1a17ffff": 3, "892664c1a8fffff": 1, "892664c1abbffff": 3, "892664c1aa3ffff": 1, "892664c1aafffff": 5, "892664c1bcfffff": 1, "892664c1b6fffff": 3, "892664c1b6bffff": 8, "892664c1b7bffff": 6, "892664c1b47ffff": 4, "892664c1b4fffff": 3, "892664cf4b3ffff": 1, "892664cf4b7ffff": 1, "892664cf4a7ffff": 1, "892664cf5d3ffff": 1, "892664cf5d7ffff": 5, "892664cf5c3ffff": 3, "892664cf5c7ffff": 1, "892664cf5bbffff": 1, "892664c1acfffff": 1, "892664c1e0bffff": 1, "892664c1a8bffff": 1, "892664c1ac7ffff": 1}}
+{"phrase": "wicker", "class": "street", "cells": {"89275934ec3ffff": 1, "89275934dd7ffff": 1, "892664cac5bffff": 1, "892664cac63ffff": 1, "892664cac73ffff": 7, "892664cac7bffff": 2, "892664cac47ffff": 3, "892664cac53ffff": 4, "892664cac57ffff": 1, "892664cacc3ffff": 1, "892664caccfffff": 3, "892664cac1bffff": 10, "892664cac03ffff": 7, "892664cac13ffff": 15, "892664cacc7ffff": 8, "892664cac8fffff": 6, "892664cac17ffff": 8, "892664cacabffff": 13, "892664cac33ffff": 9, "892664cac07ffff": 6, "892664cac0fffff": 8, "892664cac3bffff": 1, "892664cac37ffff": 1, "892664caddbffff": 1, "892664caca7ffff": 2, "892664cacafffff": 12, "892664cacbbffff": 2, "892664cac87ffff": 2, "892664c134fffff": 1, "892664c1373ffff": 1, "892664cad73ffff": 1, "892664ca8b7ffff": 1, "892664ca00fffff": 1, "892664ca0b3ffff": 1, "892664ce26fffff": 1}}
+{"phrase": "stony", "class": "area", "cells": {"892664cc80fffff": 1, "892664cc807ffff": 2, "892664cc803ffff": 1, "892664cc813ffff": 1, "892664cc88bffff": 2, "892664cc8c7ffff": 1, "892664cc8d7ffff": 2, "892664cc58bffff": 1, "892664cc52fffff": 1, "892664cc197ffff": 1, "892664cc1b3ffff": 1, "892664cc1a3ffff": 3, "892664cc1afffff": 1, "892664cccdbffff": 2, "892664ccc7bffff": 1, "892664ccc47ffff": 1, "892664ccc6fffff": 1, "892664ccc63ffff": 1, "892664ccc67ffff": 1, "892664cea0fffff": 1, "892664cc823ffff": 2, "892664cc82fffff": 1}}
+{"phrase": "ubs", "class": "point", "cells": {"892664c1ad7ffff": 21}}
+{"phrase": "pilsen", "class": "area", "cells": {"892664cd687ffff": 1, "892664cf273ffff": 1, "892664cf20bffff": 1, "892664c8c27ffff": 1, "892664c8dc7ffff": 1, "892664c8d87ffff": 1, "892664c8d83ffff": 1, "892664c8d93ffff": 1, "892664cac87ffff": 1, "892664cababffff": 1, "892664cf6d7ffff": 1, "892664cf69bffff": 6, "892664cf68bffff": 2, "892664cf6c7ffff": 4, "892664cf6cfffff": 2, "892664cf6cbffff": 1, "892664cab37ffff": 1, "892664cf64bffff": 1, "892664c8db7ffff": 1, "892664cf67bffff": 3, "892664cf64fffff": 1, "892664cf657ffff": 2, "892664cf61bffff": 2, "892664cf60bffff": 3, "892664cf613ffff": 1, "892664cf617ffff": 1, "892664cf68fffff": 4, "892664cf683ffff": 4, "892664cf697ffff": 19, "892664cf693ffff": 1, "892664cf45bffff": 8, "892664cf687ffff": 2, "892664cf44bffff": 1, "892664ca927ffff": 1, "892664cf453ffff": 6, "892664cf4cfffff": 1, "892664cf457ffff": 1, "892664cf447ffff": 3, "892664cf6b7ffff": 1, "892664ccd17ffff": 1, "892664cf413ffff": 1, "892664cf41bffff": 4, "892664c1a8fffff": 1}}
+{"phrase": "avondale", "class": "mixed", "cells": {"89275936d2fffff": 1, "89275936d63ffff": 2, "89275936d7bffff": 1, "892664ca0cbffff": 1, "892664ca00bffff": 2, "892664ca053ffff": 3, "892664ca04fffff": 1, "892664ca627ffff": 1, "892664ca07bffff": 1, "892664ca1d3ffff": 1, "892664ca03bffff": 1, "892664ca00fffff": 2, "892664ca0afffff": 3, "892664ca0abffff": 1, "892664ca0bbffff": 1, "892664ca0b3ffff": 1, "892664ca0b7ffff": 1, "892664ca54bffff": 1, "892664ca017ffff": 1, "892664ca003ffff": 2, "892664ca097ffff": 6, "892664ca083ffff": 3, "892664ca543ffff": 1, "892664ca547ffff": 1, "892664ca54fffff": 1, "892664ca57bffff": 2, "892664ca56fffff": 5, "892664ca567ffff": 2, "892664ca577ffff": 2, "892664d8acfffff": 1, "892664ca4bbffff": 1}}
+{"phrase": "soldier", "class": "area", "cells": {"892664cf4c3ffff": 1, "892664c1a6bffff": 1, "892664c1bcbffff": 1, "892664c1bc3ffff": 1, "892664c1b1bffff": 2, "892664c1b03ffff": 2, "892664c1b0fffff": 2, "892664c1b83ffff": 2, "892664c1b9bffff": 1}}
+{"phrase": "soldier field", "class": "area", "cells": {"892664cf4c3ffff": 1, "892664c1a6bffff": 1, "892664c1bcbffff": 1, "892664c1bc3ffff": 1, "892664c1b1bffff": 2, "892664c1b03ffff": 2, "892664c1b0fffff": 2, "892664c1b83ffff": 2, "892664c1b9bffff": 1}}
+{"phrase": "sxu", "class": "landmark", "cells": {"892664576b7ffff": 1, "8926645747bffff": 3, "8926645744fffff": 1, "89266457447ffff": 1}}
+{"phrase": "mccormick place", "class": "area", "cells": {"892664cf52fffff": 1, "892664c1abbffff": 1, "892664c1b0fffff": 1, "892664c1b67ffff": 2, "892664c1b63ffff": 4, "892664c1b77ffff": 1, "892664c1b6bffff": 1, "892664cf587ffff": 1, "892664c1b2fffff": 1, "892664c1b2bffff": 2}}
+{"phrase": "homan square", "class": "area", "cells": {"892664cab5bffff": 1, "892664c8c93ffff": 1, "892664c8c97ffff": 5}}
+{"phrase": "art institute", "class": "area", "cells": {"892664c1a93ffff": 1, "892664c1a97ffff": 2, "892664c1a83ffff": 2, "892664c1a87ffff": 4, "892664c184bffff": 8, "892664c1e2fffff": 1}}
+{"phrase": "little village", "class": "area", "cells": {"892664c8877ffff": 2, "892664c8813ffff": 4, "892664c888fffff": 1, "892664c88a3ffff": 2, "892664c88afffff": 1, "892664c88b7ffff": 1, "892664c88b3ffff": 1, "892664c8d4fffff": 5, "892664c8d6bffff": 1, "892664c8d47ffff": 3, "892664c8d3bffff": 2, "892664c8d5bffff": 2, "892664c8d57ffff": 2, "892664c8d0bffff": 1, "892664c8dc7ffff": 1, "892664c8d03ffff": 5, "892664c8d93ffff": 1, "892664cf60bffff": 2, "892664cf683ffff": 1, "892664c1057ffff": 1}}
+{"phrase": "swedish hospital", "class": "area", "cells": {"892664d8a7bffff": 1, "892664d8a3bffff": 7, "892664d8a07ffff": 2}}
+{"phrase": "northwestern memorial", "class": "area", "cells": {"892664cac13ffff": 1, "892664c1667ffff": 1, "892664c105bffff": 1, "892664ce2cfffff": 1, "892664c1e17ffff": 12, "892664c1a83ffff": 3, "892664c1a9bffff": 1, "892664c1eabffff": 8, "892664c1e07ffff": 7, "892664c1ea3ffff": 2}}
+{"phrase": "ubs financial", "class": "point", "cells": {"892664c1ad7ffff": 19}}
+{"phrase": "roscoe village", "class": "area", "cells": {"892664ca0d7ffff": 1, "892664ca513ffff": 2, "892664ca50fffff": 4, "892664ca53bffff": 3, "892664c12cbffff": 1, "892664ca5a7ffff": 2, "892664c166bffff": 1, "892664ca5b7ffff": 3, "892664ca5a3ffff": 2, "892664ca5afffff": 1, "892664ca533ffff": 1, "892664ca5abffff": 1, "892664ca5bbffff": 3, "892664ca517ffff": 1, "892664ca587ffff": 1, "892664ca58fffff": 1, "892664c164fffff": 1, "892664c160bffff": 1, "892664c161bffff": 1, "892664c166fffff": 1}}
+{"phrase": "loop", "class": "division", "cells": {"892664c864bffff": 1, "892664cd253ffff": 1, "892664cf3dbffff": 1, "892664cf00fffff": 1, "892664cc2dbffff": 1, "892664caa3bffff": 1, "892664caac7ffff": 1, "892664ca803ffff": 1, "892664ca8abffff": 1, "892664ca8bbffff": 1, "892664cac2fffff": 1, "892664cadcfffff": 1, "892664cad8fffff": 1, "892664cadabffff": 2, "892664cad07ffff": 1, "892664cad0bffff": 1, "892664cac27ffff": 1, "892664cad7bffff": 1, "892664cad63ffff": 1, "892664ca9d3ffff": 2, "892664ca9c3ffff": 3, "892664cad6fffff": 1, "892664cad67ffff": 9, "892664ca99bffff": 2, "892664ca993ffff": 1, "892664cad2bffff": 11, "892664cad77ffff": 4, "892664cad3bffff": 12, "892664cad23ffff": 12, "892664cad27ffff": 15, "892664cad2fffff": 8, "892664c1a5bffff": 8, "892664c1a4bffff": 1, "892664ca997ffff": 11, "892664ca983ffff": 3, "892664ca9a3ffff": 1, "892664ca9bbffff": 1, "892664ca9b3ffff": 1, "892664ca9cfffff": 1, "892664ca9d7ffff": 1, "892664cf6a3ffff": 1, "892664cf6bbffff": 1, "892664cb593ffff": 1, "892664ca5cfffff": 1, "892664c105bffff": 1, "892664c1277ffff": 1, "892664ca5d3ffff": 1, "892664d8b33ffff": 2, "892664d8bafffff": 1, "892664d89d3ffff": 1, "892664c1697ffff": 1, "892664cc07bffff": 1, "892664cf033ffff": 2, "892664cf407ffff": 1, "892664c1a6fffff": 5, "892664c1a63ffff": 6, "892664c1a57ffff": 6, "892664c1a73ffff": 1, "892664c1a77ffff": 6, "892664c1a13ffff": 7, "892664c1a03ffff": 1, "892664c1a07ffff": 9, "892664c1a3bffff": 5, "892664c1a23ffff": 4, "892664c1a2bffff": 1, "892664c1a67ffff": 5, "892664c1b4bffff": 2, "892664c1b43ffff": 5, "892664c1b53ffff": 4, "892664c1b5bffff": 1, "892664c1a27ffff": 5, "892664c1bcbffff": 10, "892664c1a37ffff": 12, "892664c1a33ffff": 5, "892664c1aabffff": 10, "892664c1a17ffff": 7, "892664c1a8fffff": 6, "892664c1abbffff": 9, "892664c1aa3ffff": 1, "892664c1aafffff": 6, "892664c1bcfffff": 1, "892664c1b6fffff": 4, "892664c1b6bffff": 8, "892664c1b7bffff": 9, "892664c1b47ffff": 4, "892664c1b4fffff": 3, "892664cf4b3ffff": 1, "892664cf4b7ffff": 1, "892664cf4a7ffff": 1, "892664cf5d3ffff": 1, "892664cf5d7ffff": 5, "892664cf5c3ffff": 3, "892664cf5c7ffff": 1, "892664cf5bbffff": 1, "892664c1a53ffff": 6, "892664c1acfffff": 2, "892664c1ac7ffff": 6, "892664c1ac3ffff": 6, "892664c1adbffff": 10, "892664c1ad7ffff": 9, "892664cadafffff": 2, "892664cad37ffff": 7, "892664cad33ffff": 3, "892664c1e0bffff": 1, "892664c1e77ffff": 1, "892664c1e2bffff": 4, "892664c1a93ffff": 21, "892664c1e2fffff": 3, "892664c1a97ffff": 11, "892664c1a83ffff": 7, "892664c1e67ffff": 3, "892664c1e6fffff": 5, "892664c1ad3ffff": 1, "892664c1a9bffff": 9, "892664c1a8bffff": 14, "892664c1a87ffff": 3, "892664c13b7ffff": 1, "892664c1ed3ffff": 1, "892664c1e3bffff": 1, "892664c1eafffff": 1, "892664c1e07ffff": 1}}
+{"phrase": "lakeview", "class": "street", "cells": {"892664525abffff": 1, "892664c134bffff": 1, "892664cad67ffff": 1, "892664cb1dbffff": 1, "892664ca04bffff": 1, "892664ca0d7ffff": 1, "892664ca517ffff": 1, "892664c12d7ffff": 4, "892664c166fffff": 7, "892664c166bffff": 6, "892664c1663ffff": 2, "892664c167bffff": 2, "892664ca5b7ffff": 2, "892664ca5bbffff": 2, "892664d8b2fffff": 1, "892664c1657ffff": 1, "892664c1643ffff": 1, "892664c164fffff": 2, "892664c1647ffff": 3, "892664c160bffff": 1, "892664c161bffff": 5, "892664c16cfffff": 1, "892664c1613ffff": 2, "892664c1683ffff": 5, "892664c1617ffff": 1, "892664c16afffff": 4, "892664c1633ffff": 1, "892664c1637ffff": 9, "892664c1627ffff": 3, "892664c1623ffff": 10, "892664c162bffff": 2, "892664c1673ffff": 1, "892664c1667ffff": 11, "892664c129bffff": 1, "892664c1283ffff": 5, "892664c1293ffff": 1, "892664c105bffff": 5, "892664c1053ffff": 6, "892664c104bffff": 1, "892664c1287ffff": 2, "892664c12c7ffff": 1, "892664c1253ffff": 1, "892664d8b6fffff": 1, "892664d8bdbffff": 1, "892664d8c23ffff": 1, "892664daa4fffff": 1, "892664d8b8bffff": 1, "892664d8b0fffff": 1, "892664d894bffff": 1, "892664c16cbffff": 1, "892664c16c3ffff": 2, "892664d894fffff": 1, "892664d890fffff": 1, "892664c169bffff": 1, "892664c1697ffff": 2, "892664cf473ffff": 1, "892664c1a37ffff": 1, "892664cc493ffff": 1, "892664ce35bffff": 1, "892664c1ad3ffff": 1, "892664c1e6bffff": 1, "892664c1a87ffff": 1, "892664c1377ffff": 1, "892664c1057ffff": 7, "892664c1043ffff": 2, "892664c10cbffff": 2, "892664c16a3ffff": 4, "892664c16bbffff": 1, "892664c1687ffff": 4, "892664c16b3ffff": 2, "892664c16a7ffff": 5, "892664c10d3ffff": 2, "892664c10c3ffff": 14, "892664c10dbffff": 2, "892664c100bffff": 3, "892664c10cfffff": 2, "892664c1067ffff": 1, "892664c1073ffff": 2, "892664c1077ffff": 3, "892664c101bffff": 2, "892664c10c7ffff": 2, "892664c1013ffff": 4, "892664c100fffff": 3, "892664c1447ffff": 1, "892664c10d7ffff": 3, "892664c1e2fffff": 1}}
+{"phrase": "stony island", "class": "street", "cells": {"892664cc80fffff": 1, "892664cc807ffff": 2, "892664cc813ffff": 1, "892664cc88bffff": 2, "892664cc8d7ffff": 1, "892664cc58bffff": 1, "892664cc52fffff": 1, "892664cc197ffff": 1, "892664cc1a3ffff": 3, "892664cccdbffff": 2, "892664ccc7bffff": 1, "892664ccc63ffff": 1, "892664ccc67ffff": 1, "892664cea0fffff": 1, "892664cc823ffff": 2, "892664cc82fffff": 1}}
+{"phrase": "guaranteed rate field", "class": "area", "cells": {"892664cf56bffff": 4, "892664cf56fffff": 1, "892664cf1d3ffff": 2}}
+{"phrase": "rate field", "class": "area", "cells": {"892664cf56bffff": 4, "892664cf56fffff": 1, "892664cf1d3ffff": 2}}
+{"phrase": "bucktown", "class": "area", "cells": {"892664cae93ffff": 1, "892664cac73ffff": 1, "892664cac5bffff": 1, "892664cac53ffff": 3, "892664cacc3ffff": 1, "892664caccfffff": 2, "892664cac13ffff": 12, "892664cac1bffff": 2, "892664cacc7ffff": 14, "892664cac8fffff": 4, "892664cac8bffff": 1, "892664cacabffff": 2, "892664cac87ffff": 2, "892664ca997ffff": 1, "892664ca943ffff": 1, "892664c1247ffff": 3, "892664c123bffff": 1, "892664c1277ffff": 2, "892664c1273ffff": 1, "892664cacd7ffff": 3, "892664d8b0bffff": 1, "892664c1a87ffff": 1}}
+{"phrase": "west town", "class": "division", "cells": {"892664c8cc7ffff": 1, "892664c81b3ffff": 1, "892664caeafffff": 1, "892664ca85bffff": 1, "892664ca8afffff": 1, "892664ca8bbffff": 1, "892664ca8b3ffff": 1, "892664cac2fffff": 6, "892664ca893ffff": 3, "892664ca89bffff": 2, "892664ca813ffff": 1, "892664cac6bffff": 1, "892664cac7bffff": 1, "892664caeb7ffff": 1, "892664cac43ffff": 1, "892664cac5bffff": 1, "892664cac53ffff": 1, "892664caccfffff": 1, "892664cac37ffff": 2, "892664cadcfffff": 3, "892664cacafffff": 2, "892664cad8bffff": 1, "892664cad1bffff": 1, "892664cad13ffff": 1, "892664cad53ffff": 2, "892664cac27ffff": 2, "892664cad5bffff": 2, "892664cad47ffff": 1, "892664ca5a7ffff": 1, "892664c1617ffff": 1, "892664c1e0fffff": 1, "892664c1a8bffff": 1, "892664c1a83ffff": 1, "892664c1e07ffff": 1}}
+{"phrase": "forest glen", "class": "mixed", "cells": {"892664d9b8bffff": 1, "892664d9b83ffff": 5, "892664d9867ffff": 1, "892664d986bffff": 2, "892664d9b97ffff": 1, "892664ca463ffff": 1}}
+{"phrase": "clarendon", "class": "street", "cells": {"892664d8903ffff": 1, "892664d893bffff": 4, "892664c1693ffff": 1, "892664d892fffff": 3, "892664d892bffff": 2}}
+{"phrase": "longwood", "class": "street", "cells": {"892664cd943ffff": 2, "892664cd90bffff": 1, "892664575a3ffff": 1, "892664575afffff": 4}}
+{"phrase": "northwestern memorial hospital", "class": "area", "cells": {"892664cac13ffff": 1, "892664c1667ffff": 1, "892664ce2cfffff": 1, "892664c1a83ffff": 3, "892664c1eabffff": 6, "892664c1e07ffff": 6, "892664c1ea3ffff": 1, "892664c1e17ffff": 8}}
+{"phrase": "midway international airport", "class": "landmark", "cells": {"89266452197ffff": 1, "892664cd25bffff": 2, "89266452527ffff": 1, "892664cd24fffff": 1, "892664cd243ffff": 1, "892664cd253ffff": 1}}
+{"phrase": "mont", "class": "landmark", "cells": {"892664cb307ffff": 1, "892664cb317ffff": 1, "892664cb333ffff": 1, "892664cb3afffff": 1, "892664cb3a3ffff": 2, "892664cb3abffff": 1, "892664cb027ffff": 1, "892664cb44bffff": 1}}
+{"phrase": "mont clare", "class": "street", "cells": {"892664cb307ffff": 1, "892664cb317ffff": 1, "892664cb333ffff": 1, "892664cb3afffff": 1, "892664cb3a3ffff": 2, "892664cb3abffff": 1, "892664cb027ffff": 1, "892664cb44bffff": 1}}
+{"phrase": "mount greenwood", "class": "division", "cells": {"8926645757bffff": 1, "89266457553ffff": 1, "892664570b7ffff": 1, "892664570b3ffff": 1, "892664570a3ffff": 1, "892664570bbffff": 3, "892664570abffff": 1, "89266457017ffff": 1, "8926645700fffff": 1, "8926645700bffff": 1, "89266457057ffff": 1, "892664570c3ffff": 1}}
+{"phrase": "yachts", "class": "area", "cells": {"892664c1b13ffff": 1, "892664c1b8bffff": 1, "892664ce66bffff": 1, "892664cf5b7ffff": 2, "892664cad97ffff": 1, "892664c1e3bffff": 1, "892664c1c6fffff": 1}}
+{"phrase": "galewood", "class": "street", "cells": {"892664c864bffff": 1, "892664c861bffff": 1, "892664c8613ffff": 2, "892664c8617ffff": 1, "892664c844fffff": 1, "892664c9597ffff": 1, "892664c868bffff": 1, "892664c86d3ffff": 1, "892664cb3afffff": 1, "892664c8457ffff": 1}}
+{"phrase": "sheffield", "class": "street", "cells": {"892664c1347ffff": 1, "892664c168fffff": 1, "892664c1617ffff": 3, "892664c1623ffff": 6, "892664c105bffff": 6, "892664c162fffff": 1, "892664c104bffff": 1, "892664c12b3ffff": 1, "892664c12a7ffff": 2, "892664c1277ffff": 1, "892664c13dbffff": 1, "892664c13c3ffff": 2, "892664c16a7ffff": 1}}
+{"phrase": "pratt", "class": "street", "cells": {"892664d8e13ffff": 1, "892664d8cbbffff": 2, "892664d8c17ffff": 2, "892664d8c03ffff": 2, "892664d8c43ffff": 2}}
+{"phrase": "harlem irving", "class": "area", "cells": {"892664cb0dbffff": 6, "892664cb0cbffff": 1, "892664cb62fffff": 1}}
+{"phrase": "kale realty", "class": "area", "cells": {"892664ca037ffff": 1, "892664c1203ffff": 8, "892664c1a63ffff": 1}}
+{"phrase": "senn", "class": "landmark", "cells": {"892664d888bffff": 2, "892664d888fffff": 4}}
+{"phrase": "north lake", "class": "landmark", "cells": {"892664c144bffff": 3, "892664c1003ffff": 1, "892664c10d7ffff": 2, "892664c146bffff": 2, "892664c16b7ffff": 1, "892664c116fffff": 2, "892664c1163ffff": 2, "892664c1ed7ffff": 2, "892664c1e8bffff": 1, "892664c1ea3ffff": 1, "892664c1e8fffff": 1}}
+{"phrase": "north lake shore", "class": "street", "cells": {"892664c144bffff": 3, "892664c1003ffff": 1, "892664c10d7ffff": 2, "892664c146bffff": 2, "892664c16b7ffff": 1, "892664c116fffff": 2, "892664c1163ffff": 2, "892664c1ed7ffff": 2, "892664c1e8bffff": 1, "892664c1ea3ffff": 1, "892664c1e8fffff": 1}}
+{"phrase": "astor", "class": "street", "cells": {"892664ca8bbffff": 1, "892664c1e3bffff": 1, "892664c1ac7ffff": 2, "892664c116fffff": 5, "892664c1ed7ffff": 2, "892664c117bffff": 2, "892664c116bffff": 1}}
+{"phrase": "garfield ridge", "class": "mixed", "cells": {"89266452237ffff": 1, "892664522b3ffff": 2, "892664522b7ffff": 1, "89266452573ffff": 1, "89266452073ffff": 1, "89266452077ffff": 1, "8926645200fffff": 3, "892664520abffff": 1, "892664520a3ffff": 1}}
+{"phrase": "north lawndale", "class": "mixed", "cells": {"892664c8383ffff": 1, "892664c8d9bffff": 1, "892664c8ddbffff": 1, "892664c8ca7ffff": 2, "892664cab4bffff": 1, "892664c8c97ffff": 2, "892664cab47ffff": 1, "892664cab3bffff": 2, "892664cab1bffff": 1, "892664caa67ffff": 1, "892664c8cd7ffff": 1}}
+{"phrase": "lincolnwood", "class": "mixed", "cells": {"892664d9807ffff": 1, "892664d988bffff": 1, "892664d9d13ffff": 2, "892664d9d1bffff": 1, "892664d832fffff": 2, "892664d9dbbffff": 2, "892664d9d17ffff": 2, "892664d81abffff": 1, "892664d812bffff": 1}}
+{"phrase": "riverpoint", "class": "area", "cells": {"892664c120bffff": 6, "892664c1203ffff": 1, "892664c1ac7ffff": 1}}
+{"phrase": "guaranteed rate nmls", "class": "area", "cells": {"892664d8b27ffff": 7, "892664d8b23ffff": 1}}
+{"phrase": "delaware", "class": "area", "cells": {"892664c8927ffff": 1, "892664cad73ffff": 1, "892664c1a93ffff": 1, "892664c1e1bffff": 1, "892664c1ec7ffff": 4, "892664c1e13ffff": 3, "892664c1e8fffff": 8}}
+{"phrase": "clybourn", "class": "street", "cells": {"892664cac53ffff": 1, "892664c1357ffff": 5, "892664c130bffff": 3, "892664c131bffff": 1, "892664c1253ffff": 1, "892664c120bffff": 2, "892664c120fffff": 1, "892664c1227ffff": 3, "892664c123bffff": 2, "892664c1223ffff": 1, "892664c1353ffff": 1, "892664c13cfffff": 1, "892664c130fffff": 1, "892664c1323ffff": 1}}
+{"phrase": "oak lawn", "class": "division", "cells": {"8926645282fffff": 1, "8926645728fffff": 1, "89266457043ffff": 2, "89266457057ffff": 1, "892664576afffff": 1, "892664cdb57ffff": 1}}
+{"phrase": "harwood heights", "class": "division", "cells": {"892664cb0b3ffff": 1, "892664cb477ffff": 1, "892664cb697ffff": 1, "892664cb44bffff": 4}}
+{"phrase": "lindblom", "class": "landmark", "cells": {"892664cd19bffff": 1, "892664cd567ffff": 1, "892664cd193ffff": 2, "892664cd187ffff": 1}}
+{"phrase": "mdw", "class": "area", "cells": {"892664522b7ffff": 1, "89266452533ffff": 1, "89266452583ffff": 1, "8926645250bffff": 1, "892664520b7ffff": 1, "892664521c3ffff": 2, "89266452183ffff": 1, "892664cd25bffff": 1, "892664cd24fffff": 1, "892664cd24bffff": 1}}
+{"phrase": "kenwood", "class": "mixed", "cells": {"892664cc8c3ffff": 1, "892664cc4a3ffff": 1, "892664cc437ffff": 1, "892664cc55bffff": 1, "892664cc5cfffff": 1, "892664cc4a7ffff": 1, "892664ce36bffff": 2, "892664ce363ffff": 2, "892664cc593ffff": 1, "892664cc573ffff": 1, "892664cc18fffff": 1, "892664ce267ffff": 1, "892664ce277ffff": 1, "892664ce273ffff": 1, "892664cc48fffff": 1, "892664cc483ffff": 1, "892664ce22fffff": 2, "892664cc4bbffff": 1, "892664ce34fffff": 1, "892664ce37bffff": 1, "892664ce347ffff": 1, "892664ce353ffff": 2, "892664ce35bffff": 1}}
+{"phrase": "harlem irving plaza", "class": "area", "cells": {"892664cb0dbffff": 5, "892664cb0cbffff": 1}}
+{"phrase": "advocate trinity", "class": "area", "cells": {"892664cc8cbffff": 3, "892664ccd6bffff": 4}}
+{"phrase": "river west", "class": "area", "cells": {"892664cad8fffff": 5, "892664cad13ffff": 1, "892664cad0bffff": 1, "892664c164bffff": 1, "892664cada3ffff": 1, "892664cadbbffff": 1, "892664cad83ffff": 1}}
+{"phrase": "cragin", "class": "area", "cells": {"892664c8433ffff": 1, "892664cb3b7ffff": 1, "892664ca67bffff": 1, "892664cb573ffff": 1, "892664cb197ffff": 1, "892664ca2cfffff": 1, "892664ca26bffff": 1, "892664ca27bffff": 1, "892664cb1bbffff": 1, "892664cb103ffff": 1, "892664cb12bffff": 1, "892664c84c3ffff": 1, "892664c84d7ffff": 1, "892664c8413ffff": 2, "892664c8417ffff": 1, "892664ca213ffff": 1}}
+{"phrase": "fashion outlets", "class": "area", "cells": {"89275934c1bffff": 1, "89275934c17ffff": 6}}
+{"phrase": "waveland", "class": "street", "cells": {"892664cad83ffff": 1, "892664ca58bffff": 2, "892664c1617ffff": 2, "892664c16bbffff": 1, "892664d890bffff": 1, "892664c1ac3ffff": 1, "892664c16b3ffff": 4, "892664c144fffff": 2, "892664c16b7ffff": 1, "892664c1447ffff": 1, "892664c1443ffff": 2}}
+{"phrase": "raymond james", "class": "area", "cells": {"892664c1acbffff": 3, "892664c1ac7ffff": 1, "892664c1acfffff": 3, "892664c1ac3ffff": 2, "892664c1adbffff": 5, "892664c1e3bffff": 1, "892664c1a9bffff": 1, "892664c1a8fffff": 1}}
+{"phrase": "jameson sotheby", "class": "area", "cells": {"892664c1e03ffff": 3, "892664c13abffff": 9, "892664c1e8bffff": 1}}
+{"phrase": "puerto rican", "class": "area", "cells": {"892664cae17ffff": 2, "892664caeb3ffff": 1, "892664caebbffff": 2, "892664caea3ffff": 1, "892664ca347ffff": 1, "892664ca03bffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "rican", "class": "area", "cells": {"892664cae17ffff": 2, "892664caeb3ffff": 1, "892664caebbffff": 2, "892664caea3ffff": 1, "892664ca347ffff": 1, "892664ca03bffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "villita", "class": "area", "cells": {"892664c8803ffff": 1, "892664c88b7ffff": 1, "892664c8d0bffff": 3, "892664c8d3bffff": 1, "892664c888fffff": 1, "892664c8d5bffff": 1, "892664c8887ffff": 1, "892664c8d43ffff": 1, "892664c8d47ffff": 1, "892664c8d1bffff": 1, "892664c8d03ffff": 1, "892664cb1b3ffff": 1}}
+{"phrase": "sotheby", "class": "area", "cells": {"892664c1e03ffff": 3, "892664c13abffff": 9, "892664c1e8bffff": 2}}
+{"phrase": "wentworth gardens", "class": "point", "cells": {"892664cf1d7ffff": 4}}
+{"phrase": "river east", "class": "area", "cells": {"892664c1b7bffff": 1, "892664c1eafffff": 5, "892664c1e33ffff": 4, "892664c1e07ffff": 1}}
+{"phrase": "canal", "class": "street", "cells": {"892664cf637ffff": 1, "892664cad8fffff": 1, "892664cf4abffff": 1, "892664cf433ffff": 1, "892664cf48fffff": 1, "892664cf4bbffff": 1, "892664c1a73ffff": 1, "892664c1a77ffff": 2, "892664c1a1bffff": 3, "892664c1a67ffff": 1, "892664cf48bffff": 1, "892664c1a37ffff": 1, "892664c1ac3ffff": 2, "892664c1acfffff": 1, "892664c1ad3ffff": 1, "892664cada7ffff": 1}}
+{"phrase": "burnham harbor", "class": "street", "cells": {"892664c1b53ffff": 1, "892664c1b13ffff": 4, "892664c1a8fffff": 1}}
+{"phrase": "river grove", "class": "mixed", "cells": {"892664cb273ffff": 4, "892664cb23bffff": 1}}
+{"phrase": "borgia", "class": "landmark", "cells": {"892664cb213ffff": 4}}
+{"phrase": "francis borgia", "class": "landmark", "cells": {"892664cb213ffff": 4}}
+{"phrase": "northcenter", "class": "area", "cells": {"892664ca5cfffff": 1, "892664ca593ffff": 1, "892664d8b2fffff": 2, "892664c164bffff": 1, "892664c1653ffff": 1, "892664d8b2bffff": 5, "892664d8b07ffff": 1}}
+{"phrase": "cross hospital", "class": "landmark", "cells": {"89266452807ffff": 1, "892664cd14fffff": 1, "892664cd3b7ffff": 3}}
+{"phrase": "holy cross hospital", "class": "landmark", "cells": {"89266452807ffff": 1, "892664cd14fffff": 1, "892664cd3b7ffff": 3}}
+{"phrase": "grand crossing", "class": "landmark", "cells": {"892664cc12bffff": 1, "892664cc117ffff": 1, "892664cc173ffff": 1, "892664cc10fffff": 1, "892664cce93ffff": 2}}
+{"phrase": "brainerd", "class": "landmark", "cells": {"892664cd833ffff": 2, "892664cd8afffff": 2, "892664cd9cbffff": 1}}
+{"phrase": "ascension saint joseph", "class": "area", "cells": {"892664c1287ffff": 1, "892664d891bffff": 1, "892664c1e0fffff": 1, "892664c1013ffff": 9, "892664c13a3ffff": 1}}
+{"phrase": "thorndale", "class": "street", "cells": {"892664d888bffff": 1, "892664d8d4bffff": 3, "892664d8d43ffff": 2}}
+{"phrase": "roosevelt collection", "class": "area", "cells": {"892664c1a3bffff": 4, "892664c1a2bffff": 2, "892664c1b53ffff": 1}}
+{"phrase": "uic department", "class": "landmark", "cells": {"892664ca9b3ffff": 3, "892664ca957ffff": 2, "892664ca947ffff": 4}}
+{"phrase": "advocate illinois masonic", "class": "area", "cells": {"892664c1627ffff": 6, "892664c1053ffff": 3, "892664cadabffff": 1}}
+{"phrase": "sumner", "class": "area", "cells": {"892664c8137ffff": 3, "892664c8cdbffff": 1}}
+{"phrase": "shedd", "class": "area", "cells": {"892664c8d5bffff": 1, "892664c1a37ffff": 1, "892664c1aa3ffff": 1, "892664c1bc7ffff": 1, "892664c1bd7ffff": 3}}
+{"phrase": "saint xavier", "class": "area", "cells": {"89266457003ffff": 1, "892664576b7ffff": 2, "892664576a7ffff": 1, "8926645744fffff": 1, "8926645742bffff": 1}}
+{"phrase": "tower place", "class": "area", "cells": {"892664c1e13ffff": 4, "892664c1e8fffff": 4}}
+{"phrase": "water tower place", "class": "area", "cells": {"892664c1e13ffff": 4, "892664c1e8fffff": 4}}
+{"phrase": "river forest", "class": "mixed", "cells": {"892664c9587ffff": 3, "892664c95b3ffff": 1, "892664c864bffff": 1, "892664c8047ffff": 1, "892664c83c7ffff": 1}}
+{"phrase": "hampden", "class": "landmark", "cells": {"892664cad7bffff": 1, "892664c100bffff": 6, "892664c100fffff": 2}}
+{"phrase": "bede", "class": "landmark", "cells": {"892664529dbffff": 1, "892664528a7ffff": 1, "892664528a3ffff": 1}}
+{"phrase": "bede the venerable", "class": "landmark", "cells": {"892664529dbffff": 1, "892664528a7ffff": 1, "892664528a3ffff": 1}}
+{"phrase": "venerable", "class": "landmark", "cells": {"892664529dbffff": 1, "892664528a7ffff": 1, "892664528a3ffff": 1}}
+{"phrase": "volkers", "class": "point", "cells": {"892664c1077ffff": 7}}
+{"phrase": "zabiha", "class": "area", "cells": {"892664d8e7bffff": 1, "892664d8e73ffff": 1, "892664d8e07ffff": 3, "892664d8e33ffff": 1, "892664d8eabffff": 1}}
+{"phrase": "west lawn", "class": "division", "cells": {"892664cd26fffff": 1, "89266452cb3ffff": 1, "89266452c27ffff": 1, "892664cd277ffff": 1, "89266452c93ffff": 2, "892664cd223ffff": 3, "892664cd233ffff": 1}}
+{"phrase": "neiu student", "class": "point", "cells": {"892664d8a4bffff": 4}}
+{"phrase": "bankers life agent", "class": "point", "cells": {"89275936bc7ffff": 5}}
+{"phrase": "life agent", "class": "point", "cells": {"89275936bc7ffff": 5}}
+{"phrase": "marist", "class": "landmark", "cells": {"8926645706bffff": 3}}
+{"phrase": "blessed sacrament", "class": "area", "cells": {"892664cf2a7ffff": 1, "892664cf2a3ffff": 2, "892664c8c27ffff": 2}}
+{"phrase": "sacrament", "class": "area", "cells": {"892664cf2a7ffff": 1, "892664cf2a3ffff": 2, "892664c8c27ffff": 2}}
+{"phrase": "briar", "class": "street", "cells": {"892664d8e67ffff": 1, "892664c10cbffff": 3, "892664c10c3ffff": 5, "892664c101bffff": 1}}
+{"phrase": "fletcher jones", "class": "area", "cells": {"892664c136fffff": 1, "892664cadd7ffff": 2, "892664c1ec3ffff": 2}}
+{"phrase": "cloud gate realty", "class": "point", "cells": {"892664cd26bffff": 4}}
+{"phrase": "gate realty", "class": "point", "cells": {"892664cd26bffff": 4}}
+{"phrase": "csu", "class": "street", "cells": {"892664cca23ffff": 1, "892664cca3bffff": 1, "892664cca33ffff": 1}}
+{"phrase": "margate", "class": "division", "cells": {"892664d89c7ffff": 2, "892664d8913ffff": 2, "892664c1003ffff": 1}}
+{"phrase": "planetarium", "class": "area", "cells": {"892664c1a37ffff": 1, "892664c1bc3ffff": 1, "892664c1b8fffff": 1, "892664c1b83ffff": 2}}
+{"phrase": "schiller woods", "class": "landmark", "cells": {"89275934d0fffff": 1, "89275934d73ffff": 1, "89275934d07ffff": 1, "89275934dabffff": 1, "892664cb2dbffff": 1}}
+{"phrase": "motor row", "class": "area", "cells": {"892664c1b6bffff": 1, "892664c1b6fffff": 3, "892664cf5d3ffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "north michigan", "class": "street", "cells": {"892664c1647ffff": 1, "892664c1e07ffff": 4, "892664c1e03ffff": 1, "892664c1e3bffff": 2, "892664c1e2fffff": 1, "892664c1ec7ffff": 1, "892664c1e13ffff": 6, "892664c1e8bffff": 1, "892664c1e8fffff": 2}}
+{"phrase": "newcity", "class": "point", "cells": {"892664c130fffff": 6}}
+{"phrase": "ppm", "class": "area", "cells": {"892664c1297ffff": 1, "892664c16a3ffff": 1, "892664c16a7ffff": 2, "892664c16b7ffff": 2, "892664c10d3ffff": 2, "892664c10c3ffff": 3, "892664c100bffff": 1, "892664c101bffff": 2, "892664c100fffff": 1, "892664c1397ffff": 1, "892664c1013ffff": 1, "892664c10d7ffff": 1, "892664c10c7ffff": 1, "892664c1ecfffff": 2, "892664c1ec3ffff": 2, "892664c1ed3ffff": 1, "892664c1e03ffff": 1}}
+{"phrase": "ppm apartments", "class": "area", "cells": {"892664c1297ffff": 1, "892664c16a3ffff": 1, "892664c16a7ffff": 2, "892664c16b7ffff": 2, "892664c10d3ffff": 2, "892664c10c3ffff": 3, "892664c100bffff": 1, "892664c101bffff": 2, "892664c100fffff": 1, "892664c1397ffff": 1, "892664c1013ffff": 1, "892664c10d7ffff": 1, "892664c10c7ffff": 1, "892664c1ecfffff": 2, "892664c1ec3ffff": 2, "892664c1ed3ffff": 1, "892664c1e03ffff": 1}}
+{"phrase": "harlem foster", "class": "area", "cells": {"89275936ba3ffff": 1, "89275936923ffff": 3, "8927593692bffff": 1}}
+{"phrase": "belmont harbor", "class": "landmark", "cells": {"892664c10d7ffff": 3, "892664c1463ffff": 2, "892664c147bffff": 1, "892664c146bffff": 2, "892664c10d3ffff": 1, "892664c10c3ffff": 1, "892664c1467ffff": 1}}
+{"phrase": "sedgwick", "class": "street", "cells": {"892664c130bffff": 1, "892664c1a13ffff": 1, "892664c1387ffff": 1, "892664c13afffff": 1, "892664c13abffff": 3, "892664c13bbffff": 2, "892664c1383ffff": 1}}
+{"phrase": "little italy", "class": "area", "cells": {"892664ca917ffff": 1, "892664ca9b7ffff": 1, "892664ca907ffff": 3, "892664ca903ffff": 1, "892664c1e73ffff": 1, "892664c1e07ffff": 1}}
+{"phrase": "gately", "class": "landmark", "cells": {"892664ccb47ffff": 2, "892664ccb57ffff": 1}}
+{"phrase": "ravenswood manor", "class": "area", "cells": {"892664ca4b3ffff": 2, "892664ca487ffff": 1, "892664ca497ffff": 1}}
+{"phrase": "ailbe", "class": "area", "cells": {"892664cc873ffff": 2, "892664cc803ffff": 2, "892664cc813ffff": 1}}
+{"phrase": "gompers", "class": "landmark", "cells": {"892664d9903ffff": 1, "892664d990bffff": 1, "892664d9957ffff": 1}}
+{"phrase": "downtown magnificent", "class": "area", "cells": {"892664c1e0fffff": 2, "892664c1e07ffff": 2, "892664c1e33ffff": 2, "892664c1e17ffff": 2}}
+{"phrase": "downtown magnificent mile", "class": "area", "cells": {"892664c1e0fffff": 2, "892664c1e07ffff": 2, "892664c1e33ffff": 2, "892664c1e17ffff": 2}}
+{"phrase": "ord terminal", "class": "area", "cells": {"89275934e9bffff": 1, "89275934ec7ffff": 1, "89275934ecfffff": 1, "89275934ecbffff": 1, "892759343afffff": 1, "89275934edbffff": 1}}
+{"phrase": "wacker", "class": "street", "cells": {"892664ca997ffff": 1, "892664cd977ffff": 1, "892664c1a1bffff": 3, "892664c1a13ffff": 1, "892664c1ac7ffff": 7, "892664c1ad7ffff": 10, "892664c1ad3ffff": 2, "892664c1e3bffff": 1, "892664c1e2bffff": 7, "892664c1e23ffff": 4, "892664c1e67ffff": 2, "892664c1e6fffff": 4, "892664c1a9bffff": 1, "892664c1e37ffff": 1}}
+{"phrase": "holy angels", "class": "landmark", "cells": {"892664cd507ffff": 1, "892664ce247ffff": 2, "892664ce20bffff": 1}}
+{"phrase": "hotpot", "class": "area", "cells": {"892664cf073ffff": 1, "892664cf403ffff": 1, "892664c1b6bffff": 1, "892664cf4b3ffff": 1, "892664cf4a3ffff": 3, "892664cf4afffff": 1, "892664c1e33ffff": 1}}
+{"phrase": "prairie district", "class": "landmark", "cells": {"892664c1b73ffff": 2, "892664c1b0bffff": 1, "892664c1b47ffff": 1}}
+{"phrase": "kelvyn", "class": "area", "cells": {"892664d9b0bffff": 1, "892664c848bffff": 1, "892664ca23bffff": 1, "892664ca2afffff": 1, "892664ca233ffff": 1, "892664ca237ffff": 1, "892664ca3dbffff": 1}}
+{"phrase": "zoo", "class": "landmark", "cells": {"892664c1e0fffff": 1, "892664c106fffff": 1, "892664c102fffff": 3, "892664c114bffff": 1, "892664c115bffff": 1, "892664c1e27ffff": 1, "892664c1e07ffff": 1}}
+{"phrase": "foster medical pavilion", "class": "point", "cells": {"892664d8a07ffff": 4}}
+{"phrase": "grand cicero", "class": "landmark", "cells": {"892664c84a3ffff": 4}}
+{"phrase": "winnemac", "class": "street", "cells": {"892664d8bdbffff": 1, "892664d8bd3ffff": 2, "892664d8b8bffff": 1, "892664d895bffff": 1}}
+{"phrase": "engel", "class": "street", "cells": {"892664d89d3ffff": 1, "892664c1ad7ffff": 1, "892664c1077ffff": 7, "892664c1e17ffff": 1}}
+{"phrase": "shedd aquarium", "class": "landmark", "cells": {"892664c1a37ffff": 1, "892664c1bc7ffff": 1, "892664c1bd7ffff": 2}}
+{"phrase": "greektown", "class": "area", "cells": {"892664ca997ffff": 1, "892664c1a43ffff": 1, "892664c1a5bffff": 2, "892664c1a53ffff": 1, "892664cad27ffff": 1, "892664cad37ffff": 1}}
+{"phrase": "edens", "class": "area", "cells": {"892664d9807ffff": 2, "892664d9817ffff": 1, "892664d988bffff": 1, "892664d994bffff": 1, "892664d994fffff": 1}}
+{"phrase": "engel volkers", "class": "point", "cells": {"892664c1077ffff": 6}}
+{"phrase": "sono", "class": "area", "cells": {"892664cac2fffff": 1, "892664c130fffff": 5, "892664c1303ffff": 1, "892664c13abffff": 1, "892664c1e13ffff": 1}}
+{"phrase": "joseph hospital", "class": "area", "cells": {"892664ca84fffff": 1, "892664c166fffff": 1, "892664c1013ffff": 5, "892664c1003ffff": 1, "892664c10abffff": 1, "892664c1ec7ffff": 1}}
+{"phrase": "lake view", "class": "mixed", "cells": {"892664c166bffff": 1, "892664c167bffff": 1, "892664ca587ffff": 1, "892664c164fffff": 1, "892664c1613ffff": 1, "892664c1687ffff": 1, "892664c16abffff": 1, "892664c1617ffff": 1, "892664c1623ffff": 1, "892664c163bffff": 1, "892664d8a7bffff": 1, "892664d8867ffff": 1, "892664c16cbffff": 3, "892664d890fffff": 1, "892664c1053ffff": 1, "892664c16a3ffff": 1, "892664c144bffff": 1, "892664c16a7ffff": 1, "892664c10c3ffff": 1, "892664c10cfffff": 1, "892664c1057ffff": 1, "892664c10d7ffff": 1}}
+{"phrase": "north park village", "class": "area", "cells": {"892664d9d67ffff": 1, "892664d9993ffff": 1, "892664d9d2fffff": 1}}
+{"phrase": "winthrop", "class": "street", "cells": {"892664d8c2fffff": 1, "892664d88a7ffff": 3, "892664d88b3ffff": 4, "892664d8957ffff": 1}}
+{"phrase": "deming", "class": "landmark", "cells": {"892664c1073ffff": 6}}
+{"phrase": "trump", "class": "area", "cells": {"892664c1e77ffff": 4, "892664c1e2bffff": 4, "892664c1e3bffff": 1, "892664c1e13ffff": 1}}
+{"phrase": "latvian", "class": "landmark", "cells": {"892664cb477ffff": 2, "892664cb42bffff": 1}}
+{"phrase": "west ridge", "class": "division", "cells": {"892664d8ad3ffff": 1, "892664d8a97ffff": 1, "892664d8a8fffff": 1, "892664d8e6fffff": 1, "892664d8e63ffff": 1, "892664d8e07ffff": 1, "892664d8e9bffff": 1, "892664d8e5bffff": 1, "892664d8cd3ffff": 1}}
+{"phrase": "huron", "class": "street", "cells": {"892664ca80bffff": 1, "892664c1a4bffff": 1, "892664c1a57ffff": 1, "892664c1e4fffff": 4, "892664c1e4bffff": 1, "892664c1e47ffff": 2, "892664c1e0bffff": 3, "892664c1e03ffff": 5, "892664c1e17ffff": 2, "892664c1ac7ffff": 1, "892664c1ea3ffff": 1}}
+{"phrase": "origin point", "class": "point", "cells": {"892664d8b27ffff": 5}}
+{"phrase": "origin point nmls", "class": "point", "cells": {"892664d8b27ffff": 5}}
+{"phrase": "point nmls", "class": "point", "cells": {"892664d8b27ffff": 5}}
+{"phrase": "legends south", "class": "area", "cells": {"892664cf1abffff": 2, "892664cf18fffff": 1, "892664cf133ffff": 1}}
+{"phrase": "lincoln village", "class": "area", "cells": {"892664d9dafffff": 1, "892664d9da3ffff": 3}}
+{"phrase": "saint elizabeth", "class": "area", "cells": {"892664cac43ffff": 2, "892664cac47ffff": 2, "892664cac57ffff": 1, "892664c12b7ffff": 1}}
+{"phrase": "nta", "class": "area", "cells": {"892664cf437ffff": 1, "892664cf4a7ffff": 5}}
+{"phrase": "berkshire hathaway", "class": "area", "cells": {"892664cacc7ffff": 2, "892664c1357ffff": 5, "892664c1237ffff": 1, "892664c106bffff": 1, "892664c13bbffff": 1, "892664c102bffff": 1, "892664c1e8bffff": 4, "892664c1853ffff": 1, "892664c1e33ffff": 1}}
+{"phrase": "hathaway", "class": "area", "cells": {"892664cacc7ffff": 2, "892664c1357ffff": 5, "892664c1237ffff": 1, "892664c106bffff": 1, "892664c13bbffff": 1, "892664c102bffff": 1, "892664c1e8bffff": 4, "892664c1853ffff": 1, "892664c1e33ffff": 1}}
+{"phrase": "shoop", "class": "area", "cells": {"8926645666fffff": 1, "89266456667ffff": 2}}
+{"phrase": "glenwood", "class": "street", "cells": {"892664d8c03ffff": 1, "892664d8c1bffff": 1, "892664d8cc7ffff": 2}}
+{"phrase": "zabiha halal", "class": "area", "cells": {"892664d8e73ffff": 1, "892664d8e07ffff": 2, "892664d8e33ffff": 1, "892664d8eabffff": 1}}
+{"phrase": "oakwood shores", "class": "landmark", "cells": {"892664ce2cfffff": 2, "892664ce253ffff": 1, "892664ce243ffff": 1}}
+{"phrase": "rosemoor", "class": "area", "cells": {"892664ccb4fffff": 1, "892664564b3ffff": 1, "89266456487ffff": 1}}
+{"phrase": "thecla", "class": "landmark", "cells": {"89275936d37ffff": 1, "89275936d23ffff": 2}}
+{"phrase": "weiss memorial", "class": "area", "cells": {"892664d8903ffff": 1, "892664d890bffff": 1, "892664d8907ffff": 2}}
+{"phrase": "weiss memorial hospital", "class": "area", "cells": {"892664d8903ffff": 1, "892664d890bffff": 1, "892664d8907ffff": 2}}
+{"phrase": "living south", "class": "area", "cells": {"892664cc1abffff": 1, "892664ceb4bffff": 1, "892664cea2fffff": 1, "892664cea3bffff": 2, "892664cea0fffff": 1, "892664ccdabffff": 1}}
+{"phrase": "east chestnut", "class": "street", "cells": {"892664c1e13ffff": 3, "892664c1e8fffff": 3}}
+{"phrase": "grane", "class": "area", "cells": {"892664c816fffff": 1, "892664c8ed3ffff": 2}}
+{"phrase": "mandrake", "class": "area", "cells": {"892664ce257ffff": 2, "892664ce21bffff": 1}}
+{"phrase": "cinespace", "class": "area", "cells": {"892664c8d6fffff": 1, "892664cab07ffff": 1, "892664cab3bffff": 1, "892664cab23ffff": 1}}
+{"phrase": "buren", "class": "area", "cells": {"892664ca997ffff": 1, "892664ca983ffff": 1, "892664ca9c7ffff": 1, "892664ca827ffff": 1, "892664c1a43ffff": 1, "892664c1a1bffff": 3, "892664c1a03ffff": 1, "892664c1a13ffff": 3, "892664c1a17ffff": 2, "892664c1abbffff": 2, "892664c1ab3ffff": 4}}
+{"phrase": "van buren", "class": "street", "cells": {"892664ca997ffff": 1, "892664ca983ffff": 1, "892664ca9c7ffff": 1, "892664ca827ffff": 1, "892664c1a43ffff": 1, "892664c1a1bffff": 3, "892664c1a03ffff": 1, "892664c1a13ffff": 3, "892664c1a17ffff": 2, "892664c1abbffff": 2, "892664c1ab3ffff": 4}}
+{"phrase": "balmoral", "class": "street", "cells": {"892664d8aabffff": 1, "892664d887bffff": 1, "892664d88a7ffff": 1, "892664d88afffff": 3}}
+{"phrase": "schurz", "class": "landmark", "cells": {"892664ca623ffff": 3, "892664ca66fffff": 1}}
+{"phrase": "sandburg", "class": "area", "cells": {"892664c13b7ffff": 4, "892664c13a7ffff": 1}}
+{"phrase": "raybon", "class": "area", "cells": {"892664c8127ffff": 1, "892664c8c53ffff": 2}}
+{"phrase": "kostka", "class": "area", "cells": {"892664caca7ffff": 2, "892664cacb7ffff": 2}}
+{"phrase": "stanislaus kostka", "class": "area", "cells": {"892664caca7ffff": 2, "892664cacb7ffff": 2}}
+{"phrase": "greater englewood", "class": "area", "cells": {"892664cc22fffff": 1, "892664cc203ffff": 1, "892664cc213ffff": 2}}
+{"phrase": "american red", "class": "area", "cells": {"892664ca983ffff": 1, "892664ca9cfffff": 1, "892664cab97ffff": 4, "892664c1e0fffff": 1}}
+{"phrase": "american red cross", "class": "area", "cells": {"892664ca983ffff": 1, "892664ca9cfffff": 1, "892664cab97ffff": 4, "892664c1e0fffff": 1}}
+{"phrase": "red cross", "class": "area", "cells": {"892664ca983ffff": 1, "892664ca9cfffff": 1, "892664cab97ffff": 4, "892664c1e0fffff": 1}}
+{"phrase": "kilpatrick", "class": "street", "cells": {"892664d9ba7ffff": 3, "892664ca657ffff": 1, "892664ca60bffff": 1}}
+{"phrase": "balanoff", "class": "point", "cells": {"8926641b23bffff": 3}}
+{"phrase": "obama presidential", "class": "area", "cells": {"892664cc517ffff": 2, "892664cc507ffff": 1}}
+{"phrase": "belmont central", "class": "area", "cells": {"892664cb197ffff": 3, "892664cb52fffff": 1, "892664ca003ffff": 1}}
+{"phrase": "north state parkway", "class": "landmark", "cells": {"892664c116bffff": 3, "892664c117bffff": 1}}
+{"phrase": "bais", "class": "landmark", "cells": {"892664d9d27ffff": 1, "892664d9d37ffff": 1, "892664d8e63ffff": 1, "892664d83b3ffff": 1, "892664d8e4fffff": 1, "892664d8adbffff": 1, "892664d9dbbffff": 1}}
+{"phrase": "historic pullman", "class": "landmark", "cells": {"892664565cfffff": 1, "89266456557ffff": 1, "8926645650bffff": 1}}
+{"phrase": "zhou", "class": "area", "cells": {"892664cf00fffff": 2, "892664cf003ffff": 1, "892664cf4abffff": 1, "892664c1e07ffff": 1}}
+{"phrase": "comiskey", "class": "landmark", "cells": {"892664cf56bffff": 3}}
+{"phrase": "stor", "class": "area", "cells": {"892664cd807ffff": 3, "89266457573ffff": 1}}
+{"phrase": "saint joseph hospital", "class": "landmark", "cells": {"892664c166fffff": 1, "892664c1013ffff": 4, "892664c1003ffff": 1, "892664c10abffff": 1}}
+{"phrase": "ohare airport", "class": "landmark", "cells": {"89275934ec3ffff": 1, "89275934337ffff": 1, "89275934edbffff": 1, "89275934e87ffff": 1}}
+{"phrase": "cym living south", "class": "area", "cells": {"892664ceb4bffff": 1, "892664cea2fffff": 1, "892664cea3bffff": 2, "892664cea0fffff": 1, "892664ccdabffff": 1}}
+{"phrase": "living south shore", "class": "area", "cells": {"892664cc1abffff": 1, "892664ceb4bffff": 1, "892664cea2fffff": 1, "892664cea3bffff": 2, "892664cea0fffff": 1}}
+{"phrase": "robert bellarmine", "class": "landmark", "cells": {"892664cb4a3ffff": 3}}
+{"phrase": "presence resurrection", "class": "area", "cells": {"892759369c7ffff": 1, "892759369d7ffff": 1, "8927593698bffff": 1}}
+{"phrase": "clear ridge", "class": "area", "cells": {"892664523b3ffff": 1, "89266452317ffff": 1, "892664523bbffff": 1}}
+{"phrase": "fulton grace realty", "class": "area", "cells": {"892664cac43ffff": 1, "892664cac17ffff": 7, "892664c1233ffff": 1, "892664d8b2bffff": 1, "892664c1053ffff": 1}}
+{"phrase": "diversey harbor", "class": "landmark", "cells": {"892664c1033ffff": 3, "892664c1007ffff": 1, "892664c1013ffff": 1}}
+{"phrase": "rotblatt", "class": "area", "cells": {"892664ca9dbffff": 3, "892664c1077ffff": 1}}
+{"phrase": "viator", "class": "area", "cells": {"892664ca0cbffff": 1, "892664ca627ffff": 2, "892664ca637ffff": 1}}
+{"phrase": "berkshire hathaway homeservices", "class": "area", "cells": {"892664cacc7ffff": 2, "892664c1357ffff": 4, "892664c13bbffff": 1, "892664c102bffff": 1, "892664c1e8bffff": 4, "892664c1e33ffff": 1}}
+{"phrase": "hathaway homeservices", "class": "area", "cells": {"892664cacc7ffff": 2, "892664c1357ffff": 4, "892664c13bbffff": 1, "892664c102bffff": 1, "892664c1e8bffff": 4, "892664c1e33ffff": 1}}
+{"phrase": "homeservices", "class": "area", "cells": {"892664cacc7ffff": 2, "892664c1357ffff": 4, "892664c13bbffff": 1, "892664c102bffff": 1, "892664c1e8bffff": 4, "892664c1e33ffff": 1}}
+{"phrase": "bricktown", "class": "area", "cells": {"892664cb17bffff": 2, "892664cb3b7ffff": 1}}
+{"phrase": "fulton grace", "class": "area", "cells": {"892664cac43ffff": 1, "892664cac17ffff": 7, "892664c1233ffff": 1, "892664d8b2bffff": 1, "892664c1053ffff": 2}}
+{"phrase": "grace realty", "class": "area", "cells": {"892664cac43ffff": 1, "892664cac17ffff": 7, "892664ca03bffff": 1, "892664c1233ffff": 1, "892664d8b2bffff": 1, "892664c1053ffff": 1}}
+{"phrase": "indo", "class": "area", "cells": {"892664d9e27ffff": 1, "892664d9923ffff": 1, "892664d8e73ffff": 2, "892664d8e0fffff": 1, "892664d8eabffff": 2}}
+{"phrase": "kimbark", "class": "street", "cells": {"892664cc5c3ffff": 2, "892664cc4a7ffff": 4, "892664cc4b7ffff": 1, "892664cea3bffff": 1}}
+{"phrase": "mccutcheon", "class": "area", "cells": {"892664d891bffff": 3, "892664d8957ffff": 1}}
+{"phrase": "phd northwestern", "class": "area", "cells": {"892664c1e17ffff": 4, "892664c1e07ffff": 1, "892664c1ebbffff": 1}}
+{"phrase": "phd northwestern medicine", "class": "area", "cells": {"892664c1e17ffff": 4, "892664c1e07ffff": 1, "892664c1ebbffff": 1}}
+{"phrase": "archer halsted", "class": "point", "cells": {"892664cf467ffff": 3}}
+{"phrase": "archer halsted currency", "class": "point", "cells": {"892664cf467ffff": 3}}
+{"phrase": "ingleside", "class": "street", "cells": {"892664cc4abffff": 2, "892664cc433ffff": 1, "892664cc437ffff": 1, "892664cc167ffff": 1}}
+{"phrase": "madison austin", "class": "point", "cells": {"892664c83d7ffff": 3}}
+{"phrase": "merchandise mart", "class": "area", "cells": {"892664c1e6bffff": 4, "892664c1e63ffff": 2}}
+{"phrase": "beth anne", "class": "point", "cells": {"892664c855bffff": 3}}
+{"phrase": "anthony hospital", "class": "landmark", "cells": {"892664c8d0fffff": 1, "892664c8d83ffff": 1, "892664c8d9bffff": 2}}
+{"phrase": "therapy lakeview", "class": "area", "cells": {"892664c1637ffff": 1, "892664c1667ffff": 3, "892664c162bffff": 1}}
+{"phrase": "only sport", "class": "point", "cells": {"892664cab4bffff": 3}}
+{"phrase": "riverwalk", "class": "area", "cells": {"892664cf633ffff": 1, "892664ca52bffff": 1, "892664c12d7ffff": 1, "892664c1213ffff": 1, "892664c1a03ffff": 1, "892664c1acfffff": 1, "892664c1ac7ffff": 1, "892664c1ad3ffff": 2, "892664c1e6bffff": 1, "892664c1e67ffff": 4, "892664c1e2bffff": 4, "892664c1e3bffff": 1, "892664c18dbffff": 1, "892664c1e23ffff": 3, "892664c1e37ffff": 1}}
+{"phrase": "riverside plaza", "class": "area", "cells": {"892664cf05bffff": 1, "892664c1a1bffff": 2, "892664c1acfffff": 1, "892664c1ac3ffff": 4, "892664c1ad3ffff": 1, "892664c1a13ffff": 1}}
+{"phrase": "columbanus", "class": "point", "cells": {"892664cc387ffff": 3}}
+{"phrase": "federal building", "class": "area", "cells": {"892664c1a17ffff": 2, "892664c1a8fffff": 4}}
+{"phrase": "hatchery", "class": "point", "cells": {"892664caabbffff": 3}}
+{"phrase": "north wacker", "class": "street", "cells": {"892664c1ad7ffff": 7}}
+{"phrase": "west rogers", "class": "landmark", "cells": {"892664d8ecfffff": 1, "892664d8e57ffff": 1, "892664d8e1bffff": 1, "892664d8e17ffff": 1, "892664d8e43ffff": 1}}
+{"phrase": "ukrainian village", "class": "area", "cells": {"892664ca8dbffff": 1, "892664cac2fffff": 2, "892664ca89bffff": 3, "892664cadcbffff": 1}}
+{"phrase": "highlands", "class": "area", "cells": {"892664cea4fffff": 1, "892664cea73ffff": 1, "892664cea47ffff": 1}}
+{"phrase": "daniel the prophet", "class": "point", "cells": {"89266452047ffff": 3}}
+{"phrase": "lathrop", "class": "street", "cells": {"892664ca527ffff": 1, "892664c1253ffff": 2}}
+{"phrase": "prophet", "class": "point", "cells": {"89266452047ffff": 3}}
+{"phrase": "galter medical pavilion", "class": "point", "cells": {"892664d8a3bffff": 3}}
+{"phrase": "north dearborn", "class": "street", "cells": {"892664c1e67ffff": 1, "892664c1a83ffff": 1, "892664c13b7ffff": 2, "892664c1ed3ffff": 2, "892664c1ec3ffff": 2}}
+{"phrase": "originpoint", "class": "point", "cells": {"892664d8b27ffff": 4}}
+{"phrase": "narragansett", "class": "street", "cells": {"892664cb42fffff": 1, "892664cb097ffff": 2}}
+{"phrase": "onterie", "class": "point", "cells": {"892664c1ea3ffff": 4}}
+{"phrase": "shifrin", "class": "area", "cells": {"892664c1a5bffff": 1, "892664c1b6fffff": 3, "892664c1e47ffff": 1}}
+{"phrase": "advanced imaging", "class": "point", "cells": {"892664cab97ffff": 3}}
+{"phrase": "moody bible", "class": "landmark", "cells": {"892664c130bffff": 1, "892664c1e53ffff": 1, "892664c1e57ffff": 4}}
+{"phrase": "moody bible institute", "class": "landmark", "cells": {"892664c130bffff": 1, "892664c1e53ffff": 1, "892664c1e57ffff": 4}}
+{"phrase": "amrany", "class": "point", "cells": {"892664ca9dbffff": 3}}
+{"phrase": "julie rotblatt", "class": "point", "cells": {"892664ca9dbffff": 3}}
+{"phrase": "julie rotblatt amrany", "class": "point", "cells": {"892664ca9dbffff": 3}}
+{"phrase": "rotblatt amrany", "class": "point", "cells": {"892664ca9dbffff": 3}}
+{"phrase": "bright star", "class": "area", "cells": {"892664cf523ffff": 1, "892664c1bcfffff": 1, "892664ce26fffff": 1, "892664ce263ffff": 1, "892664cc49bffff": 1}}
+{"phrase": "harlem milwaukee", "class": "point", "cells": {"892664d936bffff": 3}}
+{"phrase": "east loop", "class": "area", "cells": {"892664c1a93ffff": 2, "892664c1a97ffff": 2, "892664c1e2fffff": 2}}
+{"phrase": "dunning square", "class": "point", "cells": {"892664cb097ffff": 3}}
+{"phrase": "wms", "class": "area", "cells": {"892664ca503ffff": 1, "892664ca50bffff": 1, "892664ca547ffff": 1}}
+{"phrase": "north kilpatrick", "class": "street", "cells": {"892664d9ba7ffff": 3}}
+{"phrase": "uic student", "class": "area", "cells": {"892664ca943ffff": 1, "892664c1a4fffff": 2, "892664c1a4bffff": 1}}
+{"phrase": "cook county juvenile", "class": "point", "cells": {"892664cabb3ffff": 3}}
+{"phrase": "tri taylor", "class": "area", "cells": {"892664cabb3ffff": 1, "892664cabbbffff": 2}}
+{"phrase": "jama", "class": "area", "cells": {"892664c1e77ffff": 5, "892664c1e2bffff": 1}}
+{"phrase": "habloft", "class": "point", "cells": {"892664d9aabffff": 3}}
+{"phrase": "north sheridan", "class": "street", "cells": {"892664d89c3ffff": 1, "892664d88a7ffff": 1, "892664c1013ffff": 2, "892664c10c7ffff": 2}}
+{"phrase": "lincoln park west", "class": "area", "cells": {"892664c1397ffff": 1, "892664c102fffff": 1, "892664c102bffff": 2, "892664c1387ffff": 1}}
+{"phrase": "jarvis square", "class": "area", "cells": {"892664d8cd3ffff": 2, "892664d81a7ffff": 1}}
+{"phrase": "north lasalle", "class": "street", "cells": {"892664c1e63ffff": 2, "892664c1e47ffff": 1, "892664c1e73ffff": 1, "892664c1e6fffff": 3, "892664c1a9bffff": 1, "892664c1ecbffff": 2, "892664c1edbffff": 1}}
+{"phrase": "peninsula", "class": "area", "cells": {"892664c1e03ffff": 6, "892664c1a97ffff": 1}}
+{"phrase": "fairfield currency", "class": "point", "cells": {"892664c8d97ffff": 3}}
+{"phrase": "new fairfield", "class": "point", "cells": {"892664c8d97ffff": 3}}
+{"phrase": "new fairfield currency", "class": "point", "cells": {"892664c8d97ffff": 3}}
+{"phrase": "edgewater plaza", "class": "landmark", "cells": {"892664d89d3ffff": 1, "892664d8d6bffff": 2}}
+{"phrase": "town square", "class": "area", "cells": {"892664d8b2bffff": 1, "892664c1337ffff": 3}}
+{"phrase": "divorce", "class": "area", "cells": {"892664c1ac7ffff": 1, "892664c1e73ffff": 1, "892664c1e2bffff": 1, "892664c1e2fffff": 1, "892664c1e67ffff": 2, "892664c1a9bffff": 5}}
+{"phrase": "rush presbyterian", "class": "area", "cells": {"892664ca9cfffff": 1, "892664ca9c3ffff": 1, "892664ca9c7ffff": 1}}
+{"phrase": "albany bank", "class": "area", "cells": {"892664d992bffff": 2, "892664ca4d3ffff": 1, "892664d8a7bffff": 1, "892664d8a6bffff": 1, "892664d8b47ffff": 1}}
+{"phrase": "umrah", "class": "area", "cells": {"892664d8a9bffff": 2, "892664d8e6fffff": 1}}
+{"phrase": "howard red", "class": "point", "cells": {"892664d81a3ffff": 3}}
+{"phrase": "howard red line", "class": "point", "cells": {"892664d81a3ffff": 3}}
+{"phrase": "osterman", "class": "landmark", "cells": {"892664d88a3ffff": 2, "892664d88b7ffff": 1, "892664d8d7bffff": 1}}
+{"phrase": "boricua", "class": "area", "cells": {"892664caeb7ffff": 1, "892664caea3ffff": 2}}
+{"phrase": "kennedy king", "class": "landmark", "cells": {"892664cc3d3ffff": 1, "892664cc217ffff": 3, "892664cc2a3ffff": 1, "892664cc28fffff": 1}}
+{"phrase": "kingsbury", "class": "street", "cells": {"892664c130bffff": 1, "892664c1373ffff": 1, "892664c1e4fffff": 1, "892664c1e7bffff": 1, "892664cadb7ffff": 2, "892664c1e67ffff": 1, "892664cad97ffff": 1}}
+{"phrase": "quadrangle", "class": "area", "cells": {"892664cc427ffff": 1, "892664cc553ffff": 2, "892664cc5cfffff": 1, "892664cc547ffff": 1, "892664cea13ffff": 1}}
+{"phrase": "feinberg", "class": "area", "cells": {"892664c1aa3ffff": 1, "892664c1eabffff": 2, "892664c1ebbffff": 2}}
+{"phrase": "elm street plaza", "class": "point", "cells": {"892664c1ec3ffff": 4}}
+{"phrase": "corcoran urban", "class": "area", "cells": {"892664c1853ffff": 1, "892664c1e27ffff": 2}}
+{"phrase": "southgate", "class": "area", "cells": {"892664c1a77ffff": 2, "892664c1a67ffff": 1}}
+{"phrase": "pui", "class": "area", "cells": {"892664cf0cbffff": 1, "892664cf4a3ffff": 2, "892664cf4afffff": 1}}
+{"phrase": "bucktown wicker", "class": "area", "cells": {"892664cac53ffff": 1, "892664cac13ffff": 1, "892664cacc7ffff": 4, "892664cacabffff": 1}}
+{"phrase": "tides", "class": "area", "cells": {"892664c1e73ffff": 1, "892664c1053ffff": 1, "892664c18cbffff": 1, "892664c1e27ffff": 2}}
+{"phrase": "advisor ameriprise", "class": "area", "cells": {"892664c1ac7ffff": 8, "892664c18cbffff": 1, "892664c1e23ffff": 6}}
+{"phrase": "advisor ameriprise financial", "class": "area", "cells": {"892664c1ac7ffff": 8, "892664c18cbffff": 1, "892664c1e23ffff": 6}}
+{"phrase": "riverwest", "class": "area", "cells": {"892664cadd7ffff": 1, "892664cada3ffff": 1, "892664cadbbffff": 1, "892664cadb7ffff": 1}}
+{"phrase": "old town square", "class": "point", "cells": {"892664c1337ffff": 3}}
+{"phrase": "physical therapy lakeview", "class": "area", "cells": {"892664c1637ffff": 1, "892664c1667ffff": 2, "892664c162bffff": 1}}
+{"phrase": "ita", "class": "landmark", "cells": {"892664d88a3ffff": 3}}
+{"phrase": "first community mortgage", "class": "point", "cells": {"892664d8b0fffff": 3}}
+{"phrase": "clark diversey", "class": "area", "cells": {"892664c100bffff": 1, "892664c1057ffff": 3}}
+{"phrase": "bais yaakov", "class": "landmark", "cells": {"892664d9d27ffff": 1, "892664d9d37ffff": 1, "892664d8e4fffff": 1, "892664d8adbffff": 1}}
+{"phrase": "yaakov", "class": "landmark", "cells": {"892664d9d27ffff": 1, "892664d9d37ffff": 1, "892664d8e4fffff": 1, "892664d8adbffff": 1}}
+{"phrase": "driehaus", "class": "area", "cells": {"892664c1e0fffff": 3, "892664c1e03ffff": 3, "892664c1c67ffff": 1, "892664c1c6bffff": 1}}
+{"phrase": "joaquin", "class": "area", "cells": {"892664c1627ffff": 2, "892664c1053ffff": 1, "892664c10cbffff": 1, "892664c1e07ffff": 1}}
+{"phrase": "uic health", "class": "landmark", "cells": {"892664ca90bffff": 1, "892664ca957ffff": 2}}
+{"phrase": "south wabash", "class": "street", "cells": {"892664c1b53ffff": 1, "892664c1a27ffff": 2, "892664c1b4fffff": 1}}
+{"phrase": "lavin", "class": "area", "cells": {"892664c1237ffff": 1, "892664c1e07ffff": 1, "892664c1e3bffff": 1, "892664c1eafffff": 1, "892664c1eabffff": 2}}
+{"phrase": "east asia", "class": "area", "cells": {"892664d8953ffff": 1, "892664d89cbffff": 1, "892664d89dbffff": 1}}
+{"phrase": "south east", "class": "street", "cells": {"892664d8953ffff": 1, "892664d89cbffff": 1, "892664d89dbffff": 1}}
+{"phrase": "south east asia", "class": "area", "cells": {"892664d8953ffff": 1, "892664d89cbffff": 1, "892664d89dbffff": 1}}
+{"phrase": "east delaware", "class": "area", "cells": {"892664c1ec7ffff": 3, "892664c1e8fffff": 4}}
+{"phrase": "rooftops", "class": "area", "cells": {"892664c1617ffff": 3, "892664c1623ffff": 1, "892664c128bffff": 1}}
+{"phrase": "williams chicago lincoln", "class": "point", "cells": {"892664c1277ffff": 3}}
+{"phrase": "bhhs", "class": "area", "cells": {"892664c1357ffff": 1, "892664ca993ffff": 1, "892664c1233ffff": 1, "892664c1223ffff": 1, "892664c1e8bffff": 4}}
+{"phrase": "depaul department", "class": "landmark", "cells": {"892664c12a7ffff": 1, "892664c12afffff": 1, "892664c12a3ffff": 1}}
+{"phrase": "east oak", "class": "street", "cells": {"892664c1ec7ffff": 3, "892664c1e8bffff": 1}}
+{"phrase": "north wells", "class": "street", "cells": {"892664c1e47ffff": 1, "892664c1e6fffff": 1, "892664c13a3ffff": 1, "892664c13a7ffff": 1, "892664c1edbffff": 1}}
+{"phrase": "movement mortgage", "class": "area", "cells": {"892664c1223ffff": 3, "892664c13abffff": 1}}
+{"phrase": "pui tak", "class": "area", "cells": {"892664cf4a3ffff": 2, "892664cf4afffff": 1}}
+{"phrase": "shore drive condominium", "class": "landmark", "cells": {"892664c144bffff": 1, "892664c16b7ffff": 1, "892664c146bffff": 2, "892664c1ebbffff": 1}}
+{"phrase": "cubby", "class": "area", "cells": {"892664c1607ffff": 3, "892664c132bffff": 1}}
+{"phrase": "chinatown square", "class": "point", "cells": {"892664cf4a3ffff": 3}}
+{"phrase": "richland", "class": "point", "cells": {"892664cf4a3ffff": 3}}
+{"phrase": "east erie", "class": "street", "cells": {"892664c1e0fffff": 2, "892664c1e03ffff": 3, "892664c1eabffff": 2}}
+{"phrase": "kueffner", "class": "point", "cells": {"892664cad47ffff": 3}}
+{"phrase": "kueffner team", "class": "point", "cells": {"892664cad47ffff": 3}}
+{"phrase": "christian health", "class": "area", "cells": {"892664cd67bffff": 1, "892664c8c2bffff": 1, "892664c8c2fffff": 2, "892664c8d57ffff": 1, "892664c8c97ffff": 1}}
+{"phrase": "lawndale christian health", "class": "area", "cells": {"892664cd67bffff": 1, "892664c8c2bffff": 1, "892664c8c2fffff": 2, "892664c8d57ffff": 1, "892664c8c97ffff": 1}}
+{"phrase": "lincoln park zoo", "class": "landmark", "cells": {"892664c102fffff": 2, "892664c115bffff": 1}}
+{"phrase": "west monroe", "class": "street", "cells": {"892664c1acfffff": 2, "892664c1ac7ffff": 2, "892664c1a8bffff": 1}}
+{"phrase": "therapy lincoln", "class": "area", "cells": {"892664c1283ffff": 1, "892664c104bffff": 1, "892664c12b7ffff": 1, "892664c12a3ffff": 1, "892664c1227ffff": 1, "892664c123bffff": 1, "892664d8b53ffff": 1, "892664d8b57ffff": 1, "892664c130fffff": 1, "892664c106bffff": 1, "892664c1043ffff": 1}}
+{"phrase": "saint luke", "class": "area", "cells": {"892664d9913ffff": 1, "892664c166fffff": 3}}
+{"phrase": "elysium", "class": "area", "cells": {"892664cadb3ffff": 2, "892664c1e4bffff": 1}}
+{"phrase": "private wealth advisor", "class": "area", "cells": {"892664c1ac3ffff": 1, "892664c1ad7ffff": 1, "892664c1ac7ffff": 3, "892664c1e23ffff": 2}}
+{"phrase": "wealth advisor", "class": "area", "cells": {"892664c1ac3ffff": 1, "892664c1ad7ffff": 1, "892664c1ac7ffff": 3, "892664c1e23ffff": 2}}
+{"phrase": "physical therapy lincoln", "class": "area", "cells": {"892664c1283ffff": 1, "892664c104bffff": 1, "892664c12b7ffff": 1, "892664c12a3ffff": 1, "892664c1227ffff": 1, "892664c123bffff": 1, "892664d8b53ffff": 1, "892664d8b57ffff": 1, "892664c130fffff": 1, "892664c106bffff": 1}}
+{"phrase": "originpoint nmls", "class": "point", "cells": {"892664d8b27ffff": 3}}
+{"phrase": "cubby bear", "class": "point", "cells": {"892664c1607ffff": 3}}
+{"phrase": "parkchirp", "class": "area", "cells": {"892664c130bffff": 1, "892664cad67ffff": 1, "892664c1357ffff": 1, "892664c1adbffff": 2, "892664c1ad3ffff": 1, "892664c1e4fffff": 1, "892664c1e47ffff": 1, "892664c1e0fffff": 2, "892664c1e77ffff": 1, "892664c1e2bffff": 1, "892664c1e67ffff": 1, "892664c1a83ffff": 1, "892664c1a87ffff": 1, "892664c13c7ffff": 1, "892664c1057ffff": 1, "892664c1e43ffff": 1, "892664c1ec3ffff": 2, "892664c1e23ffff": 1, "892664c1eabffff": 1}}
+{"phrase": "accident attorneys", "class": "area", "cells": {"892664cac33ffff": 1, "892664cac37ffff": 1, "892664cacabffff": 1, "892664cf447ffff": 1}}
+{"phrase": "amazonico", "class": "area", "cells": {"892664c88b3ffff": 1, "892664c8d4fffff": 1, "892664c8d47ffff": 1, "892664cab1bffff": 1}}
+{"phrase": "one north", "class": "area", "cells": {"892664c1ad7ffff": 2, "892664c1e6fffff": 1, "892664c1a9bffff": 1, "892664c1ac7ffff": 1}}
+{"phrase": "wiesman", "class": "point", "cells": {"892664c1e0bffff": 4}}
+{"phrase": "presidential towers", "class": "area", "cells": {"892664c1a57ffff": 1, "892664c1acfffff": 2, "892664c1acbffff": 1}}
+{"phrase": "delaware condo", "class": "area", "cells": {"892664c1ec7ffff": 1, "892664c1e13ffff": 2, "892664c1e8fffff": 1}}
+{"phrase": "delaware place", "class": "street", "cells": {"892664c1e1bffff": 1, "892664c1ec7ffff": 1, "892664c1e13ffff": 1, "892664c1e8fffff": 1}}
+{"phrase": "sloop", "class": "area", "cells": {"892664c1b53ffff": 1, "892664c1bcbffff": 1, "892664c1bcfffff": 1, "892664c1a8bffff": 1}}
+{"phrase": "cornell avenue apartments", "class": "area", "cells": {"892664ce367ffff": 1, "892664ce373ffff": 1, "892664cc59bffff": 2}}
+{"phrase": "michael obrien", "class": "area", "cells": {"892664c1a3bffff": 1, "892664c1a0fffff": 2}}
+{"phrase": "ritz", "class": "area", "cells": {"892664ca597ffff": 1, "892664c1e07ffff": 1, "892664c16a3ffff": 1, "892664c13afffff": 1, "892664c1e8fffff": 3}}
+{"phrase": "claridge", "class": "street", "cells": {"892664c1ed3ffff": 3}}
+{"phrase": "northwestern university department", "class": "landmark", "cells": {"892664c1e07ffff": 2, "892664c1ea3ffff": 1, "892664c1e17ffff": 2}}
+{"phrase": "thomas the apostle", "class": "point", "cells": {"892664cc5dbffff": 3}}
+{"phrase": "galter pavilion", "class": "area", "cells": {"892664c1a83ffff": 1, "892664c1e33ffff": 1, "892664c1e17ffff": 4}}
+{"phrase": "east bank", "class": "area", "cells": {"892664cf073ffff": 1, "892664cad37ffff": 1, "892664c1e4fffff": 1, "892664c1e6bffff": 1, "892664cadb7ffff": 1}}
+{"phrase": "ashland division", "class": "point", "cells": {"892664cacafffff": 3}}
+{"phrase": "ashland division currency", "class": "point", "cells": {"892664cacafffff": 3}}
+{"phrase": "division currency", "class": "point", "cells": {"892664cacafffff": 3}}
+{"phrase": "greek town", "class": "area", "cells": {"892664c1a5bffff": 2, "892664c1a53ffff": 1}}
+{"phrase": "colleen", "class": "area", "cells": {"892664caea7ffff": 1, "892664cad83ffff": 1, "892664ca957ffff": 1, "892664c1627ffff": 2, "892664c1e17ffff": 2, "892664c1e6fffff": 1, "892664c1a8bffff": 1, "892664c1eabffff": 1}}
+{"phrase": "providencia", "class": "point", "cells": {"892664cf68fffff": 3}}
+{"phrase": "fullerton parkway", "class": "street", "cells": {"892664c103bffff": 1, "892664c102bffff": 1, "892664c1077ffff": 1}}
+{"phrase": "northwestern medical faculty", "class": "area", "cells": {"892664c1a83ffff": 1, "892664c1eabffff": 1, "892664c1ea3ffff": 1, "892664c1e17ffff": 2, "892664c1e07ffff": 1}}
+{"phrase": "atproperties", "class": "area", "cells": {"892664cad83ffff": 1, "892664c1203ffff": 1, "892664c1353ffff": 1, "892664d8b2bffff": 1, "892664c1e4fffff": 1, "892664c1067ffff": 2, "892664c1e43ffff": 1, "892664c1003ffff": 1, "892664c1ec7ffff": 1, "892664c1e13ffff": 2}}
+{"phrase": "north riverside", "class": "mixed", "cells": {"892664c1ac3ffff": 2, "892664c1ad3ffff": 2}}
+{"phrase": "havas", "class": "point", "cells": {"892664c1e0fffff": 4}}
+{"phrase": "cityfront", "class": "area", "cells": {"892664c1e33ffff": 2, "892664c1e37ffff": 1}}
+{"phrase": "drexel avenue apartments", "class": "area", "cells": {"892664cc433ffff": 1, "892664cc4abffff": 2, "892664cc48fffff": 1}}
+{"phrase": "financial advisor ameriprise", "class": "area", "cells": {"892664c1ac7ffff": 5, "892664c18cbffff": 1, "892664c1e23ffff": 4}}
+{"phrase": "facial plastic", "class": "area", "cells": {"892664c12b7ffff": 1, "892664c13b3ffff": 1, "892664c1e8bffff": 1, "892664c1e13ffff": 2, "892664c1ea3ffff": 1}}
+{"phrase": "hyatt regency", "class": "area", "cells": {"892664c1b63ffff": 1, "892664c1ac7ffff": 1, "892664c1e23ffff": 4}}
+{"phrase": "melrose ppm", "class": "area", "cells": {"892664c10d3ffff": 2, "892664c10c3ffff": 1}}
+{"phrase": "melrose ppm apartments", "class": "area", "cells": {"892664c10d3ffff": 2, "892664c10c3ffff": 1}}
+{"phrase": "trial", "class": "area", "cells": {"892664cf567ffff": 1, "892664c1a8fffff": 1, "892664c1acfffff": 1, "892664c1ac7ffff": 2, "892664c1e6fffff": 3, "892664c1a9bffff": 2, "892664c1a8bffff": 2, "892664c13b7ffff": 1, "892664c1e2fffff": 1}}
+{"phrase": "west washington", "class": "street", "cells": {"892664cad23ffff": 1, "892664cad37ffff": 2, "892664c1ad7ffff": 2}}
+{"phrase": "tribune tower", "class": "point", "cells": {"892664c1e3bffff": 4}}
+{"phrase": "mcgaw", "class": "area", "cells": {"892664c1eabffff": 1, "892664c1ebbffff": 1, "892664c1e17ffff": 1}}
+{"phrase": "analytics", "class": "area", "cells": {"892664ca8b3ffff": 1, "892664caddbffff": 1, "892664d8bbbffff": 1, "892664c1adbffff": 1, "892664c1ad3ffff": 1, "892664c1e6bffff": 2, "892664c1e7bffff": 1, "892664c1e3bffff": 1, "892664c1a93ffff": 1, "892664c1a9bffff": 1, "892664c1a83ffff": 2, "892664c1a8bffff": 2, "892664c13b7ffff": 1, "892664c1e07ffff": 1}}
+{"phrase": "gold coast realty", "class": "point", "cells": {"892664c1ec3ffff": 3}}
+{"phrase": "bare feet", "class": "area", "cells": {"892664cad2bffff": 1, "892664cad23ffff": 1, "892664cad2fffff": 1}}
+{"phrase": "segal", "class": "area", "cells": {"892664cad13ffff": 1, "892664d8b27ffff": 1, "892664c1ac3ffff": 1, "892664c1ad7ffff": 1, "892664c1e6bffff": 1, "892664c1a8bffff": 1, "892664c1ac7ffff": 1, "892664c1a13ffff": 1, "892664c1e53ffff": 1, "892664c1e8bffff": 1}}
+{"phrase": "cedar condominium", "class": "landmark", "cells": {"892664c1ed7ffff": 3}}
+{"phrase": "lot parkchirp", "class": "area", "cells": {"892664c1adbffff": 1, "892664c1e4fffff": 1, "892664c1e47ffff": 1, "892664c1e43ffff": 1}}
+{"phrase": "esq", "class": "area", "cells": {"892664c1a8fffff": 2, "892664c1a57ffff": 1, "892664c1acfffff": 1, "892664c1a9bffff": 2, "892664c1e6fffff": 2, "892664c1e67ffff": 1, "892664c1a83ffff": 1, "892664c1a8bffff": 1, "892664c1e57ffff": 1, "892664c13b7ffff": 1, "892664c1e17ffff": 1}}
+{"phrase": "ritz carlton", "class": "area", "cells": {"892664c1e07ffff": 1, "892664c1e8fffff": 3}}
+{"phrase": "lincoln common", "class": "area", "cells": {"892664c106bffff": 2, "892664c1063ffff": 1}}
+{"phrase": "anjali", "class": "area", "cells": {"892664c130fffff": 1, "892664c13a3ffff": 1, "892664c1eabffff": 2, "892664c1e07ffff": 1}}
+{"phrase": "strawn", "class": "area", "cells": {"892664c1e63ffff": 1, "892664c1e67ffff": 3, "892664c1e23ffff": 1}}
+{"phrase": "winston strawn", "class": "area", "cells": {"892664c1e63ffff": 1, "892664c1e67ffff": 3, "892664c1e23ffff": 1}}
+{"phrase": "hampden court", "class": "street", "cells": {"892664c100bffff": 3}}
+{"phrase": "aggarwal", "class": "area", "cells": {"892664c1e07ffff": 1, "892664c1eabffff": 1, "892664c1e17ffff": 2}}
+{"phrase": "faculty foundation", "class": "area", "cells": {"892664c1eabffff": 1, "892664c1e07ffff": 1, "892664c1e17ffff": 2}}
+{"phrase": "procopius", "class": "point", "cells": {"892664cf45bffff": 3}}
+{"phrase": "blue cross", "class": "area", "cells": {"892664c1e2fffff": 2, "892664c1e27ffff": 1}}
+{"phrase": "blue shield", "class": "area", "cells": {"892664c1e2fffff": 2, "892664c1e27ffff": 1}}
+{"phrase": "garg", "class": "landmark", "cells": {"892664cac73ffff": 1, "892664c1eabffff": 2, "892664c1e17ffff": 1}}
+{"phrase": "monadnock", "class": "point", "cells": {"892664c1a8fffff": 4}}
+{"phrase": "divorce family law", "class": "area", "cells": {"892664c1e2bffff": 1, "892664c1e67ffff": 1, "892664c1a9bffff": 2}}
+{"phrase": "clothiers", "class": "area", "cells": {"892664c1aabffff": 1, "892664c1a9bffff": 1, "892664c1a8bffff": 1, "892664c1a8fffff": 1, "892664c1a83ffff": 1, "892664c1a97ffff": 1, "892664c1e07ffff": 2}}
+{"phrase": "criminal defense", "class": "area", "cells": {"892664c8d43ffff": 1, "892664caed7ffff": 1, "892664cad73ffff": 1, "892664ca997ffff": 1, "892664c1a17ffff": 1, "892664c1e67ffff": 1, "892664c1a9bffff": 2, "892664c1e6fffff": 2, "892664c1a8bffff": 1, "892664c1a8fffff": 2}}
+{"phrase": "central loop", "class": "area", "cells": {"892664c1a13ffff": 2, "892664c1a8fffff": 2, "892664c13b7ffff": 1}}
+{"phrase": "washington wells", "class": "landmark", "cells": {"892664c1ad7ffff": 4}}
+{"phrase": "nuevo leon", "class": "area", "cells": {"892664c888fffff": 1, "892664c8d4fffff": 1, "892664cf683ffff": 2, "892664cf697ffff": 1}}
+{"phrase": "food hall", "class": "area", "cells": {"892664c1b73ffff": 1, "892664c1a93ffff": 1, "892664c1a13ffff": 1, "892664c1a8fffff": 3}}
+{"phrase": "cohn", "class": "area", "cells": {"892664c1a9bffff": 2, "892664c106bffff": 1, "892664c1e07ffff": 2, "892664c1e17ffff": 1}}
+{"phrase": "wealth management advisor", "class": "area", "cells": {"892664c1a1bffff": 1, "892664c1ad7ffff": 1, "892664c1e6fffff": 3}}
+{"phrase": "friends sushi", "class": "area", "cells": {"892664c1e03ffff": 1, "892664c1a87ffff": 1, "892664c1e1bffff": 2}}
+{"phrase": "plastic surgeon", "class": "area", "cells": {"892664c1ec7ffff": 1, "892664c1e13ffff": 2}}
+{"phrase": "ncc", "class": "area", "cells": {"892664c1e0fffff": 1, "892664c1e03ffff": 2, "892664c1e3bffff": 1, "892664c1a8fffff": 1, "892664c1a87ffff": 1, "892664c1ec3ffff": 1}}
+{"phrase": "preservation", "class": "area", "cells": {"892664cad8bffff": 1, "892664cf45bffff": 1, "892664c1a03ffff": 1, "892664ce343ffff": 1, "892664c1acfffff": 1, "892664c1a1bffff": 1, "892664c1a83ffff": 1, "892664c1a8bffff": 1, "892664c1a8fffff": 1, "892664c1a87ffff": 1}}
+{"phrase": "arkes", "class": "area", "cells": {"892664c1e17ffff": 2, "892664c1e07ffff": 2}}
+{"phrase": "arkes pavilion", "class": "area", "cells": {"892664c1e17ffff": 2, "892664c1e07ffff": 2}}
+{"phrase": "executive search", "class": "area", "cells": {"892664c1ac7ffff": 1, "892664c1ad7ffff": 1, "892664c1e03ffff": 1, "892664c1a93ffff": 1, "892664c1a13ffff": 1, "892664c1a8bffff": 1}}
+{"phrase": "robey", "class": "area", "cells": {"892664cacc7ffff": 3, "892664ca5a3ffff": 1}}
+{"phrase": "trainer", "class": "area", "cells": {"892664cad67ffff": 1, "892664ca9c7ffff": 1, "892664c1e07ffff": 2, "892664c1e43ffff": 1, "892664c1eabffff": 1}}
+{"phrase": "wei", "class": "area", "cells": {"892664cf403ffff": 1, "892664cf4b3ffff": 1, "892664c1e07ffff": 1, "892664c1e17ffff": 2}}
+{"phrase": "forensics", "class": "area", "cells": {"892664c1ad3ffff": 1, "892664c1a83ffff": 2, "892664c1a8fffff": 2}}
+{"phrase": "chestnut apartments", "class": "landmark", "cells": {"892664c1e1bffff": 2, "892664c1e13ffff": 1}}
+{"phrase": "west chestnut", "class": "street", "cells": {"892664c1e1bffff": 3}}
+{"phrase": "deposition", "class": "area", "cells": {"892664c1a9bffff": 1, "892664c1a8bffff": 1, "892664c1ac7ffff": 2}}
+{"phrase": "nbc", "class": "point", "cells": {"892664c1e33ffff": 3}}
+{"phrase": "merrill lynch", "class": "area", "cells": {"892664c1ac3ffff": 1, "892664c1ad7ffff": 2, "892664c1e6fffff": 1, "892664c1a83ffff": 1}}
+{"phrase": "allerton", "class": "area", "cells": {"892664c1e17ffff": 3, "892664c1e0fffff": 1}}
+{"phrase": "fourth presbyterian", "class": "landmark", "cells": {"892664c1a9bffff": 1, "892664c1e13ffff": 3}}
+{"phrase": "garage parkchirp", "class": "area", "cells": {"892664c130bffff": 1, "892664c1adbffff": 1, "892664c1e77ffff": 1, "892664c1e2bffff": 1, "892664c1e67ffff": 1, "892664c1a83ffff": 1, "892664c1057ffff": 1, "892664c1ec3ffff": 2, "892664c1e23ffff": 1, "892664c1eabffff": 1}}
+{"phrase": "moti", "class": "point", "cells": {"892664c1e0bffff": 3}}
+{"phrase": "south riverside", "class": "area", "cells": {"892664c1a1bffff": 2, "892664c1acfffff": 1}}
+{"phrase": "south riverside plaza", "class": "area", "cells": {"892664c1a1bffff": 2, "892664c1acfffff": 1}}
+{"phrase": "tourism", "class": "area", "cells": {"892664c1e03ffff": 1, "892664c1e2fffff": 2, "892664c1a93ffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "goldsmith", "class": "area", "cells": {"892664c1e13ffff": 1, "892664c1e17ffff": 2}}
+{"phrase": "north bridge", "class": "area", "cells": {"892664c1e3bffff": 4, "892664c1e2fffff": 1}}
+{"phrase": "accident lawyers", "class": "area", "cells": {"892664c1a17ffff": 1, "892664c1a9bffff": 2, "892664c1ad7ffff": 1, "892664c1ac7ffff": 1, "892664c1a97ffff": 2}}
+{"phrase": "litigation", "class": "area", "cells": {"892664cad73ffff": 1, "892664c1ad7ffff": 1, "892664c1e43ffff": 1, "892664c1e6fffff": 2, "892664c1a8bffff": 1, "892664c1ecfffff": 1}}
+{"phrase": "bosley", "class": "area", "cells": {"892664cf0c7ffff": 1, "892664c1e03ffff": 3}}
+{"phrase": "eating recovery", "class": "area", "cells": {"892664c1e0fffff": 1, "892664c1e2bffff": 1, "892664c1e07ffff": 1, "892664c1e17ffff": 1}}
+{"phrase": "quincy", "class": "street", "cells": {"892664c1acfffff": 1, "892664c1a1bffff": 1, "892664c1a13ffff": 1}}
+{"phrase": "downtown river", "class": "area", "cells": {"892664c1e73ffff": 1, "892664c1e0fffff": 1, "892664c1e77ffff": 1}}
+{"phrase": "downtown river north", "class": "area", "cells": {"892664c1e73ffff": 1, "892664c1e0fffff": 1, "892664c1e77ffff": 1}}
+{"phrase": "primecare", "class": "area", "cells": {"892664cac63ffff": 1, "892664cac43ffff": 3, "892664cb197ffff": 1, "892664ca38bffff": 1, "892664ca307ffff": 1}}
+{"phrase": "life time", "class": "area", "cells": {"892664c1e03ffff": 1, "892664c1ac7ffff": 2, "892664c1e1bffff": 2}}
+{"phrase": "lyric", "class": "area", "cells": {"892664c1ac3ffff": 2, "892664c1ad7ffff": 1, "892664c1073ffff": 1}}
+{"phrase": "north riverside plaza", "class": "area", "cells": {"892664c1ac3ffff": 2, "892664c1ad3ffff": 1}}
+{"phrase": "american bar", "class": "area", "cells": {"892664c1ab3ffff": 1, "892664c1e67ffff": 2, "892664c1e63ffff": 1, "892664c1a8fffff": 1, "892664c1ebbffff": 1}}
+{"phrase": "auditorium theatre", "class": "area", "cells": {"892664c1abbffff": 2, "892664c1a87ffff": 1}}
+{"phrase": "citigroup", "class": "area", "cells": {"892664c1ac3ffff": 2, "892664c1ac7ffff": 1}}
+{"phrase": "civic opera", "class": "area", "cells": {"892664c1ac3ffff": 1, "892664c1ad7ffff": 2}}
+{"phrase": "lyric opera", "class": "area", "cells": {"892664c1ac3ffff": 2, "892664c1ad7ffff": 1}}
+{"phrase": "nye", "class": "area", "cells": {"892664c1aa3ffff": 1, "892664c1e07ffff": 1, "892664c1e3bffff": 1, "892664c1e23ffff": 1}}
+{"phrase": "michigan plaza", "class": "area", "cells": {"892664c1e2bffff": 1, "892664c1e2fffff": 2}}
+{"phrase": "pru", "class": "point", "cells": {"892664c1e2fffff": 3}}
+{"phrase": "jean pierre", "class": "point", "cells": {"892664c1e63ffff": 3}}
+{"phrase": "jean pierre realty", "class": "point", "cells": {"892664c1e63ffff": 3}}
+{"phrase": "pierre realty", "class": "point", "cells": {"892664c1e63ffff": 3}}
+{"phrase": "potty", "class": "area", "cells": {"892664c135bffff": 1, "892664c1e63ffff": 1, "892664c1a8fffff": 1, "892664c1a83ffff": 1, "892664c1a87ffff": 1}}
+{"phrase": "medicine division", "class": "area", "cells": {"892664c1a93ffff": 1, "892664c1eabffff": 1, "892664c1e07ffff": 1, "892664c1e17ffff": 1}}
+{"phrase": "law bulletin", "class": "point", "cells": {"892664c1e77ffff": 3}}
+{"phrase": "marina city", "class": "area", "cells": {"892664c1e77ffff": 2, "892664c1e67ffff": 1}}
+{"phrase": "porta", "class": "area", "cells": {"892664c1e63ffff": 1, "892664c1a8fffff": 1, "892664c1a83ffff": 1, "892664c1a87ffff": 1}}
+{"phrase": "porta potty", "class": "area", "cells": {"892664c1e63ffff": 1, "892664c1a8fffff": 1, "892664c1a83ffff": 1, "892664c1a87ffff": 1}}
+{"phrase": "manufacturing jewelers", "class": "area", "cells": {"892664c1a97ffff": 1, "892664c1a83ffff": 2}}
+{"phrase": "pittsfield", "class": "area", "cells": {"892664c1a97ffff": 2, "892664c1a93ffff": 1}}
+{"phrase": "brazil", "class": "area", "cells": {"892664ca8dbffff": 1, "892664cac2fffff": 1, "892664cadc7ffff": 1, "892664c1e0fffff": 1, "892664c1ed3ffff": 1, "892664c1e3bffff": 1, "892664c1e33ffff": 1}}
+{"phrase": "relational", "class": "area", "cells": {"892664cad3bffff": 1, "892664c1667ffff": 1, "892664c1a43ffff": 1, "892664c1e2fffff": 1, "892664c1a97ffff": 1, "892664c1a93ffff": 1, "892664c132fffff": 1}}
+{"phrase": "south wacker", "class": "street", "cells": {"892664c1a13ffff": 1, "892664c1ac7ffff": 2}}
+{"phrase": "william blair", "class": "area", "cells": {"892664c1ad3ffff": 1, "892664c1a13ffff": 1, "892664c1ac7ffff": 2}}
+{"phrase": "finkel", "class": "area", "cells": {"892664ca90bffff": 1, "892664c1a1bffff": 1, "892664c1e2bffff": 1, "892664c1a93ffff": 1, "892664c1e67ffff": 1}}
+{"phrase": "ogilvie", "class": "area", "cells": {"892664c1ac3ffff": 3, "892664c1e47ffff": 1, "892664c1073ffff": 1, "892664c1eafffff": 1}}
+{"phrase": "wealth advisor ameriprise", "class": "area", "cells": {"892664c1ac7ffff": 3, "892664c1e23ffff": 2}}
+{"phrase": "berk", "class": "area", "cells": {"892664c1ac3ffff": 1, "892664c1e67ffff": 1, "892664c1e6fffff": 1, "892664c1a9bffff": 1, "892664c1053ffff": 1}}
+{"phrase": "claims", "class": "area", "cells": {"892664c1a13ffff": 1, "892664c1e73ffff": 1, "892664c1e67ffff": 1, "892664c1e6fffff": 2}}
+{"phrase": "criminal defense attorney", "class": "area", "cells": {"892664caed7ffff": 1, "892664ca997ffff": 1, "892664c1e67ffff": 1, "892664c1e6fffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "defense attorney", "class": "area", "cells": {"892664caed7ffff": 1, "892664ca997ffff": 1, "892664c1e67ffff": 1, "892664c1e6fffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "thorpe", "class": "area", "cells": {"892664c1ac7ffff": 1, "892664c1a8bffff": 2}}
+{"phrase": "managers", "class": "area", "cells": {"892664cad87ffff": 1, "892664c1ac7ffff": 1, "892664c1a8bffff": 2}}
+{"phrase": "office suites", "class": "area", "cells": {"892664c1e67ffff": 1, "892664c1e6fffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "schlack", "class": "area", "cells": {"892664c1e6fffff": 2, "892664c1a9bffff": 1}}
+{"phrase": "tiaa wealth", "class": "area", "cells": {"892664c1a1bffff": 1, "892664c1e6fffff": 3}}
+{"phrase": "manhattan", "class": "area", "cells": {"892664c1a17ffff": 2, "892664c1e47ffff": 1, "892664c1e0fffff": 1, "892664c1e3bffff": 1, "892664c1e23ffff": 1}}
+{"phrase": "abuse", "class": "area", "cells": {"892664c1273ffff": 1, "892664c1a83ffff": 1, "892664c1a9bffff": 2, "892664c1a87ffff": 1}}
+{"phrase": "john marshall", "class": "point", "cells": {"892664c1a8fffff": 3}}
+{"phrase": "john marshall law", "class": "point", "cells": {"892664c1a8fffff": 3}}
+{"phrase": "marshall law", "class": "point", "cells": {"892664c1a8fffff": 3}}
+{"phrase": "godfrey", "class": "area", "cells": {"892664c1e0bffff": 3, "892664c13a7ffff": 1}}
+{"phrase": "ferrell", "class": "area", "cells": {"892664c1e63ffff": 1, "892664c1a93ffff": 1, "892664c1e67ffff": 1}}
+{"phrase": "law section", "class": "point", "cells": {"892664c1e67ffff": 3}}
+{"phrase": "publicis", "class": "point", "cells": {"892664c1e67ffff": 3}}
+{"phrase": "teich", "class": "area", "cells": {"892664c1e2bffff": 1, "892664c1e67ffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "wacker building", "class": "landmark", "cells": {"892664c1e67ffff": 2, "892664c1a9bffff": 1}}
+{"phrase": "injury car", "class": "area", "cells": {"892664c1a9bffff": 1, "892664c1ad7ffff": 1, "892664c1ac7ffff": 1}}
+{"phrase": "injury car accident", "class": "area", "cells": {"892664c1a9bffff": 1, "892664c1ad7ffff": 1, "892664c1ac7ffff": 1}}
+{"phrase": "seva companies", "class": "area", "cells": {"892664cad8bffff": 1, "892664cad6fffff": 1, "892664c1a9bffff": 1, "892664c1ad7ffff": 1, "892664c1a8bffff": 1, "892664c1ec3ffff": 1}}
+{"phrase": "car accident", "class": "area", "cells": {"892664c1a17ffff": 1, "892664c1a9bffff": 1, "892664c1e67ffff": 1, "892664c1ad7ffff": 1, "892664c1ac7ffff": 1}}
+{"phrase": "mutual insurance", "class": "area", "cells": {"892664c1a1bffff": 1, "892664c1ad7ffff": 2, "892664c1e67ffff": 1, "892664c1a8bffff": 1}}
+{"phrase": "app development", "class": "area", "cells": {"892664cad23ffff": 1, "892664c1a03ffff": 1, "892664c1a27ffff": 1, "892664c1ac7ffff": 1, "892664c1e6bffff": 2, "892664c1a13ffff": 1}}
+{"phrase": "mobile app", "class": "area", "cells": {"892664cad23ffff": 1, "892664c1a03ffff": 1, "892664c1a27ffff": 1, "892664c1ac7ffff": 1, "892664c1e6bffff": 1, "892664c1e3bffff": 1, "892664c1a13ffff": 1}}
+{"phrase": "car accident lawyers", "class": "area", "cells": {"892664c1a17ffff": 1, "892664c1a9bffff": 1, "892664c1ad7ffff": 1, "892664c1ac7ffff": 1}}
+{"phrase": "drug rehab", "class": "area", "cells": {"892664cf4d7ffff": 1, "892664c1e63ffff": 1, "892664c1a8fffff": 1, "892664c1a83ffff": 1, "892664c1a87ffff": 1, "892664c1ea3ffff": 1}}
+{"phrase": "thewit", "class": "point", "cells": {"892664c1a93ffff": 3}}
+{"phrase": "cbs", "class": "area", "cells": {"892664caaa3ffff": 1, "892664c1a93ffff": 1, "892664c1e67ffff": 1, "892664c1e57ffff": 1, "892664c184bffff": 1, "892664c1e2fffff": 1}}
+{"phrase": "medicine department", "class": "area", "cells": {"892664ca947ffff": 2, "892664c1eabffff": 1, "892664c1e07ffff": 1, "892664c1e17ffff": 1}}
+{"phrase": "horwitz law", "class": "point", "cells": {"892664c1a9bffff": 3}}
+{"phrase": "landsman", "class": "area", "cells": {"892664c1a9bffff": 2, "892664c1a8bffff": 1}}
+{"phrase": "teichner", "class": "area", "cells": {"892664c1a9bffff": 2, "892664c1a8bffff": 1}}
+{"phrase": "phelps", "class": "area", "cells": {"892664cac43ffff": 1, "892664ca997ffff": 1, "892664c1a1bffff": 1, "892664c1ac7ffff": 1, "892664cad37ffff": 1, "892664c1ad7ffff": 1, "892664c13d7ffff": 1}}
+{"phrase": "jordan store", "class": "point", "cells": {"892664c1a83ffff": 3}}
+{"phrase": "symmetri", "class": "area", "cells": {"892664c1e03ffff": 2, "892664c1e07ffff": 1, "892664c1e2bffff": 1}}
+{"phrase": "mobile app development", "class": "area", "cells": {"892664cad23ffff": 1, "892664c1a03ffff": 1, "892664c1a27ffff": 1, "892664c1ac7ffff": 1, "892664c1e6bffff": 1, "892664c1a13ffff": 1}}
+{"phrase": "loop campus", "class": "landmark", "cells": {"892664c1aabffff": 1, "892664c1abbffff": 1, "892664c1a83ffff": 1, "892664c1ad7ffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "injury law firm", "class": "area", "cells": {"892664c1e6fffff": 1, "892664c1a9bffff": 1, "892664c1a83ffff": 1, "892664c13b7ffff": 1}}
+{"phrase": "treasurer", "class": "area", "cells": {"892664c1a9bffff": 3, "892664c13b7ffff": 1}}
+{"phrase": "munich", "class": "area", "cells": {"892664c1ac7ffff": 1, "892664c1a83ffff": 1, "892664c1a8bffff": 1}}
+{"phrase": "roanoke", "class": "point", "cells": {"892664c1a8bffff": 3}}
+{"phrase": "south lasalle", "class": "street", "cells": {"892664c1a8bffff": 3}}
+{"phrase": "altus", "class": "area", "cells": {"892664cabcfffff": 1, "892664c1a9bffff": 1, "892664c1a8fffff": 1, "892664c1a83ffff": 1}}
+{"phrase": "loop office", "class": "area", "cells": {"892664c1a17ffff": 1, "892664c1a93ffff": 1, "892664c1a8bffff": 1, "892664c1a83ffff": 1}}
+{"phrase": "thrivent", "class": "area", "cells": {"892664c13dbffff": 1, "892664c1a8bffff": 3}}
+{"phrase": "sharing", "class": "area", "cells": {"892664c1abbffff": 1, "892664c1ac7ffff": 1, "892664cadb7ffff": 1, "892664c1e63ffff": 1, "892664c1e67ffff": 1, "892664c1e6fffff": 1, "892664c1ad7ffff": 1, "892664c16b3ffff": 1}}
+{"phrase": "midwest chapter", "class": "area", "cells": {"892664c1a8fffff": 1, "892664c1abbffff": 1, "892664c1ab3ffff": 1, "892664c1a37ffff": 1}}
+{"phrase": "focused", "class": "area", "cells": {"892664cacc7ffff": 1, "892664cad8fffff": 1, "892664c1a1bffff": 1, "892664c1acfffff": 1, "892664c1e2bffff": 1, "892664c1a97ffff": 1, "892664c1a93ffff": 1}}
+{"phrase": "civil", "class": "area", "cells": {"892664ca917ffff": 1, "892664c1ac3ffff": 1, "892664c1e2fffff": 1, "892664c1e67ffff": 1, "892664c1a9bffff": 1, "892664c1a83ffff": 1, "892664c13b3ffff": 1}}
+{"phrase": "trial lawyers", "class": "area", "cells": {"892664c1a8fffff": 1, "892664c1e6fffff": 1, "892664c1a9bffff": 1, "892664c1a8bffff": 1, "892664c13b7ffff": 1, "892664c1e2fffff": 1}}
+{"phrase": "duff phelps", "class": "area", "cells": {"892664c1a1bffff": 1, "892664c1ac7ffff": 1, "892664cad37ffff": 1, "892664c1ad7ffff": 1}}
+{"phrase": "serra", "class": "landmark", "cells": {"892664c1e03ffff": 1, "892664c1e6fffff": 1, "892664c1ad7ffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "debofsky", "class": "area", "cells": {"892664c1ad3ffff": 1, "892664c1a8bffff": 1, "892664c1ad7ffff": 1, "892664c1a13ffff": 1}}
+{"phrase": "iparkit", "class": "area", "cells": {"892664c1a13ffff": 1, "892664c1a93ffff": 1, "892664c1e67ffff": 1, "892664c1e6fffff": 1, "892664c1ad7ffff": 1, "892664c1a87ffff": 2, "892664c1e07ffff": 1}}
+{"phrase": "mandell", "class": "street", "cells": {"892664c1e43ffff": 1, "892664c1e6fffff": 1, "892664c1a8bffff": 1, "892664c1ad7ffff": 1, "892664c1e13ffff": 1}}
+{"phrase": "sexy girl", "class": "area", "cells": {"892664cf4c3ffff": 1, "892664c1ab7ffff": 1, "892664c1ac7ffff": 1, "892664c1ad7ffff": 1, "892664c1a9bffff": 1}}
+{"phrase": "alphagraphics", "class": "area", "cells": {"892664cad23ffff": 1, "892664c1e3bffff": 1, "892664c1e77ffff": 2, "892664c1a83ffff": 1, "892664c1377ffff": 1, "892664c1e2fffff": 1}}

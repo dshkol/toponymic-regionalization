@@ -1,0 +1,589 @@
+{
+ "summary": {
+  "city": "vancouver",
+  "polygons": 22,
+  "all": {
+   "hit1": 0.455,
+   "partial1": 0.5,
+   "hit3": 0.727
+  },
+  "area": {
+   "hit1": 0.455,
+   "partial1": 0.5,
+   "hit3": 0.773
+  },
+  "no_top_term": 0
+ },
+ "polygons": [
+  {
+   "name": "West End",
+   "places": 2387,
+   "all": {
+    "top3": [
+     "english bay",
+     "davie",
+     "west end"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "english bay",
+     "west end",
+     "end"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Grandview-Woodland",
+   "places": 1603,
+   "all": {
+    "top3": [
+     "britannia",
+     "woodland",
+     "coho"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "britannia",
+     "woodland",
+     "coho"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Strathcona",
+   "places": 1815,
+   "all": {
+    "top3": [
+     "strathcona",
+     "chinatown",
+     "benevolent"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "strathcona",
+     "chinatown",
+     "benevolent"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Downtown",
+   "places": 12049,
+   "all": {
+    "top3": [
+     "yaletown",
+     "wealth private",
+     "private investment advice"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "yaletown",
+     "advice",
+     "gastown"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Mount Pleasant",
+   "places": 2729,
+   "all": {
+    "top3": [
+     "pleasant",
+     "mount pleasant",
+     "olympic village"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": true,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "pleasant",
+     "mount pleasant",
+     "olympic village"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Kensington-Cedar Cottage",
+   "places": 1462,
+   "all": {
+    "top3": [
+     "cedar cottage",
+     "trout lake",
+     "trout"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "cedar cottage",
+     "trout lake",
+     "trout"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Riley Park",
+   "places": 954,
+   "all": {
+    "top3": [
+     "main",
+     "hillcrest",
+     "antiques"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "hillcrest",
+     "antiques",
+     "riley"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "South Cambie",
+   "places": 387,
+   "all": {
+    "top3": [
+     "cambie village",
+     "king edward",
+     "cambie"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "cambie village",
+     "cannabis dispensary",
+     "dispensary"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Shaughnessy",
+   "places": 191,
+   "all": {
+    "top3": [
+     "shaughnessy",
+     "kerrisdale",
+     "point grey"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "shaughnessy",
+     "kerrisdale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Arbutus-Ridge",
+   "places": 506,
+   "all": {
+    "top3": [
+     "kerrisdale",
+     "arbutus",
+     "wales"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "kerrisdale",
+     "arbutus",
+     "tan"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Kitsilano",
+   "places": 2269,
+   "all": {
+    "top3": [
+     "kitsilano",
+     "kits",
+     "fourth"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "kitsilano",
+     "kits",
+     "fourth"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Fairview",
+   "places": 4297,
+   "all": {
+    "top3": [
+     "granville island",
+     "south granville",
+     "island"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "granville island",
+     "south granville",
+     "vgh"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "division"
+   }
+  },
+  {
+   "name": "West Point Grey",
+   "places": 391,
+   "all": {
+    "top3": [
+     "jericho",
+     "point grey",
+     "sasamat"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "sailing club",
+     "lord byng",
+     "byng"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Dunbar-Southlands",
+   "places": 410,
+   "all": {
+    "top3": [
+     "dunbar",
+     "musqueam",
+     "immaculate conception"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "dunbar",
+     "musqueam",
+     "southlands"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Kerrisdale",
+   "places": 422,
+   "all": {
+    "top3": [
+     "kerrisdale",
+     "southlands",
+     "arbutus"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "kerrisdale",
+     "southlands",
+     "arbutus"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Marpole",
+   "places": 1252,
+   "all": {
+    "top3": [
+     "marpole",
+     "marine gateway",
+     "airport square"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "marpole",
+     "marine gateway",
+     "royal pacific"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Oakridge",
+   "places": 420,
+   "all": {
+    "top3": [
+     "oakridge",
+     "langara",
+     "jewish"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "oakridge",
+     "jewish"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Sunset",
+   "places": 1157,
+   "all": {
+    "top3": [
+     "john oliver",
+     "south hill",
+     "fraserview"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "john oliver",
+     "south hill",
+     "fraserview"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Victoria-Fraserview",
+   "places": 491,
+   "all": {
+    "top3": [
+     "david thompson",
+     "fraserview",
+     "killarney"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "david thompson",
+     "fraserview",
+     "killarney"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Killarney",
+   "places": 401,
+   "all": {
+    "top3": [
+     "champlain",
+     "river district",
+     "killarney"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "champlain",
+     "river district",
+     "killarney"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Renfrew-Collingwood",
+   "places": 1300,
+   "all": {
+    "top3": [
+     "collingwood",
+     "renfrew",
+     "kingsway"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "collingwood",
+     "renfrew",
+     "mercedes benz"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Hastings-Sunrise",
+   "places": 882,
+   "all": {
+    "top3": [
+     "hastings",
+     "pne",
+     "east village"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "hastings",
+     "pne",
+     "east village"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  }
+ ]
+}

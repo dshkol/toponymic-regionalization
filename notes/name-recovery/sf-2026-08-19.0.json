@@ -3,13 +3,16 @@
   "city": "sf",
   "polygons": 41,
   "all": {
-   "top1": 0.34146341463414637,
-   "top3": 0.6341463414634146
+   "hit1": 0.341,
+   "partial1": 0.512,
+   "hit3": 0.634
   },
   "area": {
-   "top1": 0.5365853658536586,
-   "top3": 0.6341463414634146
-  }
+   "hit1": 0.537,
+   "partial1": 0.659,
+   "hit3": 0.634
+  },
+  "no_top_term": 2
  },
  "polygons": [
   {
@@ -23,6 +26,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "street"
    },
    "area": {
@@ -33,6 +37,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -47,6 +52,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "street"
    },
    "area": {
@@ -57,6 +63,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -71,6 +78,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": true,
     "class": "street"
    },
    "area": {
@@ -79,6 +87,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -93,6 +102,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "point"
    },
    "area": {
@@ -103,6 +113,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -117,6 +128,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    },
    "area": {
@@ -127,6 +139,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -141,6 +154,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    },
    "area": {
@@ -151,6 +165,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -165,6 +180,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "street"
    },
    "area": {
@@ -175,6 +191,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -189,6 +206,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    },
    "area": {
@@ -199,6 +217,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -213,6 +232,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    },
    "area": {
@@ -223,6 +243,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -237,6 +258,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "street"
    },
    "area": {
@@ -245,6 +267,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -259,6 +282,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    },
    "area": {
@@ -269,6 +293,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -283,6 +308,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": true,
     "class": "area"
    },
    "area": {
@@ -293,6 +319,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": true,
     "class": "area"
    }
   },
@@ -307,6 +334,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "mixed"
    },
    "area": {
@@ -317,6 +345,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "mixed"
    }
   },
@@ -331,6 +360,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    },
    "area": {
@@ -341,6 +371,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -353,6 +384,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    },
    "area": {
@@ -361,6 +393,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -375,6 +408,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    },
    "area": {
@@ -385,6 +419,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -399,6 +434,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    },
    "area": {
@@ -409,6 +445,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -423,6 +460,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    },
    "area": {
@@ -433,6 +471,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -446,6 +485,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    },
    "area": {
@@ -455,6 +495,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -465,12 +506,14 @@
     "top3": [],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": null
    },
    "area": {
     "top3": [],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": null
    }
   },
@@ -485,6 +528,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": true,
     "class": "area"
    },
    "area": {
@@ -495,6 +539,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": true,
     "class": "area"
    }
   },
@@ -509,6 +554,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    },
    "area": {
@@ -519,6 +565,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -533,6 +580,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "street"
    },
    "area": {
@@ -543,6 +591,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -557,16 +606,18 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "point"
    },
    "area": {
     "top3": [
      "russian hill",
-     "leavenworth apartments",
-     "russian"
+     "ghirardelli",
+     "leavenworth apartments"
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -581,6 +632,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    },
    "area": {
@@ -591,6 +643,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -599,22 +652,24 @@
    "places": 723,
    "all": {
     "top3": [
+     "stonestown",
      "sfsu",
-     "lake merced",
-     "merced"
+     "stonestown galleria"
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    },
    "area": {
     "top3": [
+     "stonestown",
      "sfsu",
-     "merced",
-     "parkmerced"
+     "stonestown galleria"
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -629,6 +684,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    },
    "area": {
@@ -639,6 +695,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -649,12 +706,14 @@
     "top3": [],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": null
    },
    "area": {
     "top3": [],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": null
    }
   },
@@ -669,6 +728,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    },
    "area": {
@@ -679,6 +739,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -693,6 +754,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "street"
    },
    "area": {
@@ -703,6 +765,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -717,6 +780,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": true,
     "class": "street"
    },
    "area": {
@@ -727,6 +791,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -741,6 +806,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": true,
     "class": "street"
    },
    "area": {
@@ -751,6 +817,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -765,6 +832,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "street"
    },
    "area": {
@@ -775,6 +843,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "division"
    }
   },
@@ -789,6 +858,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "street"
    },
    "area": {
@@ -799,6 +869,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": true,
     "class": "area"
    }
   },
@@ -813,6 +884,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    },
    "area": {
@@ -823,6 +895,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -837,6 +910,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    },
    "area": {
@@ -847,6 +921,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -861,6 +936,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "area"
    },
    "area": {
@@ -871,6 +947,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": false,
     "class": "area"
    }
   },
@@ -885,6 +962,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    },
    "area": {
@@ -895,6 +973,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "division"
    }
   },
@@ -909,6 +988,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    },
    "area": {
@@ -919,6 +999,7 @@
     ],
     "hit1": true,
     "hit3": true,
+    "partial1": true,
     "class": "mixed"
    }
   },
@@ -933,6 +1014,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": true,
     "class": "area"
    },
    "area": {
@@ -943,6 +1025,7 @@
     ],
     "hit1": false,
     "hit3": true,
+    "partial1": true,
     "class": "area"
    }
   },
@@ -957,6 +1040,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": true,
     "class": "area"
    },
    "area": {
@@ -967,6 +1051,7 @@
     ],
     "hit1": false,
     "hit3": false,
+    "partial1": true,
     "class": "area"
    }
   }

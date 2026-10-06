@@ -1,12 +1,18 @@
 """Cell-by-term feature matrix from a city's lexicon, for the regionalization step.
 
 This is the point where the lexicon's class column does its work: which terms
-enter the area channel. The default keeps area, division and mixed terms and
-leaves streets, landmarks, points, brands and generics out. Pass other classes
-to test the hypothesis that streets pull the clustering toward corridors.
+enter the clustering. The default keeps every place-type class (area, division,
+mixed, street, landmark, point) and leaves only brands and generics out. The SF
+signal check (notes/2026-10-06-sf-signal-check-r9.md on the baseline branch)
+found that dropping street tokens lowered agreement with the ground truth: at
+cell scale a business on Valencia is in the Mission, so a street name is
+locational evidence. Streets are excluded from the *naming* vocabulary instead
+(name_recovery.AREA), where they do hurt. Class exclusion here is a switch, not
+a rule: pass `classes=` to test it.
 
     from features import matrix
-    cells, terms, X = matrix('sf', classes=('area', 'division', 'mixed'), top=200)
+    cells, terms, X = matrix('sf', top=200)                       # default classes
+    cells, terms, X = matrix('sf', classes=('area', 'division', 'mixed'))  # streets out
 
 X is cells x terms of support units. `clr=True` returns the centred log-ratio of
 the per-cell composition with a pseudo-count, the treatment HANDOFF.md asks for;
@@ -20,7 +26,8 @@ import numpy as np
 from fetch_overture import RELEASE
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_CLASSES = ('area', 'division', 'mixed')
+DEFAULT_CLASSES = ('area', 'division', 'mixed', 'street', 'landmark', 'point')
+NAMING_CLASSES = ('area', 'division', 'mixed')
 
 
 def load_lexicon(city, release=RELEASE):
