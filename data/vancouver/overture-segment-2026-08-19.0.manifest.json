@@ -1,0 +1,15 @@
+{
+  "source": "Overture segment",
+  "release": "2026-08-19.0",
+  "bbox": [
+    -123.23,
+    49.19,
+    -123.02,
+    49.32
+  ],
+  "recorded_at": "2026-10-06T06:55:31.573559+00:00",
+  "sha256": "6f92a1548f0797a6ba71519b11c7fec90ab43ad75b95d7f45ccfc987edda9e3b",
+  "rows": 61404,
+  "documentation": "https://docs.overturemaps.org/guides/transportation/",
+  "filters": "BBox only; all statuses and confidence values retained"
+}

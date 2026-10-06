@@ -1,0 +1,4080 @@
+{
+ "summary": {
+  "city": "toronto",
+  "polygons": 174,
+  "all": {
+   "hit1": 0.23,
+   "partial1": 0.316,
+   "hit3": 0.299
+  },
+  "area": {
+   "hit1": 0.287,
+   "partial1": 0.328,
+   "hit3": 0.316
+  },
+  "no_top_term": 46
+ },
+ "polygons": [
+  {
+   "name": "West Humber-Clairville",
+   "places": 3514,
+   "all": {
+    "top3": [
+     "westmore",
+     "humberwood",
+     "humberline"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "forwarders",
+     "welke",
+     "queens plate"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Woodbine-Lumsden",
+   "places": 89,
+   "all": {
+    "top3": [
+     "gledhill",
+     "wadlow",
+     "stan wadlow"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "east york"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Upper Beaches",
+   "places": 120,
+   "all": {
+    "top3": [
+     "bowmore"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "The Beaches",
+   "places": 1048,
+   "all": {
+    "top3": [
+     "kew",
+     "balmy",
+     "homeward"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "kew",
+     "homeward",
+     "homeward brokerage"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "East End-Danforth",
+   "places": 813,
+   "all": {
+    "top3": [
+     "ted reeve",
+     "reeve",
+     "main square"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "east york"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Wexford",
+   "places": 1590,
+   "all": {
+    "top3": [
+     "wexford",
+     "maryvale",
+     "wilmar"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "wexford",
+     "maryvale",
+     "wexford heights"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Victoria Village",
+   "places": 647,
+   "all": {
+    "top3": [
+     "victoria village",
+     "east york"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "victoria village",
+     "east york"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "O'Connor-Parkview",
+   "places": 561,
+   "all": {
+    "top3": [
+     "george webster",
+     "east york",
+     "dawes"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "east york"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Woodbine Corridor",
+   "places": 186,
+   "all": {
+    "top3": [
+     "coxwell"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "coxwell"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Greenwood-Coxwell",
+   "places": 531,
+   "all": {
+    "top3": [
+     "ashbridge",
+     "leslieville",
+     "riverdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "leslieville"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Fenside",
+   "places": 63,
+   "all": {
+    "top3": [
+     "fenside",
+     "york mills"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "fenside",
+     "york mills"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Parkwoods-O'Connor Hills",
+   "places": 275,
+   "all": {
+    "top3": [
+     "underhill",
+     "donwood",
+     "broadlands"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "donwood",
+     "valleys"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Fenside-Parkwoods",
+   "places": 191,
+   "all": {
+    "top3": [
+     "parkwoods",
+     "fenside",
+     "graydon hall"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "parkwoods",
+     "fenside",
+     "york mills"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Flemingdon Park",
+   "places": 331,
+   "all": {
+    "top3": [
+     "flemingdon",
+     "grenoble",
+     "wynford"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "flemingdon"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "The Pocket",
+   "places": 94,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Blake-Jones",
+   "places": 140,
+   "all": {
+    "top3": [
+     "pape"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Old East York",
+   "places": 210,
+   "all": {
+    "top3": [
+     "donlands",
+     "east york",
+     "cosburn"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "east york",
+     "coxwell"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Danforth",
+   "places": 556,
+   "all": {
+    "top3": [
+     "pape",
+     "coxwell",
+     "donlands"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "coxwell",
+     "east york"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Danforth East York",
+   "places": 282,
+   "all": {
+    "top3": [
+     "east york",
+     "pape"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "east york"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "South Riverdale",
+   "places": 2100,
+   "all": {
+    "top3": [
+     "leslieville",
+     "carlaw",
+     "riverdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "leslieville",
+     "south riverdale",
+     "ashbridges bay"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Ward's Island",
+   "places": 25,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Broadview North",
+   "places": 223,
+   "all": {
+    "top3": [
+     "cosburn",
+     "pape"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Playter Estates-Danforth",
+   "places": 451,
+   "all": {
+    "top3": [
+     "greektown",
+     "carrot",
+     "riverdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "greektown",
+     "carrot"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "North Riverdale",
+   "places": 597,
+   "all": {
+    "top3": [
+     "riverdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "East Chinatown",
+   "places": 140,
+   "all": {
+    "top3": [
+     "riverdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Banbury-Don Mills",
+   "places": 1922,
+   "all": {
+    "top3": [
+     "concorde",
+     "wynford",
+     "donway"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "concorde",
+     "donway",
+     "safebridge"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Thorncliffe Park",
+   "places": 861,
+   "all": {
+    "top3": [
+     "thorncliffe",
+     "leaside",
+     "overlea"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "thorncliffe",
+     "leaside",
+     "east york"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Don Valley Village",
+   "places": 625,
+   "all": {
+    "top3": [
+     "fairview mall",
+     "seneca hill",
+     "nymark"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Hillcrest Village",
+   "places": 703,
+   "all": {
+    "top3": [
+     "cliffwood",
+     "newnham"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "newnham"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Henry Farm",
+   "places": 1128,
+   "all": {
+    "top3": [
+     "parkway forest",
+     "emerald city",
+     "ppi"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "ppi",
+     "henry farm"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Pleasant View",
+   "places": 211,
+   "all": {
+    "top3": [
+     "pleasantview",
+     "pleasant view"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "pleasantview",
+     "pleasant view"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Steeles",
+   "places": 341,
+   "all": {
+    "top3": [
+     "bamburgh"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "bamburgh"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "L'Amoreaux West",
+   "places": 316,
+   "all": {
+    "top3": [
+     "bridlewood mall"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "East L'Amoreaux",
+   "places": 286,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Tam O'Shanter-Sullivan",
+   "places": 549,
+   "all": {
+    "top3": [
+     "shanter",
+     "agincourt",
+     "vradenburg"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Milliken",
+   "places": 1806,
+   "all": {
+    "top3": [
+     "milliken",
+     "percy fulton",
+     "alton towers"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "milliken",
+     "percy fulton",
+     "scarborough north"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Agincourt North",
+   "places": 473,
+   "all": {
+    "top3": [
+     "woodside",
+     "woodside square",
+     "sandhurst"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Agincourt South-Malvern West",
+   "places": 1370,
+   "all": {
+    "top3": [
+     "agincourt",
+     "sts peter",
+     "peter and paul"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Eglinton East",
+   "places": 435,
+   "all": {
+    "top3": [
+     "trudelle",
+     "roadsport",
+     "mccowan"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "roadsport"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Bendale South",
+   "places": 218,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Birchcliffe-Cliffside",
+   "places": 581,
+   "all": {
+    "top3": [
+     "cliffside",
+     "birchcliff",
+     "fallingbrook"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "cliffside",
+     "quarry"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Kennedy Park",
+   "places": 369,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Bendale-Glen Andrew",
+   "places": 993,
+   "all": {
+    "top3": [
+     "stc",
+     "town centre court",
+     "birkdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "bendale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Ionview",
+   "places": 185,
+   "all": {
+    "top3": [
+     "ionview"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "ionview"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Oakridge",
+   "places": 351,
+   "all": {
+    "top3": [
+     "teesdale",
+     "dhaka"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "dhaka"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Clairlea-Birchmount",
+   "places": 1152,
+   "all": {
+    "top3": [
+     "eglinton town",
+     "golden mile",
+     "dhaka"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "eglinton town",
+     "golden mile",
+     "dhaka"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Dorset Park",
+   "places": 1439,
+   "all": {
+    "top3": [
+     "kennedy commons",
+     "antrim",
+     "mondeo"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "kennedy commons"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Taylor-Massey",
+   "places": 359,
+   "all": {
+    "top3": [
+     "crescent town",
+     "crescent place",
+     "east york"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "east york"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Cliffcrest",
+   "places": 383,
+   "all": {
+    "top3": [
+     "scarborough bluffs",
+     "cliffcrest",
+     "sportfishing"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "cliffcrest",
+     "sportfishing"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Golfdale-Cedarbrae-Woburn",
+   "places": 509,
+   "all": {
+    "top3": [
+     "painted post",
+     "greencrest",
+     "cedarbrae mall"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "cedarbrae mall"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Scarborough Village",
+   "places": 421,
+   "all": {
+    "top3": [
+     "scarborough village",
+     "markington",
+     "boniface"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "scarborough village",
+     "markington"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Guildwood",
+   "places": 138,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "West Hill",
+   "places": 694,
+   "all": {
+    "top3": [
+     "morningside crossing",
+     "east point",
+     "beechgrove"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "highland creek",
+     "east scarborough"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Highland Creek",
+   "places": 232,
+   "all": {
+    "top3": [
+     "utsc",
+     "highland creek"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "utsc",
+     "highland creek"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Centennial Scarborough",
+   "places": 222,
+   "all": {
+    "top3": [
+     "highland creek"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "highland creek"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "West Rouge",
+   "places": 329,
+   "all": {
+    "top3": [
+     "rouge river",
+     "west rouge",
+     "rouge river realty"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "west rouge"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Morningside Heights",
+   "places": 1159,
+   "all": {
+    "top3": [
+     "vista trail"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Morningside",
+   "places": 251,
+   "all": {
+    "top3": [
+     "centenary",
+     "ellesmere"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "centenary"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Malvern East",
+   "places": 625,
+   "all": {
+    "top3": [
+     "lapsley",
+     "royal lepage ignite",
+     "lepage ignite"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Malvern West",
+   "places": 494,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Woburn North",
+   "places": 1230,
+   "all": {
+    "top3": [
+     "consilium",
+     "tuxedo court",
+     "homelife galaxy"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "consilium",
+     "homelife galaxy",
+     "bendale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Yonge-Doris",
+   "places": 725,
+   "all": {
+    "top3": [
+     "northtown",
+     "empress walk"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "northtown",
+     "empress walk"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Newtonbrook East",
+   "places": 589,
+   "all": {
+    "top3": [
+     "cummer",
+     "yonge finch",
+     "willowdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "yonge finch",
+     "willowdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "East Willowdale",
+   "places": 469,
+   "all": {
+    "top3": [
+     "willowdale",
+     "realtron realty",
+     "max realtron realty"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "willowdale",
+     "realtron realty",
+     "max realtron realty"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Bayview Woods-Steeles",
+   "places": 184,
+   "all": {
+    "top3": [
+     "pineway",
+     "cummer"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Bayview Village",
+   "places": 675,
+   "all": {
+    "top3": [
+     "bayview village",
+     "bessarion",
+     "rean"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "bayview village",
+     "bayview gardens"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Distillery District",
+   "places": 184,
+   "all": {
+    "top3": [
+     "gooderham"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Regent Park",
+   "places": 377,
+   "all": {
+    "top3": [
+     "sumach"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Moss Park",
+   "places": 1602,
+   "all": {
+    "top3": [
+     "corktown",
+     "pembroke",
+     "king east"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "corktown",
+     "allan gardens",
+     "cabbagetown"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Leaside-Bennington",
+   "places": 595,
+   "all": {
+    "top3": [
+     "leaside",
+     "bennington heights",
+     "bennington"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "leaside",
+     "bennington"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Cabbagetown-South St.James Town",
+   "places": 513,
+   "all": {
+    "top3": [
+     "cabbagetown",
+     "jamestown",
+     "riverdale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "cabbagetown",
+     "jamestown"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Bridle Path-Sunnybrook-York Mills",
+   "places": 264,
+   "all": {
+    "top3": [
+     "glendon",
+     "york mills",
+     "rumball"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "york mills",
+     "rumball",
+     "leaside"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "St.Andrew-Windfields",
+   "places": 953,
+   "all": {
+    "top3": [
+     "york mills",
+     "duncan mill",
+     "bayview glen"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "york mills",
+     "bayview glen"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Rosedale-Moore Park",
+   "places": 1092,
+   "all": {
+    "top3": [
+     "ilac",
+     "yorkville"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "ilac"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Mount Pleasant East",
+   "places": 741,
+   "all": {
+    "top3": [
+     "mount pleasant",
+     "johnston daniel",
+     "leaside"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "leaside",
+     "pleasant cemetery",
+     "davisville"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Yonge-Bay Corridor",
+   "places": 2150,
+   "all": {
+    "top3": [
+     "uhn",
+     "trinity square",
+     "city hall"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "uhn",
+     "trinity square",
+     "city hall"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Financial District",
+   "places": 3732,
+   "all": {
+    "top3": [
+     "brookfield place",
+     "minerals",
+     "bank plaza"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "brookfield place",
+     "minerals",
+     "bank plaza"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Church-Wellesley",
+   "places": 1172,
+   "all": {
+    "top3": [
+     "church wellesley",
+     "dundonald",
+     "yonge bloor"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "church wellesley",
+     "yonge bloor"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Downtown Yonge East",
+   "places": 2808,
+   "all": {
+    "top3": [
+     "ryerson",
+     "tmu",
+     "course union"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "tmu",
+     "yonge dundas",
+     "engagement rings"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "North St.James Town",
+   "places": 415,
+   "all": {
+    "top3": [
+     "james town",
+     "sherbourne",
+     "selby"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "james town",
+     "ilac"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "St Lawrence-East Bayfront-The Islands",
+   "places": 2188,
+   "all": {
+    "top3": [
+     "esplanade",
+     "quay",
+     "queens quay east"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "quay",
+     "quay east",
+     "canary district"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Algonquin Island",
+   "places": 6,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Fort York-Liberty Village",
+   "places": 805,
+   "all": {
+    "top3": [
+     "liberty village",
+     "fort york",
+     "cne"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "liberty village",
+     "fort york",
+     "exhibition"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "West Queen West",
+   "places": 964,
+   "all": {
+    "top3": [
+     "king west",
+     "queen west",
+     "camh"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "camh",
+     "liberty village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Harbourfront-CityPlace",
+   "places": 1179,
+   "all": {
+    "top3": [
+     "harbourfront",
+     "quay",
+     "cityplace"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "harbourfront",
+     "quay",
+     "cityplace"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "University",
+   "places": 1083,
+   "all": {
+    "top3": [
+     "uoft",
+     "harbord",
+     "hart house"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "uoft",
+     "rotman",
+     "graduate"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Yonge-St.Clair",
+   "places": 688,
+   "all": {
+    "top3": [
+     "cottingham"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Kensington-Chinatown",
+   "places": 1830,
+   "all": {
+    "top3": [
+     "sinai hospital",
+     "mount sinai hospital",
+     "steelworkers"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "uhn",
+     "research institute",
+     "uoft"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Wellington Place",
+   "places": 4110,
+   "all": {
+    "top3": [
+     "portland",
+     "king west",
+     "life suites"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "life suites",
+     "rooftop",
+     "nobu"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Bay-Cloverhill",
+   "places": 1228,
+   "all": {
+    "top3": [
+     "bay bloor",
+     "yorkville"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "bay bloor"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "South Eglinton-Davisville",
+   "places": 989,
+   "all": {
+    "top3": [
+     "davisville",
+     "balliol",
+     "davisville village"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "davisville",
+     "yonge eglinton"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "North Toronto",
+   "places": 773,
+   "all": {
+    "top3": [
+     "roehampton",
+     "erskine",
+     "jca law office"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "jca law office",
+     "jca law",
+     "jca"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Avondale",
+   "places": 717,
+   "all": {
+    "top3": [
+     "exp realty brokerage",
+     "yonge sheppard"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "yonge sheppard"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Lawrence Park South",
+   "places": 392,
+   "all": {
+    "top3": [
+     "blythwood",
+     "glenview",
+     "eglinton way"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Lawrence Park North",
+   "places": 716,
+   "all": {
+    "top3": [
+     "fairlawn",
+     "yonge lawrence",
+     "wanless"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "yonge lawrence",
+     "yonge and lawrence",
+     "lawrence village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Yonge-Eglinton",
+   "places": 1132,
+   "all": {
+    "top3": [
+     "yonge eglinton",
+     "north toronto memorial",
+     "heart and stroke"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "yonge eglinton",
+     "registered dietitian",
+     "dietitian"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Kensington Market",
+   "places": 618,
+   "all": {
+    "top3": [
+     "kensington"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "kensington"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Annex",
+   "places": 3494,
+   "all": {
+    "top3": [
+     "yorkville",
+     "oise",
+     "yorkville village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "yorkville village",
+     "kappa",
+     "bathurst dupont"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Casa Loma",
+   "places": 338,
+   "all": {
+    "top3": [
+     "casa loma",
+     "spadina"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "casa loma"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Trinity-Bellwoods",
+   "places": 1333,
+   "all": {
+    "top3": [
+     "bellwoods",
+     "ossington",
+     "trinity bellwoods"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "bellwoods",
+     "trinity bellwoods",
+     "pompette"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Forest Hill South",
+   "places": 478,
+   "all": {
+    "top3": [
+     "hill village",
+     "forest hill village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "hill village",
+     "forest hill village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Bedford Park-Nortown",
+   "places": 1012,
+   "all": {
+    "top3": [
+     "brookdale",
+     "york mills"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "york mills"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Palmerston-Little Italy",
+   "places": 846,
+   "all": {
+    "top3": [
+     "little italy",
+     "harbord",
+     "ossington"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "little italy"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Wychwood Park",
+   "places": 0,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Wychwood",
+   "places": 634,
+   "all": {
+    "top3": [
+     "wychwood",
+     "clair west",
+     "davenport"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "wychwood",
+     "davenport"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Dovercourt Village",
+   "places": 471,
+   "all": {
+    "top3": [
+     "dovercourt",
+     "pits",
+     "christie pits"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "bloorcourt"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Humewood-Cedarvale",
+   "places": 246,
+   "all": {
+    "top3": [
+     "raglan",
+     "cedarvale",
+     "humewood"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "cedarvale",
+     "humewood",
+     "upper village"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Forest Hill North",
+   "places": 297,
+   "all": {
+    "top3": [
+     "shallmar",
+     "roselawn"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Lansing-Westgate",
+   "places": 1097,
+   "all": {
+    "top3": [
+     "beecroft",
+     "sheppard west",
+     "realtron realty"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "realtron realty",
+     "max realtron realty",
+     "willowdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Englemount-Lawrence",
+   "places": 364,
+   "all": {
+    "top3": [
+     "baycrest",
+     "viewmount",
+     "lawrence heights"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "lawrence heights"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Oakwood Village",
+   "places": 369,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Wallace Emerson",
+   "places": 571,
+   "all": {
+    "top3": [
+     "emerson",
+     "lansdowne",
+     "wallace emerson"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "wallace emerson",
+     "davenport"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Roncesvalles",
+   "places": 884,
+   "all": {
+    "top3": [
+     "roncesvalles",
+     "roncy",
+     "parkdale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "roncesvalles",
+     "roncy",
+     "parkdale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Brockton Village",
+   "places": 364,
+   "all": {
+    "top3": [
+     "dufferin mall",
+     "brockton"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Little Portugal",
+   "places": 735,
+   "all": {
+    "top3": [
+     "lisgar",
+     "queen west",
+     "dovercourt"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Dufferin Grove",
+   "places": 168,
+   "all": {
+    "top3": [
+     "rusholme",
+     "dufferin grove",
+     "bloorcourt"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "dufferin grove",
+     "bloorcourt"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Parkdale",
+   "places": 924,
+   "all": {
+    "top3": [
+     "parkdale",
+     "west lodge",
+     "tibet"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "parkdale",
+     "tibet",
+     "roncesvalles"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Exhibition Place",
+   "places": 146,
+   "all": {
+    "top3": [
+     "cne",
+     "exhibition"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "exhibition"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Liberty Village",
+   "places": 944,
+   "all": {
+    "top3": [
+     "liberty village",
+     "king liberty",
+     "east liberty"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "liberty village",
+     "king liberty"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "South Parkdale",
+   "places": 1045,
+   "all": {
+    "top3": [
+     "parkdale",
+     "liberty village",
+     "queen west"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "parkdale",
+     "liberty village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Caledonia-Fairbank",
+   "places": 146,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Junction Triangle",
+   "places": 458,
+   "all": {
+    "top3": [
+     "symington"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Corso Italia-Davenport",
+   "places": 667,
+   "all": {
+    "top3": [
+     "corso italia",
+     "bar caffe"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "corso italia"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Briar Hill-Belgravia",
+   "places": 644,
+   "all": {
+    "top3": [
+     "elte",
+     "roselawn",
+     "castlefield"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Clanton Park",
+   "places": 627,
+   "all": {
+    "top3": [
+     "wilson heights",
+     "clanton"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "clanton"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Yorkdale-Glen Park",
+   "places": 2098,
+   "all": {
+    "top3": [
+     "store yorkdale",
+     "lawrence heights",
+     "caledonia"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "lawrence heights",
+     "caledonia"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Weston-Pelham Park",
+   "places": 307,
+   "all": {
+    "top3": [
+     "pelham",
+     "davenport"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "pelham",
+     "davenport"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "High Park North",
+   "places": 537,
+   "all": {
+    "top3": [
+     "runnymede",
+     "bloor west"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "runnymede"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Parkdale—High Park",
+   "places": 4158,
+   "all": {
+    "top3": [
+     "roncesvalles",
+     "parkdale",
+     "bloor west"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "roncesvalles",
+     "parkdale",
+     "swansea"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "High Park-Swansea",
+   "places": 771,
+   "all": {
+    "top3": [
+     "swansea",
+     "bloor west",
+     "roncesvalles"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "swansea",
+     "roncesvalles",
+     "bloor west village"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Junction Area",
+   "places": 1242,
+   "all": {
+    "top3": [
+     "stockyards",
+     "meat packers"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "stockyards",
+     "meat packers"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Keelesdale-Eglinton West",
+   "places": 331,
+   "all": {
+    "top3": [
+     "keelesdale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "keelesdale"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Westminster-Branson",
+   "places": 330,
+   "all": {
+    "top3": [
+     "rockford"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Bathurst Manor",
+   "places": 430,
+   "all": {
+    "top3": [
+     "wilmington",
+     "sheppard plaza",
+     "downsview"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "sheppard plaza",
+     "downsview"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Newtonbrook West",
+   "places": 830,
+   "all": {
+    "top3": [
+     "willowdale",
+     "moyal",
+     "drewry"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "willowdale",
+     "yonge finch"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Willowdale West",
+   "places": 650,
+   "all": {
+    "top3": [
+     "york central",
+     "north york central",
+     "willowdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "york central",
+     "north york central",
+     "willowdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Downsview",
+   "places": 791,
+   "all": {
+    "top3": [
+     "downsview",
+     "ancaster"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "downsview"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Maple Leaf",
+   "places": 102,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Beechborough-Greenbrook",
+   "places": 198,
+   "all": {
+    "top3": [
+     "mount dennis",
+     "keelesdale",
+     "trethewey"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "mount dennis",
+     "keelesdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Runnymede-Bloor West Village",
+   "places": 540,
+   "all": {
+    "top3": [
+     "bloor west",
+     "baby point",
+     "runnymede"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "runnymede",
+     "bloor west village"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Brookhaven-Amesbury",
+   "places": 614,
+   "all": {
+    "top3": [
+     "amesbury",
+     "comda",
+     "trethewey"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "amesbury"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "York University Heights",
+   "places": 3960,
+   "all": {
+    "top3": [
+     "yorku",
+     "york lanes",
+     "downsview"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "downsview",
+     "vari hall",
+     "polyclinic"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Rustic",
+   "places": 112,
+   "all": {
+    "top3": [
+     "falstaff"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Mount Dennis",
+   "places": 251,
+   "all": {
+    "top3": [
+     "mount dennis",
+     "emmett"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "mount dennis"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Lambton Baby Point",
+   "places": 152,
+   "all": {
+    "top3": [
+     "baby point",
+     "bloor west"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Rockcliffe-Smythe",
+   "places": 517,
+   "all": {
+    "top3": [
+     "jane park plaza",
+     "woolner",
+     "stockyards"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "stockyards"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Stonegate-Queensway",
+   "places": 949,
+   "all": {
+    "top3": [
+     "humber bay"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "humber bay"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Humber Bay Shores",
+   "places": 482,
+   "all": {
+    "top3": [
+     "humber bay",
+     "mimico",
+     "mimico creek"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "humber bay",
+     "mimico"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Long Branch",
+   "places": 374,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "New Toronto",
+   "places": 632,
+   "all": {
+    "top3": [
+     "lakeshore village",
+     "samuel smith",
+     "colonel samuel smith"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "lakeshore village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Mimico-Queensway",
+   "places": 750,
+   "all": {
+    "top3": [
+     "mimico",
+     "beyond the sea",
+     "akron"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "mimico"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Weston",
+   "places": 704,
+   "all": {
+    "top3": [
+     "weston village",
+     "weston lions"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "weston village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Kingsway South",
+   "places": 348,
+   "all": {
+    "top3": [
+     "old mill",
+     "sorrows",
+     "lambton kingsway"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Oakdale-Beverley Heights",
+   "places": 601,
+   "all": {
+    "top3": [
+     "jane wilson",
+     "exbury",
+     "sheridan mall"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "jane wilson",
+     "downsview"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Glenfield-Jane Heights",
+   "places": 696,
+   "all": {
+    "top3": [
+     "yorkwoods",
+     "jane finch mall",
+     "firgrove"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "landmark"
+   },
+   "area": {
+    "top3": [
+     "jane finch mall",
+     "finch mall",
+     "jane finch"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Black Creek",
+   "places": 415,
+   "all": {
+    "top3": [
+     "shoreham",
+     "norfinch",
+     "yorkgate"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "yorkgate"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Pelmo Park-Humberlea",
+   "places": 256,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Humber Heights-Westmount",
+   "places": 165,
+   "all": {
+    "top3": [
+     "westmount",
+     "humber heights"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "westmount",
+     "humber heights"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Edenbridge-Humber Valley",
+   "places": 283,
+   "all": {
+    "top3": [
+     "humbertown",
+     "max professionals"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "humbertown",
+     "max professionals"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Islington",
+   "places": 1038,
+   "all": {
+    "top3": [
+     "aberfoyle",
+     "east mall",
+     "burnhamthorpe"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   },
+   "area": {
+    "top3": [
+     "aberfoyle",
+     "eatonville",
+     "islington village"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Princess-Rosethorn",
+   "places": 160,
+   "all": {
+    "top3": [
+     "rosethorn",
+     "thorncrest"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "rosethorn"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Humbermede",
+   "places": 472,
+   "all": {
+    "top3": [
+     "finch weston"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Elms-Old Rexdale",
+   "places": 132,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Humber Summit",
+   "places": 1467,
+   "all": {
+    "top3": [
+     "toryork",
+     "millwick",
+     "finchdale"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Willowridge-Martingrove-Richview",
+   "places": 313,
+   "all": {
+    "top3": [
+     "richview",
+     "westway",
+     "westgrove"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "richview",
+     "westway"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Kingsview Village-The Westway",
+   "places": 289,
+   "all": {
+    "top3": [
+     "westway"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "westway"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  },
+  {
+   "name": "Alderwood",
+   "places": 515,
+   "all": {
+    "top3": [
+     "alderwood",
+     "horner"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   },
+   "area": {
+    "top3": [
+     "alderwood"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Etobicoke City Centre",
+   "places": 2546,
+   "all": {
+    "top3": [
+     "cloverdale",
+     "metro west",
+     "cloverdale mall"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "metro west",
+     "cloverdale mall",
+     "kipling queensway"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Markland Wood",
+   "places": 198,
+   "all": {
+    "top3": [
+     "markland",
+     "markland wood",
+     "west mall"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [
+     "markland wood"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "division"
+   }
+  },
+  {
+   "name": "Etobicoke West Mall",
+   "places": 262,
+   "all": {
+    "top3": [
+     "west mall"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": true,
+    "class": "street"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Rexdale-Kipling",
+   "places": 237,
+   "all": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Thistletown-Beaumond Heights",
+   "places": 322,
+   "all": {
+    "top3": [
+     "astrologer psychic spiritual"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": null
+   }
+  },
+  {
+   "name": "Mount Olive-Silverstone-Jamestown",
+   "places": 456,
+   "all": {
+    "top3": [
+     "albion mall",
+     "smithfield",
+     "patel homelife miracle"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "point"
+   },
+   "area": {
+    "top3": [
+     "north kipling"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "partial1": false,
+    "class": "area"
+   }
+  },
+  {
+   "name": "Eringate-Centennial-West Deane",
+   "places": 375,
+   "all": {
+    "top3": [
+     "eringate",
+     "renforth",
+     "olympium"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   },
+   "area": {
+    "top3": [
+     "eringate",
+     "olympium"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "partial1": true,
+    "class": "mixed"
+   }
+  }
+ ]
+}
