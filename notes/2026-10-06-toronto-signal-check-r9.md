@@ -84,27 +84,27 @@ ARI/NMI over all cells (ground truth = polygon containing the cell centroid). `l
 | 2      | 174 | null: names dealt to random cells (mean of 5) |  0.306 | 0.768 |   nan     |
 | 2      | 174 | k-means on names, no contiguity               |  0.271 | 0.748 |   nan     |
 
-## Lifted tokens per region, names ring 2, k=20
+## Lifted tokens per region, names ring 1, k=20
 
-- region 0: oakdale, milvan, ghanaian, norfinch, weston, driftwood
-- region 1: bamburgh, bridletowne, bridlewood, amoreaux, milliken, huntingwood
-- region 2: nai, bais, kosher, northview, baycrest, bales
-- region 3: uoft, harbord, tmu, wework, camh, berkeley
-- region 4: thorncliffe, leaside, laird, cosburn, sunnybrook, flemingdon
-- region 5: rathburn, renforth, burnhamthorpe, westway, markland, martingrove
-- region 6: sina, fairlawn, davisville, won, foremost, lansing
-- region 7: zoo, tundra, beavertails, homemade, exhibit, conservancy
-- region 8: hanlan, yachts, beavertails, docks, ferry, dock
-- region 9: runnymede, lambton, kingsway, scarlett, demetrius, swansea
-- region 10: wexford, roadsport, bendale, cedarbrae, cedarbrook, prudential
-- region 11: westmore, humberwood, humberline, albion, thistletown, bollywood
-- region 12: greektown, balmy, leslieville, kew, ashbridges, beaches
-- region 13: morningside, abbey, highland, crossing, port, rouge
-- region 14: cliffside, bluffs, bluffers, guildwood, birchcliff, cliffcrest
-- region 15: carlingview, servicemaster, accu, canes, terminals, carquest
-- region 16: caledonia, marlee, oakwood, keelesdale, cedarvale, fairbank
-- region 17: alderwood, mimico, queensway, sherway, cloverdale, lakeshore
-- region 18: fabricators, middlefield, rsm, val, salim, siva
-- region 19: utsc, malvern, neilson, morningside, silks, curling
+- region 0: westway, burnhamthorpe, westmore, humberwood, humberline, thistletown
+- region 1: utsc, morningside, malvern, cedarbrae, neilson, bendale
+- region 2: milvan, keelesdale, caledonia, promed, yorkdale, latina
+- region 3: zoo, rouge, port, tundra, mcintyre, pickering
+- region 4: alderwood, mimico, queensway, sherway, cloverdale, stonegate
+- region 5: bindery, fabricators, lettering, instructor, middlefield, agincourt
+- region 6: wynford, flemingdon, concorde, cosburn, thorncliffe, leaside
+- region 7: cliffside, bluffers, bluffs, guildwood, birchcliff, cliffcrest
+- region 8: bridlewood, bamburgh, horne, bridletowne, amoreaux, seneca
+- region 9: tmu, mines, mos, swipe, invest, sherbourne
+- region 10: davisville, chaplin, redpath, sotheby, summerhill, deer
+- region 11: won, sina, centerpoint, yazdani, empress, hullmark
+- region 12: carlingview, servicemaster, accu, carquest, monitoring, ancient
+- region 13: hanlan, carousel, ferry, islands, forestry, beau
+- region 14: roncy, humberside, dovercourt, roncesvalles, parkdale, ossington
+- region 15: yachts, docks, beavertails, pinewood, billy, herc
+- region 16: nai, fairlawn, gan, baycrest, northview, bales
+- region 17: balmy, greektown, ashbridges, leslieville, beaches, kew
+- region 18: giorgio, dirt, homemade, skyway, rosewood, sells
+- region 19: lambton, recreational, kingsway, tilt, reaction, neuro
 
 Maps: `figures/2026-10-06-toronto-signal-check-r9-maps.png`, `figures/2026-10-06-toronto-signal-check-r9-density.png`.
