@@ -17,6 +17,10 @@ Running conclusions and parked side-findings. Dated experiment notes sit next to
 - The output regions are nameable from their lifted tokens even at modest ARI, which is
   the property Cadmus needs; ARI against tract aggregations understates it.
 
+- Dropping street-name tokens (DataSF centerline aliases) from the vocabulary does not
+  improve agreement and hurts on unsmoothed cells: street names are locational evidence
+  for clustering even if they are false positives for naming.
+
 Side-findings parked here:
 
 - DataSF's 41 analysis neighbourhoods include open water and large parks (the Bayview

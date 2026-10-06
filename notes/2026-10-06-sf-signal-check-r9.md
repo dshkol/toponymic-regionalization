@@ -115,4 +115,26 @@ ARI/NMI over all cells (ground truth = polygon containing the cell centroid). `l
 - region 18: fremont, fidi, salesforce, counter, fan, alloy
 - region 19: sfsu, stonestown, students, studies, junipero, thornton
 
+## Side test: street-name tokens (`2026-10-06-sf-street-tokens-r9.csv`)
+
+The Cadmus-links note suggested keeping street names (Mission, Valencia) out of the
+area-name channel because they cross neighbourhood lines. Tested by dropping every
+single-word street alias from DataSF street centerlines (snapshot 2026-09-08, 1,992
+aliases, 551 of them in the vocabulary) from the vocabulary, and a variant that keeps the
+32 that are also neighbourhood-name tokens (mission, castro, sunset, noe, ...).
+
+| ring | vocabulary | k=10 ARI (null) | k=20 ARI (null) | k=40 ARI (null) |
+|---|---|---|---|---|
+| 0 | keep all | 0.044 (0.00) | 0.148 (0.00) | 0.197 (0.00) |
+| 0 | drop street names | 0.093 (0.00) | 0.101 (0.00) | 0.111 (0.00) |
+| 0 | drop street names except neighbourhood names | 0.068 (0.00) | 0.069 (0.00) | 0.067 (0.00) |
+| 1 | keep all | 0.267 (0.21) | 0.360 (0.24) | 0.363 (0.34) |
+| 1 | drop street names | 0.311 (0.12) | 0.339 (0.21) | 0.362 (0.26) |
+| 1 | drop street names except neighbourhood names | 0.298 (0.13) | 0.317 (0.20) | 0.384 (0.31) |
+
+Dropping street names does not help: it lowers agreement on unsmoothed cells and is a
+wash with smoothing. A business "on Valencia" is in the Mission; at the cell scale the
+street token is locational evidence, not noise. The false-positive concern applies to
+*naming* a region, not to clustering on it. Parked.
+
 Maps: `figures/2026-10-06-sf-signal-check-r9-maps.png`, `figures/2026-10-06-sf-signal-check-r9-density.png`.

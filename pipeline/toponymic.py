@@ -137,13 +137,13 @@ def smooth_counts(counts: dict, cells: list[str], ring: int) -> dict:
 
 
 def build_features(raw_counts: dict, cells: list[str], ring: int = 1, min_df: int = 5,
-                   max_df_frac: float = 0.2, svd_dims: int = 30):
+                   max_df_frac: float = 0.2, svd_dims: int = 30, drop: set | None = None):
     """Name-token features per cell.
 
     Vocabulary comes from the *unsmoothed* counts (cell document frequency in
     [min_df, max_df_frac * n]), so the k-ring smoothing changes the evidence per cell
     but not which tokens count. Then sqrt(tf) * idf, L2-normalised per cell, reduced
-    by truncated SVD. Unit-length rows keep Ward from peeling off dense cells as
+    by truncated SVD. `drop` removes tokens from the vocabulary (e.g. street names). Unit-length rows keep Ward from peeling off dense cells as
     outliers, which is what happened with raw or clr features (see notes).
     Returns dict with 'vocab', 'M' (smoothed counts), 'X' (svd features), 'n_tokens'."""
     n = len(cells)
@@ -151,7 +151,8 @@ def build_features(raw_counts: dict, cells: list[str], ring: int = 1, min_df: in
     for c in cells:
         for t in raw_counts.get(c, {}):
             df[t] += 1
-    vocab = sorted(t for t in df if min_df <= df[t] <= max_df_frac * n)
+    drop = drop or set()
+    vocab = sorted(t for t in df if min_df <= df[t] <= max_df_frac * n and t not in drop)
     vidx = {t: i for i, t in enumerate(vocab)}
     counts = smooth_counts(raw_counts, cells, ring)
     rows, cols, vals = [], [], []
