@@ -8,8 +8,8 @@
    "hit3": 0.727
   },
   "area": {
-   "hit1": 0.455,
-   "partial1": 0.5,
+   "hit1": 0.5,
+   "partial1": 0.545,
    "hit3": 0.773
   },
   "no_top_term": 0
@@ -467,18 +467,18 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "south hill",
      "fraserview",
-     "immigration"
+     "immigration",
+     "agency"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "mixed"
    }
   },
   {
@@ -493,18 +493,17 @@
     "hit1": false,
     "hit3": true,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "david thompson",
      "fraserview",
      "killarney"
     ],
-    "hit1": false,
+    "hit1": true,
     "hit3": true,
-    "partial1": false,
-    "class": "area"
+    "partial1": true,
+    "class": "mixed"
    }
   },
   {

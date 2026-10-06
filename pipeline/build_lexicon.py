@@ -22,7 +22,7 @@ from fetch_overture import CITIES, RELEASE
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'lexicon'
-FEATURE_CLASSES = ('area', 'division', 'mixed', 'landmark', 'point', 'street')
+FEATURE_CLASSES = ('area', 'division', 'mixed', 'landmark', 'institution', 'point', 'street')
 
 
 def build_city(city, resolution=RESOLUTION):

@@ -23,6 +23,7 @@ landmark_share share of records in landmark taxonomy groups or categories
 is_street      phrase equals a transportation segment name with generic words removed
 is_division    same, against division-area names
 is_person      every token is a common given name (see given_names.py)
+institution_share  share of records in the education or health_care groups
 class          brand, generic, division, street, mixed, landmark, point, area (rule in classify)
 
 The class rule is a first cut to review against the top-200 list, not a result.
@@ -57,6 +58,7 @@ GENERIC_SD_KM = 3.0      # standard distance of a neighbourhood-scale term is we
 BRAND_SHARE = 0.25       # Overture declares a brand on only part of a chain's records
 CHAIN_RATIO = 0.2        # units / records: identical names repeated collapse under the cap
 MAJORITY = 0.5
+INSTITUTION_GROUPS = {'education', 'health_care'}  # campus and hospital-system names
 
 
 def h3_weights(cells):
@@ -160,6 +162,7 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
     citywide = defaultdict(Support)
     branded = defaultdict(int)
     landmark = defaultdict(int)
+    institution = defaultdict(int)
     sites_by_cell = defaultdict(set)
     all_sites = set()
     for p in places:
@@ -168,6 +171,7 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
         sites_by_cell[p.cell].add(key)
         all_sites.add(key)
         is_landmark = p.group in LANDMARK_GROUPS or p.category in LANDMARK_CATEGORIES
+        is_institution = p.group in INSTITUTION_GROUPS or p.category == 'campus_building'
         # A phrase is brand evidence when it is part of the declared brand's own
         # name, not merely when it appears in a branded record ('Tim Hortons
         # Davie St' must not make 'davie' a brand).
@@ -177,6 +181,7 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
             citywide[ph].add(r)
             branded[ph] += ph in brand_phrases
             landmark[ph] += is_landmark
+            institution[ph] += is_institution
     n_sites = len(all_sites)
     w = h3_weights(cells)
     w.transform = 'r'
@@ -220,6 +225,7 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
                'sd_km': _sd_km([cell_xy[c] for c in units for _ in range(units[c])]),
                'brand_share': branded[ph] / sup.records,
                'landmark_share': landmark[ph] / sup.records,
+               'institution_share': institution[ph] / sup.records,
                'is_street': ph in street_names, 'is_division': ph in division_names,
                'is_person': is_person(ph, person_names),
                'examples': sup.examples[:3]}
@@ -243,6 +249,8 @@ def classify(r):
     division  matches a division-area name
     street    matches a transportation segment name
     person    every token is a common given name: a practice or shop named after its owner
+    institution  most records are education or health care: a campus or hospital system
+              (UCSF, DePaul, Northwestern), McKenzie's university false positive
     landmark  most records are landmark-category places
     point     clustered but in one cell only: a single site or block, not an area
     area      clustered, local, none of the above: a candidate vernacular area term
@@ -259,6 +267,8 @@ def classify(r):
         return 'street'
     if r.get('is_person'):
         return 'person'
+    if r.get('institution_share', 0) >= MAJORITY:
+        return 'institution'
     if r['landmark_share'] >= MAJORITY:
         return 'landmark'
     if r['cells'] < 2:

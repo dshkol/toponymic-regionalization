@@ -12,7 +12,7 @@
    "partial1": 0.219,
    "hit3": 0.233
   },
-  "no_top_term": 17
+  "no_top_term": 18
  },
  "polygons": [
   {
@@ -53,8 +53,7 @@
    },
    "area": {
     "top3": [
-     "mount greenwood",
-     "saint xavier"
+     "mount greenwood"
     ],
     "hit1": true,
     "hit3": true,
@@ -100,14 +99,13 @@
    },
    "area": {
     "top3": [
-     "shoop",
      "roseland",
      "beverly hills"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "division"
    }
   },
   {
@@ -281,7 +279,6 @@
    "area": {
     "top3": [
      "stony",
-     "advocate trinity",
      "ailbe"
     ],
     "hit1": false,
@@ -493,11 +490,10 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "landmark"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "presence resurrection",
      "harlem foster"
     ],
     "hit1": false,
@@ -541,7 +537,7 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "landmark"
+    "class": "institution"
    },
    "area": {
     "top3": [
@@ -643,7 +639,6 @@
    "area": {
     "top3": [
      "old irving",
-     "viator",
      "avondale"
     ],
     "hit1": false,
@@ -695,8 +690,8 @@
    "area": {
     "top3": [
      "lake view",
-     "advocate illinois masonic",
-     "ppm apartments"
+     "ppm apartments",
+     "ppm"
     ],
     "hit1": true,
     "hit3": true,
@@ -720,14 +715,13 @@
    },
    "area": {
     "top3": [
-     "weiss memorial hospital",
-     "weiss memorial",
-     "mccutcheon"
+     "andersonville",
+     "margate"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "division"
    }
   },
   {
@@ -747,7 +741,6 @@
    "area": {
     "top3": [
      "lincoln square",
-     "swedish hospital",
      "old town"
     ],
     "hit1": true,
@@ -843,13 +836,13 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "depaul",
      "riverpoint",
-     "kale realty"
+     "kale realty",
+     "lincoln park west"
     ],
     "hit1": false,
     "hit3": false,
@@ -925,9 +918,9 @@
    },
    "area": {
     "top3": [
-     "saic",
      "art institute",
-     "advisor ameriprise financial"
+     "advisor ameriprise financial",
+     "advisor ameriprise"
     ],
     "hit1": false,
     "hit3": false,
@@ -947,13 +940,13 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "uic",
      "west loop",
-     "loop"
+     "loop",
+     "greektown"
     ],
     "hit1": false,
     "hit3": false,
@@ -1069,7 +1062,7 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "landmark"
+    "class": "institution"
    },
    "area": {
     "top3": [],
@@ -1090,7 +1083,7 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "landmark"
+    "class": "institution"
    },
    "area": {
     "top3": [
@@ -1280,13 +1273,13 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "iit",
      "bronzeville",
-     "yachts"
+     "yachts",
+     "south loop"
     ],
     "hit1": false,
     "hit3": false,
@@ -1585,16 +1578,14 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
-    "top3": [
-     "sumner"
-    ],
+    "top3": [],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": null
    }
   },
   {

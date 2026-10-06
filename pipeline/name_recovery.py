@@ -31,7 +31,7 @@ from names import MIN_SUPPORT, Support, log_ratio, phrases
 
 ROOT = Path(__file__).resolve().parents[1]
 AREA = ('area', 'division', 'mixed')
-NOT_GENERIC = ('area', 'division', 'mixed', 'landmark', 'street', 'point')
+NOT_GENERIC = ('area', 'division', 'mixed', 'landmark', 'institution', 'street', 'point')
 
 
 def rank_inside(places_in, places_all_sites, vocabulary, citywide):

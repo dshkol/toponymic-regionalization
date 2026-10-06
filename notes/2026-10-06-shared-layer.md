@@ -89,12 +89,25 @@ Toronto hyphenates almost every neighbourhood.
 
 Per city (seconds are the whole build on one core):
 
-| city | places | cells (res 9) | phrases ≥3 units | area | division | mixed | street | landmark | point | person | brand | generic | s |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| SF | 60,536 | 1,242 | 8,095 | 886 | 27 | 13 | 201 | 43 | 34 | 62 | 100 | 6,729 | 10 |
-| Vancouver | 43,096 | 1,392 | 5,773 | 567 | 15 | 10 | 103 | 19 | 31 | 25 | 116 | 4,887 | 7 |
-| Toronto | 162,551 | 6,106 | 15,115 | 203 | 30 | 39 | 171 | 41 | 62 | 2 | 392 | 14,175 | 24 |
-| Chicago | 197,853 | 5,790 | 15,069 | 321 | 14 | 13 | 62 | 63 | 77 | 6 | 361 | 14,152 | 27 |
+| city | places | cells (res 9) | phrases ≥3 units | area | division | mixed | street | landmark | institution | point | person | brand | generic | s |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| SF | 60,536 | 1,242 | 8,095 | 732 | 27 | 13 | 201 | 33 | 170 | 34 | 62 | 100 | 6,729 | 10 |
+| Vancouver | 43,096 | 1,392 | 5,773 | 533 | 15 | 10 | 103 | 19 | 34 | 31 | 25 | 116 | 4,887 | 7 |
+| Toronto | 162,551 | 6,106 | 15,115 | 182 | 30 | 39 | 171 | 33 | 33 | 62 | 2 | 392 | 14,175 | 24 |
+| Chicago | 197,853 | 5,790 | 15,069 | 260 | 14 | 13 | 62 | 40 | 91 | 77 | 6 | 361 | 14,152 | 27 |
+
+`institution` is a phrase whose records are mostly in Overture's education or
+health-care groups (or `campus_building`): UCSF, SFSU, Kaiser, CPMC; DePaul,
+UIC, IIT, Northwestern Memorial; UofT, YorkU, CAMH, Mount Sinai; UBC, Emily
+Carr, VCC. It is McKenzie's university false positive as its own class, and it
+also absorbs the medical trade words (surgery, oncology, naturopathic) that
+had sat in `area`. Humber stays `area` because the river, park and college
+share the name below the majority. It costs Toronto four polygons whose only
+local evidence is a school or clinic carrying the neighbourhood's name
+(Pleasant View, Centenary, Alton Towers, Bayview Glen): when the name of the
+place is the name of the area, the class cannot tell, and the division list
+should. For clustering features the class stays in (a campus is a region);
+for naming it is out.
 
 `person` is the newest class: every token a common given name in Great
 Britain, Ireland or the U.S.A. (frequency ≥4 of 13 in the dictionary inside
@@ -135,15 +148,19 @@ every token of the top phrase is in the name (`richmond` for Outer Richmond).
 | city | polygons (status) | term set | top-1 exact | top-1 partial | top-3 exact | none |
 |---|---|---|---|---|---|---|
 | SF | 41 (official) | all non-generic, non-brand | 0.34 | 0.51 | 0.63 | 2 |
-| SF | 41 | area channel (area, division, mixed) | **0.54** | 0.66 | 0.63 | 2 |
+| SF | 41 | area channel (area, division, mixed) | **0.56** | 0.68 | 0.66 | 2 |
 | Vancouver | 22 (derived, = local areas) | all | 0.45 | 0.50 | 0.73 | 0 |
-| Vancouver | 22 | area channel | 0.45 | 0.50 | **0.77** | 0 |
+| Vancouver | 22 | area channel | 0.50 | 0.55 | **0.77** | 0 |
 | Toronto | 174 (derived, 158 official + 16) | all | 0.24 | 0.33 | 0.31 | 39 |
-| Toronto | 174 | area channel | **0.29** | 0.35 | 0.31 | 39 |
+| Toronto | 174 | area channel | **0.30** | 0.35 | 0.31 | 43 |
 | Chicago | 73 (derived, community areas) | all | 0.16 | 0.21 | 0.22 | 17 |
-| Chicago | 73 | area channel | **0.19** | 0.22 | 0.23 | 17 |
+| Chicago | 73 | area channel | **0.19** | 0.22 | 0.23 | 18 |
 
-Per-polygon detail is in `notes/name-recovery/<city>-2026-08-19.0.json`.
+Per-polygon detail is in `notes/name-recovery/<city>-2026-08-19.0.json`. The
+area-channel rows are after the `person` and `institution` classes were
+added; before them SF was 0.54 / 0.66 / 0.63, Vancouver 0.45 / 0.50 / 0.77,
+Toronto 0.29 / 0.35 / 0.31 with 39 unnamed, Chicago unchanged. The "all" rows
+include both classes and do not move.
 
 Keeping streets and landmarks out of the term set raises SF top-1 from 14/41
 to 22/41 without lowering top-3. Streets are bad *names* for areas. The

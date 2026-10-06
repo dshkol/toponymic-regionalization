@@ -6,7 +6,7 @@ from lexicon import classify, name_parts, strip_generic
 
 def row(**kw):
     base = {'support': 30, 'records': 32, 'cells': 10, 'locality': 5.0, 'morans_i': 0.3, 'sd_km': 1.0,
-            'brand_share': 0.0, 'landmark_share': 0.0, 'is_street': False, 'is_division': False, 'is_person': False}
+            'brand_share': 0.0, 'landmark_share': 0.0, 'is_street': False, 'is_division': False, 'is_person': False, 'institution_share': 0.0}
     base.update(kw)
     return base
 
@@ -41,6 +41,8 @@ class Classify(unittest.TestCase):
         self.assertEqual(classify(row(is_street=True, is_division=True)), 'mixed')
         self.assertEqual(classify(row(is_person=True)), 'person')
         self.assertEqual(classify(row(is_person=True, is_street=True)), 'street')
+        self.assertEqual(classify(row(institution_share=0.8, landmark_share=0.6)), 'institution')
+        self.assertEqual(classify(row(institution_share=0.3, landmark_share=0.6)), 'landmark')
 
     def test_landmark_point_area(self):
         self.assertEqual(classify(row(landmark_share=0.6)), 'landmark')

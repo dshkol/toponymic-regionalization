@@ -8,11 +8,11 @@
    "hit3": 0.305
   },
   "area": {
-   "hit1": 0.293,
-   "partial1": 0.345,
+   "hit1": 0.299,
+   "partial1": 0.351,
    "hit3": 0.31
   },
-  "no_top_term": 39
+  "no_top_term": 43
  },
  "polygons": [
   {
@@ -664,13 +664,11 @@
     "class": "street"
    },
    "area": {
-    "top3": [
-     "comfort keepers"
-    ],
+    "top3": [],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": null
    }
   },
   {
@@ -731,17 +729,16 @@
     "hit1": false,
     "hit3": true,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "pleasantview",
      "pleasant view"
     ],
-    "hit1": false,
+    "hit1": true,
     "hit3": true,
-    "partial1": false,
-    "class": "area"
+    "partial1": true,
+    "class": "mixed"
    }
   },
   {
@@ -1196,8 +1193,7 @@
    },
    "area": {
     "top3": [
-     "scarborough village",
-     "markington"
+     "scarborough village"
     ],
     "hit1": true,
     "hit3": true,
@@ -1234,7 +1230,7 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "point"
+    "class": "institution"
    },
    "area": {
     "top3": [
@@ -1347,16 +1343,14 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
-    "top3": [
-     "centenary"
-    ],
+    "top3": [],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": null
    }
   },
   {
@@ -1464,13 +1458,12 @@
    },
    "area": {
     "top3": [
-     "yonge finch",
      "willowdale"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "mixed"
    }
   },
   {
@@ -1673,7 +1666,7 @@
     "hit1": false,
     "hit3": true,
     "partial1": false,
-    "class": "landmark"
+    "class": "institution"
    },
    "area": {
     "top3": [
@@ -1703,8 +1696,7 @@
    },
    "area": {
     "top3": [
-     "york mills",
-     "bayview glen"
+     "york mills"
     ],
     "hit1": false,
     "hit3": false,
@@ -1723,16 +1715,14 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
-    "top3": [
-     "ilac"
-    ],
+    "top3": [],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": null
    }
   },
   {
@@ -1773,18 +1763,17 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "uhn",
      "trinity square",
      "city hall"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "division"
    }
   },
   {
@@ -1882,8 +1871,7 @@
    "area": {
     "top3": [
      "james town",
-     "wellesley",
-     "ilac"
+     "wellesley"
     ],
     "hit1": false,
     "hit3": false,
@@ -1977,13 +1965,12 @@
    },
    "area": {
     "top3": [
-     "camh",
      "liberty village"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "division"
    }
   },
   {
@@ -2024,18 +2011,18 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "uoft",
-     "rotman",
-     "annex"
+     "annex",
+     "kensington",
+     "biology"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "division"
    }
   },
   {
@@ -2070,18 +2057,14 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "landmark"
+    "class": "institution"
    },
    "area": {
-    "top3": [
-     "uhn",
-     "research institute",
-     "uoft"
-    ],
+    "top3": [],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": null
    }
   },
   {
@@ -2122,17 +2105,16 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "institution"
    },
    "area": {
     "top3": [
-     "bay bloor",
      "wellesley"
     ],
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "area"
+    "class": "mixed"
    }
   },
   {
@@ -2324,8 +2306,8 @@
    "area": {
     "top3": [
      "annex",
-     "yorkville village",
-     "kappa"
+     "kappa",
+     "davenport"
     ],
     "hit1": true,
     "hit3": true,
@@ -3183,8 +3165,7 @@
    },
    "area": {
     "top3": [
-     "willowdale",
-     "yonge finch"
+     "willowdale"
     ],
     "hit1": false,
     "hit3": false,
@@ -3341,7 +3322,7 @@
     "hit1": false,
     "hit3": false,
     "partial1": false,
-    "class": "landmark"
+    "class": "institution"
    },
    "area": {
     "top3": [

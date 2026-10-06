@@ -49,10 +49,11 @@
     "generic": 4887,
     "point": 31,
     "mixed": 10,
-    "area": 567,
+    "area": 533,
     "landmark": 19,
     "person": 25,
-    "brand": 116
+    "brand": 116,
+    "institution": 34
   },
   "parameters": {
     "min_support": 3,
@@ -340,7 +341,43 @@
       "bean",
       "pure",
       "republic"
+    ],
+    "institution": [
+      "carr",
+      "emily carr",
+      "south hill",
+      "ubc",
+      "david thompson",
+      "surgery",
+      "plastic",
+      "plastic surgery",
+      "vcc",
+      "naturopathic",
+      "osteopathy",
+      "facial",
+      "centrepoint",
+      "doctor",
+      "oral",
+      "language",
+      "coastal health",
+      "psychologist",
+      "tcm",
+      "chiropractor",
+      "naturopathic doctor",
+      "rehabilitation",
+      "unit",
+      "pediatric",
+      "medicine",
+      "sprott",
+      "sprott shaw",
+      "imaging",
+      "inspire",
+      "ielts",
+      "studies",
+      "infocus",
+      "canada west",
+      "psychotherapy"
     ]
   },
-  "seconds": 5.9
+  "seconds": 6.7
 }

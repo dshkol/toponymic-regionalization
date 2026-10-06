@@ -26,7 +26,7 @@ import numpy as np
 from fetch_overture import RELEASE
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_CLASSES = ('area', 'division', 'mixed', 'street', 'landmark', 'point')
+DEFAULT_CLASSES = ('area', 'division', 'mixed', 'street', 'landmark', 'institution', 'point')
 NAMING_CLASSES = ('area', 'division', 'mixed')
 
 

@@ -8,9 +8,9 @@
    "hit3": 0.634
   },
   "area": {
-   "hit1": 0.537,
-   "partial1": 0.659,
-   "hit3": 0.634
+   "hit1": 0.561,
+   "partial1": 0.683,
+   "hit3": 0.659
   },
   "no_top_term": 2
  },
@@ -57,9 +57,9 @@
    },
    "area": {
     "top3": [
-     "lakeside",
      "forest hill",
-     "junipero"
+     "junipero",
+     "ingleside"
     ],
     "hit1": false,
     "hit3": false,
@@ -187,7 +187,7 @@
     "top3": [
      "presidio heights",
      "presidio",
-     "laurel hill"
+     "heights"
     ],
     "hit1": true,
     "hit3": true,
@@ -238,11 +238,11 @@
    "area": {
     "top3": [
      "dogpatch",
-     "pnp msn",
-     "pnp"
+     "potrero hill",
+     "shave"
     ],
     "hit1": false,
-    "hit3": false,
+    "hit3": true,
     "partial1": false,
     "class": "area"
    }
@@ -288,8 +288,8 @@
    "area": {
     "top3": [
      "pacific heights",
-     "pacific campus",
-     "heights"
+     "heights",
+     "pac heights"
     ],
     "hit1": true,
     "hit3": true,
@@ -467,7 +467,7 @@
     "top3": [
      "usf",
      "lone",
-     "kaiser"
+     "nopa"
     ],
     "hit1": true,
     "hit3": true,
@@ -560,8 +560,8 @@
    "area": {
     "top3": [
      "mission bay",
-     "ucsf mission",
-     "mission creek"
+     "mission creek",
+     "mission"
     ],
     "hit1": true,
     "hit3": true,
@@ -664,8 +664,8 @@
    "area": {
     "top3": [
      "stonestown",
-     "sfsu",
-     "stonestown galleria"
+     "stonestown galleria",
+     "merced"
     ],
     "hit1": false,
     "hit3": false,
@@ -734,8 +734,8 @@
    "area": {
     "top3": [
      "japantown",
-     "mount zion",
-     "zion"
+     "japan",
+     "kabuki"
     ],
     "hit1": true,
     "hit3": true,
@@ -759,14 +759,14 @@
    },
    "area": {
     "top3": [
-     "ucsf",
      "inner sunset",
-     "sunset"
+     "sunset",
+     "inner"
     ],
-    "hit1": false,
+    "hit1": true,
     "hit3": true,
-    "partial1": false,
-    "class": "area"
+    "partial1": true,
+    "class": "division"
    }
   },
   {
@@ -864,8 +864,8 @@
    "area": {
     "top3": [
      "richmond",
-     "french campus",
-     "office depot"
+     "office depot",
+     "genki"
     ],
     "hit1": false,
     "hit3": false,
@@ -995,7 +995,7 @@
     "top3": [
      "castro",
      "corona heights",
-     "davies"
+     "eureka valley"
     ],
     "hit1": true,
     "hit3": true,
@@ -1021,7 +1021,7 @@
     "top3": [
      "bernal",
      "bernal heights",
-     "mission bernal campus"
+     "heights"
     ],
     "hit1": false,
     "hit3": true,

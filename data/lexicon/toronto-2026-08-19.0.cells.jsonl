@@ -1,4 +1,4 @@
-{"phrase": "glendon", "class": "landmark", "cells": {"892b9bd5a4bffff": 8, "892b9bd5a43ffff": 5, "892b9bd5a57ffff": 1, "892b9bd5a53ffff": 1}}
+{"phrase": "glendon", "class": "institution", "cells": {"892b9bd5a4bffff": 8, "892b9bd5a43ffff": 5, "892b9bd5a57ffff": 1, "892b9bd5a53ffff": 1}}
 {"phrase": "utsc", "class": "area", "cells": {"892b9bd455bffff": 1, "892b9bd6ccbffff": 10, "892b9bd6cc3ffff": 6, "892b9bd6cdbffff": 1, "892b9bd6137ffff": 2, "892b9b99313ffff": 1, "892b9bd6313ffff": 1}}
 {"phrase": "kensington", "class": "mixed", "cells": {"892b9bc7367ffff": 2, "892b9bc732bffff": 18, "892b9bc733bffff": 7, "892b9bc7323ffff": 5, "892b9bc732fffff": 21, "892b9bc464fffff": 1, "892b9bc2883ffff": 1, "892b9bc7357ffff": 1, "892b9bc05a7ffff": 1, "892b9bc460fffff": 1, "892b9bc4647ffff": 1, "892b9bc468bffff": 1, "892b9bc716fffff": 1, "892b9bc71d7ffff": 1}}
 {"phrase": "yorkville", "class": "street", "cells": {"892b9bc7613ffff": 1, "892b9bc766fffff": 1, "892b9bc54bbffff": 1, "892b9bc704fffff": 1, "892b9bc706fffff": 1, "892b9bc739bffff": 11, "892b9bc7313ffff": 1, "892b9bc73c7ffff": 1, "892b9bc04d3ffff": 1, "892b9bc2c1bffff": 1, "892b9bc46c3ffff": 1, "892b9bc468bffff": 1, "892b9bc4603ffff": 1, "892b9bc738fffff": 1, "892b9bc7067ffff": 7, "892b9bc7383ffff": 32, "892b9bc7387ffff": 5, "892b9bc7397ffff": 50, "892b9bc7393ffff": 2, "892b9bc702bffff": 1, "892b9bc76a7ffff": 2, "892b9bc70c7ffff": 1, "892b9bc715bffff": 12, "892b9bc702fffff": 7, "892b9bc714bffff": 3, "892b9bc7027ffff": 1, "892b9bc7143ffff": 1, "892b9bc7153ffff": 2, "892b9bc71cfffff": 1, "892b9bd5413ffff": 1}}
@@ -25,7 +25,7 @@
 {"phrase": "swansea", "class": "division", "cells": {"892b9bce3cfffff": 1, "892b9bc53dbffff": 1, "892b9bc52d7ffff": 4, "892b9bc52d3ffff": 1, "892b9bc5673ffff": 1, "892b9bc528bffff": 2, "892b9bc5283ffff": 1, "892b9bc52cbffff": 1, "892b9bc5213ffff": 1, "892b9bc52bbffff": 1}}
 {"phrase": "annex", "class": "division", "cells": {"892b9bc737bffff": 1, "892b9bc465bffff": 1, "892b9bc2957ffff": 1, "892b9bc54cbffff": 1, "892b9bc7347ffff": 4, "892b9bc734bffff": 1, "892b9bc734fffff": 1, "892b9bc7353ffff": 2, "892b9bc735bffff": 1, "892b9bc7227ffff": 7, "892b9bc722fffff": 1, "892b9bc7217ffff": 1, "892b9bc7237ffff": 1, "892b9bc73dbffff": 1, "892b9bc73c3ffff": 2, "892b9bc7313ffff": 1, "892b9bc731bffff": 12, "892b9bc73c7ffff": 4, "892b9bc738bffff": 1, "892b9bc7357ffff": 11, "892b9bc730bffff": 3, "892b9bc7303ffff": 1, "892b9bc73afffff": 1, "892b9bc7383ffff": 1, "892b9bc7397ffff": 1, "892b9bd5183ffff": 1, "892b9bd44c3ffff": 1}}
 {"phrase": "humber bay", "class": "area", "cells": {"892b9bcecabffff": 1, "892b9bceca3ffff": 2, "892b9bc534fffff": 1, "892b9bc534bffff": 2, "892b9bcec87ffff": 2, "892b9bcecbbffff": 3, "892b9bcec97ffff": 3, "892b9bc522fffff": 1, "892b9bcec83ffff": 1, "892b9bc5267ffff": 1, "892b9bc526fffff": 1, "892b9bce1c3ffff": 1, "892b9bce54bffff": 1, "892b9bc4633ffff": 1}}
-{"phrase": "centenary", "class": "area", "cells": {"892b9bd4587ffff": 1, "892b9bd6e9bffff": 2, "892b9bd6167ffff": 1, "892b9bd6e83ffff": 6}}
+{"phrase": "centenary", "class": "institution", "cells": {"892b9bd4587ffff": 1, "892b9bd6e9bffff": 2, "892b9bd6167ffff": 1, "892b9bd6e83ffff": 6}}
 {"phrase": "hanlan", "class": "street", "cells": {"892b9bc4223ffff": 2, "892b9bc4233ffff": 1, "892b9bc42a3ffff": 1, "892b9bc406bffff": 1, "892b9bc42bbffff": 2, "892b9bc4217ffff": 1, "892b9bc461bffff": 1, "892b9bc45dbffff": 1}}
 {"phrase": "ryerson", "class": "street", "cells": {"892b9bc5597ffff": 1, "892b9bc7167ffff": 15, "892b9bc716fffff": 7, "892b9bc46d7ffff": 4, "892b9bc7163ffff": 2, "892b9bc713bffff": 1, "892b9bc6683ffff": 1}}
 {"phrase": "westway", "class": "mixed", "cells": {"892b9bce23bffff": 1, "892b9bc1917ffff": 1, "892b9bc1913ffff": 1, "892b9bc1b87ffff": 4, "892b9bce6cbffff": 1, "892b9bc1b23ffff": 2, "892b9bc1ba7ffff": 2, "892b9bc1ba3ffff": 1, "892b9bc194fffff": 1, "892b9bc1977ffff": 1}}
@@ -74,12 +74,12 @@
 {"phrase": "davenport", "class": "mixed", "cells": {"892b9bc0943ffff": 1, "892b9bc54dbffff": 1, "892b9bc0923ffff": 3, "892b9bc092bffff": 3, "892b9bc722fffff": 1, "892b9bc7267ffff": 1, "892b9bc722bffff": 1, "892b9bc720bffff": 1, "892b9bc706fffff": 3, "892b9bc7067ffff": 2, "892b9bc7393ffff": 1, "892b9bc7497ffff": 1}}
 {"phrase": "west rouge", "class": "division", "cells": {"892b9bd6c93ffff": 1, "892b9b99007ffff": 1, "892b9b99037ffff": 4, "892b9b9902bffff": 1}}
 {"phrase": "queens quay", "class": "area", "cells": {"892b9bc2877ffff": 1, "892b9bc4667ffff": 5, "892b9bc466fffff": 3, "892b9bc42d3ffff": 1, "892b9bc462bffff": 1, "892b9bc4623ffff": 4, "892b9bc463bffff": 2, "892b9bc4633ffff": 3, "892b9bc46afffff": 5, "892b9bc46a7ffff": 1, "892b9bc46a3ffff": 1, "892b9bc46b7ffff": 1, "892b9bc447bffff": 1, "892b9bd5ecfffff": 1}}
-{"phrase": "yonge finch", "class": "area", "cells": {"892b9bc2187ffff": 1, "892b9bc218fffff": 3, "892b9bc2117ffff": 6, "892b9bc21abffff": 1}}
+{"phrase": "yonge finch", "class": "institution", "cells": {"892b9bc2187ffff": 1, "892b9bc218fffff": 3, "892b9bc2117ffff": 6, "892b9bc21abffff": 1}}
 {"phrase": "corktown", "class": "area", "cells": {"892b9bc4457ffff": 1, "892b9bc4443ffff": 1, "892b9bc444bffff": 1, "892b9bc445bffff": 1, "892b9bc7127ffff": 1, "892b9bc44cfffff": 2, "892b9bc4453ffff": 1, "892b9bc44c7ffff": 1, "892b9bc44c3ffff": 8, "892b9bc44d3ffff": 1}}
 {"phrase": "parkway forest", "class": "street", "cells": {"892b9bd511bffff": 1, "892b9bd51c7ffff": 1, "892b9bd51c3ffff": 6, "892b9bd51d3ffff": 1}}
 {"phrase": "bellwoods", "class": "mixed", "cells": {"892b9bcec23ffff": 1, "892b9bc55cfffff": 1, "892b9bc55c7ffff": 3, "892b9bc558bffff": 1, "892b9bc55dbffff": 2, "892b9bc55d3ffff": 1, "892b9bc7367ffff": 1, "892b9bc558fffff": 5, "892b9bc5517ffff": 1, "892b9bc5513ffff": 3, "892b9bc5587ffff": 1, "892b9bc551bffff": 1, "892b9bc550bffff": 1, "892b9bc089bffff": 1, "892b9bc5443ffff": 1, "892b9bc7317ffff": 1, "892b9bd5867ffff": 1}}
 {"phrase": "donlands", "class": "street", "cells": {"892b9bc666fffff": 4, "892b9bc664fffff": 1, "892b9bc665bffff": 6}}
-{"phrase": "uoft", "class": "area", "cells": {"892b9bc7333ffff": 1, "892b9bc738fffff": 2, "892b9bc7307ffff": 5, "892b9bc7303ffff": 1, "892b9bc7317ffff": 1, "892b9bc73abffff": 4, "892b9bc73afffff": 1, "892b9bc46d3ffff": 1, "892b9bc46c3ffff": 2, "892b9bc714fffff": 1}}
+{"phrase": "uoft", "class": "institution", "cells": {"892b9bc7333ffff": 1, "892b9bc738fffff": 2, "892b9bc7307ffff": 5, "892b9bc7303ffff": 1, "892b9bc7317ffff": 1, "892b9bc73abffff": 4, "892b9bc73afffff": 1, "892b9bc46d3ffff": 1, "892b9bc46c3ffff": 2, "892b9bc714fffff": 1}}
 {"phrase": "westmount", "class": "mixed", "cells": {"892b9bce553ffff": 1, "892b9bc0a6bffff": 2, "892b9bce4d3ffff": 1, "892b9bc19a7ffff": 1, "892b9bc0a43ffff": 1, "892b9bc0e93ffff": 1, "892b9bc099bffff": 1}}
 {"phrase": "outer harbour", "class": "landmark", "cells": {"892b9bc4513ffff": 1, "892b9bc45d3ffff": 2, "892b9bc6377ffff": 2, "892b9bc6373ffff": 1}}
 {"phrase": "dawes", "class": "street", "cells": {"892b9bc640fffff": 2, "892b9bc64c3ffff": 1, "892b9bc64d3ffff": 5, "892b9bd4a0fffff": 1}}
@@ -97,7 +97,7 @@
 {"phrase": "harbord", "class": "street", "cells": {"892b9bc54a3ffff": 2, "892b9bc54afffff": 1, "892b9bc54b7ffff": 1, "892b9bc737bffff": 2, "892b9bc731bffff": 1, "892b9bc7373ffff": 1, "892b9bc730fffff": 6, "892b9bc7303ffff": 3}}
 {"phrase": "blythwood", "class": "street", "cells": {"892b9bc293bffff": 1, "892b9bc29a3ffff": 1, "892b9bc29abffff": 1, "892b9bc2907ffff": 2}}
 {"phrase": "amesbury", "class": "mixed", "cells": {"892b9bc081bffff": 1, "892b9bc0ab3ffff": 1, "892b9bc0e2bffff": 1, "892b9bc0e27ffff": 3, "892b9bc0e37ffff": 1}}
-{"phrase": "alton towers", "class": "landmark", "cells": {"892b9bd757bffff": 1, "892b9bd7547ffff": 4}}
+{"phrase": "alton towers", "class": "institution", "cells": {"892b9bd757bffff": 1, "892b9bd7547ffff": 4}}
 {"phrase": "seneca hill", "class": "street", "cells": {"892b9bd56abffff": 1, "892b9bd5083ffff": 1, "892b9bd509bffff": 2, "892b9bd50d7ffff": 3, "892b9bd585bffff": 1}}
 {"phrase": "james town", "class": "area", "cells": {"892b9bc71cfffff": 1, "892b9bc711bffff": 4, "892b9bc7103ffff": 1, "892b9bc7113ffff": 2, "892b9bc7117ffff": 1, "892b9bc45d3ffff": 1}}
 {"phrase": "cityplace", "class": "division", "cells": {"892b9bc466bffff": 5, "892b9bc4663ffff": 2, "892b9bc4673ffff": 2}}
@@ -129,7 +129,7 @@
 {"phrase": "woodside", "class": "street", "cells": {"892b9bd71b3ffff": 4, "892b9bd7187ffff": 1}}
 {"phrase": "consilium", "class": "area", "cells": {"892b9bd45cfffff": 2, "892b9bd4553ffff": 2, "892b9bd45cbffff": 2}}
 {"phrase": "cne", "class": "landmark", "cells": {"892b9bc566fffff": 1, "892b9bc5523ffff": 1, "892b9bc5527ffff": 1, "892b9bc5193ffff": 1, "892b9bc552fffff": 2}}
-{"phrase": "oise", "class": "landmark", "cells": {"892b9bc738bffff": 1, "892b9bc738fffff": 6, "892b9bc7313ffff": 1}}
+{"phrase": "oise", "class": "institution", "cells": {"892b9bc738bffff": 1, "892b9bc738fffff": 6, "892b9bc7313ffff": 1}}
 {"phrase": "exbury", "class": "street", "cells": {"892b9bc033bffff": 2, "892b9bc0307ffff": 2}}
 {"phrase": "east mall", "class": "street", "cells": {"892b9bce20bffff": 1, "892b9bce21bffff": 1, "892b9bce223ffff": 2, "892b9bce227ffff": 1, "892b9bce22fffff": 1, "892b9bcc583ffff": 1}}
 {"phrase": "rosethorn", "class": "mixed", "cells": {"892b9bce63bffff": 1, "892b9bce053ffff": 2, "892b9bce057ffff": 1}}
@@ -139,7 +139,7 @@
 {"phrase": "maryvale", "class": "area", "cells": {"892b9bd5c97ffff": 4, "892b9bd422bffff": 1}}
 {"phrase": "bendale", "class": "mixed", "cells": {"892b9bd41a3ffff": 1, "892b9bd4157ffff": 1, "892b9bd418fffff": 2, "892b9bd6a47ffff": 1, "892b9bd4187ffff": 1, "892b9bd6a5bffff": 1, "892b9bd4153ffff": 1, "892b9bd452bffff": 1, "892b9bd450fffff": 1, "892b9bd4507ffff": 1, "892b9bd459bffff": 1}}
 {"phrase": "humbertown", "class": "area", "cells": {"892b9bce567ffff": 1, "892b9bce087ffff": 1, "892b9bce093ffff": 1, "892b9bce097ffff": 3}}
-{"phrase": "bay bloor", "class": "area", "cells": {"892b9bc7387ffff": 1, "892b9bc7397ffff": 6, "892b9bc714bffff": 3}}
+{"phrase": "bay bloor", "class": "institution", "cells": {"892b9bc7387ffff": 1, "892b9bc7397ffff": 6, "892b9bc714bffff": 3}}
 {"phrase": "rumball", "class": "area", "cells": {"892b9bc2d23ffff": 3, "892b9bc6603ffff": 1}}
 {"phrase": "donway", "class": "area", "cells": {"892b9bd5e23ffff": 1, "892b9bd5e33ffff": 1, "892b9bd5e27ffff": 1, "892b9bd5db7ffff": 1, "892b9bd58cbffff": 2, "892b9bd5e37ffff": 1, "892b9bd5eafffff": 1}}
 {"phrase": "stan wadlow", "class": "landmark", "cells": {"892b9bc6693ffff": 2, "892b9bd592fffff": 1, "892b9bd592bffff": 1}}
@@ -170,9 +170,9 @@
 {"phrase": "scarborough north", "class": "division", "cells": {"892b9bd4657ffff": 1, "892b9bd559bffff": 1, "892b9bd732bffff": 1, "892b9bd716bffff": 1, "892b9bd6217ffff": 1, "892b9bd7003ffff": 1, "892b9bd758fffff": 1, "892b9bd7587ffff": 1, "892b9bd75bbffff": 1}}
 {"phrase": "amphitheatre", "class": "point", "cells": {"892b9bc5197ffff": 4}}
 {"phrase": "jane wilson", "class": "area", "cells": {"892b9bc0e5bffff": 2, "892b9bc032bffff": 1, "892b9bc032fffff": 1, "892b9bc1d97ffff": 1}}
-{"phrase": "uhn", "class": "area", "cells": {"892b9bc5593ffff": 2, "892b9bce493ffff": 1, "892b9bc46dbffff": 5, "892b9bc73a7ffff": 4, "892b9bc46d3ffff": 2, "892b9bc46d7ffff": 1}}
-{"phrase": "yorku", "class": "landmark", "cells": {"892b9bc044bffff": 1, "892b9bc06b7ffff": 4, "892b9bc0447ffff": 3}}
-{"phrase": "pleasantview", "class": "area", "cells": {"892b9bd5543ffff": 2, "892b9bd5557ffff": 1, "892b9bd551bffff": 1}}
+{"phrase": "uhn", "class": "institution", "cells": {"892b9bc5593ffff": 2, "892b9bce493ffff": 1, "892b9bc46dbffff": 5, "892b9bc73a7ffff": 4, "892b9bc46d3ffff": 2, "892b9bc46d7ffff": 1}}
+{"phrase": "yorku", "class": "institution", "cells": {"892b9bc044bffff": 1, "892b9bc06b7ffff": 4, "892b9bc0447ffff": 3}}
+{"phrase": "pleasantview", "class": "institution", "cells": {"892b9bd5543ffff": 2, "892b9bd5557ffff": 1, "892b9bd551bffff": 1}}
 {"phrase": "concorde", "class": "area", "cells": {"892b9bd5847ffff": 1, "892b9bd5817ffff": 2, "892b9bd5813ffff": 1, "892b9bd588fffff": 2, "892b9bd5c3bffff": 1}}
 {"phrase": "ashbridge", "class": "landmark", "cells": {"892b9bc6383ffff": 1, "892b9bc606fffff": 1, "892b9bc606bffff": 3, "892b9bc602bffff": 1}}
 {"phrase": "kennedy commons", "class": "area", "cells": {"892b9bd401bffff": 1, "892b9bd4057ffff": 1, "892b9bd40cfffff": 3}}
@@ -185,7 +185,7 @@
 {"phrase": "carlingview", "class": "street", "cells": {"892b9bcf4d7ffff": 1, "892b9bcf4d3ffff": 1, "892b9bcf4c7ffff": 1, "892b9bcf433ffff": 1, "892b9bcf437ffff": 1}}
 {"phrase": "pleasant view", "class": "mixed", "cells": {"892b9bd551bffff": 2, "892b9bd5557ffff": 2}}
 {"phrase": "wilmar", "class": "street", "cells": {"892b9bd5dcfffff": 1, "892b9bd5dc7ffff": 3}}
-{"phrase": "morningside crossing", "class": "point", "cells": {"892b9bd6c77ffff": 5}}
+{"phrase": "morningside crossing", "class": "institution", "cells": {"892b9bd6c77ffff": 5}}
 {"phrase": "balliol", "class": "street", "cells": {"892b9bc76a7ffff": 2, "892b9bc746bffff": 3, "892b9bc7463ffff": 1, "892b9bc7477ffff": 1}}
 {"phrase": "caledonia", "class": "mixed", "cells": {"892b9bc0957ffff": 1, "892b9bc08afffff": 2, "892b9bc0883ffff": 1, "892b9bc0c57ffff": 1, "892b9bc0c73ffff": 1, "892b9bc08a7ffff": 1, "892b9bc091bffff": 1, "892b9bc090fffff": 1}}
 {"phrase": "colonel samuel", "class": "landmark", "cells": {"892b9bce863ffff": 1, "892b9bce86bffff": 3, "892b9bce847ffff": 1, "892b9bc51c7ffff": 1}}
@@ -233,17 +233,17 @@
 {"phrase": "tmu", "class": "area", "cells": {"892b9bc4643ffff": 1, "892b9bc7167ffff": 2, "892b9bc469bffff": 2, "892b9bc46d7ffff": 1, "892b9bc716fffff": 4}}
 {"phrase": "glencairn", "class": "street", "cells": {"892b9bc0dc3ffff": 1, "892b9bc0dd7ffff": 1, "892b9bc2b6fffff": 1, "892b9bc2977ffff": 1, "892b9bc2b2bffff": 1, "892b9bc760fffff": 1}}
 {"phrase": "tuxedo court", "class": "street", "cells": {"892b9bd632fffff": 2, "892b9bd4597ffff": 1, "892b9bd4593ffff": 1}}
-{"phrase": "rotman", "class": "area", "cells": {"892b9bc7313ffff": 1, "892b9bc7317ffff": 5, "892b9bc73afffff": 1}}
+{"phrase": "rotman", "class": "institution", "cells": {"892b9bc7313ffff": 1, "892b9bc7317ffff": 5, "892b9bc73afffff": 1}}
 {"phrase": "clair west", "class": "street", "cells": {"892b9bc0b67ffff": 1, "892b9bc096bffff": 1, "892b9bc083bffff": 1, "892b9bc72bbffff": 1, "892b9bc728fffff": 1, "892b9bc7217ffff": 1, "892b9bc724fffff": 2, "892b9bc09b7ffff": 1, "892b9bc720bffff": 1, "892b9bc7203ffff": 1, "892b9bc468fffff": 1}}
 {"phrase": "glamorgan", "class": "street", "cells": {"892b9bd407bffff": 1, "892b9bd4047ffff": 2, "892b9bd4043ffff": 2}}
-{"phrase": "graduate", "class": "area", "cells": {"892b9bc7307ffff": 1, "892b9bc738fffff": 1, "892b9bc7303ffff": 2, "892b9bc7317ffff": 1, "892b9bc4647ffff": 1, "892b9bc73abffff": 1, "892b9bc46d3ffff": 1, "892b9bc7173ffff": 1, "892b9bc702fffff": 1}}
+{"phrase": "graduate", "class": "institution", "cells": {"892b9bc7307ffff": 1, "892b9bc738fffff": 1, "892b9bc7303ffff": 2, "892b9bc7317ffff": 1, "892b9bc4647ffff": 1, "892b9bc73abffff": 1, "892b9bc46d3ffff": 1, "892b9bc7173ffff": 1, "892b9bc702fffff": 1}}
 {"phrase": "estonian", "class": "landmark", "cells": {"892b9bc7313ffff": 4, "892b9bc745bffff": 1, "892b9bc753bffff": 3}}
 {"phrase": "attwell", "class": "street", "cells": {"892b9bcf493ffff": 1, "892b9bcf483ffff": 2, "892b9bcf4bbffff": 1}}
 {"phrase": "rathburn", "class": "street", "cells": {"892b9bcf12bffff": 1, "892b9bce21bffff": 1, "892b9bce257ffff": 1, "892b9bcf1b3ffff": 1, "892b9bce203ffff": 1, "892b9bce23bffff": 1}}
 {"phrase": "cloverdale mall", "class": "point", "cells": {"892b9bce37bffff": 4}}
 {"phrase": "grenoble", "class": "street", "cells": {"892b9bd5b93ffff": 2, "892b9bd582fffff": 2}}
 {"phrase": "lansdowne", "class": "street", "cells": {"892b9bc50a3ffff": 2, "892b9bc547bffff": 1, "892b9bc5473ffff": 3, "892b9bc509bffff": 1, "892b9bc733bffff": 1, "892b9bc1d23ffff": 1, "892b9bc0933ffff": 1, "892b9bc0923ffff": 1, "892b9bc5453ffff": 2, "892b9bc545bffff": 1}}
-{"phrase": "bayview glen", "class": "area", "cells": {"892b9bc2597ffff": 1, "892b9bd516bffff": 3, "892b9bd517bffff": 1}}
+{"phrase": "bayview glen", "class": "institution", "cells": {"892b9bc2597ffff": 1, "892b9bd516bffff": 3, "892b9bd517bffff": 1}}
 {"phrase": "sandhurst", "class": "point", "cells": {"892b9bd624fffff": 4}}
 {"phrase": "blantyre", "class": "street", "cells": {"892b9bc65c3ffff": 1, "892b9bc65dbffff": 3}}
 {"phrase": "finch west", "class": "street", "cells": {"892b9bc0217ffff": 1, "892b9bc1513ffff": 1, "892b9bc0467ffff": 3, "892b9bc009bffff": 1, "892b9bc05d3ffff": 1, "892b9bc2113ffff": 1}}
@@ -259,7 +259,7 @@
 {"phrase": "wellesworth", "class": "street", "cells": {"892b9bce25bffff": 3}}
 {"phrase": "finch weston", "class": "point", "cells": {"892b9bc024fffff": 4}}
 {"phrase": "pleasant cemetery", "class": "area", "cells": {"892b9bc70c3ffff": 1, "892b9bc70c7ffff": 1, "892b9bc7463ffff": 1, "892b9bc7467ffff": 2}}
-{"phrase": "markington", "class": "area", "cells": {"892b9bd6a27ffff": 1, "892b9bd6bcbffff": 3}}
+{"phrase": "markington", "class": "institution", "cells": {"892b9bd6a27ffff": 1, "892b9bd6bcbffff": 3}}
 {"phrase": "yonge sheppard", "class": "area", "cells": {"892b9bc2c47ffff": 5, "892b9bc2c57ffff": 2, "892b9bc2c8fffff": 1, "892b9bc2c0fffff": 1, "892b9bd5353ffff": 1}}
 {"phrase": "smithfield", "class": "street", "cells": {"892b9bc131bffff": 3}}
 {"phrase": "tobermory", "class": "street", "cells": {"892b9bc0053ffff": 3}}
@@ -308,7 +308,7 @@
 {"phrase": "mega convenience", "class": "area", "cells": {"892b9bd7513ffff": 1, "892b9bd75c7ffff": 2}}
 {"phrase": "roadsport", "class": "area", "cells": {"892b9bd4c1bffff": 1, "892b9bd4ccfffff": 2, "892b9bd4073ffff": 1, "892b9bd4033ffff": 1, "892b9bd454fffff": 1}}
 {"phrase": "welke", "class": "area", "cells": {"892b9bcf4a7ffff": 1, "892b9bc1b6bffff": 2}}
-{"phrase": "sorrows", "class": "landmark", "cells": {"892b9bce1d3ffff": 1, "892b9bce1dbffff": 3}}
+{"phrase": "sorrows", "class": "institution", "cells": {"892b9bce1d3ffff": 1, "892b9bce1dbffff": 3}}
 {"phrase": "homeward", "class": "area", "cells": {"892b9bc62dbffff": 1, "892b9bc6007ffff": 4}}
 {"phrase": "bangladeshi", "class": "area", "cells": {"892b9bc6407ffff": 1, "892b9bc6417ffff": 2, "892b9bc64bbffff": 1, "892b9bd482bffff": 1, "892b9bd5c87ffff": 1}}
 {"phrase": "eglinton town", "class": "area", "cells": {"892b9bd5d37ffff": 1, "892b9bd5dabffff": 1, "892b9bd5dafffff": 2}}
@@ -338,7 +338,7 @@
 {"phrase": "neville", "class": "street", "cells": {"892b9bc6547ffff": 1, "892b9bc650bffff": 2}}
 {"phrase": "lepage ignite", "class": "point", "cells": {"892b9bd611bffff": 3}}
 {"phrase": "royal lepage ignite", "class": "point", "cells": {"892b9bd611bffff": 3}}
-{"phrase": "ilac", "class": "area", "cells": {"892b9bc460fffff": 1, "892b9bc7397ffff": 1, "892b9bc702fffff": 2, "892b9bc7153ffff": 1, "892b9bc715bffff": 1, "892b9bc71cfffff": 3}}
+{"phrase": "ilac", "class": "institution", "cells": {"892b9bc460fffff": 1, "892b9bc7397ffff": 1, "892b9bc702fffff": 2, "892b9bc7153ffff": 1, "892b9bc715bffff": 1, "892b9bc71cfffff": 3}}
 {"phrase": "castlefield", "class": "street", "cells": {"892b9bc0817ffff": 1, "892b9bc0c53ffff": 1, "892b9bc7693ffff": 1, "892b9bc7697ffff": 1, "892b9bc0d43ffff": 1, "892b9bc0d4bffff": 1, "892b9bc0d4fffff": 1}}
 {"phrase": "millwick", "class": "street", "cells": {"892b9bc1037ffff": 1, "892b9bc11cbffff": 1, "892b9bc11d7ffff": 3}}
 {"phrase": "yonge and lawrence", "class": "area", "cells": {"892b9bc29cbffff": 1, "892b9bc2957ffff": 3, "892b9bc294bffff": 1}}
@@ -371,7 +371,7 @@
 {"phrase": "shallmar", "class": "street", "cells": {"892b9bc764bffff": 2, "892b9bc7643ffff": 1}}
 {"phrase": "one yonge", "class": "area", "cells": {"892b9bc46afffff": 3, "892b9bc46a3ffff": 1}}
 {"phrase": "dentonia", "class": "street", "cells": {"892b9bc648fffff": 1, "892b9bc6413ffff": 1, "892b9bc6403ffff": 1, "892b9bc6483ffff": 1}}
-{"phrase": "camh", "class": "area", "cells": {"892b9bc7333ffff": 3, "892b9bc4643ffff": 1, "892b9bc5503ffff": 1, "892b9bc550bffff": 2, "892b9bc73afffff": 1}}
+{"phrase": "camh", "class": "institution", "cells": {"892b9bc7333ffff": 3, "892b9bc4643ffff": 1, "892b9bc5503ffff": 1, "892b9bc550bffff": 2, "892b9bc73afffff": 1}}
 {"phrase": "thobes", "class": "area", "cells": {"892b9bd4173ffff": 1, "892b9bd410bffff": 1, "892b9bd411bffff": 1}}
 {"phrase": "greencrest", "class": "landmark", "cells": {"892b9bd6a8bffff": 2, "892b9bd6a13ffff": 1}}
 {"phrase": "wexford heights", "class": "area", "cells": {"892b9bd5cafffff": 1, "892b9bd4373ffff": 2, "892b9bd430fffff": 1}}
@@ -394,11 +394,11 @@
 {"phrase": "akron", "class": "street", "cells": {"892b9bcecabffff": 2, "892b9bcec07ffff": 1}}
 {"phrase": "tno", "class": "area", "cells": {"892b9bd5b0bffff": 1, "892b9bd5b0fffff": 1, "892b9bd5b03ffff": 1}}
 {"phrase": "mariner", "class": "point", "cells": {"892b9bc4663ffff": 4}}
-{"phrase": "comfort keepers", "class": "area", "cells": {"892b9bd50a7ffff": 1, "892b9bd50b7ffff": 2}}
+{"phrase": "comfort keepers", "class": "institution", "cells": {"892b9bd50a7ffff": 1, "892b9bd50b7ffff": 2}}
 {"phrase": "beyond the sea", "class": "point", "cells": {"892b9bcecbbffff": 3}}
-{"phrase": "kennedy sheppard", "class": "area", "cells": {"892b9bd4637ffff": 1, "892b9bd4633ffff": 1, "892b9bd46abffff": 1}}
+{"phrase": "kennedy sheppard", "class": "institution", "cells": {"892b9bd4637ffff": 1, "892b9bd4633ffff": 1, "892b9bd46abffff": 1}}
 {"phrase": "sheppard plaza", "class": "point", "cells": {"892b9bc2e73ffff": 3}}
-{"phrase": "bellesmere", "class": "point", "cells": {"892b9bd4513ffff": 3}}
+{"phrase": "bellesmere", "class": "institution", "cells": {"892b9bd4513ffff": 3}}
 {"phrase": "homelife galaxy", "class": "area", "cells": {"892b9bd45cfffff": 1, "892b9bd45cbffff": 2}}
 {"phrase": "prince arthur", "class": "street", "cells": {"892b9bc738bffff": 2, "892b9bc7383ffff": 2}}
 {"phrase": "greenbrae", "class": "landmark", "cells": {"892b9bd6acfffff": 3}}
@@ -413,7 +413,7 @@
 {"phrase": "wallace emerson", "class": "division", "cells": {"892b9bc54cfffff": 3}}
 {"phrase": "quay west", "class": "landmark", "cells": {"892b9bc42c3ffff": 1, "892b9bc466fffff": 2, "892b9bc463bffff": 1, "892b9bc4633ffff": 2, "892b9bc46afffff": 1}}
 {"phrase": "etobicoke sherway", "class": "area", "cells": {"892b9bcc577ffff": 1, "892b9bcc50fffff": 2}}
-{"phrase": "all health", "class": "point", "cells": {"892b9bc20b3ffff": 3}}
+{"phrase": "all health", "class": "institution", "cells": {"892b9bc20b3ffff": 3}}
 {"phrase": "bishop toronto airport", "class": "area", "cells": {"892b9bc42d7ffff": 1, "892b9bc42c3ffff": 1, "892b9bc428bffff": 1}}
 {"phrase": "canada malting", "class": "area", "cells": {"892b9bc42d7ffff": 2, "892b9bc466fffff": 1}}
 {"phrase": "malting", "class": "area", "cells": {"892b9bc42d7ffff": 2, "892b9bc466fffff": 1}}
@@ -425,14 +425,14 @@
 {"phrase": "weston lions", "class": "point", "cells": {"892b9bc0a5bffff": 3}}
 {"phrase": "bathurst dupont", "class": "point", "cells": {"892b9bc7227ffff": 3}}
 {"phrase": "birkdale", "class": "street", "cells": {"892b9bd41dbffff": 1, "892b9bd40a3ffff": 2, "892b9bd40abffff": 1}}
-{"phrase": "mount sinai hospital", "class": "landmark", "cells": {"892b9bc465bffff": 1, "892b9bc73a7ffff": 1, "892b9bc46dbffff": 3}}
-{"phrase": "sinai hospital", "class": "landmark", "cells": {"892b9bc465bffff": 1, "892b9bc73a7ffff": 1, "892b9bc46dbffff": 3}}
+{"phrase": "mount sinai hospital", "class": "institution", "cells": {"892b9bc465bffff": 1, "892b9bc73a7ffff": 1, "892b9bc46dbffff": 3}}
+{"phrase": "sinai hospital", "class": "institution", "cells": {"892b9bc465bffff": 1, "892b9bc73a7ffff": 1, "892b9bc46dbffff": 3}}
 {"phrase": "yonge lawrence", "class": "area", "cells": {"892b9bc29cbffff": 3, "892b9bc2957ffff": 1}}
 {"phrase": "drewry", "class": "street", "cells": {"892b9bc21d7ffff": 2, "892b9bc219bffff": 1}}
 {"phrase": "bathurst lakeshore", "class": "area", "cells": {"892b9bc42d3ffff": 2, "892b9bc42dbffff": 1}}
 {"phrase": "bayview leaside", "class": "area", "cells": {"892b9bc7413ffff": 1, "892b9bc7417ffff": 2}}
 {"phrase": "rooftop", "class": "area", "cells": {"892b9bc5223ffff": 1, "892b9bc55b7ffff": 3, "892b9bc42dbffff": 1, "892b9bc467bffff": 1, "892b9bc460bffff": 2, "892b9bc4693ffff": 1, "892b9bc715bffff": 1, "892b9bc7143ffff": 1}}
-{"phrase": "munk", "class": "area", "cells": {"892b9bc56a7ffff": 1, "892b9bc738fffff": 1, "892b9bc73a3ffff": 1, "892b9bc73a7ffff": 2, "892b9bc7317ffff": 1, "892b9bc76a7ffff": 1}}
+{"phrase": "munk", "class": "institution", "cells": {"892b9bc56a7ffff": 1, "892b9bc738fffff": 1, "892b9bc73a3ffff": 1, "892b9bc73a7ffff": 2, "892b9bc7317ffff": 1, "892b9bc76a7ffff": 1}}
 {"phrase": "gerrard square", "class": "point", "cells": {"892b9bc6203ffff": 3}}
 {"phrase": "sarafi", "class": "point", "cells": {"892b9bc256fffff": 3}}
 {"phrase": "daniel division", "class": "point", "cells": {"892b9bc747bffff": 3}}
@@ -448,12 +448,12 @@
 {"phrase": "carrot", "class": "area", "cells": {"892b9bc7527ffff": 3, "892b9bc6093ffff": 1}}
 {"phrase": "metro toronto convention", "class": "point", "cells": {"892b9bc460fffff": 4}}
 {"phrase": "town centre court", "class": "point", "cells": {"892b9bd4543ffff": 3}}
-{"phrase": "course union", "class": "landmark", "cells": {"892b9bc716fffff": 2, "892b9bc7167ffff": 2}}
+{"phrase": "course union", "class": "institution", "cells": {"892b9bc716fffff": 2, "892b9bc7167ffff": 2}}
 {"phrase": "lawrence village", "class": "area", "cells": {"892b9bc29cbffff": 1, "892b9bc29cfffff": 1, "892b9bc2957ffff": 1}}
-{"phrase": "bloor dufferin", "class": "area", "cells": {"892b9bc540fffff": 2, "892b9bc5407ffff": 1}}
+{"phrase": "bloor dufferin", "class": "institution", "cells": {"892b9bc540fffff": 2, "892b9bc5407ffff": 1}}
 {"phrase": "meighen", "class": "street", "cells": {"892b9bc468fffff": 2, "892b9bc76b7ffff": 3}}
 {"phrase": "corso italia", "class": "division", "cells": {"892b9bc09abffff": 3}}
-{"phrase": "development lab", "class": "area", "cells": {"892b9bc7307ffff": 2, "892b9bc73abffff": 1}}
+{"phrase": "development lab", "class": "institution", "cells": {"892b9bc7307ffff": 2, "892b9bc73abffff": 1}}
 {"phrase": "bloor street east", "class": "area", "cells": {"892b9bc7153ffff": 1, "892b9bc71cfffff": 2}}
 {"phrase": "selby", "class": "street", "cells": {"892b9bc71cfffff": 3}}
 {"phrase": "bar caffe", "class": "area", "cells": {"892b9bc09a3ffff": 1, "892b9bc09b7ffff": 1, "892b9bc09abffff": 1}}
@@ -463,9 +463,9 @@
 {"phrase": "jimmie simpson", "class": "point", "cells": {"892b9bc6267ffff": 3}}
 {"phrase": "front street west", "class": "area", "cells": {"892b9bc55b7ffff": 1, "892b9bc467bffff": 1, "892b9bc4673ffff": 2, "892b9bc460fffff": 1, "892b9bc4607ffff": 1, "892b9bc4617ffff": 1}}
 {"phrase": "holy name", "class": "landmark", "cells": {"892b9bc62dbffff": 2, "892b9bc62cbffff": 1}}
-{"phrase": "pape danforth", "class": "point", "cells": {"892b9bc62dbffff": 3}}
+{"phrase": "pape danforth", "class": "institution", "cells": {"892b9bc62dbffff": 3}}
 {"phrase": "bremner", "class": "street", "cells": {"892b9bc4663ffff": 2, "892b9bc460fffff": 1, "892b9bc4607ffff": 1, "892b9bc463bffff": 1}}
-{"phrase": "research institute", "class": "area", "cells": {"892b9bc5593ffff": 1, "892b9bc7687ffff": 1, "892b9bc46dbffff": 3, "892b9bc468fffff": 1, "892b9bc73b3ffff": 1}}
+{"phrase": "research institute", "class": "institution", "cells": {"892b9bc5593ffff": 1, "892b9bc7687ffff": 1, "892b9bc46dbffff": 3, "892b9bc468fffff": 1, "892b9bc73b3ffff": 1}}
 {"phrase": "bank plaza", "class": "area", "cells": {"892b9bc4617ffff": 5, "892b9bc4447ffff": 1}}
 {"phrase": "world trade", "class": "area", "cells": {"892b9bc46afffff": 2, "892b9bc46a3ffff": 1}}
 {"phrase": "fairmont", "class": "area", "cells": {"892b9bc5083ffff": 1, "892b9bc4603ffff": 2, "892b9bc469bffff": 1, "892b9bc444bffff": 1, "892b9bc4607ffff": 1, "892b9bc4617ffff": 1}}
@@ -506,8 +506,8 @@
 {"phrase": "ministere", "class": "area", "cells": {"892b9bc0963ffff": 1, "892b9bc541bffff": 1, "892b9bc716bffff": 1, "892b9bc46d3ffff": 1, "892b9bc46c3ffff": 1}}
 {"phrase": "king street west", "class": "area", "cells": {"892b9bc55a3ffff": 1, "892b9bc55b3ffff": 1, "892b9bc461bffff": 1, "892b9bc4603ffff": 2, "892b9bc460bffff": 1}}
 {"phrase": "bar king", "class": "area", "cells": {"892b9bc464fffff": 1, "892b9bc55b3ffff": 2}}
-{"phrase": "quit", "class": "area", "cells": {"892b9bc7383ffff": 1, "892b9bc7387ffff": 1, "892b9bc7397ffff": 1}}
-{"phrase": "quit smoking", "class": "area", "cells": {"892b9bc7383ffff": 1, "892b9bc7387ffff": 1, "892b9bc7397ffff": 1}}
+{"phrase": "quit", "class": "institution", "cells": {"892b9bc7383ffff": 1, "892b9bc7387ffff": 1, "892b9bc7397ffff": 1}}
+{"phrase": "quit smoking", "class": "institution", "cells": {"892b9bc7383ffff": 1, "892b9bc7387ffff": 1, "892b9bc7397ffff": 1}}
 {"phrase": "mines", "class": "area", "cells": {"892b9bc4603ffff": 1, "892b9bc73b7ffff": 1, "892b9bc468bffff": 1, "892b9bc468fffff": 1, "892b9bc4613ffff": 1}}
 {"phrase": "cadmen", "class": "point", "cells": {"892b9bc46cfffff": 3}}
 {"phrase": "patricks", "class": "point", "cells": {"892b9bc46cfffff": 3}}
@@ -521,7 +521,7 @@
 {"phrase": "bloor yorkville", "class": "area", "cells": {"892b9bc7313ffff": 1, "892b9bc7383ffff": 1, "892b9bc7397ffff": 1, "892b9bc715bffff": 1}}
 {"phrase": "city hall", "class": "area", "cells": {"892b9bc46d7ffff": 2, "892b9bc46c7ffff": 1, "892b9bc7153ffff": 1}}
 {"phrase": "trinity square", "class": "division", "cells": {"892b9bc4643ffff": 1, "892b9bc46d7ffff": 3}}
-{"phrase": "yorkville village", "class": "area", "cells": {"892b9bc73c7ffff": 1, "892b9bc468bffff": 1, "892b9bc7383ffff": 3}}
+{"phrase": "yorkville village", "class": "institution", "cells": {"892b9bc73c7ffff": 1, "892b9bc468bffff": 1, "892b9bc7383ffff": 3}}
 {"phrase": "deloitte", "class": "area", "cells": {"892b9bc468bffff": 1, "892b9bc46bbffff": 1, "892b9bc468fffff": 2, "892b9bc4613ffff": 1}}
 {"phrase": "agent next", "class": "area", "cells": {"892b9bc461bffff": 1, "892b9bc4603ffff": 2}}
 {"phrase": "agent next door", "class": "area", "cells": {"892b9bc461bffff": 1, "892b9bc4603ffff": 2}}
