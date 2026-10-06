@@ -11,9 +11,10 @@ support        units citywide under the cadmus cap (min names, sites, identities
 cells          number of cells with at least one unit
 spread         share of all sites citywide that carry the phrase
 locality       cadmus's smoothed log rate ratio, inside vs rest of city, taken
-               over the best 1-ring H3 disk (7 cells, about 0.7 km² at res 9)
-               that holds at least MIN_SUPPORT units. One fixed zone size, so the
-               number is comparable across phrases and cities.
+               over the best H3 disk of radius k in SCALES (k=1: 7 cells, about
+               0.7 km² at res 9) that holds at least MIN_SUPPORT units. Fixed
+               zone sizes, so the number is comparable across phrases and
+               cities; locality_k records which radius won.
 morans_i       Moran's I of per-cell units over H3 first-ring contiguity
 top_share      share of units in the top 5% of cells by units
 sd_km          standard distance of the phrase's sites, in km
@@ -47,6 +48,9 @@ LANDMARK_CATEGORIES = {'park', 'historic_site', 'landmark_and_historical_buildin
                        'museum', 'library', 'airport', 'pier', 'marina', 'cemetery', 'bridge'}
 
 GENERIC_LOCALITY = 1.0   # best-disk rate under e times the city rate: not a place term
+SCALES = (1,)            # H3 grid_disk radii the locality ratio is taken over; (1, 2) was tried,
+                         # see the shared-layer note: +2 Chicago polygons, +114 SF first names
+SCALE_SUPPORT = {1: 0, 2: 1}  # extra units a disk needs over MIN_SUPPORT: a wider disk must hold more
 GENERIC_SD_KM = 3.0      # standard distance of a neighbourhood-scale term is well under this
 BRAND_SHARE = 0.25       # Overture declares a brand on only part of a chain's records
 CHAIN_RATIO = 0.2        # units / records: identical names repeated collapse under the cap
@@ -178,8 +182,10 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
     s0 = Wr.sum()
     cell_index = {c: i for i, c in enumerate(cells)}
     cell_xy = {c: h3.cell_to_latlng(c) for c in cells}
-    disks = {c: [n for n in h3.grid_disk(c, 1) if n in cell_set] for c in cells}
-    disk_sites = {c: sum(len(sites_by_cell[n]) for n in disks[c]) for c in cells}
+    # One disk per scale: the res-8 check showed the width of the disk matters more
+    # than the cell size, so the ratio is taken at each scale and the best kept.
+    disks = {k: {c: [n for n in h3.grid_disk(c, k) if n in cell_set] for c in cells} for k in SCALES}
+    disk_sites = {k: {c: sum(len(sites_by_cell[n]) for n in disks[k][c]) for c in cells} for k in SCALES}
     rows, cell_units = [], {}
     for ph, sup in citywide.items():
         if sup.units < min_support:
@@ -190,19 +196,24 @@ def build(places, cells, street_names=frozenset(), division_names=frozenset(),
         for c, u in units.items():
             vec[cell_index[c]] = u
         mi = morans_i(vec, Wr, s0)
-        # Best 1-ring disk with enough units: cadmus's inside-vs-rest ratio at one fixed scale.
-        best = -math.inf
-        for c in units:
-            du = sum(units.get(n, 0) for n in disks[c])
-            if du < min_support:
-                continue
-            best = max(best, log_ratio(du, disk_sites[c], total - du, n_sites - disk_sites[c]))
+        # Best disk with enough units at any scale: cadmus's inside-vs-rest ratio.
+        best, best_k = -math.inf, 0
+        for k in SCALES:
+            for c in units:
+                du = sum(units.get(n, 0) for n in disks[k][c])
+                # Three units in nineteen cells is a coincidence (first names,
+                # trades); the wider disk has to earn the ratio with more units.
+                if du < min_support + SCALE_SUPPORT[k]:
+                    continue
+                lr = log_ratio(du, disk_sites[k][c], total - du, n_sites - disk_sites[k][c])
+                if lr > best:
+                    best, best_k = lr, k
         if best == -math.inf:
             best = float('nan')
         k = max(1, math.ceil(0.05 * len(cells)))
         top_share = float(np.sort(vec)[::-1][:k].sum() / total)
         row = {'phrase': ph, 'support': sup.units, 'records': sup.records, 'cells': len(units),
-               'spread': len(sup.sites) / n_sites, 'locality': best, 'morans_i': mi,
+               'spread': len(sup.sites) / n_sites, 'locality': best, 'locality_k': best_k, 'morans_i': mi,
                'top_share': top_share,
                'sd_km': _sd_km([cell_xy[c] for c in units for _ in range(units[c])]),
                'brand_share': branded[ph] / sup.records,

@@ -237,6 +237,21 @@ default; the res-8 summaries are committed, the full res-8 lexicons are not
 of the locality disk matters more than the cell size": a per-term disk
 radius, chosen by support, is the better fix than a global resolution.
 
+Tried next, in `lexicon.py` (`SCALES`, `SCALE_SUPPORT`): take the ratio over
+both the 7-cell and the 19-cell disk at res 9 and keep the better. With the
+same three-unit floor at both scales, Chicago area hit1 rose 0.19 → 0.25 and
+Toronto's unnamed polygons fell 39 → 37, but SF moved 443 phrases from
+generic to area, led by first names and trades (karen, psychiatry, ryan,
+sam): three units anywhere inside 2 km² pass the ratio. Asking the wider
+disk for four units keeps 114 of those and only two of the Chicago polygons;
+asking for six gives back the res-9 result exactly. The Chicago gains are
+rare terms (Auburn Gresham, West Pullman, Lakeview East, Near West Side,
+Noble Square, Hyde Park Kenwood), so the trade is recall on names with 3–5
+mentions against precision on everything else with 3–5 mentions. `SCALES`
+stays `(1,)`; the mechanism is in the code with the numbers above so the
+next pass can pair a wider disk with a person-name list, which is the
+filter these false positives actually need.
+
 ## Naming a polygon the Cadmus way
 
 `pipeline/name_polygon.py --city sf polygon.geojson` returns ranked typed
