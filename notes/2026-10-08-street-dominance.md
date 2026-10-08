@@ -99,3 +99,29 @@ concentration curve, which is the baseline every city shares.
 - The SF places extract refetched today matches the manifest's row count (60,536)
   but not its checksum; segments and divisions in all cities match. The manifest
   was left as it was.
+
+## Follow-up: Pareto or Zipf?
+
+Dmitry asked whether storefronts per street follow a Pareto or Zipf law
+(`side/street_rank_size.py`, figure `side/out/street-rank-size.png`). Fitted with
+the discrete power-law method of Clauset, Shalizi and Newman (2009) through the
+`powerlaw` package (Alstott, Bullmore and Plenz 2014).
+
+Heavy-tailed, yes; a power law, no. In all four cities a lognormal fits better than
+a power law (normalized log-likelihood ratio −2.8 to −3.2, p ≤ 0.005), and so does a
+truncated power law. On a log-log rank plot each city is concave: a flat head, then
+a steepening fall. The top streets hold less than Zipf would give them (Mission has
+about 6% of SF's storefronts; a Zipf law anchored on the tail would give it far
+more), and past rank 50 to 100 the counts drop faster than slope −1.
+
+Slope over the top 50 streets: Vancouver −0.89, Toronto −0.81, SF −0.60, Chicago
+−0.56. The steeper head is the same ordering as the dominance result: Vancouver
+and Toronto lean harder on their leading streets than SF and Chicago do.
+
+Street length itself is also heavy-tailed and lognormal-ish but much flatter at the
+head (top-50 slopes −0.25 to −0.51), so the storefront concentration is not just
+inherited from some streets being longer. A lognormal is what a multiplicative
+process gives (a street's commerce growing in proportion to what it already has,
+with noise), which is a more plausible story for main streets than the
+scale-free growth usually told for Zipf; that is a reading, not something tested
+here.
