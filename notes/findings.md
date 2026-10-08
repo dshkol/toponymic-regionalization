@@ -67,3 +67,26 @@ Side-findings parked here:
   opendata.vancouver.ca, data.cityofchicago.org and the Overture STAC catalog;
   `overturemaps download` fails there. This run reused the cadmus extract (checksum
   verified against its manifest) and the cadmus copy of the DataSF polygons.
+
+## 2026-10-08, name fields and the boundary test (`2026-10-08-name-fields-and-boundaries.md`)
+
+- Name fields (each toponym as its own kernel density, replacing k-ring smoothing) give the
+  highest ARI yet (Chicago 0.47 at k=73) and a permutation null of 0.45: smoothing again.
+  The idea fails as a feature set for Ward.
+- The ARI results of 2026-10-06 are contiguity and compactness. Random contiguous
+  partitions reach 0.34–0.40 at the official k; any smooth feature set gives Ward a compact
+  partition that scores the same. Names only rise above their null when the features are
+  rough, and then they lose to coordinates.
+- A boundary test with a positive control (AUC of adjacent-cell feature divergence for
+  predicting boundary edges) is at chance for official and vernacular boundaries in SF,
+  Vancouver and Chicago (0.46–0.56, nulls 0.48–0.55, random boundaries 0.47–0.54) while
+  Ward's own cuts score 0.6–0.86. Same with the vocabulary cut to the lexicon's locality
+  classes, and at resolution 8. The exception is small: Chicago edges where both cells
+  carry an unsmoothed toponym (7% of edges) score 0.63.
+- Names localize but do not delimit at this scale and with this data. The vernacular
+  polygon sets (click_that_hood via GitHub, with manifests) score the same as the official
+  ones, so the ground truth was not what held the numbers down.
+- Compact regions of neighbourhood size are as nameable from their lifted tokens whether
+  they came from names or from coordinates; naming is the working readout, boundaries are
+  not. The brief's regionalize-first thesis is not supported in its boundary form; the
+  supportable version is coverage: where each toponym holds, with soft edges.

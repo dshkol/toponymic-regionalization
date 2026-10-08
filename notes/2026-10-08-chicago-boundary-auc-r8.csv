@@ -1,0 +1,139 @@
+city,feature,measure,truth,auc,edges,boundary_share,perm
+chicago,names ring 0,adjacent cells,official,0.5393604428337869,1904,0.34978991596638653,
+chicago,names ring 0,"two sides, ring 2",official,0.45835091957870633,1904,0.34978991596638653,
+chicago,names ring 0,"two sides, ring 3",official,0.4708735391287895,1904,0.34978991596638653,
+chicago,"null: names ring 0, names permuted",adjacent cells,official,0.5074990175959482,1904,0.34978991596638653,0.0
+chicago,"null: names ring 0, names permuted","two sides, ring 2",official,0.45381851965050674,1904,0.34978991596638653,0.0
+chicago,"null: names ring 0, names permuted","two sides, ring 3",official,0.4617935787160343,1904,0.34978991596638653,0.0
+chicago,"null: names ring 0, names permuted",adjacent cells,official,0.48241557389376455,1904,0.34978991596638653,1.0
+chicago,"null: names ring 0, names permuted","two sides, ring 2",official,0.4391794864331214,1904,0.34978991596638653,1.0
+chicago,"null: names ring 0, names permuted","two sides, ring 3",official,0.45683001256506905,1904,0.34978991596638653,1.0
+chicago,names ring 0,adjacent cells,vernacular (96),0.5201709858402351,1904,0.3792016806722689,
+chicago,names ring 0,"two sides, ring 2",vernacular (96),0.4811660128145638,1904,0.3792016806722689,
+chicago,names ring 0,"two sides, ring 3",vernacular (96),0.4997504112940647,1904,0.3792016806722689,
+chicago,"null: names ring 0, names permuted",adjacent cells,vernacular (96),0.49138977553421354,1904,0.3792016806722689,0.0
+chicago,"null: names ring 0, names permuted","two sides, ring 2",vernacular (96),0.4442854732342477,1904,0.3792016806722689,0.0
+chicago,"null: names ring 0, names permuted","two sides, ring 3",vernacular (96),0.46912658014258196,1904,0.3792016806722689,0.0
+chicago,"null: names ring 0, names permuted",adjacent cells,vernacular (96),0.48634234196230625,1904,0.3792016806722689,1.0
+chicago,"null: names ring 0, names permuted","two sides, ring 2",vernacular (96),0.4435085844453506,1904,0.3792016806722689,1.0
+chicago,"null: names ring 0, names permuted","two sides, ring 3",vernacular (96),0.46393618965929384,1904,0.3792016806722689,1.0
+chicago,names ring 0,adjacent cells,"random contiguous, k=73, seed 0",0.48957850234240047,1904,0.28834033613445376,
+chicago,names ring 0,"two sides, ring 2","random contiguous, k=73, seed 0",0.44866815881273564,1904,0.28834033613445376,
+chicago,names ring 0,"two sides, ring 3","random contiguous, k=73, seed 0",0.4788525262301803,1904,0.28834033613445376,
+chicago,names ring 0,adjacent cells,"random contiguous, k=73, seed 1",0.47702842172118126,1904,0.296218487394958,
+chicago,names ring 0,"two sides, ring 2","random contiguous, k=73, seed 1",0.44518630252990365,1904,0.296218487394958,
+chicago,names ring 0,"two sides, ring 3","random contiguous, k=73, seed 1",0.48727638403726053,1904,0.296218487394958,
+chicago,names ring 0,adjacent cells,"random contiguous, k=73, seed 2",0.4990107350339301,1904,0.28939075630252103,
+chicago,names ring 0,"two sides, ring 2","random contiguous, k=73, seed 2",0.4960328798140316,1904,0.28939075630252103,
+chicago,names ring 0,"two sides, ring 3","random contiguous, k=73, seed 2",0.5078369905956113,1904,0.28939075630252103,
+chicago,names ring 0,adjacent cells,"own Ward partition, k=73 (positive control)",0.8064321803342401,1904,0.3487394957983193,
+chicago,names ring 0,"two sides, ring 2","own Ward partition, k=73 (positive control)",0.5614008453167509,1904,0.3487394957983193,
+chicago,names ring 0,"two sides, ring 3","own Ward partition, k=73 (positive control)",0.509877817722503,1904,0.3487394957983193,
+chicago,names ring 1,adjacent cells,official,0.5772860906140389,1904,0.34978991596638653,
+chicago,names ring 1,"two sides, ring 2",official,0.5204861565927802,1904,0.34978991596638653,
+chicago,names ring 1,"two sides, ring 3",official,0.5083528601299199,1904,0.34978991596638653,
+chicago,"null: names ring 1, names permuted",adjacent cells,official,0.5339778389051411,1904,0.34978991596638653,0.0
+chicago,"null: names ring 1, names permuted","two sides, ring 2",official,0.49966404207115034,1904,0.34978991596638653,0.0
+chicago,"null: names ring 1, names permuted","two sides, ring 3",official,0.5138324916192445,1904,0.34978991596638653,0.0
+chicago,"null: names ring 1, names permuted",adjacent cells,official,0.5710775395751163,1904,0.34978991596638653,1.0
+chicago,"null: names ring 1, names permuted","two sides, ring 2",official,0.5175183260805232,1904,0.34978991596638653,1.0
+chicago,"null: names ring 1, names permuted","two sides, ring 3",official,0.48605713953048363,1904,0.34978991596638653,1.0
+chicago,names ring 1,adjacent cells,vernacular (96),0.552278873780765,1904,0.3792016806722689,
+chicago,names ring 1,"two sides, ring 2",vernacular (96),0.4783139052547211,1904,0.3792016806722689,
+chicago,names ring 1,"two sides, ring 3",vernacular (96),0.46809717320284416,1904,0.3792016806722689,
+chicago,"null: names ring 1, names permuted",adjacent cells,vernacular (96),0.5242757240416027,1904,0.3792016806722689,0.0
+chicago,"null: names ring 1, names permuted","two sides, ring 2",vernacular (96),0.48566564018917185,1904,0.3792016806722689,0.0
+chicago,"null: names ring 1, names permuted","two sides, ring 3",vernacular (96),0.5045394678253208,1904,0.3792016806722689,0.0
+chicago,"null: names ring 1, names permuted",adjacent cells,vernacular (96),0.5473667805634845,1904,0.3792016806722689,1.0
+chicago,"null: names ring 1, names permuted","two sides, ring 2",vernacular (96),0.5007147845569039,1904,0.3792016806722689,1.0
+chicago,"null: names ring 1, names permuted","two sides, ring 3",vernacular (96),0.474666160458587,1904,0.3792016806722689,1.0
+chicago,names ring 1,adjacent cells,"random contiguous, k=73, seed 0",0.5269964175051587,1904,0.28834033613445376,
+chicago,names ring 1,"two sides, ring 2","random contiguous, k=73, seed 0",0.4791590210984077,1904,0.28834033613445376,
+chicago,names ring 1,"two sides, ring 3","random contiguous, k=73, seed 0",0.47536950779343856,1904,0.28834033613445376,
+chicago,names ring 1,adjacent cells,"random contiguous, k=73, seed 1",0.4976302000635122,1904,0.296218487394958,
+chicago,names ring 1,"two sides, ring 2","random contiguous, k=73, seed 1",0.45451863025299033,1904,0.296218487394958,
+chicago,names ring 1,"two sides, ring 3","random contiguous, k=73, seed 1",0.4725481634381285,1904,0.296218487394958,
+chicago,names ring 1,adjacent cells,"random contiguous, k=73, seed 2",0.49621463629254337,1904,0.28939075630252103,
+chicago,names ring 1,"two sides, ring 2","random contiguous, k=73, seed 2",0.48718113810407204,1904,0.28939075630252103,
+chicago,names ring 1,"two sides, ring 3","random contiguous, k=73, seed 2",0.4911623427404048,1904,0.28939075630252103,
+chicago,names ring 1,adjacent cells,"own Ward partition, k=73 (positive control)",0.8574450665405523,1904,0.3182773109243697,
+chicago,names ring 1,"two sides, ring 2","own Ward partition, k=73 (positive control)",0.6242353048864209,1904,0.3182773109243697,
+chicago,names ring 1,"two sides, ring 3","own Ward partition, k=73 (positive control)",0.5680597720789028,1904,0.3182773109243697,
+chicago,fields adaptive,adjacent cells,official,0.5107761234578682,1904,0.34978991596638653,
+chicago,fields adaptive,"two sides, ring 2",official,0.4416597534529683,1904,0.34978991596638653,
+chicago,fields adaptive,"two sides, ring 3",official,0.4411770413385922,1904,0.34978991596638653,
+chicago,"null: fields adaptive, names permuted",adjacent cells,official,0.5018095640066561,1904,0.34978991596638653,0.0
+chicago,"null: fields adaptive, names permuted","two sides, ring 2",official,0.4485499231056581,1904,0.34978991596638653,0.0
+chicago,"null: fields adaptive, names permuted","two sides, ring 3",official,0.4532484827315199,1904,0.34978991596638653,0.0
+chicago,"null: fields adaptive, names permuted",adjacent cells,official,0.458581360035318,1904,0.34978991596638653,1.0
+chicago,"null: fields adaptive, names permuted","two sides, ring 2",official,0.43222018464344797,1904,0.34978991596638653,1.0
+chicago,"null: fields adaptive, names permuted","two sides, ring 3",official,0.43347790439874445,1904,0.34978991596638653,1.0
+chicago,fields adaptive,adjacent cells,vernacular (96),0.4684744857066524,1904,0.3792016806722689,
+chicago,fields adaptive,"two sides, ring 2",vernacular (96),0.4072057314003684,1904,0.3792016806722689,
+chicago,fields adaptive,"two sides, ring 3",vernacular (96),0.39800375906370256,1904,0.3792016806722689,
+chicago,"null: fields adaptive, names permuted",adjacent cells,vernacular (96),0.4886642199942818,1904,0.3792016806722689,0.0
+chicago,"null: fields adaptive, names permuted","two sides, ring 2",vernacular (96),0.44912725977379997,1904,0.3792016806722689,0.0
+chicago,"null: fields adaptive, names permuted","two sides, ring 3",vernacular (96),0.4507618900309818,1904,0.3792016806722689,0.0
+chicago,"null: fields adaptive, names permuted",adjacent cells,vernacular (96),0.44867260992449065,1904,0.3792016806722689,1.0
+chicago,"null: fields adaptive, names permuted","two sides, ring 2",vernacular (96),0.4199992031909857,1904,0.3792016806722689,1.0
+chicago,"null: fields adaptive, names permuted","two sides, ring 3",vernacular (96),0.4195562711212978,1904,0.3792016806722689,1.0
+chicago,fields adaptive,adjacent cells,"random contiguous, k=73, seed 0",0.5240309452274851,1904,0.28834033613445376,
+chicago,fields adaptive,"two sides, ring 2","random contiguous, k=73, seed 0",0.45962938317907776,1904,0.28834033613445376,
+chicago,fields adaptive,"two sides, ring 3","random contiguous, k=73, seed 0",0.44639229998857366,1904,0.28834033613445376,
+chicago,fields adaptive,adjacent cells,"random contiguous, k=73, seed 1",0.4859333650894464,1904,0.296218487394958,
+chicago,fields adaptive,"two sides, ring 2","random contiguous, k=73, seed 1",0.44615751032073675,1904,0.296218487394958,
+chicago,fields adaptive,"two sides, ring 3","random contiguous, k=73, seed 1",0.4379009209272785,1904,0.296218487394958,
+chicago,fields adaptive,adjacent cells,"random contiguous, k=73, seed 2",0.4966727162734422,1904,0.28939075630252103,
+chicago,fields adaptive,"two sides, ring 2","random contiguous, k=73, seed 2",0.46849174315864595,1904,0.28939075630252103,
+chicago,fields adaptive,"two sides, ring 3","random contiguous, k=73, seed 2",0.46594044557835446,1904,0.28939075630252103,
+chicago,fields adaptive,adjacent cells,"own Ward partition, k=73 (positive control)",0.6669192149935023,1904,0.31932773109243695,
+chicago,fields adaptive,"two sides, ring 2","own Ward partition, k=73 (positive control)",0.5458787666504223,1904,0.31932773109243695,
+chicago,fields adaptive,"two sides, ring 3","own Ward partition, k=73 (positive control)",0.5296750629467186,1904,0.31932773109243695,
+chicago,fields fixed 1 cell,adjacent cells,official,0.5878669461060414,1904,0.34978991596638653,
+chicago,fields fixed 1 cell,"two sides, ring 2",official,0.4899176236009839,1904,0.34978991596638653,
+chicago,fields fixed 1 cell,"two sides, ring 3",official,0.4908963891193293,1904,0.34978991596638653,
+chicago,"null: fields fixed 1 cell, names permuted",adjacent cells,official,0.5702746365105007,1904,0.34978991596638653,0.0
+chicago,"null: fields fixed 1 cell, names permuted","two sides, ring 2",official,0.48641250297146904,1904,0.34978991596638653,0.0
+chicago,"null: fields fixed 1 cell, names permuted","two sides, ring 3",official,0.5043031723160964,1904,0.34978991596638653,0.0
+chicago,"null: fields fixed 1 cell, names permuted",adjacent cells,official,0.5576428609546542,1904,0.34978991596638653,1.0
+chicago,"null: fields fixed 1 cell, names permuted","two sides, ring 2",official,0.49318502670683606,1904,0.34978991596638653,1.0
+chicago,"null: fields fixed 1 cell, names permuted","two sides, ring 3",official,0.48652529751075796,1904,0.34978991596638653,1.0
+chicago,fields fixed 1 cell,adjacent cells,vernacular (96),0.5315196554035369,1904,0.3792016806722689,
+chicago,fields fixed 1 cell,"two sides, ring 2",vernacular (96),0.44335625331027273,1904,0.3792016806722689,
+chicago,fields fixed 1 cell,"two sides, ring 3",vernacular (96),0.43805044269771415,1904,0.3792016806722689,
+chicago,"null: fields fixed 1 cell, names permuted",adjacent cells,vernacular (96),0.5558117843366096,1904,0.3792016806722689,0.0
+chicago,"null: fields fixed 1 cell, names permuted","two sides, ring 2",vernacular (96),0.4783021874750996,1904,0.3792016806722689,0.0
+chicago,"null: fields fixed 1 cell, names permuted","two sides, ring 3",vernacular (96),0.49918209898242805,1904,0.3792016806722689,0.0
+chicago,"null: fields fixed 1 cell, names permuted",adjacent cells,vernacular (96),0.5347877441399383,1904,0.3792016806722689,1.0
+chicago,"null: fields fixed 1 cell, names permuted","two sides, ring 2",vernacular (96),0.4828439988563447,1904,0.3792016806722689,1.0
+chicago,"null: fields fixed 1 cell, names permuted","two sides, ring 3",vernacular (96),0.47159024330797605,1904,0.3792016806722689,1.0
+chicago,fields fixed 1 cell,adjacent cells,"random contiguous, k=73, seed 0",0.5311233440203255,1904,0.28834033613445376,
+chicago,fields fixed 1 cell,"two sides, ring 2","random contiguous, k=73, seed 0",0.4672702464729565,1904,0.28834033613445376,
+chicago,fields fixed 1 cell,"two sides, ring 3","random contiguous, k=73, seed 0",0.4621324246029345,1904,0.28834033613445376,
+chicago,fields fixed 1 cell,adjacent cells,"random contiguous, k=73, seed 1",0.4918955753149148,1904,0.296218487394958,
+chicago,fields fixed 1 cell,"two sides, ring 2","random contiguous, k=73, seed 1",0.45346141632264214,1904,0.296218487394958,
+chicago,fields fixed 1 cell,"two sides, ring 3","random contiguous, k=73, seed 1",0.4642770191595215,1904,0.296218487394958,
+chicago,fields fixed 1 cell,adjacent cells,"random contiguous, k=73, seed 2",0.5031810737180131,1904,0.28939075630252103,
+chicago,fields fixed 1 cell,"two sides, ring 2","random contiguous, k=73, seed 2",0.48206781193368775,1904,0.28939075630252103,
+chicago,fields fixed 1 cell,"two sides, ring 3","random contiguous, k=73, seed 2",0.499555333781353,1904,0.28939075630252103,
+chicago,fields fixed 1 cell,adjacent cells,"own Ward partition, k=73 (positive control)",0.7595211514566658,1904,0.3230042016806723,
+chicago,fields fixed 1 cell,"two sides, ring 2","own Ward partition, k=73 (positive control)",0.6080203346641689,1904,0.3230042016806723,
+chicago,fields fixed 1 cell,"two sides, ring 3","own Ward partition, k=73 (positive control)",0.5780595028603506,1904,0.3230042016806723,
+chicago,coordinates only,adjacent cells,official,0.4860437982408903,1904,0.34978991596638653,
+chicago,coordinates only,"two sides, ring 2",official,0.44282893555914554,1904,0.34978991596638653,
+chicago,coordinates only,"two sides, ring 3",official,0.4534922644777249,1904,0.34978991596638653,
+chicago,coordinates only,adjacent cells,vernacular (96),0.49704360420152705,1904,0.3792016806722689,
+chicago,coordinates only,"two sides, ring 2",vernacular (96),0.4332531837207232,1904,0.3792016806722689,
+chicago,coordinates only,"two sides, ring 3",vernacular (96),0.42989135274735063,1904,0.3792016806722689,
+chicago,coordinates only,adjacent cells,"random contiguous, k=73, seed 0",0.49945489618830613,1904,0.28834033613445376,
+chicago,coordinates only,"two sides, ring 2","random contiguous, k=73, seed 0",0.4996578818247199,1904,0.28834033613445376,
+chicago,coordinates only,"two sides, ring 3","random contiguous, k=73, seed 0",0.49091740097728853,1904,0.28834033613445376,
+chicago,coordinates only,adjacent cells,"random contiguous, k=73, seed 1",0.4885109029321478,1904,0.296218487394958,
+chicago,coordinates only,"two sides, ring 2","random contiguous, k=73, seed 1",0.4587660103736636,1904,0.296218487394958,
+chicago,coordinates only,"two sides, ring 3","random contiguous, k=73, seed 1",0.4481224198158146,1904,0.296218487394958,
+chicago,coordinates only,adjacent cells,"random contiguous, k=73, seed 2",0.5186337278320812,1904,0.28939075630252103,
+chicago,coordinates only,"two sides, ring 2","random contiguous, k=73, seed 2",0.48733003086506693,1904,0.28939075630252103,
+chicago,coordinates only,"two sides, ring 3","random contiguous, k=73, seed 2",0.4864997189816808,1904,0.28939075630252103,
+chicago,coordinates only,adjacent cells,"own Ward partition, k=73 (positive control)",0.5975420352488352,1904,0.34086134453781514,
+chicago,coordinates only,"two sides, ring 2","own Ward partition, k=73 (positive control)",0.5339283850729594,1904,0.34086134453781514,
+chicago,coordinates only,"two sides, ring 3","own Ward partition, k=73 (positive control)",0.5269927992191481,1904,0.34086134453781514,
