@@ -1,0 +1,3150 @@
+{
+ "sf": {
+  "area_km2": 121.82726161669854,
+  "named_road_km": 1762.3976179931556,
+  "arterial_km": 586.6515628267871,
+  "all": {
+   "places": 44839,
+   "streets_with_places": 1026,
+   "top1_share": 0.048306162046432795,
+   "top1_length_share": 0.008454812863492697,
+   "top1_streets": [
+    "market st"
+   ],
+   "top3_share": 0.13008764691451638,
+   "top3_length_share": 0.02037994884287166,
+   "top3_streets": [
+    "market st",
+    "mission st",
+    "california st"
+   ],
+   "top5_share": 0.1776801445170499,
+   "top5_length_share": 0.028996664697248434,
+   "top5_streets": [
+    "market st",
+    "mission st",
+    "california st",
+    "sutter st",
+    "van ness ave"
+   ],
+   "top10_share": 0.26920760944713307,
+   "top10_length_share": 0.05268318642890927,
+   "top10_streets": [
+    "market st",
+    "mission st",
+    "california st",
+    "sutter st",
+    "van ness ave",
+    "post st",
+    "geary blvd",
+    "montgomery st",
+    "3rd st",
+    "union st"
+   ],
+   "streets_for_half": 32,
+   "gini_vs_length": 0.7247210761022751,
+   "length_share_for_half": 0.0822542456406044,
+   "candidates": 49520,
+   "matched_rate": 0.90547253634895,
+   "on_arterial_share": 0.824304734717545,
+   "long_streets": 42,
+   "long_street_share": 0.22333236691273223,
+   "long_street_length_share": 0.11864758805604997,
+   "top10_span_km": [
+    4.874148528346327,
+    9.528723929889965,
+    8.544091765232501,
+    4.060336724893888,
+    6.642878609911073,
+    3.8717992612242234,
+    7.754066007276997,
+    5.148792619842454,
+    11.932857243916951,
+    4.1012771477323255
+   ]
+  },
+  "storefront": {
+   "places": 15145,
+   "streets_with_places": 485,
+   "top1_share": 0.05671838890723011,
+   "top1_length_share": 0.0068571335100474605,
+   "top1_streets": [
+    "mission st"
+   ],
+   "top3_share": 0.1290855067679102,
+   "top3_length_share": 0.025081923768076057,
+   "top3_streets": [
+    "mission st",
+    "market st",
+    "geary blvd"
+   ],
+   "top5_share": 0.17655992076592936,
+   "top5_length_share": 0.030148010757157236,
+   "top5_streets": [
+    "mission st",
+    "market st",
+    "geary blvd",
+    "fillmore st",
+    "union st"
+   ],
+   "top10_share": 0.27896995708154504,
+   "top10_length_share": 0.04070581898291872,
+   "top10_streets": [
+    "mission st",
+    "market st",
+    "geary blvd",
+    "fillmore st",
+    "union st",
+    "sutter st",
+    "polk st",
+    "valencia st",
+    "clement st",
+    "24th st"
+   ],
+   "streets_for_half": 26,
+   "gini_vs_length": 0.7840040992157595,
+   "length_share_for_half": 0.06745404858741293,
+   "candidates": 16325,
+   "matched_rate": 0.9277182235834609,
+   "on_arterial_share": 0.8385605810498514,
+   "long_streets": 42,
+   "long_street_share": 0.20620666886761307,
+   "long_street_length_share": 0.11864758805604997,
+   "top10_span_km": [
+    9.528723929889965,
+    4.874148528346327,
+    7.754066007276997,
+    4.094176524408161,
+    4.1012771477323255,
+    4.060336724893888,
+    3.2942539919815026,
+    2.993647369344253,
+    4.162227177295601,
+    5.165252907095593
+   ]
+  },
+  "windows": [
+   {
+    "x": 543396.3316226082,
+    "y": 4173562.4358158275,
+    "places": 653,
+    "top_share": 0.6370597243491577,
+    "top_length_share": 0.05384103487300159,
+    "top": [
+     "taraval st",
+     "20th ave",
+     "portal ave"
+    ]
+   },
+   {
+    "x": 543396.3316226082,
+    "y": 4175562.4358158275,
+    "places": 787,
+    "top_share": 0.5578144853875476,
+    "top_length_share": 0.05791244931962365,
+    "top": [
+     "taraval st",
+     "20th ave",
+     "noriega st"
+    ]
+   },
+   {
+    "x": 543396.3316226082,
+    "y": 4177562.4358158275,
+    "places": 830,
+    "top_share": 0.5987951807228916,
+    "top_length_share": 0.05211262447804473,
+    "top": [
+     "irving st",
+     "noriega st",
+     "balboa st"
+    ]
+   },
+   {
+    "x": 545396.3316226082,
+    "y": 4173562.4358158275,
+    "places": 803,
+    "top_share": 0.46824408468244083,
+    "top_length_share": 0.040333187000607625,
+    "top": [
+     "20th ave",
+     "ocean ave",
+     "portal ave"
+    ]
+   },
+   {
+    "x": 545396.3316226082,
+    "y": 4175562.4358158275,
+    "places": 630,
+    "top_share": 0.5555555555555556,
+    "top_length_share": 0.0351029407120988,
+    "top": [
+     "20th ave",
+     "portal ave",
+     "taraval st"
+    ]
+   },
+   {
+    "x": 545396.3316226082,
+    "y": 4177562.4358158275,
+    "places": 999,
+    "top_share": 0.5145145145145145,
+    "top_length_share": 0.029396599930410487,
+    "top": [
+     "irving st",
+     "haight st",
+     "9th ave"
+    ]
+   },
+   {
+    "x": 545396.3316226082,
+    "y": 4179562.4358158275,
+    "places": 1758,
+    "top_share": 0.4658703071672355,
+    "top_length_share": 0.0636197463501408,
+    "top": [
+     "geary blvd",
+     "clement st",
+     "irving st"
+    ]
+   },
+   {
+    "x": 547396.3316226082,
+    "y": 4173562.4358158275,
+    "places": 680,
+    "top_share": 0.6191176470588236,
+    "top_length_share": 0.053715840655074336,
+    "top": [
+     "mission st",
+     "ocean ave",
+     "geneva ave"
+    ]
+   },
+   {
+    "x": 547396.3316226082,
+    "y": 4175562.4358158275,
+    "places": 1534,
+    "top_share": 0.5045632333767927,
+    "top_length_share": 0.031079529616559156,
+    "top": [
+     "mission st",
+     "valencia st",
+     "24th st"
+    ]
+   },
+   {
+    "x": 547396.3316226082,
+    "y": 4177562.4358158275,
+    "places": 3033,
+    "top_share": 0.329047148038246,
+    "top_length_share": 0.034979465343117425,
+    "top": [
+     "mission st",
+     "valencia st",
+     "haight st"
+    ]
+   },
+   {
+    "x": 547396.3316226082,
+    "y": 4179562.4358158275,
+    "places": 3870,
+    "top_share": 0.22764857881136952,
+    "top_length_share": 0.030066049384311698,
+    "top": [
+     "fillmore st",
+     "haight st",
+     "polk st"
+    ]
+   },
+   {
+    "x": 549396.3316226082,
+    "y": 4173562.4358158275,
+    "places": 778,
+    "top_share": 0.5077120822622108,
+    "top_length_share": 0.03012237713592803,
+    "top": [
+     "mission st",
+     "san bruno ave",
+     "cortland ave"
+    ]
+   },
+   {
+    "x": 549396.3316226082,
+    "y": 4175562.4358158275,
+    "places": 2141,
+    "top_share": 0.42643624474544606,
+    "top_length_share": 0.03387989604208817,
+    "top": [
+     "mission st",
+     "24th st",
+     "valencia st"
+    ]
+   },
+   {
+    "x": 549396.3316226082,
+    "y": 4177562.4358158275,
+    "places": 4209,
+    "top_share": 0.24899025896887622,
+    "top_length_share": 0.0383421720397087,
+    "top": [
+     "mission st",
+     "valencia st",
+     "24th st"
+    ]
+   },
+   {
+    "x": 549396.3316226082,
+    "y": 4179562.4358158275,
+    "places": 7659,
+    "top_share": 0.1762632197414806,
+    "top_length_share": 0.05894659307113102,
+    "top": [
+     "market st",
+     "fillmore st",
+     "sutter st"
+    ]
+   },
+   {
+    "x": 551396.3316226082,
+    "y": 4173562.4358158275,
+    "places": 587,
+    "top_share": 0.38841567291311757,
+    "top_length_share": 0.051027392597397025,
+    "top": [
+     "san bruno ave",
+     "3rd st",
+     "cortland ave"
+    ]
+   }
+  ]
+ },
+ "vancouver": {
+  "area_km2": 136.81627959501247,
+  "named_road_km": 1519.3904926057394,
+  "arterial_km": 422.34030752455413,
+  "all": {
+   "places": 27864,
+   "streets_with_places": 507,
+   "top1_share": 0.08021102497846684,
+   "top1_length_share": 0.009436578057582985,
+   "top1_streets": [
+    "broadway"
+   ],
+   "top3_share": 0.1743827160493827,
+   "top3_length_share": 0.020164074006829253,
+   "top3_streets": [
+    "broadway",
+    "hastings st",
+    "georgia st"
+   ],
+   "top5_share": 0.25337352856732703,
+   "top5_length_share": 0.033197548260660605,
+   "top5_streets": [
+    "broadway",
+    "hastings st",
+    "georgia st",
+    "granville st",
+    "main st"
+   ],
+   "top10_share": 0.3886017800746483,
+   "top10_length_share": 0.05887821921761752,
+   "top10_streets": [
+    "broadway",
+    "hastings st",
+    "georgia st",
+    "granville st",
+    "main st",
+    "pender st",
+    "kingsway",
+    "burrard st",
+    "4th ave",
+    "robson st"
+   ],
+   "streets_for_half": 17,
+   "gini_vs_length": 0.7508207394205018,
+   "length_share_for_half": 0.05987834641142116,
+   "candidates": 31029,
+   "matched_rate": 0.8979986464275356,
+   "on_arterial_share": 0.8474016652311226,
+   "long_streets": 101,
+   "long_street_share": 0.5625897215044502,
+   "long_street_length_share": 0.5313465070260855,
+   "top10_span_km": [
+    11.823316044791602,
+    7.7411895151692445,
+    8.17368701144401,
+    8.969862841150723,
+    8.90039985840302,
+    7.778945914700103,
+    5.6289432582883165,
+    3.543306234576739,
+    14.410791718233726,
+    1.7725006460907753
+   ]
+  },
+  "storefront": {
+   "places": 9988,
+   "streets_with_places": 327,
+   "top1_share": 0.08209851822186624,
+   "top1_length_share": 0.009436578057582985,
+   "top1_streets": [
+    "broadway"
+   ],
+   "top3_share": 0.19303163796555867,
+   "top3_length_share": 0.022470052311414333,
+   "top3_streets": [
+    "broadway",
+    "main st",
+    "granville st"
+   ],
+   "top5_share": 0.2745294353223869,
+   "top5_length_share": 0.03002457185042575,
+   "top5_streets": [
+    "broadway",
+    "main st",
+    "granville st",
+    "hastings st",
+    "robson st"
+   ],
+   "top10_share": 0.4297156587905487,
+   "top10_length_share": 0.05550986534880797,
+   "top10_streets": [
+    "broadway",
+    "main st",
+    "granville st",
+    "hastings st",
+    "robson st",
+    "kingsway",
+    "4th ave",
+    "commercial dr",
+    "pender st",
+    "davie st"
+   ],
+   "streets_for_half": 14,
+   "gini_vs_length": 0.8067737864747875,
+   "length_share_for_half": 0.054034784162961425,
+   "candidates": 10839,
+   "matched_rate": 0.9214872220684565,
+   "on_arterial_share": 0.89547456948338,
+   "long_streets": 101,
+   "long_street_share": 0.5586704044853824,
+   "long_street_length_share": 0.5313465070260855,
+   "top10_span_km": [
+    11.823316044791602,
+    8.90039985840302,
+    8.969862841150723,
+    7.7411895151692445,
+    1.7725006460907753,
+    5.6289432582883165,
+    14.410791718233726,
+    3.406489691876806,
+    7.778945914700103,
+    1.5908409133281094
+   ]
+  },
+  "windows": [
+   {
+    "x": 485636.43680624064,
+    "y": 5451578.79702262,
+    "places": 307,
+    "top_share": 0.7296416938110749,
+    "top_length_share": 0.04991732044487426,
+    "top": [
+     "41st ave",
+     "dunbar st",
+     "west blvd"
+    ]
+   },
+   {
+    "x": 485636.43680624064,
+    "y": 5453578.79702262,
+    "places": 1068,
+    "top_share": 0.6741573033707865,
+    "top_length_share": 0.05255413343439765,
+    "top": [
+     "4th ave",
+     "broadway",
+     "dunbar st"
+    ]
+   },
+   {
+    "x": 487636.43680624064,
+    "y": 5451578.79702262,
+    "places": 416,
+    "top_share": 0.6177884615384616,
+    "top_length_share": 0.07451053995039095,
+    "top": [
+     "41st ave",
+     "west blvd",
+     "cambie st"
+    ]
+   },
+   {
+    "x": 487636.43680624064,
+    "y": 5453578.79702262,
+    "places": 1612,
+    "top_share": 0.5378411910669976,
+    "top_length_share": 0.049465506790247055,
+    "top": [
+     "broadway",
+     "4th ave",
+     "granville st"
+    ]
+   },
+   {
+    "x": 487636.43680624064,
+    "y": 5455578.79702262,
+    "places": 3792,
+    "top_share": 0.28744725738396626,
+    "top_length_share": 0.04994249031735977,
+    "top": [
+     "broadway",
+     "granville st",
+     "robson st"
+    ]
+   },
+   {
+    "x": 487636.43680624064,
+    "y": 5457578.79702262,
+    "places": 2565,
+    "top_share": 0.32748538011695905,
+    "top_length_share": 0.07012489542552744,
+    "top": [
+     "robson st",
+     "davie st",
+     "granville st"
+    ]
+   },
+   {
+    "x": 489636.43680624064,
+    "y": 5451578.79702262,
+    "places": 741,
+    "top_share": 0.7705802968960864,
+    "top_length_share": 0.06839246534658672,
+    "top": [
+     "main st",
+     "fraser st",
+     "41st ave"
+    ]
+   },
+   {
+    "x": 489636.43680624064,
+    "y": 5453578.79702262,
+    "places": 2178,
+    "top_share": 0.4903581267217631,
+    "top_length_share": 0.0569395947760699,
+    "top": [
+     "broadway",
+     "main st",
+     "granville st"
+    ]
+   },
+   {
+    "x": 489636.43680624064,
+    "y": 5455578.79702262,
+    "places": 5241,
+    "top_share": 0.22114100362526234,
+    "top_length_share": 0.0597197348471931,
+    "top": [
+     "broadway",
+     "granville st",
+     "main st"
+    ]
+   },
+   {
+    "x": 489636.43680624064,
+    "y": 5457578.79702262,
+    "places": 3711,
+    "top_share": 0.23821072487200215,
+    "top_length_share": 0.07154645326060281,
+    "top": [
+     "robson st",
+     "pender st",
+     "davie st"
+    ]
+   },
+   {
+    "x": 491636.43680624064,
+    "y": 5451578.79702262,
+    "places": 920,
+    "top_share": 0.716304347826087,
+    "top_length_share": 0.0550458507399901,
+    "top": [
+     "main st",
+     "fraser st",
+     "victoria dr"
+    ]
+   },
+   {
+    "x": 491636.43680624064,
+    "y": 5453578.79702262,
+    "places": 1814,
+    "top_share": 0.4768467475192944,
+    "top_length_share": 0.06946743137369847,
+    "top": [
+     "main st",
+     "broadway",
+     "kingsway"
+    ]
+   },
+   {
+    "x": 491636.43680624064,
+    "y": 5455578.79702262,
+    "places": 2969,
+    "top_share": 0.2805658470865611,
+    "top_length_share": 0.06345585624519828,
+    "top": [
+     "commercial dr",
+     "main st",
+     "hastings st"
+    ]
+   },
+   {
+    "x": 493636.43680624064,
+    "y": 5451578.79702262,
+    "places": 601,
+    "top_share": 0.7154742096505824,
+    "top_length_share": 0.05768272870604165,
+    "top": [
+     "kingsway",
+     "victoria dr",
+     "kerr st"
+    ]
+   },
+   {
+    "x": 493636.43680624064,
+    "y": 5453578.79702262,
+    "places": 821,
+    "top_share": 0.5639464068209501,
+    "top_length_share": 0.05516243251940861,
+    "top": [
+     "kingsway",
+     "commercial dr",
+     "victoria dr"
+    ]
+   },
+   {
+    "x": 493636.43680624064,
+    "y": 5455578.79702262,
+    "places": 1128,
+    "top_share": 0.4858156028368794,
+    "top_length_share": 0.04547399037489175,
+    "top": [
+     "commercial dr",
+     "hastings st",
+     "powell st"
+    ]
+   }
+  ]
+ },
+ "chicago": {
+  "area_km2": 606.7810588743739,
+  "named_road_km": 6544.590652347721,
+  "arterial_km": 1986.5192096158519,
+  "all": {
+   "places": 98566,
+   "streets_with_places": 1127,
+   "top1_share": 0.040886309680823005,
+   "top1_length_share": 0.004703620803638518,
+   "top1_streets": [
+    "michigan ave"
+   ],
+   "top3_share": 0.09582411784996855,
+   "top3_length_share": 0.014929383768102366,
+   "top3_streets": [
+    "michigan ave",
+    "clark st",
+    "western ave"
+   ],
+   "top5_share": 0.14029178418521598,
+   "top5_length_share": 0.024610539292915182,
+   "top5_streets": [
+    "michigan ave",
+    "clark st",
+    "western ave",
+    "milwaukee ave",
+    "halsted st"
+   ],
+   "top10_share": 0.22732991092263052,
+   "top10_length_share": 0.04193981784482701,
+   "top10_streets": [
+    "michigan ave",
+    "clark st",
+    "western ave",
+    "milwaukee ave",
+    "halsted st",
+    "lincoln ave",
+    "ashland ave",
+    "wacker dr",
+    "north ave",
+    "belmont ave"
+   ],
+   "streets_for_half": 38,
+   "gini_vs_length": 0.6951528281007398,
+   "length_share_for_half": 0.09031686980054714,
+   "candidates": 107370,
+   "matched_rate": 0.9180031666200987,
+   "on_arterial_share": 0.8753018282166264,
+   "long_streets": 362,
+   "long_street_share": 0.6917598360489419,
+   "long_street_length_share": 0.6594781352244405,
+   "top10_span_km": [
+    27.638015824101867,
+    18.526616704255343,
+    38.0102983339699,
+    14.907452375734225,
+    32.61973604457453,
+    39.2247347123716,
+    39.08068210436963,
+    1.6307656726613058,
+    14.440366546345292,
+    17.538518230962275
+   ]
+  },
+  "storefront": {
+   "places": 32494,
+   "streets_with_places": 752,
+   "top1_share": 0.04099218317227796,
+   "top1_length_share": 0.003369146354865817,
+   "top1_streets": [
+    "clark st"
+   ],
+   "top3_share": 0.10451160214193389,
+   "top3_length_share": 0.011087893842789798,
+   "top3_streets": [
+    "clark st",
+    "milwaukee ave",
+    "michigan ave"
+   ],
+   "top5_share": 0.15855234812580785,
+   "top5_length_share": 0.024610539292915182,
+   "top5_streets": [
+    "clark st",
+    "milwaukee ave",
+    "michigan ave",
+    "western ave",
+    "halsted st"
+   ],
+   "top10_share": 0.26327937465378226,
+   "top10_length_share": 0.04674796993845305,
+   "top10_streets": [
+    "clark st",
+    "milwaukee ave",
+    "michigan ave",
+    "western ave",
+    "halsted st",
+    "lincoln ave",
+    "north ave",
+    "ashland ave",
+    "pulaski rd",
+    "belmont ave"
+   ],
+   "streets_for_half": 28,
+   "gini_vs_length": 0.7686879590081308,
+   "length_share_for_half": 0.07586766339475856,
+   "candidates": 35066,
+   "matched_rate": 0.926652597958136,
+   "on_arterial_share": 0.9289099526066351,
+   "long_streets": 362,
+   "long_street_share": 0.7410906628916107,
+   "long_street_length_share": 0.6594781352244405,
+   "top10_span_km": [
+    18.526616704255343,
+    14.907452375734225,
+    27.638015824101867,
+    38.0102983339699,
+    32.61973604457453,
+    39.2247347123716,
+    14.440366546345292,
+    39.08068210436963,
+    34.782789873978125,
+    17.538518230962275
+   ]
+  },
+  "windows": [
+   {
+    "x": 432131.6957215457,
+    "y": 4646450.192423205,
+    "places": 399,
+    "top_share": 0.6416040100250626,
+    "top_length_share": 0.0677476388466317,
+    "top": [
+     "northwest hwy",
+     "milwaukee ave",
+     "higgins ave"
+    ]
+   },
+   {
+    "x": 434131.6957215457,
+    "y": 4640450.192423205,
+    "places": 918,
+    "top_share": 0.5250544662309368,
+    "top_length_share": 0.05663020450401108,
+    "top": [
+     "belmont ave",
+     "fullerton ave",
+     "diversey ave"
+    ]
+   },
+   {
+    "x": 434131.6957215457,
+    "y": 4642450.192423205,
+    "places": 861,
+    "top_share": 0.562137049941928,
+    "top_length_share": 0.05847170963171207,
+    "top": [
+     "belmont ave",
+     "irving park rd",
+     "central ave"
+    ]
+   },
+   {
+    "x": 434131.6957215457,
+    "y": 4644450.192423205,
+    "places": 695,
+    "top_share": 0.6,
+    "top_length_share": 0.060043449757675726,
+    "top": [
+     "milwaukee ave",
+     "irving park rd",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 434131.6957215457,
+    "y": 4646450.192423205,
+    "places": 463,
+    "top_share": 0.531317494600432,
+    "top_length_share": 0.07671060099469211,
+    "top": [
+     "milwaukee ave",
+     "devon ave",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 436131.6957215457,
+    "y": 4636450.192423205,
+    "places": 775,
+    "top_share": 0.5716129032258065,
+    "top_length_share": 0.08557685322050435,
+    "top": [
+     "north ave",
+     "madison st",
+     "chicago ave"
+    ]
+   },
+   {
+    "x": 436131.6957215457,
+    "y": 4638450.192423205,
+    "places": 927,
+    "top_share": 0.5070118662351673,
+    "top_length_share": 0.06129567975528883,
+    "top": [
+     "north ave",
+     "fullerton ave",
+     "armitage ave"
+    ]
+   },
+   {
+    "x": 436131.6957215457,
+    "y": 4640450.192423205,
+    "places": 1117,
+    "top_share": 0.4637421665174575,
+    "top_length_share": 0.05595593192793715,
+    "top": [
+     "fullerton ave",
+     "belmont ave",
+     "diversey ave"
+    ]
+   },
+   {
+    "x": 436131.6957215457,
+    "y": 4642450.192423205,
+    "places": 1115,
+    "top_share": 0.44035874439461886,
+    "top_length_share": 0.06051586337058351,
+    "top": [
+     "belmont ave",
+     "milwaukee ave",
+     "irving park rd"
+    ]
+   },
+   {
+    "x": 436131.6957215457,
+    "y": 4644450.192423205,
+    "places": 887,
+    "top_share": 0.5050732807215332,
+    "top_length_share": 0.0679149770761501,
+    "top": [
+     "milwaukee ave",
+     "irving park rd",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4620450.192423205,
+    "places": 375,
+    "top_share": 0.7466666666666667,
+    "top_length_share": 0.07631806960735,
+    "top": [
+     "cicero ave",
+     "pulaski rd",
+     "kedzie ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4622450.192423205,
+    "places": 542,
+    "top_share": 0.7047970479704797,
+    "top_length_share": 0.08530900816620263,
+    "top": [
+     "63rd st",
+     "cicero ave",
+     "pulaski rd"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4624450.192423205,
+    "places": 727,
+    "top_share": 0.6354883081155434,
+    "top_length_share": 0.06056190253601917,
+    "top": [
+     "pulaski rd",
+     "63rd st",
+     "kedzie ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4626450.192423205,
+    "places": 655,
+    "top_share": 0.6152671755725191,
+    "top_length_share": 0.08057280658231303,
+    "top": [
+     "pulaski rd",
+     "archer ave",
+     "kedzie ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4628450.192423205,
+    "places": 410,
+    "top_share": 0.5024390243902439,
+    "top_length_share": 0.09366376326214614,
+    "top": [
+     "archer ave",
+     "pulaski rd",
+     "kedzie ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4632450.192423205,
+    "places": 668,
+    "top_share": 0.5763473053892215,
+    "top_length_share": 0.06416898317351663,
+    "top": [
+     "26th st",
+     "cermak rd",
+     "roosevelt rd"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4634450.192423205,
+    "places": 487,
+    "top_share": 0.48254620123203285,
+    "top_length_share": 0.06945407149431958,
+    "top": [
+     "madison st",
+     "roosevelt rd",
+     "chicago ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4636450.192423205,
+    "places": 725,
+    "top_share": 0.4827586206896552,
+    "top_length_share": 0.08691251252141124,
+    "top": [
+     "north ave",
+     "madison st",
+     "chicago ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4638450.192423205,
+    "places": 1108,
+    "top_share": 0.48014440433212996,
+    "top_length_share": 0.07346331432209088,
+    "top": [
+     "armitage ave",
+     "north ave",
+     "fullerton ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4640450.192423205,
+    "places": 1405,
+    "top_share": 0.4825622775800712,
+    "top_length_share": 0.05915627057405978,
+    "top": [
+     "milwaukee ave",
+     "armitage ave",
+     "fullerton ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4642450.192423205,
+    "places": 1306,
+    "top_share": 0.36370597243491576,
+    "top_length_share": 0.06737369537290229,
+    "top": [
+     "irving park rd",
+     "milwaukee ave",
+     "elston ave"
+    ]
+   },
+   {
+    "x": 438131.6957215457,
+    "y": 4644450.192423205,
+    "places": 1114,
+    "top_share": 0.507181328545781,
+    "top_length_share": 0.0722883521602465,
+    "top": [
+     "lawrence ave",
+     "irving park rd",
+     "kedzie ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4622450.192423205,
+    "places": 408,
+    "top_share": 0.6838235294117647,
+    "top_length_share": 0.06780453479491849,
+    "top": [
+     "63rd st",
+     "western ave",
+     "kedzie ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4624450.192423205,
+    "places": 554,
+    "top_share": 0.5830324909747292,
+    "top_length_share": 0.06130037919877325,
+    "top": [
+     "kedzie ave",
+     "63rd st",
+     "western ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4626450.192423205,
+    "places": 568,
+    "top_share": 0.5176056338028169,
+    "top_length_share": 0.06917193876164401,
+    "top": [
+     "kedzie ave",
+     "archer ave",
+     "47th st"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4628450.192423205,
+    "places": 481,
+    "top_share": 0.5426195426195426,
+    "top_length_share": 0.09568510865755472,
+    "top": [
+     "archer ave",
+     "47th st",
+     "kedzie ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4630450.192423205,
+    "places": 775,
+    "top_share": 0.5006451612903225,
+    "top_length_share": 0.07545210014274557,
+    "top": [
+     "cermak rd",
+     "26th st",
+     "western ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4632450.192423205,
+    "places": 839,
+    "top_share": 0.49463647199046484,
+    "top_length_share": 0.06078881011940528,
+    "top": [
+     "cermak rd",
+     "26th st",
+     "western ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4634450.192423205,
+    "places": 748,
+    "top_share": 0.3649732620320856,
+    "top_length_share": 0.06353483452770935,
+    "top": [
+     "chicago ave",
+     "western ave",
+     "madison st"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4636450.192423205,
+    "places": 1551,
+    "top_share": 0.41134751773049644,
+    "top_length_share": 0.0717982606516676,
+    "top": [
+     "north ave",
+     "chicago ave",
+     "division st"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4638450.192423205,
+    "places": 2022,
+    "top_share": 0.41839762611275966,
+    "top_length_share": 0.06646894434823747,
+    "top": [
+     "milwaukee ave",
+     "north ave",
+     "damen ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4640450.192423205,
+    "places": 1771,
+    "top_share": 0.37775268210050816,
+    "top_length_share": 0.06537991818517944,
+    "top": [
+     "milwaukee ave",
+     "armitage ave",
+     "western ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4642450.192423205,
+    "places": 1706,
+    "top_share": 0.3300117233294256,
+    "top_length_share": 0.06402927760995664,
+    "top": [
+     "lincoln ave",
+     "irving park rd",
+     "montrose ave"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4644450.192423205,
+    "places": 1640,
+    "top_share": 0.4725609756097561,
+    "top_length_share": 0.07896817358798318,
+    "top": [
+     "lincoln ave",
+     "lawrence ave",
+     "irving park rd"
+    ]
+   },
+   {
+    "x": 440131.6957215457,
+    "y": 4646450.192423205,
+    "places": 1242,
+    "top_share": 0.5925925925925926,
+    "top_length_share": 0.07911844326426523,
+    "top": [
+     "lawrence ave",
+     "devon ave",
+     "lincoln ave"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4614450.192423205,
+    "places": 303,
+    "top_share": 0.66996699669967,
+    "top_length_share": 0.06765306943909227,
+    "top": [
+     "western ave",
+     "103rd st",
+     "111th st"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4620450.192423205,
+    "places": 406,
+    "top_share": 0.6231527093596059,
+    "top_length_share": 0.084231500322367,
+    "top": [
+     "ashland ave",
+     "79th st",
+     "western ave"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4622450.192423205,
+    "places": 377,
+    "top_share": 0.623342175066313,
+    "top_length_share": 0.07849148108676458,
+    "top": [
+     "western ave",
+     "ashland ave",
+     "63rd st"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4624450.192423205,
+    "places": 394,
+    "top_share": 0.47715736040609136,
+    "top_length_share": 0.07446687369951469,
+    "top": [
+     "63rd st",
+     "western ave",
+     "ashland ave"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4626450.192423205,
+    "places": 546,
+    "top_share": 0.5073260073260073,
+    "top_length_share": 0.08837640939126257,
+    "top": [
+     "ashland ave",
+     "47th st",
+     "51st st"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4628450.192423205,
+    "places": 679,
+    "top_share": 0.48600883652430044,
+    "top_length_share": 0.10365002611681792,
+    "top": [
+     "ashland ave",
+     "47th st",
+     "archer ave"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4630450.192423205,
+    "places": 1005,
+    "top_share": 0.3990049751243781,
+    "top_length_share": 0.07053130315815563,
+    "top": [
+     "18th st",
+     "cermak rd",
+     "archer ave"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4632450.192423205,
+    "places": 1137,
+    "top_share": 0.4476693051890941,
+    "top_length_share": 0.061765348074642706,
+    "top": [
+     "18th st",
+     "taylor st",
+     "cermak rd"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4634450.192423205,
+    "places": 1733,
+    "top_share": 0.27697634160415463,
+    "top_length_share": 0.04763575546267568,
+    "top": [
+     "taylor st",
+     "chicago ave",
+     "madison st"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4636450.192423205,
+    "places": 2865,
+    "top_share": 0.3148342059336824,
+    "top_length_share": 0.05404024916105652,
+    "top": [
+     "milwaukee ave",
+     "chicago ave",
+     "division st"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4638450.192423205,
+    "places": 2719,
+    "top_share": 0.34681868333946303,
+    "top_length_share": 0.06461968423878518,
+    "top": [
+     "milwaukee ave",
+     "division st",
+     "north ave"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4640450.192423205,
+    "places": 2485,
+    "top_share": 0.28209255533199196,
+    "top_length_share": 0.04015435609513548,
+    "top": [
+     "lincoln ave",
+     "belmont ave",
+     "clark st"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4642450.192423205,
+    "places": 2388,
+    "top_share": 0.38107202680067004,
+    "top_length_share": 0.05677037986466702,
+    "top": [
+     "lincoln ave",
+     "clark st",
+     "belmont ave"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4644450.192423205,
+    "places": 2084,
+    "top_share": 0.390595009596929,
+    "top_length_share": 0.06360208080650964,
+    "top": [
+     "clark st",
+     "lincoln ave",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 442131.6957215457,
+    "y": 4646450.192423205,
+    "places": 1674,
+    "top_share": 0.46535244922341695,
+    "top_length_share": 0.06761535406893887,
+    "top": [
+     "clark st",
+     "devon ave",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4614450.192423205,
+    "places": 300,
+    "top_share": 0.6066666666666667,
+    "top_length_share": 0.06272324151925301,
+    "top": [
+     "halsted st",
+     "103rd st",
+     "marshfield ave"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4616450.192423205,
+    "places": 328,
+    "top_share": 0.6310975609756098,
+    "top_length_share": 0.09374129565418833,
+    "top": [
+     "95th st",
+     "halsted st",
+     "103rd st"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4618450.192423205,
+    "places": 525,
+    "top_share": 0.5657142857142857,
+    "top_length_share": 0.07228523758243001,
+    "top": [
+     "87th st",
+     "ashland ave",
+     "79th st"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4620450.192423205,
+    "places": 537,
+    "top_share": 0.5661080074487895,
+    "top_length_share": 0.08173046114973309,
+    "top": [
+     "87th st",
+     "ashland ave",
+     "79th st"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4622450.192423205,
+    "places": 354,
+    "top_share": 0.5423728813559322,
+    "top_length_share": 0.0807655095443697,
+    "top": [
+     "ashland ave",
+     "halsted st",
+     "63rd st"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4624450.192423205,
+    "places": 308,
+    "top_share": 0.4448051948051948,
+    "top_length_share": 0.08517311789937307,
+    "top": [
+     "ashland ave",
+     "63rd st",
+     "halsted st"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4626450.192423205,
+    "places": 432,
+    "top_share": 0.5162037037037037,
+    "top_length_share": 0.09208038492015225,
+    "top": [
+     "ashland ave",
+     "47th st",
+     "halsted st"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4628450.192423205,
+    "places": 732,
+    "top_share": 0.4453551912568306,
+    "top_length_share": 0.09331811503065043,
+    "top": [
+     "ashland ave",
+     "halsted st",
+     "47th st"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4630450.192423205,
+    "places": 1381,
+    "top_share": 0.3410572049239681,
+    "top_length_share": 0.06881702737938064,
+    "top": [
+     "18th st",
+     "halsted st",
+     "wentworth ave"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4632450.192423205,
+    "places": 2007,
+    "top_share": 0.26856003986048826,
+    "top_length_share": 0.05952367176758537,
+    "top": [
+     "18th st",
+     "taylor st",
+     "wabash ave"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4634450.192423205,
+    "places": 4787,
+    "top_share": 0.1974096511385001,
+    "top_length_share": 0.05933709297400751,
+    "top": [
+     "wabash ave",
+     "madison st",
+     "state st"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4636450.192423205,
+    "places": 5541,
+    "top_share": 0.16278650063165492,
+    "top_length_share": 0.04260723066393906,
+    "top": [
+     "wells st",
+     "madison st",
+     "wabash ave"
+    ]
+   },
+   {
+    "x": 444131.6957215457,
+    "y": 4638450.192423205,
+    "places": 3018,
+    "top_share": 0.22597746852220013,
+    "top_length_share": 0.06393176710081526,
+    "top": [
+     "clark st",
+     "halsted st",
+     "clybourn ave"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4614450.192423205,
+    "places": 318,
+    "top_share": 0.6572327044025157,
+    "top_length_share": 0.08020443016437273,
+    "top": [
+     "halsted st",
+     "michigan ave",
+     "103rd st"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4618450.192423205,
+    "places": 506,
+    "top_share": 0.66600790513834,
+    "top_length_share": 0.07536946471717652,
+    "top": [
+     "79th st",
+     "87th st",
+     "cottage grove ave"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4620450.192423205,
+    "places": 693,
+    "top_share": 0.48484848484848486,
+    "top_length_share": 0.07346208202069623,
+    "top": [
+     "79th st",
+     "cottage grove ave",
+     "87th st"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4622450.192423205,
+    "places": 439,
+    "top_share": 0.4988610478359909,
+    "top_length_share": 0.0701038961291555,
+    "top": [
+     "75th st",
+     "halsted st",
+     "71st st"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4624450.192423205,
+    "places": 323,
+    "top_share": 0.3746130030959752,
+    "top_length_share": 0.0765632811519769,
+    "top": [
+     "cottage grove ave",
+     "51st st",
+     "garfield blvd"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4626450.192423205,
+    "places": 451,
+    "top_share": 0.4190687361419069,
+    "top_length_share": 0.0677165953652997,
+    "top": [
+     "47th st",
+     "cottage grove ave",
+     "51st st"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4628450.192423205,
+    "places": 583,
+    "top_share": 0.5214408233276158,
+    "top_length_share": 0.0678826384616759,
+    "top": [
+     "halsted st",
+     "47th st",
+     "35th st"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4630450.192423205,
+    "places": 945,
+    "top_share": 0.33756613756613757,
+    "top_length_share": 0.07817102494456372,
+    "top": [
+     "halsted st",
+     "wentworth ave",
+     "35th st"
+    ]
+   },
+   {
+    "x": 446131.6957215457,
+    "y": 4634450.192423205,
+    "places": 4663,
+    "top_share": 0.26613767960540424,
+    "top_length_share": 0.09643512124587147,
+    "top": [
+     "michigan ave",
+     "wabash ave",
+     "state st"
+    ]
+   },
+   {
+    "x": 448131.6957215457,
+    "y": 4618450.192423205,
+    "places": 586,
+    "top_share": 0.6382252559726962,
+    "top_length_share": 0.0634314629365364,
+    "top": [
+     "79th st",
+     "87th st",
+     "cottage grove ave"
+    ]
+   },
+   {
+    "x": 448131.6957215457,
+    "y": 4620450.192423205,
+    "places": 776,
+    "top_share": 0.49871134020618557,
+    "top_length_share": 0.08128562654496463,
+    "top": [
+     "79th st",
+     "87th st",
+     "stony island ave"
+    ]
+   },
+   {
+    "x": 448131.6957215457,
+    "y": 4622450.192423205,
+    "places": 430,
+    "top_share": 0.5906976744186047,
+    "top_length_share": 0.09572636110691221,
+    "top": [
+     "75th st",
+     "71st st",
+     "stony island ave"
+    ]
+   },
+   {
+    "x": 448131.6957215457,
+    "y": 4624450.192423205,
+    "places": 523,
+    "top_share": 0.4378585086042065,
+    "top_length_share": 0.06060027235947082,
+    "top": [
+     "53rd st",
+     "55th st",
+     "cottage grove ave"
+    ]
+   },
+   {
+    "x": 450131.6957215457,
+    "y": 4618450.192423205,
+    "places": 445,
+    "top_share": 0.6134831460674157,
+    "top_length_share": 0.07598452050633174,
+    "top": [
+     "stony island ave",
+     "87th st",
+     "79th st"
+    ]
+   },
+   {
+    "x": 450131.6957215457,
+    "y": 4620450.192423205,
+    "places": 562,
+    "top_share": 0.5266903914590747,
+    "top_length_share": 0.08339203787131362,
+    "top": [
+     "stony island ave",
+     "87th st",
+     "79th st"
+    ]
+   }
+  ]
+ },
+ "toronto": {
+  "area_km2": 665.674477728602,
+  "named_road_km": 5710.239130891166,
+  "arterial_km": 1775.5943431094372,
+  "all": {
+   "places": 90291,
+   "streets_with_places": 4016,
+   "top1_share": 0.06275265530340787,
+   "top1_length_share": 0.003934197076899412,
+   "top1_streets": [
+    "yonge st"
+   ],
+   "top3_share": 0.13290361165564674,
+   "top3_length_share": 0.010832277392350409,
+   "top3_streets": [
+    "yonge st",
+    "bloor st",
+    "queen st"
+   ],
+   "top5_share": 0.1873830171334906,
+   "top5_length_share": 0.024179283512821195,
+   "top5_streets": [
+    "yonge st",
+    "bloor st",
+    "queen st",
+    "dundas st",
+    "eglinton ave"
+   ],
+   "top10_share": 0.2958102136425557,
+   "top10_length_share": 0.05256726846886817,
+   "top10_streets": [
+    "yonge st",
+    "bloor st",
+    "queen st",
+    "dundas st",
+    "eglinton ave",
+    "sheppard ave",
+    "king st",
+    "danforth ave",
+    "finch ave",
+    "lawrence ave"
+   ],
+   "streets_for_half": 32,
+   "gini_vs_length": 0.7681650122178187,
+   "length_share_for_half": 0.07010446102223307,
+   "candidates": 100647,
+   "matched_rate": 0.8971057259530836,
+   "on_arterial_share": 0.7893256249238573,
+   "long_streets": 75,
+   "long_street_share": 0.4248042440553322,
+   "long_street_length_share": 0.14112775726871396,
+   "top10_span_km": [
+    17.267693498458712,
+    17.751447280734777,
+    22.560282198135972,
+    20.27426677391713,
+    31.79689207802061,
+    31.415505713794964,
+    13.446353504941799,
+    8.553155852403725,
+    37.59547241299204,
+    32.86105096732813
+   ]
+  },
+  "storefront": {
+   "places": 31145,
+   "streets_with_places": 1698,
+   "top1_share": 0.06989886017017177,
+   "top1_length_share": 0.003934197076899412,
+   "top1_streets": [
+    "yonge st"
+   ],
+   "top3_share": 0.1691122170492856,
+   "top3_length_share": 0.010832277392350409,
+   "top3_streets": [
+    "yonge st",
+    "queen st",
+    "bloor st"
+   ],
+   "top5_share": 0.23547921014609086,
+   "top5_length_share": 0.024179283512821195,
+   "top5_streets": [
+    "yonge st",
+    "queen st",
+    "bloor st",
+    "dundas st",
+    "eglinton ave"
+   ],
+   "top10_share": 0.35228768662706694,
+   "top10_length_share": 0.04916822132159638,
+   "top10_streets": [
+    "yonge st",
+    "queen st",
+    "bloor st",
+    "dundas st",
+    "eglinton ave",
+    "danforth ave",
+    "sheppard ave",
+    "dufferin st",
+    "st clair ave",
+    "lawrence ave"
+   ],
+   "streets_for_half": 22,
+   "gini_vs_length": 0.8258546154631285,
+   "length_share_for_half": 0.05194156588040748,
+   "candidates": 34265,
+   "matched_rate": 0.908944987596673,
+   "on_arterial_share": 0.8542302135174186,
+   "long_streets": 75,
+   "long_street_share": 0.4902873655482421,
+   "long_street_length_share": 0.14112775726871396,
+   "top10_span_km": [
+    17.267693498458712,
+    22.560282198135972,
+    17.751447280734777,
+    20.27426677391713,
+    31.79689207802061,
+    8.553155852403725,
+    31.415505713794964,
+    17.11048634123616,
+    21.082557991636452,
+    32.86105096732813
+   ]
+  },
+  "windows": [
+   {
+    "x": 611552.0488459312,
+    "y": 4838258.797112338,
+    "places": 340,
+    "top_share": 0.5088235294117647,
+    "top_length_share": 0.13192838829229092,
+    "top": [
+     "rexdale blvd",
+     "dixon rd",
+     "kipling ave"
+    ]
+   },
+   {
+    "x": 611552.0488459312,
+    "y": 4840258.797112338,
+    "places": 487,
+    "top_share": 0.4928131416837782,
+    "top_length_share": 0.09296085580522807,
+    "top": [
+     "rexdale blvd",
+     "albion rd",
+     "westmore dr"
+    ]
+   },
+   {
+    "x": 611552.0488459312,
+    "y": 4842258.797112338,
+    "places": 419,
+    "top_share": 0.5178997613365155,
+    "top_length_share": 0.06849366847470297,
+    "top": [
+     "albion rd",
+     "islington ave",
+     "westmore dr"
+    ]
+   },
+   {
+    "x": 613552.0488459312,
+    "y": 4838258.797112338,
+    "places": 383,
+    "top_share": 0.46475195822454307,
+    "top_length_share": 0.12536812477960335,
+    "top": [
+     "rexdale blvd",
+     "dixon rd",
+     "islington ave"
+    ]
+   },
+   {
+    "x": 613552.0488459312,
+    "y": 4840258.797112338,
+    "places": 403,
+    "top_share": 0.6774193548387096,
+    "top_length_share": 0.126533183093717,
+    "top": [
+     "albion rd",
+     "islington ave",
+     "rexdale blvd"
+    ]
+   },
+   {
+    "x": 613552.0488459312,
+    "y": 4842258.797112338,
+    "places": 459,
+    "top_share": 0.644880174291939,
+    "top_length_share": 0.1487570740070645,
+    "top": [
+     "albion rd",
+     "finch ave",
+     "islington ave"
+    ]
+   },
+   {
+    "x": 615552.0488459312,
+    "y": 4828258.797112338,
+    "places": 772,
+    "top_share": 0.560880829015544,
+    "top_length_share": 0.1370446236407928,
+    "top": [
+     "the west mall",
+     "the queensway",
+     "queen st"
+    ]
+   },
+   {
+    "x": 615552.0488459312,
+    "y": 4830258.797112338,
+    "places": 805,
+    "top_share": 0.4335403726708075,
+    "top_length_share": 0.12859707002356838,
+    "top": [
+     "dundas st",
+     "the queensway",
+     "bloor st"
+    ]
+   },
+   {
+    "x": 615552.0488459312,
+    "y": 4832258.797112338,
+    "places": 428,
+    "top_share": 0.5771028037383178,
+    "top_length_share": 0.07366750485993043,
+    "top": [
+     "dundas st",
+     "bloor st",
+     "the west mall"
+    ]
+   },
+   {
+    "x": 615552.0488459312,
+    "y": 4838258.797112338,
+    "places": 400,
+    "top_share": 0.4875,
+    "top_length_share": 0.08339035157467578,
+    "top": [
+     "weston rd",
+     "islington ave",
+     "rexdale blvd"
+    ]
+   },
+   {
+    "x": 615552.0488459312,
+    "y": 4840258.797112338,
+    "places": 343,
+    "top_share": 0.446064139941691,
+    "top_length_share": 0.09692537962123915,
+    "top": [
+     "weston rd",
+     "islington ave",
+     "rexdale blvd"
+    ]
+   },
+   {
+    "x": 615552.0488459312,
+    "y": 4842258.797112338,
+    "places": 486,
+    "top_share": 0.4444444444444444,
+    "top_length_share": 0.14140833074170217,
+    "top": [
+     "finch ave",
+     "albion rd",
+     "weston rd"
+    ]
+   },
+   {
+    "x": 617552.0488459312,
+    "y": 4828258.797112338,
+    "places": 683,
+    "top_share": 0.5241581259150805,
+    "top_length_share": 0.08713466500400249,
+    "top": [
+     "the queensway",
+     "lake shore blvd",
+     "evans ave"
+    ]
+   },
+   {
+    "x": 617552.0488459312,
+    "y": 4830258.797112338,
+    "places": 831,
+    "top_share": 0.631768953068592,
+    "top_length_share": 0.09344303233441728,
+    "top": [
+     "the queensway",
+     "bloor st",
+     "dundas st"
+    ]
+   },
+   {
+    "x": 617552.0488459312,
+    "y": 4832258.797112338,
+    "places": 509,
+    "top_share": 0.7387033398821218,
+    "top_length_share": 0.10504468137544175,
+    "top": [
+     "bloor st",
+     "dundas st",
+     "islington ave"
+    ]
+   },
+   {
+    "x": 617552.0488459312,
+    "y": 4836258.797112338,
+    "places": 371,
+    "top_share": 0.6091644204851752,
+    "top_length_share": 0.09024480172523167,
+    "top": [
+     "weston rd",
+     "jane st",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 617552.0488459312,
+    "y": 4838258.797112338,
+    "places": 544,
+    "top_share": 0.6047794117647058,
+    "top_length_share": 0.10979990189968865,
+    "top": [
+     "weston rd",
+     "jane st",
+     "wilson ave"
+    ]
+   },
+   {
+    "x": 617552.0488459312,
+    "y": 4840258.797112338,
+    "places": 360,
+    "top_share": 0.5611111111111111,
+    "top_length_share": 0.11004435270673985,
+    "top": [
+     "wilson ave",
+     "weston rd",
+     "jane st"
+    ]
+   },
+   {
+    "x": 617552.0488459312,
+    "y": 4844258.797112338,
+    "places": 379,
+    "top_share": 0.39841688654353563,
+    "top_length_share": 0.13745907942535027,
+    "top": [
+     "finch ave",
+     "jane st",
+     "keele st"
+    ]
+   },
+   {
+    "x": 619552.0488459312,
+    "y": 4830258.797112338,
+    "places": 647,
+    "top_share": 0.6816074188562596,
+    "top_length_share": 0.08847277313078108,
+    "top": [
+     "bloor st",
+     "the queensway",
+     "lake shore blvd"
+    ]
+   },
+   {
+    "x": 619552.0488459312,
+    "y": 4832258.797112338,
+    "places": 697,
+    "top_share": 0.7417503586800573,
+    "top_length_share": 0.06408157652458765,
+    "top": [
+     "bloor st",
+     "dundas st",
+     "st clair ave"
+    ]
+   },
+   {
+    "x": 619552.0488459312,
+    "y": 4834258.797112338,
+    "places": 724,
+    "top_share": 0.47651933701657456,
+    "top_length_share": 0.07662175575253308,
+    "top": [
+     "dundas st",
+     "st clair ave",
+     "jane st"
+    ]
+   },
+   {
+    "x": 619552.0488459312,
+    "y": 4836258.797112338,
+    "places": 647,
+    "top_share": 0.4095826893353941,
+    "top_length_share": 0.07962040945602229,
+    "top": [
+     "weston rd",
+     "jane st",
+     "st clair ave"
+    ]
+   },
+   {
+    "x": 619552.0488459312,
+    "y": 4838258.797112338,
+    "places": 619,
+    "top_share": 0.37964458804523427,
+    "top_length_share": 0.06723103409628482,
+    "top": [
+     "jane st",
+     "wilson ave",
+     "weston rd"
+    ]
+   },
+   {
+    "x": 619552.0488459312,
+    "y": 4840258.797112338,
+    "places": 470,
+    "top_share": 0.548936170212766,
+    "top_length_share": 0.11398180398873552,
+    "top": [
+     "wilson ave",
+     "jane st",
+     "keele st"
+    ]
+   },
+   {
+    "x": 619552.0488459312,
+    "y": 4842258.797112338,
+    "places": 405,
+    "top_share": 0.5234567901234568,
+    "top_length_share": 0.1173331050376879,
+    "top": [
+     "wilson ave",
+     "keele st",
+     "sheppard ave"
+    ]
+   },
+   {
+    "x": 619552.0488459312,
+    "y": 4844258.797112338,
+    "places": 640,
+    "top_share": 0.4796875,
+    "top_length_share": 0.13898495286558718,
+    "top": [
+     "finch ave",
+     "keele st",
+     "chesswood dr"
+    ]
+   },
+   {
+    "x": 621552.0488459312,
+    "y": 4832258.797112338,
+    "places": 1187,
+    "top_share": 0.6234203875315922,
+    "top_length_share": 0.06535566777545813,
+    "top": [
+     "dundas st",
+     "bloor st",
+     "roncesvalles ave"
+    ]
+   },
+   {
+    "x": 621552.0488459312,
+    "y": 4834258.797112338,
+    "places": 1348,
+    "top_share": 0.5356083086053413,
+    "top_length_share": 0.07540255935708996,
+    "top": [
+     "dundas st",
+     "st clair ave",
+     "bloor st"
+    ]
+   },
+   {
+    "x": 621552.0488459312,
+    "y": 4836258.797112338,
+    "places": 1109,
+    "top_share": 0.4616771866546438,
+    "top_length_share": 0.08128103225967771,
+    "top": [
+     "st clair ave",
+     "eglinton ave",
+     "dufferin st"
+    ]
+   },
+   {
+    "x": 621552.0488459312,
+    "y": 4838258.797112338,
+    "places": 1016,
+    "top_share": 0.4763779527559055,
+    "top_length_share": 0.09333572350178962,
+    "top": [
+     "dufferin st",
+     "eglinton ave",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 621552.0488459312,
+    "y": 4840258.797112338,
+    "places": 981,
+    "top_share": 0.6472986748216106,
+    "top_length_share": 0.11528445343285289,
+    "top": [
+     "dufferin st",
+     "wilson ave",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 621552.0488459312,
+    "y": 4842258.797112338,
+    "places": 785,
+    "top_share": 0.621656050955414,
+    "top_length_share": 0.10846282807865425,
+    "top": [
+     "dufferin st",
+     "wilson ave",
+     "keele st"
+    ]
+   },
+   {
+    "x": 621552.0488459312,
+    "y": 4844258.797112338,
+    "places": 599,
+    "top_share": 0.4524207011686144,
+    "top_length_share": 0.13009672979500478,
+    "top": [
+     "finch ave",
+     "sheppard ave",
+     "keele st"
+    ]
+   },
+   {
+    "x": 623552.0488459312,
+    "y": 4832258.797112338,
+    "places": 2172,
+    "top_share": 0.46500920810313073,
+    "top_length_share": 0.06280146329548246,
+    "top": [
+     "dundas st",
+     "bloor st",
+     "queen st"
+    ]
+   },
+   {
+    "x": 623552.0488459312,
+    "y": 4834258.797112338,
+    "places": 1804,
+    "top_share": 0.5066518847006651,
+    "top_length_share": 0.06994365679929938,
+    "top": [
+     "st clair ave",
+     "bloor st",
+     "college st"
+    ]
+   },
+   {
+    "x": 623552.0488459312,
+    "y": 4836258.797112338,
+    "places": 1339,
+    "top_share": 0.5765496639283048,
+    "top_length_share": 0.08064053166313725,
+    "top": [
+     "st clair ave",
+     "eglinton ave",
+     "dufferin st"
+    ]
+   },
+   {
+    "x": 623552.0488459312,
+    "y": 4838258.797112338,
+    "places": 1023,
+    "top_share": 0.541544477028348,
+    "top_length_share": 0.07015249187003764,
+    "top": [
+     "eglinton ave",
+     "dufferin st",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 623552.0488459312,
+    "y": 4840258.797112338,
+    "places": 1138,
+    "top_share": 0.6362038664323374,
+    "top_length_share": 0.06226277486194717,
+    "top": [
+     "dufferin st",
+     "ave rd",
+     "bathurst st"
+    ]
+   },
+   {
+    "x": 623552.0488459312,
+    "y": 4842258.797112338,
+    "places": 845,
+    "top_share": 0.6757396449704142,
+    "top_length_share": 0.0725253574456093,
+    "top": [
+     "dufferin st",
+     "ave rd",
+     "wilson ave"
+    ]
+   },
+   {
+    "x": 623552.0488459312,
+    "y": 4846258.797112338,
+    "places": 325,
+    "top_share": 0.8061538461538461,
+    "top_length_share": 0.08569582851705616,
+    "top": [
+     "yonge st",
+     "bathurst st",
+     "finch ave"
+    ]
+   },
+   {
+    "x": 625552.0488459312,
+    "y": 4832258.797112338,
+    "places": 4186,
+    "top_share": 0.42689918776875296,
+    "top_length_share": 0.05984771932724224,
+    "top": [
+     "queen st",
+     "bloor st",
+     "college st"
+    ]
+   },
+   {
+    "x": 625552.0488459312,
+    "y": 4834258.797112338,
+    "places": 2943,
+    "top_share": 0.4298335032279986,
+    "top_length_share": 0.06977814017198936,
+    "top": [
+     "bloor st",
+     "college st",
+     "st clair ave"
+    ]
+   },
+   {
+    "x": 625552.0488459312,
+    "y": 4836258.797112338,
+    "places": 1538,
+    "top_share": 0.4694408322496749,
+    "top_length_share": 0.06284256708583857,
+    "top": [
+     "st clair ave",
+     "yonge st",
+     "eglinton ave"
+    ]
+   },
+   {
+    "x": 625552.0488459312,
+    "y": 4838258.797112338,
+    "places": 1257,
+    "top_share": 0.7271280827366746,
+    "top_length_share": 0.04993964060075086,
+    "top": [
+     "yonge st",
+     "eglinton ave",
+     "st clair ave"
+    ]
+   },
+   {
+    "x": 625552.0488459312,
+    "y": 4840258.797112338,
+    "places": 1159,
+    "top_share": 0.728213977566868,
+    "top_length_share": 0.06609244669371384,
+    "top": [
+     "yonge st",
+     "ave rd",
+     "bathurst st"
+    ]
+   },
+   {
+    "x": 625552.0488459312,
+    "y": 4842258.797112338,
+    "places": 658,
+    "top_share": 0.7933130699088146,
+    "top_length_share": 0.07992395800987617,
+    "top": [
+     "ave rd",
+     "yonge st",
+     "bathurst st"
+    ]
+   },
+   {
+    "x": 625552.0488459312,
+    "y": 4844258.797112338,
+    "places": 586,
+    "top_share": 0.7849829351535836,
+    "top_length_share": 0.09242969779599623,
+    "top": [
+     "yonge st",
+     "sheppard ave",
+     "bathurst st"
+    ]
+   },
+   {
+    "x": 625552.0488459312,
+    "y": 4846258.797112338,
+    "places": 774,
+    "top_share": 0.813953488372093,
+    "top_length_share": 0.08047001891753203,
+    "top": [
+     "yonge st",
+     "sheppard ave",
+     "finch ave"
+    ]
+   },
+   {
+    "x": 627552.0488459312,
+    "y": 4830258.797112338,
+    "places": 2604,
+    "top_share": 0.5019201228878648,
+    "top_length_share": 0.11137420069543616,
+    "top": [
+     "queen st",
+     "king st",
+     "front st"
+    ]
+   },
+   {
+    "x": 627552.0488459312,
+    "y": 4832258.797112338,
+    "places": 6205,
+    "top_share": 0.3153908138597905,
+    "top_length_share": 0.061845544864156665,
+    "top": [
+     "queen st",
+     "yonge st",
+     "king st"
+    ]
+   },
+   {
+    "x": 627552.0488459312,
+    "y": 4834258.797112338,
+    "places": 4962,
+    "top_share": 0.3385731559854897,
+    "top_length_share": 0.06081813349972238,
+    "top": [
+     "yonge st",
+     "bloor st",
+     "dundas st"
+    ]
+   },
+   {
+    "x": 627552.0488459312,
+    "y": 4836258.797112338,
+    "places": 1922,
+    "top_share": 0.4287200832466181,
+    "top_length_share": 0.05436754657962126,
+    "top": [
+     "yonge st",
+     "bloor st",
+     "ave rd"
+    ]
+   },
+   {
+    "x": 627552.0488459312,
+    "y": 4838258.797112338,
+    "places": 1369,
+    "top_share": 0.6902848794740687,
+    "top_length_share": 0.06706244708625099,
+    "top": [
+     "yonge st",
+     "eglinton ave",
+     "bayview ave"
+    ]
+   },
+   {
+    "x": 627552.0488459312,
+    "y": 4840258.797112338,
+    "places": 1014,
+    "top_share": 0.8155818540433925,
+    "top_length_share": 0.08329881364190267,
+    "top": [
+     "yonge st",
+     "eglinton ave",
+     "bayview ave"
+    ]
+   },
+   {
+    "x": 627552.0488459312,
+    "y": 4844258.797112338,
+    "places": 706,
+    "top_share": 0.8045325779036827,
+    "top_length_share": 0.11035394406174429,
+    "top": [
+     "yonge st",
+     "sheppard ave",
+     "bayview ave"
+    ]
+   },
+   {
+    "x": 627552.0488459312,
+    "y": 4846258.797112338,
+    "places": 734,
+    "top_share": 0.7888283378746594,
+    "top_length_share": 0.09016053197418336,
+    "top": [
+     "yonge st",
+     "sheppard ave",
+     "bayview ave"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4830258.797112338,
+    "places": 1414,
+    "top_share": 0.4144271570014144,
+    "top_length_share": 0.1044989598919614,
+    "top": [
+     "king st",
+     "front st",
+     "bay st"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4832258.797112338,
+    "places": 4241,
+    "top_share": 0.33694883282244753,
+    "top_length_share": 0.06958456103128251,
+    "top": [
+     "yonge st",
+     "queen st",
+     "king st"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4834258.797112338,
+    "places": 4108,
+    "top_share": 0.3359298928919182,
+    "top_length_share": 0.05527087657467967,
+    "top": [
+     "yonge st",
+     "queen st",
+     "bloor st"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4836258.797112338,
+    "places": 1493,
+    "top_share": 0.4855994641661085,
+    "top_length_share": 0.03807863531360925,
+    "top": [
+     "bloor st",
+     "danforth ave",
+     "yonge st"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4838258.797112338,
+    "places": 785,
+    "top_share": 0.4968152866242038,
+    "top_length_share": 0.10224139858087898,
+    "top": [
+     "bayview ave",
+     "mt pleasant rd",
+     "eglinton ave"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4840258.797112338,
+    "places": 714,
+    "top_share": 0.45098039215686275,
+    "top_length_share": 0.09376885929235776,
+    "top": [
+     "bayview ave",
+     "eglinton ave",
+     "mt pleasant rd"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4842258.797112338,
+    "places": 344,
+    "top_share": 0.5406976744186046,
+    "top_length_share": 0.1250036946324915,
+    "top": [
+     "york mills rd",
+     "don mills rd",
+     "leslie st"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4844258.797112338,
+    "places": 430,
+    "top_share": 0.5953488372093023,
+    "top_length_share": 0.12109366460192483,
+    "top": [
+     "bayview ave",
+     "york mills rd",
+     "sheppard ave"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4846258.797112338,
+    "places": 490,
+    "top_share": 0.7061224489795919,
+    "top_length_share": 0.11378725076056832,
+    "top": [
+     "sheppard ave",
+     "bayview ave",
+     "leslie st"
+    ]
+   },
+   {
+    "x": 629552.0488459312,
+    "y": 4848258.797112338,
+    "places": 366,
+    "top_share": 0.7049180327868853,
+    "top_length_share": 0.08250716637593962,
+    "top": [
+     "sheppard ave",
+     "don mills rd",
+     "leslie st"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4832258.797112338,
+    "places": 1047,
+    "top_share": 0.4498567335243553,
+    "top_length_share": 0.06970320396891379,
+    "top": [
+     "queen st",
+     "parliament st",
+     "king st"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4834258.797112338,
+    "places": 1870,
+    "top_share": 0.56951871657754,
+    "top_length_share": 0.06698976062993434,
+    "top": [
+     "danforth ave",
+     "queen st",
+     "gerrard st"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4836258.797112338,
+    "places": 1076,
+    "top_share": 0.7276951672862454,
+    "top_length_share": 0.05339861684208139,
+    "top": [
+     "danforth ave",
+     "gerrard st",
+     "pape ave"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4838258.797112338,
+    "places": 526,
+    "top_share": 0.3269961977186312,
+    "top_length_share": 0.050507371896629016,
+    "top": [
+     "overlea blvd",
+     "laird dr",
+     "pape ave"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4840258.797112338,
+    "places": 548,
+    "top_share": 0.38686131386861317,
+    "top_length_share": 0.11248853149412119,
+    "top": [
+     "don mills rd",
+     "overlea blvd",
+     "laird dr"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4842258.797112338,
+    "places": 416,
+    "top_share": 0.4831730769230769,
+    "top_length_share": 0.13117553260287157,
+    "top": [
+     "york mills rd",
+     "don mills rd",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4844258.797112338,
+    "places": 402,
+    "top_share": 0.43781094527363185,
+    "top_length_share": 0.11468913834912467,
+    "top": [
+     "york mills rd",
+     "victoria park ave",
+     "leslie st"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4846258.797112338,
+    "places": 523,
+    "top_share": 0.6443594646271511,
+    "top_length_share": 0.1359285709374838,
+    "top": [
+     "sheppard ave",
+     "victoria park ave",
+     "don mills rd"
+    ]
+   },
+   {
+    "x": 631552.0488459312,
+    "y": 4848258.797112338,
+    "places": 523,
+    "top_share": 0.609942638623327,
+    "top_length_share": 0.08874504826577888,
+    "top": [
+     "sheppard ave",
+     "victoria park ave",
+     "don mills rd"
+    ]
+   },
+   {
+    "x": 633552.0488459312,
+    "y": 4834258.797112338,
+    "places": 1168,
+    "top_share": 0.7303082191780822,
+    "top_length_share": 0.07381090839795808,
+    "top": [
+     "queen st",
+     "danforth ave",
+     "gerrard st"
+    ]
+   },
+   {
+    "x": 633552.0488459312,
+    "y": 4836258.797112338,
+    "places": 1151,
+    "top_share": 0.737619461337967,
+    "top_length_share": 0.05275158422034706,
+    "top": [
+     "danforth ave",
+     "gerrard st",
+     "queen st"
+    ]
+   },
+   {
+    "x": 633552.0488459312,
+    "y": 4838258.797112338,
+    "places": 607,
+    "top_share": 0.4695222405271829,
+    "top_length_share": 0.06926363842839423,
+    "top": [
+     "danforth ave",
+     "o connor dr",
+     "don mills rd"
+    ]
+   },
+   {
+    "x": 633552.0488459312,
+    "y": 4840258.797112338,
+    "places": 515,
+    "top_share": 0.4058252427184466,
+    "top_length_share": 0.12154420072870588,
+    "top": [
+     "eglinton ave",
+     "victoria park ave",
+     "o connor dr"
+    ]
+   },
+   {
+    "x": 633552.0488459312,
+    "y": 4842258.797112338,
+    "places": 522,
+    "top_share": 0.5938697318007663,
+    "top_length_share": 0.12485694631936378,
+    "top": [
+     "lawrence ave",
+     "eglinton ave",
+     "victoria park ave"
+    ]
+   },
+   {
+    "x": 633552.0488459312,
+    "y": 4844258.797112338,
+    "places": 520,
+    "top_share": 0.6269230769230769,
+    "top_length_share": 0.09127983099074297,
+    "top": [
+     "lawrence ave",
+     "ellesmere rd",
+     "victoria park ave"
+    ]
+   },
+   {
+    "x": 633552.0488459312,
+    "y": 4846258.797112338,
+    "places": 474,
+    "top_share": 0.6054852320675106,
+    "top_length_share": 0.09361489514230315,
+    "top": [
+     "sheppard ave",
+     "ellesmere rd",
+     "victoria park ave"
+    ]
+   },
+   {
+    "x": 633552.0488459312,
+    "y": 4848258.797112338,
+    "places": 445,
+    "top_share": 0.5146067415730337,
+    "top_length_share": 0.0885113479160534,
+    "top": [
+     "sheppard ave",
+     "warden ave",
+     "victoria park ave"
+    ]
+   },
+   {
+    "x": 635552.0488459312,
+    "y": 4836258.797112338,
+    "places": 922,
+    "top_share": 0.7809110629067245,
+    "top_length_share": 0.07042916270405708,
+    "top": [
+     "danforth ave",
+     "queen st",
+     "kingston rd"
+    ]
+   },
+   {
+    "x": 635552.0488459312,
+    "y": 4838258.797112338,
+    "places": 724,
+    "top_share": 0.5897790055248618,
+    "top_length_share": 0.0654273283369264,
+    "top": [
+     "danforth ave",
+     "o connor dr",
+     "victoria park ave"
+    ]
+   },
+   {
+    "x": 635552.0488459312,
+    "y": 4840258.797112338,
+    "places": 647,
+    "top_share": 0.43431221020092736,
+    "top_length_share": 0.10312528249781086,
+    "top": [
+     "eglinton ave",
+     "victoria park ave",
+     "o connor dr"
+    ]
+   },
+   {
+    "x": 635552.0488459312,
+    "y": 4842258.797112338,
+    "places": 777,
+    "top_share": 0.5534105534105535,
+    "top_length_share": 0.1255817633720293,
+    "top": [
+     "lawrence ave",
+     "eglinton ave",
+     "kennedy rd"
+    ]
+   },
+   {
+    "x": 635552.0488459312,
+    "y": 4844258.797112338,
+    "places": 814,
+    "top_share": 0.6339066339066339,
+    "top_length_share": 0.1385697744633302,
+    "top": [
+     "lawrence ave",
+     "kennedy rd",
+     "ellesmere rd"
+    ]
+   },
+   {
+    "x": 635552.0488459312,
+    "y": 4846258.797112338,
+    "places": 738,
+    "top_share": 0.573170731707317,
+    "top_length_share": 0.13763444440394818,
+    "top": [
+     "sheppard ave",
+     "ellesmere rd",
+     "kennedy rd"
+    ]
+   },
+   {
+    "x": 635552.0488459312,
+    "y": 4848258.797112338,
+    "places": 571,
+    "top_share": 0.5446584938704028,
+    "top_length_share": 0.07690040732515428,
+    "top": [
+     "sheppard ave",
+     "midland ave",
+     "sandhurst cir"
+    ]
+   },
+   {
+    "x": 635552.0488459312,
+    "y": 4850258.797112338,
+    "places": 421,
+    "top_share": 0.5391923990498813,
+    "top_length_share": 0.0691604214489891,
+    "top": [
+     "midland ave",
+     "silver star blvd",
+     "kennedy rd"
+    ]
+   },
+   {
+    "x": 637552.0488459312,
+    "y": 4838258.797112338,
+    "places": 430,
+    "top_share": 0.6232558139534884,
+    "top_length_share": 0.10755339519427642,
+    "top": [
+     "danforth ave",
+     "kingston rd",
+     "birchmount rd"
+    ]
+   },
+   {
+    "x": 637552.0488459312,
+    "y": 4840258.797112338,
+    "places": 572,
+    "top_share": 0.5524475524475524,
+    "top_length_share": 0.10486388268328689,
+    "top": [
+     "eglinton ave",
+     "kingston rd",
+     "warden ave"
+    ]
+   },
+   {
+    "x": 637552.0488459312,
+    "y": 4842258.797112338,
+    "places": 653,
+    "top_share": 0.5819295558958653,
+    "top_length_share": 0.1320609945862138,
+    "top": [
+     "eglinton ave",
+     "lawrence ave",
+     "kennedy rd"
+    ]
+   },
+   {
+    "x": 637552.0488459312,
+    "y": 4844258.797112338,
+    "places": 648,
+    "top_share": 0.5462962962962963,
+    "top_length_share": 0.13417296469290654,
+    "top": [
+     "kennedy rd",
+     "lawrence ave",
+     "ellesmere rd"
+    ]
+   },
+   {
+    "x": 637552.0488459312,
+    "y": 4846258.797112338,
+    "places": 909,
+    "top_share": 0.49504950495049505,
+    "top_length_share": 0.09366654032339052,
+    "top": [
+     "borough dr",
+     "sheppard ave",
+     "kennedy rd"
+    ]
+   },
+   {
+    "x": 637552.0488459312,
+    "y": 4848258.797112338,
+    "places": 812,
+    "top_share": 0.5172413793103449,
+    "top_length_share": 0.0842624076183435,
+    "top": [
+     "borough dr",
+     "sheppard ave",
+     "midland ave"
+    ]
+   },
+   {
+    "x": 637552.0488459312,
+    "y": 4850258.797112338,
+    "places": 503,
+    "top_share": 0.37375745526838966,
+    "top_length_share": 0.11925441102328345,
+    "top": [
+     "markham rd",
+     "finch ave",
+     "sandhurst cir"
+    ]
+   },
+   {
+    "x": 639552.0488459312,
+    "y": 4840258.797112338,
+    "places": 377,
+    "top_share": 0.7294429708222812,
+    "top_length_share": 0.12386814961084887,
+    "top": [
+     "kingston rd",
+     "eglinton ave",
+     "kennedy rd"
+    ]
+   },
+   {
+    "x": 639552.0488459312,
+    "y": 4842258.797112338,
+    "places": 463,
+    "top_share": 0.6673866090712743,
+    "top_length_share": 0.0957335644653334,
+    "top": [
+     "eglinton ave",
+     "kingston rd",
+     "lawrence ave"
+    ]
+   },
+   {
+    "x": 639552.0488459312,
+    "y": 4844258.797112338,
+    "places": 481,
+    "top_share": 0.6860706860706861,
+    "top_length_share": 0.07954311814591164,
+    "top": [
+     "lawrence ave",
+     "markham rd",
+     "eglinton ave"
+    ]
+   },
+   {
+    "x": 639552.0488459312,
+    "y": 4846258.797112338,
+    "places": 728,
+    "top_share": 0.5618131868131868,
+    "top_length_share": 0.07721752325553959,
+    "top": [
+     "borough dr",
+     "lawrence ave",
+     "markham rd"
+    ]
+   },
+   {
+    "x": 639552.0488459312,
+    "y": 4848258.797112338,
+    "places": 718,
+    "top_share": 0.4637883008356546,
+    "top_length_share": 0.10768272538360704,
+    "top": [
+     "borough dr",
+     "sheppard ave",
+     "markham rd"
+    ]
+   },
+   {
+    "x": 639552.0488459312,
+    "y": 4850258.797112338,
+    "places": 522,
+    "top_share": 0.38697318007662834,
+    "top_length_share": 0.13794309143398167,
+    "top": [
+     "markham rd",
+     "sheppard ave",
+     "finch ave"
+    ]
+   },
+   {
+    "x": 641552.0488459312,
+    "y": 4844258.797112338,
+    "places": 403,
+    "top_share": 0.7518610421836228,
+    "top_length_share": 0.09609158769025518,
+    "top": [
+     "lawrence ave",
+     "markham rd",
+     "eglinton ave"
+    ]
+   },
+   {
+    "x": 641552.0488459312,
+    "y": 4846258.797112338,
+    "places": 417,
+    "top_share": 0.7314148681055156,
+    "top_length_share": 0.12258085959802985,
+    "top": [
+     "lawrence ave",
+     "markham rd",
+     "ellesmere rd"
+    ]
+   },
+   {
+    "x": 641552.0488459312,
+    "y": 4848258.797112338,
+    "places": 394,
+    "top_share": 0.4263959390862944,
+    "top_length_share": 0.11419896890105857,
+    "top": [
+     "ellesmere rd",
+     "markham rd",
+     "morningside ave"
+    ]
+   },
+   {
+    "x": 641552.0488459312,
+    "y": 4850258.797112338,
+    "places": 310,
+    "top_share": 0.4161290322580645,
+    "top_length_share": 0.12860422494135038,
+    "top": [
+     "morningside ave",
+     "tapscott rd",
+     "sheppard ave"
+    ]
+   },
+   {
+    "x": 643552.0488459312,
+    "y": 4846258.797112338,
+    "places": 303,
+    "top_share": 0.6039603960396039,
+    "top_length_share": 0.12496407156075595,
+    "top": [
+     "kingston rd",
+     "lawrence ave",
+     "old kingston rd"
+    ]
+   }
+  ]
+ }
+}
