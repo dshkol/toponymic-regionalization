@@ -90,3 +90,19 @@ Side-findings parked here:
   they came from names or from coordinates; naming is the working readout, boundaries are
   not. The brief's regionalize-first thesis is not supported in its boundary form; the
   supportable version is coverage: where each toponym holds, with soft edges.
+
+## 2026-10-09, toponymic-use posterior (`2026-10-09-occurrence-posterior.md`)
+
+- A two-component spatial mixture per word (same-name kernel density vs place-density
+  background, EM for the toponymic share, no sampling) classifies single uses of a word as
+  toponymic or incidental. Known cases behave: noe 0.97, dogpatch 1.00, nopa 0.91,
+  leslieville 0.95, starbucks 0.00, bank 0.05; "sunset" splits into 107 supported uses and
+  13 Sunset Dentals.
+- Median pi by lexicon class, untuned, comes out division ~0.9, mixed ~0.9, street 0.6–0.9,
+  area 0.3–0.8, generic and brand 0.0 in all four cities.
+- What it cannot do: tell a toponym in a dense district (fidi, chinatown) from the district's
+  trade words (llp, ubs); both are contiguous. The hotspot flag marks both; co-occurrence of
+  cores is the next test.
+- Bug fixed on the way: scipy's sparse_distance_matrix returns the self pairs, so the
+  2026-10-08 field kernels had a doubled diagonal (self-weight 2). Those results were at
+  their null either way.

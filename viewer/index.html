@@ -97,7 +97,8 @@ a { color: var(--accent); }
           <input id="nameInput" list="namelist" placeholder="type a name, e.g. noe" autocomplete="off" spellcheck="false">
           <datalist id="namelist"></datalist>
           <span role="tablist" id="bws" class="row"></span>
-          <span class="note"><span class="ramp"></span> where the name holds</span>
+          <label><input type="checkbox" id="usePost" checked> split toponymic / incidental uses</label>
+          <span class="note"><span class="ramp"></span> toponymic &nbsp; <span class="swatch" style="background:var(--r2)"></span> incidental</span>
         </div>
         <div class="row">
           <label><input type="checkbox" id="showTruth" checked> ground-truth outlines</label>
@@ -121,7 +122,7 @@ a { color: var(--accent); }
         <div class="holds" id="holds"></div>
         <p class="note" id="holdsNote"></p>
         <h2 style="margin-top:12px">Most localized names</h2>
-        <p class="note">Names used in at least 15 places, ranked by the share of those places inside one official area. Click one.</p>
+        <p class="note">Names used in at least 15 places, ranked by their toponymic share (the mixture model's &pi;). Filled: the word appears in the official area's name. Click one.</p>
         <p class="note" id="chipsNote"></p>
         <div class="chips" id="chips"></div>
       </section>
@@ -183,6 +184,7 @@ function renderControls() {
   $('holdsSection').hidden = state.layer !== 'field';
   buttons($('bws'), BWS, 'k', state.bw, id => { state.bw = id; updateField(); });
 }
+$('usePost').addEventListener('change', updateField);
 $('nameInput').addEventListener('change', e => { state.name = e.target.value.trim().toLowerCase(); updateField(); });
 $('nameInput').addEventListener('keydown', e => { if (e.key === 'Enter') { state.name = e.target.value.trim().toLowerCase(); updateField(); } });
 $('showTruth').addEventListener('change', draw);
@@ -232,18 +234,43 @@ function renderNameList() {
   const d = state.data;
   $('namelist').innerHTML = d.popular.map(t => `<option value="${t}">`).join('');
   const named = d.localized.filter(t => t.named).length;
-  $('chipsNote').textContent = `${d.localized.length} most localized names; ${named} of them (filled) appear in the name of the official area they sit in. The rest are places the official map calls something else, or does not have.`;
-  $('chips').innerHTML = d.localized.map(t => `<button type="button" class="chip${t.named ? ' named' : ''}" title="${t.total} places, ${Math.round(t.share * 100)}% in ${d.truth_names[t.top]}">${t.token}</button>`).join('');
+  const byPi = d.localized[0] && d.localized[0].pi !== undefined;
+  $('chipsNote').textContent = byPi
+    ? `${d.localized.length} names with the highest toponymic share; ${named} of them (filled) appear in the name of the official area they sit in. The rest are places the official map calls something else, or does not have, or dense-district business words (hover a chip for its core and label).`
+    : `${d.localized.length} most localized names (share of places in one official area); ${named} of them (filled) appear in the name of the official area they sit in.`;
+  $('chips').innerHTML = d.localized.map(t => `<button type="button" class="chip${t.named ? ' named' : ''}" title="${t.total} places, ${Math.round(t.share * 100)}% in ${d.truth_names[t.top]}${t.pi !== undefined ? `; \u03c0 ${t.pi.toFixed(2)}, ${t.plabel}${t.hotspot ? ', hotspot' : ''}` : ''}">${t.token}</button>`).join('');
   $('chips').querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => { state.name = b.textContent; $('nameInput').value = state.name; updateField(); }));
+}
+async function loadPosterior(d) {
+  if (d.post !== undefined) return;
+  d.post = null;
+  try { const r = await fetch(`data/${d.city}-posterior.json`); if (r.ok) d.post = await r.json(); } catch (e) { d.post = null; }
+  if (d.post) {
+    const rank = d.tokens_per_cell.map((t, i) => [t, i]).sort((a, b) => a[0] - b[0]); const pct = new Array(d.cells.length);
+    rank.forEach(([t, i], r) => { pct[i] = (r + 1) / rank.length; });
+    for (const [tok, e] of Object.entries(d.post)) {
+      const core = []; for (let q = 0; q < e.p.length; q += 2) if (e.p[q + 1] > 0.5) core.push(e.p[q]);
+      e.label = (e.pi < 0.3 || e.core_largest === 0) ? 'scattered' : (e.core_largest <= 3 ? 'point' : 'area');
+      const ps = core.map(i => pct[i]).sort((a, b) => a - b);
+      e.hotspot = ps.length > 0 && ps[Math.floor(ps.length / 2)] >= 0.9;
+    }
+    d.localized = Object.entries(d.post).filter(([t, e]) => e.pi > 0 && d.nameIndex[t] && d.nameIndex[t].total >= 15)
+      .map(([t, e]) => Object.assign({}, d.nameIndex[t], { pi: e.pi, plabel: e.label, hotspot: e.hotspot }))
+      .sort((a, b) => b.pi - a.pi || b.total - a.total).slice(0, 80);
+  }
 }
 function updateField() {
   const d = state.data; if (!d) return;
+  if (d.post === undefined) { loadPosterior(d).then(() => { renderNameList(); updateField(); }); return; }
   const post = d.names[state.name];
-  const n = d.cells.length, f = new Float32Array(n);
+  const n = d.cells.length, f = new Float32Array(n), tail = new Float32Array(n);
+  const usePost = $('usePost').checked && d.post && d.post[state.name];
+  const pOf = {}; if (usePost) { const e = d.post[state.name]; for (let q = 0; q < e.p.length; q += 2) pOf[e.p[q]] = e.p[q + 1]; }
   if (post) {
     const bw = Number(state.bw), h = bw * d.cellWidth, kx = Math.cos(d.centers[0][1] * Math.PI / 180);
     for (let p = 0; p < post.length; p += 2) {
-      const i = post[p], c = post[p + 1];
+      const i = post[p]; let c = post[p + 1];
+      if (usePost) { const pr = pOf[i] === undefined ? 1 : pOf[i]; if (pr < 0.5) { tail[i] += c; continue; } c = c * pr; }
       if (bw === 0) { f[i] += c; continue; }
       const [x0, y0] = d.centers[i];
       for (let j = 0; j < n; j++) {
@@ -253,7 +280,7 @@ function updateField() {
     }
   }
   let max = 0; for (let i = 0; i < n; i++) if (f[i] > max) max = f[i];
-  state.field = { f, max, post };
+  state.field = { f, max, post, tail, usePost: !!usePost };
   renderHolds(); draw();
 }
 function renderHolds() {
@@ -262,7 +289,10 @@ function renderHolds() {
   $('holdsTitle').textContent = `Where "${t.token}" holds`;
   const order = [...t.mass.keys()].sort((a, b) => t.mass[b] - t.mass[a]).filter(a => t.mass[a] > 0).slice(0, 7);
   $('holds').innerHTML = order.map(a => `<div>${d.truth_names[a]}</div><div class="barwrap"><div class="bar" style="width:${Math.round(100 * t.mass[a] / t.total)}px"></div><span>${Math.round(100 * t.mass[a] / t.total)}%</span></div>`).join('');
-  $('holdsNote').textContent = `${t.total} places in ${t.cells} cells carry "${t.token}"; ${Math.round(t.share * 100)}% of them sit in ${d.truth_names[t.top]}. Share of places per official area, from the raw counts; the map shows the ${state.bw === '0' ? 'raw counts' : state.bw + '-cell Gaussian kernel'}.`;
+  const e = d.post && d.post[t.token];
+  const verdict = !e ? 'Fewer than five uses, so no mixture fit.' :
+    `Mixture model: toponymic share \u03c0 = ${e.pi.toFixed(2)}, so about ${Math.round(e.pi * t.total)} of the ${t.total} uses are spatially supported and ${t.total - Math.round(e.pi * t.total)} look incidental (orange). Core: ${e.core_largest} connected cells (${e.label}${e.hotspot ? ', in a density hotspot' : ''}).`;
+  $('holdsNote').textContent = `${t.total} places in ${t.cells} cells carry "${t.token}"; ${Math.round(t.share * 100)}% of them sit in ${d.truth_names[t.top]} (raw counts). ${verdict} The map shows the ${state.bw === '0' ? 'raw counts' : state.bw + '-cell Gaussian kernel'}${state.field && state.field.usePost ? ', weighted by each use\u2019s posterior' : ''}.`;
 }
 function mixColor(a, b, t) {
   const pa = a.match(/\w\w/g).map(h => parseInt(h, 16)), pb = b.match(/\w\w/g).map(h => parseInt(h, 16));
@@ -325,8 +355,9 @@ function draw() {
     ctx.closePath();
     if (fieldMode) {
       const v = state.field.max > 0 ? state.field.f[i] / state.field.max : 0;
-      ctx.globalAlpha = v > 0 ? 0.95 : ((dim && d.tokens_per_cell[i] === 0) ? 0.3 : 0.8);
-      ctx.fillStyle = v > 0 ? mixColor(f0, f1, Math.sqrt(v)) : fnone;
+      if (v > 0) { ctx.globalAlpha = 0.95; ctx.fillStyle = mixColor(f0, f1, Math.sqrt(v)); }
+      else if (state.field.tail[i] > 0) { ctx.globalAlpha = 0.9; ctx.fillStyle = css('--r2'); }
+      else { ctx.globalAlpha = (dim && d.tokens_per_cell[i] === 0) ? 0.3 : 0.8; ctx.fillStyle = fnone; }
     } else {
       ctx.globalAlpha = (dim && d.tokens_per_cell[i] === 0) ? 0.25 : (activeRegion >= 0 && lab[i] !== activeRegion ? 0.55 : 0.9);
       ctx.fillStyle = fills[state.colors[lab[i]]];

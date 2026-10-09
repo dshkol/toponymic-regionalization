@@ -76,8 +76,9 @@ def build_fields(M, xy: np.ndarray, h: np.ndarray, cutoff: float = 3.0, bins: in
             continue
         hb = float(np.median(h[cols]))
         D = tree.sparse_distance_matrix(tree, cutoff * hb, output_type='coo_matrix')
+        # the coo output already holds the zero-distance self pairs (diagonal exp(0) = 1); until
+        # 2026-10-09 a second diagonal was added here, giving self a weight of 2 in the fields
         K = csr_matrix((np.exp(-D.data ** 2 / (2 * hb ** 2)), (D.row, D.col)), shape=(n, n))
-        K = K + diags(np.ones(n))  # sparse_distance_matrix drops the zero self-distance
         F[:, cols] = (K @ Mc[:, cols]).toarray()
     return F
 
