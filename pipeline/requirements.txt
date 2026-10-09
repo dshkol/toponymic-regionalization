@@ -1,0 +1,15 @@
+duckdb==1.5.6
+geopandas==1.2.0
+h3==4.5.0
+libpysal==4.15.0
+matplotlib==3.11.2
+networkx==3.7
+numpy==2.5.3
+overturemaps==1.0.2
+pandas==3.0.5
+pyarrow==25.0.1
+scikit-learn==1.9.1
+scipy==1.18.1
+shapely==2.1.2
+spopt==0.8.0
+tabulate==0.10.0

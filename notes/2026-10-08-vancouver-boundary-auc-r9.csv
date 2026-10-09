@@ -1,0 +1,139 @@
+city,feature,measure,truth,auc,edges,boundary_share,perm
+vancouver,names ring 0,adjacent cells,official,0.4895815912471724,2618,0.1573720397249809,
+vancouver,names ring 0,"two sides, ring 2",official,0.5184382399281746,2618,0.1573720397249809,
+vancouver,names ring 0,"two sides, ring 3",official,0.5017736270894031,2618,0.1573720397249809,
+vancouver,"null: names ring 0, names permuted",adjacent cells,official,0.5068805068260437,2618,0.1573720397249809,0.0
+vancouver,"null: names ring 0, names permuted","two sides, ring 2",official,0.4668358140640266,2618,0.1573720397249809,0.0
+vancouver,"null: names ring 0, names permuted","two sides, ring 3",official,0.4578708553019567,2618,0.1573720397249809,0.0
+vancouver,"null: names ring 0, names permuted",adjacent cells,official,0.51796182520751,2618,0.1573720397249809,1.0
+vancouver,"null: names ring 0, names permuted","two sides, ring 2",official,0.47314143245693563,2618,0.1573720397249809,1.0
+vancouver,"null: names ring 0, names permuted","two sides, ring 3",official,0.4121581476819618,2618,0.1573720397249809,1.0
+vancouver,names ring 0,adjacent cells,vernacular (22),0.484505219660722,2618,0.15966386554621848,
+vancouver,names ring 0,"two sides, ring 2",vernacular (22),0.5162059591126578,2618,0.15966386554621848,
+vancouver,names ring 0,"two sides, ring 3",vernacular (22),0.5112407568508047,2618,0.15966386554621848,
+vancouver,"null: names ring 0, names permuted",adjacent cells,vernacular (22),0.5011129839060462,2618,0.15966386554621848,0.0
+vancouver,"null: names ring 0, names permuted","two sides, ring 2",vernacular (22),0.4757231404958678,2618,0.15966386554621848,0.0
+vancouver,"null: names ring 0, names permuted","two sides, ring 3",vernacular (22),0.4590060896041757,2618,0.15966386554621848,0.0
+vancouver,"null: names ring 0, names permuted",adjacent cells,vernacular (22),0.52522455415398,2618,0.15966386554621848,1.0
+vancouver,"null: names ring 0, names permuted","two sides, ring 2",vernacular (22),0.4879045237059591,2618,0.15966386554621848,1.0
+vancouver,"null: names ring 0, names permuted","two sides, ring 3",vernacular (22),0.42039473684210527,2618,0.15966386554621848,1.0
+vancouver,names ring 0,adjacent cells,"random contiguous, k=22, seed 0",0.4678285024154589,2618,0.14056531703590527,
+vancouver,names ring 0,"two sides, ring 2","random contiguous, k=22, seed 0",0.497219806763285,2618,0.14056531703590527,
+vancouver,names ring 0,"two sides, ring 3","random contiguous, k=22, seed 0",0.48892632850241546,2618,0.14056531703590527,
+vancouver,names ring 0,adjacent cells,"random contiguous, k=22, seed 1",0.4777578259271401,2618,0.1359816653934301,
+vancouver,names ring 0,"two sides, ring 2","random contiguous, k=22, seed 1",0.4099534070475567,2618,0.1359816653934301,
+vancouver,names ring 0,"two sides, ring 3","random contiguous, k=22, seed 1",0.4310692536186531,2618,0.1359816653934301,
+vancouver,names ring 0,adjacent cells,"random contiguous, k=22, seed 2",0.5677695482665599,2618,0.14285714285714285,
+vancouver,names ring 0,"two sides, ring 2","random contiguous, k=22, seed 2",0.4614956580590428,2618,0.14285714285714285,
+vancouver,names ring 0,"two sides, ring 3","random contiguous, k=22, seed 2",0.46359751970793184,2618,0.14285714285714285,
+vancouver,names ring 0,adjacent cells,"own Ward partition, k=22 (positive control)",0.6358122874694088,2618,0.14935064935064934,
+vancouver,names ring 0,"two sides, ring 2","own Ward partition, k=22 (positive control)",0.5193791149539998,2618,0.14935064935064934,
+vancouver,names ring 0,"two sides, ring 3","own Ward partition, k=22 (positive control)",0.5400553771029116,2618,0.14935064935064934,
+vancouver,names ring 1,adjacent cells,official,0.458507908704416,2618,0.1573720397249809,
+vancouver,names ring 1,"two sides, ring 2",official,0.5403445149592022,2618,0.1573720397249809,
+vancouver,names ring 1,"two sides, ring 3",official,0.5616104357929389,2618,0.1573720397249809,
+vancouver,"null: names ring 1, names permuted",adjacent cells,official,0.49061033896962386,2618,0.1573720397249809,0.0
+vancouver,"null: names ring 1, names permuted","two sides, ring 2",official,0.5191622142611941,2618,0.1573720397249809,0.0
+vancouver,"null: names ring 1, names permuted","two sides, ring 3",official,0.4975233036115097,2618,0.1573720397249809,0.0
+vancouver,"null: names ring 1, names permuted",adjacent cells,official,0.5318680738321788,2618,0.1573720397249809,1.0
+vancouver,"null: names ring 1, names permuted","two sides, ring 2",official,0.5037221963048703,2618,0.1573720397249809,1.0
+vancouver,"null: names ring 1, names permuted","two sides, ring 3",official,0.48894123704988157,2618,0.1573720397249809,1.0
+vancouver,names ring 1,adjacent cells,vernacular (22),0.4500054371465855,2618,0.15966386554621848,
+vancouver,names ring 1,"two sides, ring 2",vernacular (22),0.533294910830796,2618,0.15966386554621848,
+vancouver,names ring 1,"two sides, ring 3",vernacular (22),0.5608579817311875,2618,0.15966386554621848,
+vancouver,"null: names ring 1, names permuted",adjacent cells,vernacular (22),0.5003294910830796,2618,0.15966386554621848,0.0
+vancouver,"null: names ring 1, names permuted","two sides, ring 2",vernacular (22),0.5113397129186603,2618,0.15966386554621848,0.0
+vancouver,"null: names ring 1, names permuted","two sides, ring 3",vernacular (22),0.4885058721183123,2618,0.15966386554621848,0.0
+vancouver,"null: names ring 1, names permuted",adjacent cells,vernacular (22),0.5324630274032188,2618,0.15966386554621848,1.0
+vancouver,"null: names ring 1, names permuted","two sides, ring 2",vernacular (22),0.4952588081774685,2618,0.15966386554621848,1.0
+vancouver,"null: names ring 1, names permuted","two sides, ring 3",vernacular (22),0.48801217920835144,2618,0.15966386554621848,1.0
+vancouver,names ring 1,adjacent cells,"random contiguous, k=22, seed 0",0.43494202898550727,2618,0.14056531703590527,
+vancouver,names ring 1,"two sides, ring 2","random contiguous, k=22, seed 0",0.4168804347826087,2618,0.14056531703590527,
+vancouver,names ring 1,"two sides, ring 3","random contiguous, k=22, seed 0",0.44584178743961345,2618,0.14056531703590527,
+vancouver,names ring 1,adjacent cells,"random contiguous, k=22, seed 1",0.4990015795904986,2618,0.1359816653934301,
+vancouver,names ring 1,"two sides, ring 2","random contiguous, k=22, seed 1",0.43456124141904845,2618,0.1359816653934301,
+vancouver,names ring 1,"two sides, ring 3","random contiguous, k=22, seed 1",0.41719568046573086,2618,0.1359816653934301,
+vancouver,names ring 1,adjacent cells,"random contiguous, k=22, seed 2",0.54063241728388,2618,0.14285714285714285,
+vancouver,names ring 1,"two sides, ring 2","random contiguous, k=22, seed 2",0.5178181627536771,2618,0.14285714285714285,
+vancouver,names ring 1,"two sides, ring 3","random contiguous, k=22, seed 2",0.4909288703327709,2618,0.14285714285714285,
+vancouver,names ring 1,adjacent cells,"own Ward partition, k=22 (positive control)",0.8514589371980675,2618,0.14056531703590527,
+vancouver,names ring 1,"two sides, ring 2","own Ward partition, k=22 (positive control)",0.6649782608695652,2618,0.14056531703590527,
+vancouver,names ring 1,"two sides, ring 3","own Ward partition, k=22 (positive control)",0.575846618357488,2618,0.14056531703590527,
+vancouver,fields adaptive,adjacent cells,official,0.532565641806547,2618,0.1573720397249809,
+vancouver,fields adaptive,"two sides, ring 2",official,0.5052493640468625,2618,0.1573720397249809,
+vancouver,fields adaptive,"two sides, ring 3",official,0.47985194834916245,2618,0.1573720397249809,
+vancouver,"null: fields adaptive, names permuted",adjacent cells,official,0.5095194922937444,2618,0.1573720397249809,0.0
+vancouver,"null: fields adaptive, names permuted","two sides, ring 2",official,0.48433112693536606,2618,0.1573720397249809,0.0
+vancouver,"null: fields adaptive, names permuted","two sides, ring 3",official,0.46530094446742776,2618,0.1573720397249809,0.0
+vancouver,"null: fields adaptive, names permuted",adjacent cells,official,0.5591502433786055,2618,0.1573720397249809,1.0
+vancouver,"null: fields adaptive, names permuted","two sides, ring 2",official,0.5206750785589169,2618,0.1573720397249809,1.0
+vancouver,"null: fields adaptive, names permuted","two sides, ring 3",official,0.49580358950435266,2618,0.1573720397249809,1.0
+vancouver,fields adaptive,adjacent cells,vernacular (22),0.5252283601565898,2618,0.15966386554621848,
+vancouver,fields adaptive,"two sides, ring 2",vernacular (22),0.4963266637668552,2618,0.15966386554621848,
+vancouver,fields adaptive,"two sides, ring 3",vernacular (22),0.47130926489778163,2618,0.15966386554621848,
+vancouver,"null: fields adaptive, names permuted",adjacent cells,vernacular (22),0.49460852544584605,2618,0.15966386554621848,0.0
+vancouver,"null: fields adaptive, names permuted","two sides, ring 2",vernacular (22),0.47315898216615915,2618,0.15966386554621848,0.0
+vancouver,"null: fields adaptive, names permuted","two sides, ring 3",vernacular (22),0.4589669421487603,2618,0.15966386554621848,0.0
+vancouver,"null: fields adaptive, names permuted",adjacent cells,vernacular (22),0.5505948238364506,2618,0.15966386554621848,1.0
+vancouver,"null: fields adaptive, names permuted","two sides, ring 2",vernacular (22),0.5171052631578947,2618,0.15966386554621848,1.0
+vancouver,"null: fields adaptive, names permuted","two sides, ring 3",vernacular (22),0.49753044802087865,2618,0.15966386554621848,1.0
+vancouver,fields adaptive,adjacent cells,"random contiguous, k=22, seed 0",0.4426582125603865,2618,0.14056531703590527,
+vancouver,fields adaptive,"two sides, ring 2","random contiguous, k=22, seed 0",0.4444794685990338,2618,0.14056531703590527,
+vancouver,fields adaptive,"two sides, ring 3","random contiguous, k=22, seed 0",0.4410567632850242,2618,0.14056531703590527,
+vancouver,fields adaptive,adjacent cells,"random contiguous, k=22, seed 1",0.44606418700761985,2618,0.1359816653934301,
+vancouver,fields adaptive,"two sides, ring 2","random contiguous, k=22, seed 1",0.4040547790063481,2618,0.1359816653934301,
+vancouver,fields adaptive,"two sides, ring 3","random contiguous, k=22, seed 1",0.4012097775658412,2618,0.1359816653934301,
+vancouver,fields adaptive,adjacent cells,"random contiguous, k=22, seed 2",0.531333705091176,2618,0.14285714285714285,
+vancouver,fields adaptive,"two sides, ring 2","random contiguous, k=22, seed 2",0.503647278065334,2618,0.14285714285714285,
+vancouver,fields adaptive,"two sides, ring 3","random contiguous, k=22, seed 2",0.49563661147492544,2618,0.14285714285714285,
+vancouver,fields adaptive,adjacent cells,"own Ward partition, k=22 (positive control)",0.6261953774832221,2618,0.15469824293353704,
+vancouver,fields adaptive,"two sides, ring 2","own Ward partition, k=22 (positive control)",0.586888922361132,2618,0.15469824293353704,
+vancouver,fields adaptive,"two sides, ring 3","own Ward partition, k=22 (positive control)",0.554956402403307,2618,0.15469824293353704,
+vancouver,fields fixed 1 cell,adjacent cells,official,0.562412528936968,2618,0.1573720397249809,
+vancouver,fields fixed 1 cell,"two sides, ring 2",official,0.5658222499977995,2618,0.1573720397249809,
+vancouver,fields fixed 1 cell,"two sides, ring 3",official,0.5611593271659816,2618,0.1573720397249809,
+vancouver,"null: fields fixed 1 cell, names permuted",adjacent cells,official,0.565868461125439,2618,0.1573720397249809,0.0
+vancouver,"null: fields fixed 1 cell, names permuted","two sides, ring 2",official,0.5817661892983831,2618,0.1573720397249809,0.0
+vancouver,"null: fields fixed 1 cell, names permuted","two sides, ring 3",official,0.571371986374319,2618,0.1573720397249809,0.0
+vancouver,"null: fields fixed 1 cell, names permuted",adjacent cells,official,0.5292285382320063,2618,0.1573720397249809,1.0
+vancouver,"null: fields fixed 1 cell, names permuted","two sides, ring 2",official,0.5695961587550282,2618,0.1573720397249809,1.0
+vancouver,"null: fields fixed 1 cell, names permuted","two sides, ring 3",official,0.5438147505919426,2618,0.1573720397249809,1.0
+vancouver,fields fixed 1 cell,adjacent cells,vernacular (22),0.5491061331013484,2618,0.15966386554621848,
+vancouver,fields fixed 1 cell,"two sides, ring 2",vernacular (22),0.5539430187037843,2618,0.15966386554621848,
+vancouver,fields fixed 1 cell,"two sides, ring 3",vernacular (22),0.5505654632448891,2618,0.15966386554621848,
+vancouver,"null: fields fixed 1 cell, names permuted",adjacent cells,vernacular (22),0.5399260548064375,2618,0.15966386554621848,0.0
+vancouver,"null: fields fixed 1 cell, names permuted","two sides, ring 2",vernacular (22),0.5619443236189647,2618,0.15966386554621848,0.0
+vancouver,"null: fields fixed 1 cell, names permuted","two sides, ring 3",vernacular (22),0.5534656372335798,2618,0.15966386554621848,0.0
+vancouver,"null: fields fixed 1 cell, names permuted",adjacent cells,vernacular (22),0.5181839930404524,2618,0.15966386554621848,1.0
+vancouver,"null: fields fixed 1 cell, names permuted","two sides, ring 2",vernacular (22),0.5552620704654198,2618,0.15966386554621848,1.0
+vancouver,"null: fields fixed 1 cell, names permuted","two sides, ring 3",vernacular (22),0.5303545019573728,2618,0.15966386554621848,1.0
+vancouver,fields fixed 1 cell,adjacent cells,"random contiguous, k=22, seed 0",0.42867632850241544,2618,0.14056531703590527,
+vancouver,fields fixed 1 cell,"two sides, ring 2","random contiguous, k=22, seed 0",0.43213647342995165,2618,0.14056531703590527,
+vancouver,fields fixed 1 cell,"two sides, ring 3","random contiguous, k=22, seed 0",0.432171497584541,2618,0.14056531703590527,
+vancouver,fields fixed 1 cell,adjacent cells,"random contiguous, k=22, seed 1",0.4900083450064077,2618,0.1359816653934301,
+vancouver,fields fixed 1 cell,"two sides, ring 2","random contiguous, k=22, seed 1",0.43338896670938515,2618,0.1359816653934301,
+vancouver,fields fixed 1 cell,"two sides, ring 3","random contiguous, k=22, seed 1",0.4192173576133281,2618,0.1359816653934301,
+vancouver,fields fixed 1 cell,adjacent cells,"random contiguous, k=22, seed 2",0.5695818677495306,2618,0.14285714285714285,
+vancouver,fields fixed 1 cell,"two sides, ring 2","random contiguous, k=22, seed 2",0.5358472265911712,2618,0.14285714285714285,
+vancouver,fields fixed 1 cell,"two sides, ring 3","random contiguous, k=22, seed 2",0.5218634123557055,2618,0.14285714285714285,
+vancouver,fields fixed 1 cell,adjacent cells,"own Ward partition, k=22 (positive control)",0.8179000665267081,2618,0.12566844919786097,
+vancouver,fields fixed 1 cell,"two sides, ring 2","own Ward partition, k=22 (positive control)",0.72747685839903,2618,0.12566844919786097,
+vancouver,fields fixed 1 cell,"two sides, ring 3","own Ward partition, k=22 (positive control)",0.6843712694915951,2618,0.12566844919786097,
+vancouver,coordinates only,adjacent cells,official,0.4580534992826273,2618,0.1573720397249809,
+vancouver,coordinates only,"two sides, ring 2",official,0.45342688519395474,2618,0.1573720397249809,
+vancouver,coordinates only,"two sides, ring 3",official,0.44676698148914257,2618,0.1573720397249809,
+vancouver,coordinates only,adjacent cells,vernacular (22),0.4597966507177033,2618,0.15966386554621848,
+vancouver,coordinates only,"two sides, ring 2",vernacular (22),0.4560917790343627,2618,0.15966386554621848,
+vancouver,coordinates only,"two sides, ring 3",vernacular (22),0.4465028273162245,2618,0.15966386554621848,
+vancouver,coordinates only,adjacent cells,"random contiguous, k=22, seed 0",0.47999396135265693,2618,0.14056531703590527,
+vancouver,coordinates only,"two sides, ring 2","random contiguous, k=22, seed 0",0.48877294685990336,2618,0.14056531703590527,
+vancouver,coordinates only,"two sides, ring 3","random contiguous, k=22, seed 0",0.4836521739130435,2618,0.14056531703590527,
+vancouver,coordinates only,adjacent cells,"random contiguous, k=22, seed 1",0.4661157968984393,2618,0.1359816653934301,
+vancouver,coordinates only,"two sides, ring 2","random contiguous, k=22, seed 1",0.4589666597124947,2618,0.1359816653934301,
+vancouver,coordinates only,"two sides, ring 3","random contiguous, k=22, seed 1",0.46160800325852636,2618,0.1359816653934301,
+vancouver,coordinates only,adjacent cells,"random contiguous, k=22, seed 2",0.5171401813034402,2618,0.14285714285714285,
+vancouver,coordinates only,"two sides, ring 2","random contiguous, k=22, seed 2",0.4946524064171123,2618,0.14285714285714285,
+vancouver,coordinates only,"two sides, ring 3","random contiguous, k=22, seed 2",0.4879607652492207,2618,0.14285714285714285,
+vancouver,coordinates only,adjacent cells,"own Ward partition, k=22 (positive control)",0.5943696816180737,2618,0.14782276546982429,
+vancouver,coordinates only,"two sides, ring 2","own Ward partition, k=22 (positive control)",0.58175902858129,2618,0.14782276546982429,
+vancouver,coordinates only,"two sides, ring 3","own Ward partition, k=22 (positive control)",0.5716327483185603,2618,0.14782276546982429,

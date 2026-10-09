@@ -1,0 +1,489 @@
+<title>Toponymic Regions</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a map that fills the viewport beside a reading column; stacks on a phone. */
+:root {
+  --bg: #f6f5f1; --panel: #ffffff; --fg: #1d1c19; --muted: #6a675f; --line: #dcd9d0;
+  --accent: #2a78d6; --truth: #1d1c19; --hover: #e34948;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --r1:#2a78d6; --r2:#eb6834; --r3:#1baf7a; --r4:#eda100; --r5:#e87ba4; --r6:#008300; --r7:#4a3aa7; --r8:#e34948;
+  --f0:#cde2fb; --f1:#0d366b; --fnone:#e6e4de;
+  --r9:#8fb8ea; --r10:#f3a784; --r11:#8fd9bd; --r12:#f5cf6e; --r13:#f4bdd2; --r14:#7fbf7f; --r15:#a79cd9; --r16:#f19f9e;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #16161a; --panel: #1f1f24; --fg: #ebe9e2; --muted: #a09d93; --line: #35353c;
+  --accent: #3987e5; --truth: #ffffff; --hover: #ff8a7a; color-scheme: dark;
+  --r1:#3987e5; --r2:#d95926; --r3:#199e70; --r4:#c98500; --r5:#d55181; --r6:#2e8b2e; --r7:#9085e9; --r8:#e66767;
+  --f0:#184f95; --f1:#b7d3f6; --fnone:#2a2a30;
+  --r9:#245a9a; --r10:#8f3a18; --r11:#116a4b; --r12:#7d5300; --r13:#8a3454; --r14:#1d5c1d; --r15:#5a4fa0; --r16:#993f3f;
+} }
+:root[data-theme="dark"] {
+  --bg: #16161a; --panel: #1f1f24; --fg: #ebe9e2; --muted: #a09d93; --line: #35353c;
+  --accent: #3987e5; --truth: #ffffff; --hover: #ff8a7a; color-scheme: dark;
+  --r1:#3987e5; --r2:#d95926; --r3:#199e70; --r4:#c98500; --r5:#d55181; --r6:#2e8b2e; --r7:#9085e9; --r8:#e66767;
+  --f0:#184f95; --f1:#b7d3f6; --fnone:#2a2a30;
+  --r9:#245a9a; --r10:#8f3a18; --r11:#116a4b; --r12:#7d5300; --r13:#8a3454; --r14:#1d5c1d; --r15:#5a4fa0; --r16:#993f3f;
+}
+html, body { height: 100%; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 14px; line-height: 1.45; }
+.app { display: grid; grid-template-rows: auto 1fr; height: 100%; }
+header { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+header h1 { font-size: 16px; font-weight: 600; margin: 0; }
+header .sub { color: var(--muted); font-size: 13px; }
+.tabs { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+.tab, .k, .layer { font: inherit; color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 4px; padding: 4px 10px; cursor: pointer; }
+.tab[aria-selected="true"], .k[aria-selected="true"], .layer[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tab:focus-visible, .k:focus-visible, .layer:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+main { display: grid; grid-template-columns: 1fr 360px; min-height: 0; }
+.mapwrap { position: relative; min-width: 0; min-height: 360px; }
+canvas { display: block; width: 100%; height: 100%; cursor: crosshair; touch-action: none; }
+.hud { position: absolute; left: 12px; top: 12px; display: flex; flex-direction: column; gap: 8px; pointer-events: none; }
+.hud > * { pointer-events: auto; }
+.row { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.hud .row { background: color-mix(in srgb, var(--panel) 88%, transparent); padding: 6px; border-radius: 6px; border: 1px solid var(--line); }
+.hud label { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+.hover { position: absolute; right: 12px; bottom: 12px; max-width: min(340px, calc(100% - 24px)); background: color-mix(in srgb, var(--panel) 94%, transparent); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 13px; pointer-events: none; }
+.hover .t { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.hover .tokens { font-family: var(--mono); font-size: 12px; word-break: break-word; }
+.hover .lbl { color: var(--muted); }
+.loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); }
+aside { border-left: 1px solid var(--line); padding: 14px 16px; overflow-y: auto; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+aside h2 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 0 0 6px; }
+aside p { margin: 0 0 8px; max-width: 65ch; }
+.facts { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; font-size: 13px; }
+.facts dt { color: var(--muted); } .facts dd { margin: 0; font-variant-numeric: tabular-nums; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; font-size: 12.5px; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 3px 6px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; white-space: normal; }
+th { color: var(--muted); font-weight: 500; }
+tr.sel td { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+td.best { font-weight: 600; }
+.note { color: var(--muted); font-size: 12.5px; }
+a { color: var(--accent); }
+.namebox input { font: inherit; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 4px 8px; width: 200px; }
+.ramp { display: inline-block; width: 90px; height: 10px; vertical-align: -1px; border-radius: 2px; background: linear-gradient(90deg, var(--f0), var(--f1)); }
+.holds { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: 13px; align-items: center; }
+.holds .bar { height: 8px; background: var(--accent); border-radius: 2px; }
+.holds .barwrap { display: flex; align-items: center; gap: 6px; min-width: 120px; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip { font: inherit; font-size: 12px; font-family: var(--mono); color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 10px; padding: 1px 8px; cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.chip.named { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; vertical-align: -1px; margin-right: 4px; }
+@media (max-width: 820px) {
+  main { grid-template-columns: 1fr; grid-template-rows: 60vh auto; }
+  aside { border-left: 0; border-top: 1px solid var(--line); }
+  .hover { max-width: calc(100% - 24px); }
+}
+@media (prefers-reduced-motion: no-preference) { .tab, .k, .layer { transition: background .12s; } }
+</style>
+
+<div class="app">
+  <header>
+    <h1>Toponymic Regions</h1>
+    <span class="sub">Can place names alone recover a city's neighbourhoods? Overture Places on H3-9 cells, SCHC Ward, scored against official areas.</span>
+    <div class="tabs" role="tablist" id="tabs"></div>
+  </header>
+  <main>
+    <div class="mapwrap">
+      <canvas id="map"></canvas>
+      <div class="hud">
+        <div class="row" role="tablist" id="layers"></div>
+        <div class="row" role="tablist" id="ks"></div>
+        <div class="row namebox" id="namebox" hidden>
+          <input id="nameInput" list="namelist" placeholder="type a name, e.g. noe" autocomplete="off" spellcheck="false">
+          <datalist id="namelist"></datalist>
+          <span role="tablist" id="bws" class="row"></span>
+          <label><input type="checkbox" id="usePost" checked> split toponymic / incidental uses</label>
+          <span class="note"><span class="ramp"></span> toponymic &nbsp; <span class="swatch" style="background:var(--r2)"></span> incidental</span>
+        </div>
+        <div class="row">
+          <label><input type="checkbox" id="showTruth" checked> ground-truth outlines</label>
+          <label><input type="checkbox" id="dimEmpty" checked> dim cells with no places</label>
+        </div>
+      </div>
+      <div class="hover" id="hover" hidden></div>
+      <div class="loading" id="loading">Loading&hellip;</div>
+    </div>
+    <aside>
+      <section>
+        <h2 id="cityTitle">City</h2>
+        <dl class="facts" id="facts"></dl>
+      </section>
+      <section>
+        <h2>Reading</h2>
+        <div id="reading"></div>
+      </section>
+      <section id="holdsSection" hidden>
+        <h2 id="holdsTitle">Where the name holds</h2>
+        <div class="holds" id="holds"></div>
+        <p class="note" id="holdsNote"></p>
+        <h2 style="margin-top:12px">Most localized names</h2>
+        <p class="note">Names used in at least 15 places, ranked by their toponymic share (the mixture model's &pi;). Filled: the word appears in the official area's name. Click one.</p>
+        <p class="note" id="chipsNote"></p>
+        <div class="chips" id="chips"></div>
+      </section>
+      <section>
+        <h2>Agreement with the official areas (ARI)</h2>
+        <div class="tablewrap"><table id="scores"></table></div>
+        <p class="note">Adjusted Rand index between the cell partition and the area containing each cell's centroid. "Null" is the same pipeline with names dealt to random cells; "coordinates only" is Ward on cell centroids; "floor" is random contiguous partitions. The highlighted row is the layer and k on the map.</p>
+      </section>
+      <section>
+        <h2>About the data</h2>
+        <p class="note" id="about"></p>
+        <p class="note">Notes, code and tables: <a id="prlink" href="https://github.com/dshkol/toponymic-regionalization/pull/1" target="_blank" rel="noopener">PR #1</a>, one dated note per city under <code>notes/</code>.</p>
+      </section>
+    </aside>
+  </main>
+</div>
+
+<script>
+'use strict';
+const CITIES = [
+  { id: 'sf', name: 'San Francisco', reading: 'Names carry real but weak signal: ARI 0.15 at k=20 on unsmoothed cells (null 0.00), while Ward on coordinates alone reaches 0.44 and random contiguous partitions 0.30. One ring of smoothing lifts names to 0.36 against a null of 0.26; two rings is geometry alone. The regions still read as the vernacular neighbourhoods by their lifted tokens: noe / valencia / castro / dolores, irving / judah / sunset, dogpatch / potrero, bayview / hunters, fremont / fidi.' },
+  { id: 'vancouver', name: 'Vancouver', reading: 'Same shape as San Francisco on a ground truth whose 22 names are the ones people use. Unsmoothed names reach ARI 0.05 (one region holds 70% of cells); one ring of smoothing gives 0.40 against a null of 0.26, close to coordinates-only (0.44). The ring-1 regions are the local areas by their tokens: kitsilano / kits / fourth, kerrisdale, marpole, dunbar, oakridge / langara, coal / thurlow / denman for the West End.' },
+  { id: 'chicago', name: 'Chicago', reading: 'Where names come closest to standing on their own: unsmoothed ARI 0.19 at k=73 (null 0.00) with no single-region collapse, and 0.36 with one ring against a null of 0.10, the largest gap of the four cities; coordinates-only is 0.39. The regions are the airports, pilsen / villita, hyde park / uchicago, bronzeville, englewood, beverly, roseland / pullman, hegewisch. The 1920s community-area names are recovered where they are also the living name and not where they are not (Near North Side, West Town).' },
+  { id: 'toronto', name: 'Toronto', reading: 'Weakest against its ground truth, and the ground truth is the least trustworthy: 174 Overture neighbourhoods standing in for the City\u2019s 158 census-style units. One ring of smoothing gives ARI 0.27 against a null of 0.18; coordinates-only 0.29. The regions are the places people name, which the official units mostly are not: leslieville / greektown / beaches, thorncliffe / leaside, cliffside / bluffs / guildwood, alderwood / mimico, the Islands, the airport.' },
+];
+const LAYERS = [
+  { id: 'names1', label: 'names, 1-ring smoothing', table: ['1', 'SCHC Ward: names'] },
+  { id: 'names0', label: 'names, unsmoothed', table: ['0', 'SCHC Ward: names'] },
+  { id: 'xy', label: 'coordinates only', table: ['-', 'SCHC Ward: coordinates only'] },
+  { id: 'truth', label: 'ground truth', table: null },
+  { id: 'field', label: 'name field', table: null },
+];
+const BWS = [{ id: '0', label: 'raw counts' }, { id: '1', label: '1-cell kernel' }, { id: '2', label: '2-cell kernel' }];
+const FILLS = 16;
+const state = { city: 'sf', layer: 'names1', k: '20', data: null, colors: null, view: null, hover: -1, pinned: -1, name: '', bw: '1', field: null };
+const cache = {};
+const $ = id => document.getElementById(id);
+const canvas = $('map'), ctx = canvas.getContext('2d');
+const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+// ---- controls ----------------------------------------------------------------
+function buttons(container, items, cls, selected, onPick) {
+  container.innerHTML = '';
+  for (const it of items) {
+    const b = document.createElement('button');
+    b.className = cls; b.type = 'button'; b.role = 'tab'; b.textContent = it.label; b.id = `${cls}-${it.id}`;
+    b.setAttribute('aria-selected', String(it.id === selected));
+    b.addEventListener('click', () => onPick(it.id));
+    container.appendChild(b);
+  }
+}
+function renderControls() {
+  buttons($('tabs'), CITIES.map(c => ({ id: c.id, label: c.name })), 'tab', state.city, id => { state.city = id; state.pinned = -1; load(); });
+  buttons($('layers'), LAYERS, 'layer', state.layer, id => { state.layer = id; recolor(); renderControls(); draw(); renderTable(); });
+  const ks = state.data ? state.data.ks.map(String) : [];
+  buttons($('ks'), ks.map(k => ({ id: k, label: 'k = ' + k })), 'k', state.k, id => { state.k = id; recolor(); renderControls(); draw(); renderTable(); });
+  $('ks').hidden = state.layer === 'truth' || state.layer === 'field';
+  $('namebox').hidden = state.layer !== 'field';
+  $('holdsSection').hidden = state.layer !== 'field';
+  buttons($('bws'), BWS, 'k', state.bw, id => { state.bw = id; updateField(); });
+}
+$('usePost').addEventListener('change', updateField);
+$('nameInput').addEventListener('change', e => { state.name = e.target.value.trim().toLowerCase(); updateField(); });
+$('nameInput').addEventListener('keydown', e => { if (e.key === 'Enter') { state.name = e.target.value.trim().toLowerCase(); updateField(); } });
+$('showTruth').addEventListener('change', draw);
+$('dimEmpty').addEventListener('change', draw);
+try { const saved = localStorage.getItem('toponymic-city'); if (saved && CITIES.some(c => c.id === saved)) state.city = saved; } catch (e) {}
+
+// ---- data ----------------------------------------------------------------------
+async function load() {
+  renderControls();
+  $('loading').hidden = false;
+  try { localStorage.setItem('toponymic-city', state.city); } catch (e) {}
+  if (!cache[state.city]) {
+    const r = await fetch(`data/${state.city}.json`);
+    if (!r.ok) { $('loading').textContent = 'Could not load ' + state.city; return; }
+    const d = await r.json();
+    d.centers = d.bounds.map(b => [b.reduce((s, p) => s + p[0], 0) / b.length, b.reduce((s, p) => s + p[1], 0) / b.length]);
+    indexNames(d);
+    cache[state.city] = d;
+  }
+  state.data = cache[state.city];
+  if (!state.data.ks.map(String).includes(state.k)) state.k = '20';
+  if (!state.data.names[state.name]) state.name = state.data.localized[0].token;
+  $('nameInput').value = state.name;
+  fitView(); recolor(); renderControls(); renderSide(); renderTable(); renderNameList(); updateField();
+  $('loading').hidden = true;
+}
+
+// ---- name fields: where a name holds -------------------------------------------
+function indexNames(d) {
+  const nA = d.truth_names.length, byTok = [];
+  for (const [tok, post] of Object.entries(d.names)) {
+    const mass = new Array(nA).fill(0); let total = 0;
+    for (let p = 0; p < post.length; p += 2) { mass[d.truth[post[p]]] += post[p + 1]; total += post[p + 1]; }
+    const top = mass.indexOf(Math.max(...mass));
+    const named = d.truth_names[top].toLowerCase().normalize('NFKD').replace(/[^a-z ]/g, ' ').split(/\s+/).includes(tok);
+    byTok.push({ token: tok, total, cells: post.length / 2, top, share: mass[top] / total, mass, named });
+  }
+  d.nameIndex = Object.fromEntries(byTok.map(t => [t.token, t]));
+  d.localized = byTok.filter(t => t.total >= 15).sort((a, b) => b.share - a.share || b.total - a.total).slice(0, 60);
+  d.popular = byTok.slice().sort((a, b) => b.total - a.total).slice(0, 3000).map(t => t.token);
+  // cell width in projected units for the kernel
+  const i0 = d.neighbors.findIndex(n => n.length > 0), j0 = d.neighbors[i0][0];
+  const kx = Math.cos(d.centers[i0][1] * Math.PI / 180);
+  d.cellWidth = Math.hypot((d.centers[i0][0] - d.centers[j0][0]) * kx, d.centers[i0][1] - d.centers[j0][1]);
+}
+function renderNameList() {
+  const d = state.data;
+  $('namelist').innerHTML = d.popular.map(t => `<option value="${t}">`).join('');
+  const named = d.localized.filter(t => t.named).length;
+  const byPi = d.localized[0] && d.localized[0].pi !== undefined;
+  $('chipsNote').textContent = byPi
+    ? `${d.localized.length} names with the highest toponymic share; ${named} of them (filled) appear in the name of the official area they sit in. The rest are places the official map calls something else, or does not have, or dense-district business words (hover a chip for its core and label).`
+    : `${d.localized.length} most localized names (share of places in one official area); ${named} of them (filled) appear in the name of the official area they sit in.`;
+  $('chips').innerHTML = d.localized.map(t => `<button type="button" class="chip${t.named ? ' named' : ''}" title="${t.total} places, ${Math.round(t.share * 100)}% in ${d.truth_names[t.top]}${t.pi !== undefined ? `; \u03c0 ${t.pi.toFixed(2)}, ${t.plabel}${t.hotspot ? ', hotspot' : ''}` : ''}">${t.token}</button>`).join('');
+  $('chips').querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => { state.name = b.textContent; $('nameInput').value = state.name; updateField(); }));
+}
+async function loadPosterior(d) {
+  if (d.post !== undefined) return;
+  d.post = null;
+  try { const r = await fetch(`data/${d.city}-posterior.json`); if (r.ok) d.post = await r.json(); } catch (e) { d.post = null; }
+  if (d.post) {
+    const rank = d.tokens_per_cell.map((t, i) => [t, i]).sort((a, b) => a[0] - b[0]); const pct = new Array(d.cells.length);
+    rank.forEach(([t, i], r) => { pct[i] = (r + 1) / rank.length; });
+    for (const [tok, e] of Object.entries(d.post)) {
+      const core = []; for (let q = 0; q < e.p.length; q += 2) if (e.p[q + 1] > 0.5) core.push(e.p[q]);
+      e.label = (e.pi < 0.3 || e.core_largest === 0) ? 'scattered' : (e.core_largest <= 3 ? 'point' : 'area');
+      const ps = core.map(i => pct[i]).sort((a, b) => a - b);
+      e.hotspot = ps.length > 0 && ps[Math.floor(ps.length / 2)] >= 0.9;
+    }
+    d.localized = Object.entries(d.post).filter(([t, e]) => e.pi > 0 && d.nameIndex[t] && d.nameIndex[t].total >= 15)
+      .map(([t, e]) => Object.assign({}, d.nameIndex[t], { pi: e.pi, plabel: e.label, hotspot: e.hotspot }))
+      .sort((a, b) => b.pi - a.pi || b.total - a.total).slice(0, 80);
+  }
+}
+function updateField() {
+  const d = state.data; if (!d) return;
+  if (d.post === undefined) { loadPosterior(d).then(() => { renderNameList(); updateField(); }); return; }
+  const post = d.names[state.name];
+  const n = d.cells.length, f = new Float32Array(n), tail = new Float32Array(n);
+  const usePost = $('usePost').checked && d.post && d.post[state.name];
+  const pOf = {}; if (usePost) { const e = d.post[state.name]; for (let q = 0; q < e.p.length; q += 2) pOf[e.p[q]] = e.p[q + 1]; }
+  if (post) {
+    const bw = Number(state.bw), h = bw * d.cellWidth, kx = Math.cos(d.centers[0][1] * Math.PI / 180);
+    for (let p = 0; p < post.length; p += 2) {
+      const i = post[p]; let c = post[p + 1];
+      if (usePost) { const pr = pOf[i] === undefined ? 1 : pOf[i]; if (pr < 0.5) { tail[i] += c; continue; } c = c * pr; }
+      if (bw === 0) { f[i] += c; continue; }
+      const [x0, y0] = d.centers[i];
+      for (let j = 0; j < n; j++) {
+        const dx = (d.centers[j][0] - x0) * kx, dy = d.centers[j][1] - y0, dd = dx * dx + dy * dy;
+        if (dd < 9 * h * h) f[j] += c * Math.exp(-dd / (2 * h * h));
+      }
+    }
+  }
+  let max = 0; for (let i = 0; i < n; i++) if (f[i] > max) max = f[i];
+  state.field = { f, max, post, tail, usePost: !!usePost };
+  renderHolds(); draw();
+}
+function renderHolds() {
+  const d = state.data, t = d.nameIndex[state.name];
+  if (!t) { $('holdsTitle').textContent = `"${state.name}" is not in the vocabulary`; $('holds').innerHTML = ''; $('holdsNote').textContent = 'Names are single lower-case words found in at least three cells.'; return; }
+  $('holdsTitle').textContent = `Where "${t.token}" holds`;
+  const order = [...t.mass.keys()].sort((a, b) => t.mass[b] - t.mass[a]).filter(a => t.mass[a] > 0).slice(0, 7);
+  $('holds').innerHTML = order.map(a => `<div>${d.truth_names[a]}</div><div class="barwrap"><div class="bar" style="width:${Math.round(100 * t.mass[a] / t.total)}px"></div><span>${Math.round(100 * t.mass[a] / t.total)}%</span></div>`).join('');
+  const e = d.post && d.post[t.token];
+  const verdict = !e ? 'Fewer than five uses, so no mixture fit.' :
+    `Mixture model: toponymic share \u03c0 = ${e.pi.toFixed(2)}, so about ${Math.round(e.pi * t.total)} of the ${t.total} uses are spatially supported and ${t.total - Math.round(e.pi * t.total)} look incidental (orange). Core: ${e.core_largest} connected cells (${e.label}${e.hotspot ? ', in a density hotspot' : ''}).`;
+  $('holdsNote').textContent = `${t.total} places in ${t.cells} cells carry "${t.token}"; ${Math.round(t.share * 100)}% of them sit in ${d.truth_names[t.top]} (raw counts). ${verdict} The map shows the ${state.bw === '0' ? 'raw counts' : state.bw + '-cell Gaussian kernel'}${state.field && state.field.usePost ? ', weighted by each use\u2019s posterior' : ''}.`;
+}
+function mixColor(a, b, t) {
+  const pa = a.match(/\w\w/g).map(h => parseInt(h, 16)), pb = b.match(/\w\w/g).map(h => parseInt(h, 16));
+  return `rgb(${pa.map((v, i) => Math.round(v + (pb[i] - v) * t)).join(',')})`;
+}
+
+function labelsFor() {
+  const d = state.data;
+  if (state.layer === 'truth' || state.layer === 'field') return d.truth;
+  return d.layers[state.layer][state.k];
+}
+
+// Greedy map colouring over the region adjacency so touching regions never share a fill.
+function recolor() {
+  const d = state.data, lab = labelsFor();
+  const n = Math.max(...lab) + 1;
+  const adj = Array.from({ length: n }, () => new Set());
+  for (let i = 0; i < lab.length; i++) for (const j of d.neighbors[i]) if (lab[i] !== lab[j]) adj[lab[i]].add(lab[j]);
+  const sizes = new Array(n).fill(0); for (const r of lab) sizes[r]++;
+  const order = [...Array(n).keys()].sort((a, b) => sizes[b] - sizes[a]);
+  const col = new Array(n).fill(-1);
+  for (const r of order) {
+    const used = new Set(); for (const q of adj[r]) if (col[q] >= 0) used.add(col[q]);
+    let c = (r * 7) % FILLS; let tries = 0;
+    while (used.has(c) && tries < FILLS) { c = (c + 1) % FILLS; tries++; }
+    col[r] = c;
+  }
+  state.colors = col;
+}
+
+// ---- projection and drawing -------------------------------------------------------
+function fitView() {
+  const d = state.data; let minx = 1e9, maxx = -1e9, miny = 1e9, maxy = -1e9;
+  for (const [x, y] of d.centers) { if (x < minx) minx = x; if (x > maxx) maxx = x; if (y < miny) miny = y; if (y > maxy) maxy = y; }
+  const lat0 = (miny + maxy) / 2, kx = Math.cos(lat0 * Math.PI / 180);
+  const W = canvas.clientWidth || 800, H = canvas.clientHeight || 600;
+  const scale = 0.88 * Math.min(W / ((maxx - minx) * kx), (H - 120) / (maxy - miny));
+  state.view = { lon0: (minx + maxx) / 2, lat0, kx, scale, tx: W / 2, ty: H / 2 + 50 };
+}
+function toXY(lng, lat) { const v = state.view; return [v.tx + (lng - v.lon0) * v.kx * v.scale, v.ty - (lat - v.lat0) * v.scale]; }
+function toLL(x, y) { const v = state.view; return [v.lon0 + (x - v.tx) / (v.kx * v.scale), v.lat0 - (y - v.ty) / v.scale]; }
+
+function draw() {
+  if (!state.data || !state.view) return;
+  const d = state.data, lab = labelsFor(), dpr = window.devicePixelRatio || 1;
+  const W = canvas.clientWidth, H = canvas.clientHeight;
+  if (canvas.width !== Math.round(W * dpr) || canvas.height !== Math.round(H * dpr)) { canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr); }
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = css('--bg'); ctx.fillRect(0, 0, W, H);
+  const fills = Array.from({ length: FILLS }, (_, i) => css(`--r${i + 1}`));
+  const dim = $('dimEmpty').checked, truthOn = $('showTruth').checked;
+  const active = state.pinned >= 0 ? state.pinned : state.hover;
+  const activeRegion = active >= 0 && state.layer !== 'field' ? lab[active] : -1;
+  const fieldMode = state.layer === 'field' && state.field;
+  const f0 = css('--f0'), f1 = css('--f1'), fnone = css('--fnone');
+  for (let i = 0; i < d.bounds.length; i++) {
+    const b = d.bounds[i];
+    ctx.beginPath();
+    for (let j = 0; j < b.length; j++) { const [x, y] = toXY(b[j][0], b[j][1]); if (j === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y); }
+    ctx.closePath();
+    if (fieldMode) {
+      const v = state.field.max > 0 ? state.field.f[i] / state.field.max : 0;
+      if (v > 0) { ctx.globalAlpha = 0.95; ctx.fillStyle = mixColor(f0, f1, Math.sqrt(v)); }
+      else if (state.field.tail[i] > 0) { ctx.globalAlpha = 0.9; ctx.fillStyle = css('--r2'); }
+      else { ctx.globalAlpha = (dim && d.tokens_per_cell[i] === 0) ? 0.3 : 0.8; ctx.fillStyle = fnone; }
+    } else {
+      ctx.globalAlpha = (dim && d.tokens_per_cell[i] === 0) ? 0.25 : (activeRegion >= 0 && lab[i] !== activeRegion ? 0.55 : 0.9);
+      ctx.fillStyle = fills[state.colors[lab[i]]];
+    }
+    ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  if (truthOn) {
+    ctx.strokeStyle = css('--truth'); ctx.lineWidth = state.layer === 'truth' ? 1.2 : 0.8; ctx.globalAlpha = 0.8;
+    for (const f of d.truth_geo.features) {
+      const polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+      for (const poly of polys) for (const ring of poly) {
+        ctx.beginPath();
+        ring.forEach((p, j) => { const [x, y] = toXY(p[0], p[1]); if (j === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y); });
+        ctx.closePath(); ctx.stroke();
+      }
+    }
+    ctx.globalAlpha = 1;
+  }
+  if (active >= 0) {
+    const b = d.bounds[active];
+    ctx.beginPath(); b.forEach((p, j) => { const [x, y] = toXY(p[0], p[1]); if (j === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y); });
+    ctx.closePath(); ctx.strokeStyle = css('--hover'); ctx.lineWidth = 2; ctx.stroke();
+  }
+}
+
+// ---- hover ----------------------------------------------------------------------
+function nearestCell(x, y) {
+  const d = state.data, [lng, lat] = toLL(x, y); let best = -1, bd = Infinity;
+  const kx = state.view.kx;
+  for (let i = 0; i < d.centers.length; i++) {
+    const dx = (d.centers[i][0] - lng) * kx, dy = d.centers[i][1] - lat, dd = dx * dx + dy * dy;
+    if (dd < bd) { bd = dd; best = i; }
+  }
+  // ~ hex circumradius at res 9 is 0.0016 deg; ignore the empty space outside the city
+  return Math.sqrt(bd) < 0.0025 ? best : -1;
+}
+function showHover(i) {
+  const h = $('hover');
+  if (i < 0) { h.hidden = true; return; }
+  const d = state.data, lab = labelsFor(), r = lab[i];
+  const truthName = d.truth_names[d.truth[i]];
+  const tok = state.layer === 'names1' || state.layer === 'names0' ? (d.region_tokens[state.layer][state.k][String(r)] || []) : null;
+  const size = lab.filter(v => v === r).length;
+  if (state.layer === 'field') {
+    const post = state.field && state.field.post; let cnt = 0;
+    if (post) for (let p = 0; p < post.length; p += 2) if (post[p] === i) { cnt = post[p + 1]; break; }
+    h.innerHTML = `<div class="t">${d.cells[i]} \u00b7 ${d.tokens_per_cell[i]} name tokens${state.pinned >= 0 ? ' \u00b7 pinned' : ''}</div>
+      <div><span class="lbl">official area</span> ${truthName}</div>
+      <div><span class="lbl">places named "${state.name}" here</span> ${cnt}${state.bw !== '0' ? ` \u00b7 <span class="lbl">field</span> ${state.field ? (state.field.f[i] / (state.field.max || 1)).toFixed(2) : ''}` : ''}</div>`;
+    h.hidden = false; return;
+  }
+  const sw = `<span class="swatch" style="background:${css('--r' + (state.colors[r] + 1))}"></span>`;
+  h.innerHTML = `<div class="t">${d.cells[i]} \u00b7 ${d.tokens_per_cell[i]} name tokens${state.pinned >= 0 ? ' \u00b7 pinned' : ''}</div>
+    <div>${sw}<span class="lbl">region</span> ${state.layer === 'truth' ? truthName : r + ' (' + size + ' cells)'}</div>
+    ${state.layer !== 'truth' ? `<div><span class="lbl">official area</span> ${truthName}</div>` : ''}
+    ${tok ? `<div class="tokens">${tok.join(' \u00b7 ') || '<span class="lbl">no lifted tokens</span>'}</div>` : ''}`;
+  h.hidden = false;
+}
+canvas.addEventListener('pointermove', e => {
+  if (!state.data || drag.active) return;
+  const rect = canvas.getBoundingClientRect();
+  const i = nearestCell(e.clientX - rect.left, e.clientY - rect.top);
+  if (i !== state.hover) { state.hover = i; if (state.pinned < 0) { showHover(i); } draw(); }
+});
+canvas.addEventListener('pointerleave', () => { state.hover = -1; if (state.pinned < 0) showHover(-1); draw(); });
+canvas.addEventListener('click', e => {
+  if (drag.moved) return;
+  const rect = canvas.getBoundingClientRect();
+  const i = nearestCell(e.clientX - rect.left, e.clientY - rect.top);
+  state.pinned = (i >= 0 && i !== state.pinned) ? i : -1;
+  showHover(state.pinned >= 0 ? state.pinned : state.hover); draw();
+});
+
+// ---- pan and zoom -----------------------------------------------------------------
+const drag = { active: false, moved: false, x: 0, y: 0 };
+canvas.addEventListener('pointerdown', e => { drag.active = true; drag.moved = false; drag.x = e.clientX; drag.y = e.clientY; canvas.setPointerCapture(e.pointerId); });
+canvas.addEventListener('pointermove', e => {
+  if (!drag.active || !state.view) return;
+  const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+  if (Math.abs(dx) + Math.abs(dy) > 2) drag.moved = true;
+  state.view.tx += dx; state.view.ty += dy; drag.x = e.clientX; drag.y = e.clientY; draw();
+});
+canvas.addEventListener('pointerup', () => { drag.active = false; });
+canvas.addEventListener('wheel', e => {
+  if (!state.view) return; e.preventDefault();
+  const rect = canvas.getBoundingClientRect(), mx = e.clientX - rect.left, my = e.clientY - rect.top;
+  const f = Math.exp(-e.deltaY * 0.0015), v = state.view;
+  v.tx = mx + (v.tx - mx) * f; v.ty = my + (v.ty - my) * f; v.scale *= f; draw();
+}, { passive: false });
+new ResizeObserver(() => { if (state.data) { fitView(); draw(); } }).observe(canvas);
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+
+// ---- side panel -------------------------------------------------------------------
+function renderSide() {
+  const d = state.data, c = CITIES.find(c => c.id === state.city);
+  $('cityTitle').textContent = c.name;
+  const withPlaces = d.tokens_per_cell.filter(t => t > 0).length;
+  $('facts').innerHTML = `<dt>cells</dt><dd>${d.cells.length.toLocaleString()} H3-${d.res}, ${withPlaces.toLocaleString()} with places</dd>
+    <dt>places</dt><dd>${d.places.toLocaleString()} (Overture ${d.release})</dd>
+    <dt>areas</dt><dd>${d.truth_names.length}</dd>`;
+  $('reading').innerHTML = `<p>${c.reading}</p>`;
+  $('about').textContent = `Ground truth: ${d.truth_label}. Cells are H3 resolution ${d.res} whose centroid lies inside the union of the areas; each cell's features are its place-name tokens (one per distinct name per cell), sqrt(tf)\u00b7idf, unit length, SVD to 30 dimensions; regions are SCHC Ward with H3 ring-1 contiguity.`;
+}
+function renderTable() {
+  const d = state.data, t = $('scores');
+  const ks = d.ks.map(String);
+  const rows = [
+    ['names, 1-ring smoothing', '1', 'SCHC Ward: names'], ['  null: names dealt to random cells', '1', 'null'],
+    ['names, unsmoothed', '0', 'SCHC Ward: names'], ['  null: names dealt to random cells', '0', 'null'],
+    ['names, 2-ring smoothing', '2', 'SCHC Ward: names'], ['  null: names dealt to random cells', '2', 'null'],
+    ['coordinates only', '-', 'SCHC Ward: coordinates only'], ['floor: random contiguous', '-', 'floor'],
+  ];
+  const find = (ring, method, k) => d.table.find(r => String(r.ring) === ring && String(r.k) === k && (method === 'null' ? String(r.method).startsWith('null') : method === 'floor' ? String(r.method).startsWith('floor') : r.method === method));
+  const sel = LAYERS.find(l => l.id === state.layer).table;
+  let html = `<tr><th>method</th>${ks.map(k => `<th>k=${k}</th>`).join('')}</tr>`;
+  for (const [label, ring, method] of rows) {
+    const isSel = sel && sel[0] === ring && sel[1] === method;
+    html += `<tr class="${isSel ? 'sel' : ''}"><td>${label}</td>` + ks.map(k => {
+      const r = find(ring, method, k); const v = r ? Number(r.ari) : NaN;
+      return `<td class="${isSel && k === state.k ? 'best' : ''}">${isNaN(v) ? '' : v.toFixed(2)}</td>`;
+    }).join('') + '</tr>';
+  }
+  t.innerHTML = html;
+}
+
+renderControls();
+load();
+</script>
