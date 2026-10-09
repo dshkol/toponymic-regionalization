@@ -23,6 +23,17 @@ from fetch_places import verify
 from run_city import CITIES, KS, ROOT
 
 
+def name_postings(raw_counts: dict, cl: list[str], min_df: int = 3) -> dict:
+    """Per token found in at least min_df cells: a flat [cell index, count, cell index, count, ...]
+    list, so the viewer can draw where any name holds (its field) without a server."""
+    from collections import defaultdict
+    post = defaultdict(list)
+    for i, c in enumerate(cl):
+        for t, k in sorted(raw_counts.get(c, {}).items()):
+            post[t].extend((i, int(k)))
+    return {t: v for t, v in post.items() if len(v) >= 2 * min_df}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--city', choices=CITIES, required=True)
@@ -71,13 +82,14 @@ def main():
         {'type': 'Feature', 'properties': {'name': n, 'i': i}, 'geometry': mapping(g)}
         for i, (n, g) in enumerate(zip(gt_names, gt_simple.geometry))]}
 
+    names = name_postings(raw_counts, cl)
     bounds = [[[round(lng, 5), round(lat, 5)] for lat, lng in h3.cell_to_boundary(c)] for c in cl]
     nbrs = [[int(j) for j in w.neighbors[i]] for i in range(len(cl))]
     out = {'city': args.city, 'res': args.res, 'bounds': bounds, 'neighbors': nbrs, 'release': manifest['release'],
            'places': int(manifest['rows']), 'truth_label': city['truth_label'],
            'ks': list(ks), 'cells': cl, 'truth': truth.tolist(), 'truth_names': gt_names,
            'tokens_per_cell': raw_tokens, 'layers': layers, 'region_tokens': tokens,
-           'table': table, 'truth_geo': truth_geo}
+           'table': table, 'truth_geo': truth_geo, 'names': names}
     dest = ROOT / 'viewer' / 'data' / f'{args.city}.json'
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(out, separators=(',', ':')))

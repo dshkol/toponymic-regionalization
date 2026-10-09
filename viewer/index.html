@@ -8,18 +8,21 @@
   --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
   --r1:#2a78d6; --r2:#eb6834; --r3:#1baf7a; --r4:#eda100; --r5:#e87ba4; --r6:#008300; --r7:#4a3aa7; --r8:#e34948;
+  --f0:#cde2fb; --f1:#0d366b; --fnone:#e6e4de;
   --r9:#8fb8ea; --r10:#f3a784; --r11:#8fd9bd; --r12:#f5cf6e; --r13:#f4bdd2; --r14:#7fbf7f; --r15:#a79cd9; --r16:#f19f9e;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #16161a; --panel: #1f1f24; --fg: #ebe9e2; --muted: #a09d93; --line: #35353c;
   --accent: #3987e5; --truth: #ffffff; --hover: #ff8a7a; color-scheme: dark;
   --r1:#3987e5; --r2:#d95926; --r3:#199e70; --r4:#c98500; --r5:#d55181; --r6:#2e8b2e; --r7:#9085e9; --r8:#e66767;
+  --f0:#184f95; --f1:#b7d3f6; --fnone:#2a2a30;
   --r9:#245a9a; --r10:#8f3a18; --r11:#116a4b; --r12:#7d5300; --r13:#8a3454; --r14:#1d5c1d; --r15:#5a4fa0; --r16:#993f3f;
 } }
 :root[data-theme="dark"] {
   --bg: #16161a; --panel: #1f1f24; --fg: #ebe9e2; --muted: #a09d93; --line: #35353c;
   --accent: #3987e5; --truth: #ffffff; --hover: #ff8a7a; color-scheme: dark;
   --r1:#3987e5; --r2:#d95926; --r3:#199e70; --r4:#c98500; --r5:#d55181; --r6:#2e8b2e; --r7:#9085e9; --r8:#e66767;
+  --f0:#184f95; --f1:#b7d3f6; --fnone:#2a2a30;
   --r9:#245a9a; --r10:#8f3a18; --r11:#116a4b; --r12:#7d5300; --r13:#8a3454; --r14:#1d5c1d; --r15:#5a4fa0; --r16:#993f3f;
 }
 html, body { height: 100%; }
@@ -60,6 +63,15 @@ tr.sel td { background: color-mix(in srgb, var(--accent) 14%, transparent); }
 td.best { font-weight: 600; }
 .note { color: var(--muted); font-size: 12.5px; }
 a { color: var(--accent); }
+.namebox input { font: inherit; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 4px 8px; width: 200px; }
+.ramp { display: inline-block; width: 90px; height: 10px; vertical-align: -1px; border-radius: 2px; background: linear-gradient(90deg, var(--f0), var(--f1)); }
+.holds { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: 13px; align-items: center; }
+.holds .bar { height: 8px; background: var(--accent); border-radius: 2px; }
+.holds .barwrap { display: flex; align-items: center; gap: 6px; min-width: 120px; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip { font: inherit; font-size: 12px; font-family: var(--mono); color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 10px; padding: 1px 8px; cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.chip.named { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); }
 .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; vertical-align: -1px; margin-right: 4px; }
 @media (max-width: 820px) {
   main { grid-template-columns: 1fr; grid-template-rows: 60vh auto; }
@@ -81,6 +93,12 @@ a { color: var(--accent); }
       <div class="hud">
         <div class="row" role="tablist" id="layers"></div>
         <div class="row" role="tablist" id="ks"></div>
+        <div class="row namebox" id="namebox" hidden>
+          <input id="nameInput" list="namelist" placeholder="type a name, e.g. noe" autocomplete="off" spellcheck="false">
+          <datalist id="namelist"></datalist>
+          <span role="tablist" id="bws" class="row"></span>
+          <span class="note"><span class="ramp"></span> where the name holds</span>
+        </div>
         <div class="row">
           <label><input type="checkbox" id="showTruth" checked> ground-truth outlines</label>
           <label><input type="checkbox" id="dimEmpty" checked> dim cells with no places</label>
@@ -97,6 +115,15 @@ a { color: var(--accent); }
       <section>
         <h2>Reading</h2>
         <div id="reading"></div>
+      </section>
+      <section id="holdsSection" hidden>
+        <h2 id="holdsTitle">Where the name holds</h2>
+        <div class="holds" id="holds"></div>
+        <p class="note" id="holdsNote"></p>
+        <h2 style="margin-top:12px">Most localized names</h2>
+        <p class="note">Names used in at least 15 places, ranked by the share of those places inside one official area. Click one.</p>
+        <p class="note" id="chipsNote"></p>
+        <div class="chips" id="chips"></div>
       </section>
       <section>
         <h2>Agreement with the official areas (ARI)</h2>
@@ -125,9 +152,11 @@ const LAYERS = [
   { id: 'names0', label: 'names, unsmoothed', table: ['0', 'SCHC Ward: names'] },
   { id: 'xy', label: 'coordinates only', table: ['-', 'SCHC Ward: coordinates only'] },
   { id: 'truth', label: 'ground truth', table: null },
+  { id: 'field', label: 'name field', table: null },
 ];
+const BWS = [{ id: '0', label: 'raw counts' }, { id: '1', label: '1-cell kernel' }, { id: '2', label: '2-cell kernel' }];
 const FILLS = 16;
-const state = { city: 'sf', layer: 'names1', k: '20', data: null, colors: null, view: null, hover: -1, pinned: -1 };
+const state = { city: 'sf', layer: 'names1', k: '20', data: null, colors: null, view: null, hover: -1, pinned: -1, name: '', bw: '1', field: null };
 const cache = {};
 const $ = id => document.getElementById(id);
 const canvas = $('map'), ctx = canvas.getContext('2d');
@@ -149,8 +178,13 @@ function renderControls() {
   buttons($('layers'), LAYERS, 'layer', state.layer, id => { state.layer = id; recolor(); renderControls(); draw(); renderTable(); });
   const ks = state.data ? state.data.ks.map(String) : [];
   buttons($('ks'), ks.map(k => ({ id: k, label: 'k = ' + k })), 'k', state.k, id => { state.k = id; recolor(); renderControls(); draw(); renderTable(); });
-  $('ks').hidden = state.layer === 'truth';
+  $('ks').hidden = state.layer === 'truth' || state.layer === 'field';
+  $('namebox').hidden = state.layer !== 'field';
+  $('holdsSection').hidden = state.layer !== 'field';
+  buttons($('bws'), BWS, 'k', state.bw, id => { state.bw = id; updateField(); });
 }
+$('nameInput').addEventListener('change', e => { state.name = e.target.value.trim().toLowerCase(); updateField(); });
+$('nameInput').addEventListener('keydown', e => { if (e.key === 'Enter') { state.name = e.target.value.trim().toLowerCase(); updateField(); } });
 $('showTruth').addEventListener('change', draw);
 $('dimEmpty').addEventListener('change', draw);
 try { const saved = localStorage.getItem('toponymic-city'); if (saved && CITIES.some(c => c.id === saved)) state.city = saved; } catch (e) {}
@@ -165,17 +199,79 @@ async function load() {
     if (!r.ok) { $('loading').textContent = 'Could not load ' + state.city; return; }
     const d = await r.json();
     d.centers = d.bounds.map(b => [b.reduce((s, p) => s + p[0], 0) / b.length, b.reduce((s, p) => s + p[1], 0) / b.length]);
+    indexNames(d);
     cache[state.city] = d;
   }
   state.data = cache[state.city];
   if (!state.data.ks.map(String).includes(state.k)) state.k = '20';
-  fitView(); recolor(); renderControls(); renderSide(); renderTable(); draw();
+  if (!state.data.names[state.name]) state.name = state.data.localized[0].token;
+  $('nameInput').value = state.name;
+  fitView(); recolor(); renderControls(); renderSide(); renderTable(); renderNameList(); updateField();
   $('loading').hidden = true;
+}
+
+// ---- name fields: where a name holds -------------------------------------------
+function indexNames(d) {
+  const nA = d.truth_names.length, byTok = [];
+  for (const [tok, post] of Object.entries(d.names)) {
+    const mass = new Array(nA).fill(0); let total = 0;
+    for (let p = 0; p < post.length; p += 2) { mass[d.truth[post[p]]] += post[p + 1]; total += post[p + 1]; }
+    const top = mass.indexOf(Math.max(...mass));
+    const named = d.truth_names[top].toLowerCase().normalize('NFKD').replace(/[^a-z ]/g, ' ').split(/\s+/).includes(tok);
+    byTok.push({ token: tok, total, cells: post.length / 2, top, share: mass[top] / total, mass, named });
+  }
+  d.nameIndex = Object.fromEntries(byTok.map(t => [t.token, t]));
+  d.localized = byTok.filter(t => t.total >= 15).sort((a, b) => b.share - a.share || b.total - a.total).slice(0, 60);
+  d.popular = byTok.slice().sort((a, b) => b.total - a.total).slice(0, 3000).map(t => t.token);
+  // cell width in projected units for the kernel
+  const i0 = d.neighbors.findIndex(n => n.length > 0), j0 = d.neighbors[i0][0];
+  const kx = Math.cos(d.centers[i0][1] * Math.PI / 180);
+  d.cellWidth = Math.hypot((d.centers[i0][0] - d.centers[j0][0]) * kx, d.centers[i0][1] - d.centers[j0][1]);
+}
+function renderNameList() {
+  const d = state.data;
+  $('namelist').innerHTML = d.popular.map(t => `<option value="${t}">`).join('');
+  const named = d.localized.filter(t => t.named).length;
+  $('chipsNote').textContent = `${d.localized.length} most localized names; ${named} of them (filled) appear in the name of the official area they sit in. The rest are places the official map calls something else, or does not have.`;
+  $('chips').innerHTML = d.localized.map(t => `<button type="button" class="chip${t.named ? ' named' : ''}" title="${t.total} places, ${Math.round(t.share * 100)}% in ${d.truth_names[t.top]}">${t.token}</button>`).join('');
+  $('chips').querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => { state.name = b.textContent; $('nameInput').value = state.name; updateField(); }));
+}
+function updateField() {
+  const d = state.data; if (!d) return;
+  const post = d.names[state.name];
+  const n = d.cells.length, f = new Float32Array(n);
+  if (post) {
+    const bw = Number(state.bw), h = bw * d.cellWidth, kx = Math.cos(d.centers[0][1] * Math.PI / 180);
+    for (let p = 0; p < post.length; p += 2) {
+      const i = post[p], c = post[p + 1];
+      if (bw === 0) { f[i] += c; continue; }
+      const [x0, y0] = d.centers[i];
+      for (let j = 0; j < n; j++) {
+        const dx = (d.centers[j][0] - x0) * kx, dy = d.centers[j][1] - y0, dd = dx * dx + dy * dy;
+        if (dd < 9 * h * h) f[j] += c * Math.exp(-dd / (2 * h * h));
+      }
+    }
+  }
+  let max = 0; for (let i = 0; i < n; i++) if (f[i] > max) max = f[i];
+  state.field = { f, max, post };
+  renderHolds(); draw();
+}
+function renderHolds() {
+  const d = state.data, t = d.nameIndex[state.name];
+  if (!t) { $('holdsTitle').textContent = `"${state.name}" is not in the vocabulary`; $('holds').innerHTML = ''; $('holdsNote').textContent = 'Names are single lower-case words found in at least three cells.'; return; }
+  $('holdsTitle').textContent = `Where "${t.token}" holds`;
+  const order = [...t.mass.keys()].sort((a, b) => t.mass[b] - t.mass[a]).filter(a => t.mass[a] > 0).slice(0, 7);
+  $('holds').innerHTML = order.map(a => `<div>${d.truth_names[a]}</div><div class="barwrap"><div class="bar" style="width:${Math.round(100 * t.mass[a] / t.total)}px"></div><span>${Math.round(100 * t.mass[a] / t.total)}%</span></div>`).join('');
+  $('holdsNote').textContent = `${t.total} places in ${t.cells} cells carry "${t.token}"; ${Math.round(t.share * 100)}% of them sit in ${d.truth_names[t.top]}. Share of places per official area, from the raw counts; the map shows the ${state.bw === '0' ? 'raw counts' : state.bw + '-cell Gaussian kernel'}.`;
+}
+function mixColor(a, b, t) {
+  const pa = a.match(/\w\w/g).map(h => parseInt(h, 16)), pb = b.match(/\w\w/g).map(h => parseInt(h, 16));
+  return `rgb(${pa.map((v, i) => Math.round(v + (pb[i] - v) * t)).join(',')})`;
 }
 
 function labelsFor() {
   const d = state.data;
-  if (state.layer === 'truth') return d.truth;
+  if (state.layer === 'truth' || state.layer === 'field') return d.truth;
   return d.layers[state.layer][state.k];
 }
 
@@ -219,14 +315,22 @@ function draw() {
   const fills = Array.from({ length: FILLS }, (_, i) => css(`--r${i + 1}`));
   const dim = $('dimEmpty').checked, truthOn = $('showTruth').checked;
   const active = state.pinned >= 0 ? state.pinned : state.hover;
-  const activeRegion = active >= 0 ? lab[active] : -1;
+  const activeRegion = active >= 0 && state.layer !== 'field' ? lab[active] : -1;
+  const fieldMode = state.layer === 'field' && state.field;
+  const f0 = css('--f0'), f1 = css('--f1'), fnone = css('--fnone');
   for (let i = 0; i < d.bounds.length; i++) {
     const b = d.bounds[i];
     ctx.beginPath();
     for (let j = 0; j < b.length; j++) { const [x, y] = toXY(b[j][0], b[j][1]); if (j === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y); }
     ctx.closePath();
-    ctx.globalAlpha = (dim && d.tokens_per_cell[i] === 0) ? 0.25 : (activeRegion >= 0 && lab[i] !== activeRegion ? 0.55 : 0.9);
-    ctx.fillStyle = fills[state.colors[lab[i]]];
+    if (fieldMode) {
+      const v = state.field.max > 0 ? state.field.f[i] / state.field.max : 0;
+      ctx.globalAlpha = v > 0 ? 0.95 : ((dim && d.tokens_per_cell[i] === 0) ? 0.3 : 0.8);
+      ctx.fillStyle = v > 0 ? mixColor(f0, f1, Math.sqrt(v)) : fnone;
+    } else {
+      ctx.globalAlpha = (dim && d.tokens_per_cell[i] === 0) ? 0.25 : (activeRegion >= 0 && lab[i] !== activeRegion ? 0.55 : 0.9);
+      ctx.fillStyle = fills[state.colors[lab[i]]];
+    }
     ctx.fill();
   }
   ctx.globalAlpha = 1;
@@ -267,6 +371,14 @@ function showHover(i) {
   const truthName = d.truth_names[d.truth[i]];
   const tok = state.layer === 'names1' || state.layer === 'names0' ? (d.region_tokens[state.layer][state.k][String(r)] || []) : null;
   const size = lab.filter(v => v === r).length;
+  if (state.layer === 'field') {
+    const post = state.field && state.field.post; let cnt = 0;
+    if (post) for (let p = 0; p < post.length; p += 2) if (post[p] === i) { cnt = post[p + 1]; break; }
+    h.innerHTML = `<div class="t">${d.cells[i]} \u00b7 ${d.tokens_per_cell[i]} name tokens${state.pinned >= 0 ? ' \u00b7 pinned' : ''}</div>
+      <div><span class="lbl">official area</span> ${truthName}</div>
+      <div><span class="lbl">places named "${state.name}" here</span> ${cnt}${state.bw !== '0' ? ` \u00b7 <span class="lbl">field</span> ${state.field ? (state.field.f[i] / (state.field.max || 1)).toFixed(2) : ''}` : ''}</div>`;
+    h.hidden = false; return;
+  }
   const sw = `<span class="swatch" style="background:${css('--r' + (state.colors[r] + 1))}"></span>`;
   h.innerHTML = `<div class="t">${d.cells[i]} \u00b7 ${d.tokens_per_cell[i]} name tokens${state.pinned >= 0 ? ' \u00b7 pinned' : ''}</div>
     <div>${sw}<span class="lbl">region</span> ${state.layer === 'truth' ? truthName : r + ' (' + size + ' cells)'}</div>
